@@ -133,14 +133,14 @@ body *{visibility:hidden!important}
 <div><i class="legend-line" style="border-color:#a34f38"></i>步行道路 / Walking routes</div>
 <div><i class="legend-line" style="border-color:#627987;border-top-style:dashed"></i>住宅及服务道路 / Service streets</div>
 <div><i class="legend-area"></i>广场开放面 / Plaza polygons</div>
-<div><i class="legend-dot" style="background:#446b82"></i>广场内部候选端点 / Inside polygon</div>
-<div><i class="legend-dot" style="background:#d58b36"></i>边界附近候选端点 / Near edge</div>
-<div><i class="legend-dot" style="background:#4c876f"></i>人工标记可能开放 / Possibly open</div>
-<div><i class="legend-dot" style="background:#a44242"></i>人工标记受阻 / Blocked</div>
-<div><i class="legend-dot" style="background:#777"></i>人工标记非入口 / Not entrance</div>
+<div><i class="legend-dot" style="background:#446b82"></i>道路尽头位于广场内 / Road end inside plaza</div>
+<div><i class="legend-dot" style="background:#d58b36"></i>道路尽头靠近广场 / Road end near plaza</div>
+<div><i class="legend-dot" style="background:#4c876f"></i>人工判断可能走得通 / Possibly passable</div>
+<div><i class="legend-dot" style="background:#a44242"></i>人工判断走不通 / Blocked</div>
+<div><i class="legend-dot" style="background:#777"></i>人工判断不是入口 / Not an entrance</div>
 </div>
-<div class="syntax-map-legend-reach"><span>路网可达长度 / Reachable street length (relative)</span><div class="legend-gradient"></div><div class="legend-gradient-label"><span>较低 / Lower</span><span>较高 / Higher</span></div></div>
-<p class="syntax-map-legend-note">虚线图层需勾选后显示；候选端点需先运行「检查广场入口候选点」；蓝—红色可达性点需先运行计算。颜色只表达当前数据的相对差异，不代表人流量或 VGA / 整合度结果。</p>
+<div class="syntax-map-legend-reach"><span>从这里出发，走一定距离能到达的道路有多少 / Reachable street length</span><div class="legend-gradient"></div><div class="legend-gradient-label"><span>可到达道路较少 / Fewer streets</span><span>可到达道路较多 / More streets</span></div></div>
+<p class="syntax-map-legend-note">虚线图层需勾选后显示；候选端点需先运行「检查广场入口候选点」；蓝—红色可达性点需先运行计算。红色不代表人多，只表示沿路可到达的道路相对较多；蓝色表示较少。入口圆点是待检查的位置，不等于真正的入口。</p>
 </div><div id="syntax-network" style="position:relative;min-height:400px;border:1px solid var(--line);background:#e8e1d6;overflow:hidden"><div id="syntax-network-status" style="padding:16px;font-size:12px;color:var(--muted)">正在加载开放街道地图与步行数据…</div><div id="syntax-network-map" style="height:440px"></div></div><div id="syntax-review-panel" style="display:none;border:1px solid var(--line);padding:16px;max-height:350px;overflow:auto"></div><div id="syntax-plaza-results" class="note" role="status" style="padding:12px 16px;border:1px solid var(--line);border-top:0;display:none"></div><div id="syntax-reach-results" class="note" role="status" style="padding:12px 16px;border:1px solid var(--line);border-top:0;display:none"></div><div id="syntax-audit-results" class="note" role="status" style="padding:12px 16px;border:1px solid var(--line);border-top:0;display:none"></div>
 <p class="note">数据来源：OpenStreetMap / Overpass。道路和广场面可能不完整，入口候选点未经现场验证；道路可达长度不代表人流量，也不能替代 VGA。导出的 GeoJSON 仅供进一步核查。</p>
 <p><a href="https://overpass-turbo.eu/" target="_blank" rel="noopener">查看 OSM 原始数据 ↗</a> · <a href="https://github.com/SpaceGroupUCL/depthmapX" target="_blank" rel="noopener">DepthmapX ↗</a></p>
