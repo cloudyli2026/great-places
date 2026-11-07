@@ -17,11 +17,26 @@ function reach(g,start,radius){
  let meters=0;for(const e of g.edges){const da=dist[e.a],db=dist[e.b];if(da===Infinity&&db===Infinity)continue;const fromA=Math.max(0,Math.min(e.length,radius-da)),fromB=Math.max(0,Math.min(e.length,radius-db));meters+=Math.min(e.length,fromA+fromB)}return meters
 }
 function analyze(features,radius,maxSamples){
- const g=graph(features),n=g.nodes.length;
- const samples=[],stride=Math.max(1,Math.ceil(n/(maxSamples||350)));
- for(let i=0;i<n;i+=stride){if(g.nodes[i].links.length) samples.push({node:i,point:g.nodes[i].point,reachMeters:reach(g,i,radius||300),degree:g.nodes[i].links.length,component:g.components[i]})}
+ const g=graph(features),n=g.nodes.length,rad=Number(radius)||300;
+ const limit=Math.max(1,Math.min(1000,Number(maxSamples)||350));
+ // Choose sample locations by approximate metric grid rather than OSM vertex order/density.
+ const latitude=45.4342*Math.PI/180,cos=Math.cos(latitude),cell=22;
+ const candidates=new Map();
+ for(let i=0;i<n;i++){
+  if(!g.nodes[i].links.length)continue;
+  const p=g.nodes[i].point,x=p[0]*111320*cos,y=p[1]*111320;
+  const k=Math.floor(x/cell)+':'+Math.floor(y/cell);
+  const centerX=(Math.floor(x/cell)+.5)*cell,centerY=(Math.floor(y/cell)+.5)*cell;
+  const d=(x-centerX)**2+(y-centerY)**2;
+  const prev=candidates.get(k);
+  if(!prev||d<prev.d)candidates.set(k,{i,d});
+ }
+ const chosen=[...candidates.values()].map(x=>x.i).sort((a,b)=>a-b);
+ const stride=Math.max(1,Math.ceil(chosen.length/limit)),samples=[];
+ for(let j=0;j<chosen.length;j+=stride){const i=chosen[j];samples.push({node:i,point:g.nodes[i].point,reachMeters:reach(g,i,rad),degree:g.nodes[i].links.length,component:g.components[i]})}
  const vals=samples.map(x=>x.reachMeters).sort((a,b)=>a-b);
- return {graph:g,samples,radius:radius||300,min:vals[0]||0,max:vals[vals.length-1]||0,median:vals[Math.floor(vals.length/2)]||0,totalLength:g.edges.reduce((sum,e)=>sum+e.length,0)}
+ return {graph:g,samples,radius:rad,min:vals[0]||0,max:vals[vals.length-1]||0,median:vals[Math.floor(vals.length/2)]||0,totalLength:g.edges.reduce((sum,e)=>sum+e.length,0),samplingCellMeters:cell}
 }
+
 root.SanMarcoGraph={distance,graph,reach,analyze};
 })(typeof window!=='undefined'?window:globalThis);
