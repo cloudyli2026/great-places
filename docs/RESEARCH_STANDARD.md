@@ -26,3 +26,11 @@ For each drawing/photo record: id, title, author, date, institution, source_url,
 - Photos must have attributable source and viewpoint when claimed.
 - No invented sections, building heights, or AI-generated evidence.
 - Unverified claims remain hypotheses, not scored conclusions.
+
+## Published quantitative data policy (all future cases)
+- For area, height, length, width, capacity, and other headline figures, use an explicitly published value from an attributable source. Do not derive or estimate a headline value from dimensions, drawings, satellite imagery, or photographs.
+- Prefer official authorities, heritage registers, survey documents, building owners/operators, and primary architectural documentation. When these are unavailable, use a clearly attributed reputable secondary source; Wikipedia figures must be labeled as such, not presented as official measurements.
+- Record the source URL, publisher, access date, units, measurement boundary, and whether the value is exact or approximate. For public squares, distinguish the main square from adjoining piazzette, streets, and waterfronts.
+- If credible sources disagree, present the range or differing figures with their respective scope and provenance; do not average or silently choose one. If no reliable published figure exists, mark 'not confirmed' rather than calculate one.
+- Case overview standard fields: Location, Period, Published Area, Primary Uses, Spatial Typology, Defining Character. Apply consistently across all cases.
+- Piazza San Marco current editorial value: 12,600 m² for Piazza proper (Italian Wikipedia, https://it.wikipedia.org/wiki/Piazza_San_Marco), excluding Piazzetta. This is an attributed secondary-source value, not an official cadastral survey.
