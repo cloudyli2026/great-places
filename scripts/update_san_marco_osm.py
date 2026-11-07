@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch reproducible OSM snapshots for the San Marco case study.
+"""Fetch reproducible and versioned OSM snapshots for the San Marco case study.
 Source: OpenStreetMap contributors (ODbL), API 0.6. No inferred geometry.
 """
 import json, pathlib, urllib.request, xml.etree.ElementTree as ET
