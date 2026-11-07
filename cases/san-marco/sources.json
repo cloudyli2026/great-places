@@ -1,0 +1,16 @@
+{
+  "case_id": "san-marco",
+  "sources": [],
+  "note": "Source records intentionally empty until archive metadata, rights and exact source URLs have been independently checked. Do not mistake search candidates for verified assets.",
+  "required_fields": [
+    "id",
+    "title",
+    "creator",
+    "date",
+    "institution",
+    "source_url",
+    "source_class",
+    "rights_status",
+    "confidence"
+  ]
+}
