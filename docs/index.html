@@ -305,6 +305,31 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,att
 L.control.scale({imperial:false,metric:true}).addTo(map);
 const compass=L.control({position:'topright'});compass.onAdd=function(){const n=L.DomUtil.create('div');n.style.cssText='background:#f4efe6;padding:7px 10px;font:bold 16px Georgia;border:1px solid #b7a995';n.textContent='N ↑';return n};compass.addTo(map);
 const query='[out:json][timeout:25];(way["highway"~"^(pedestrian|footway|path|steps|living_street|residential|service)$"]["access"!~"^(private|no)$"]["foot"!="no"](45.4325,12.3350,45.4360,12.3420);way["area"="yes"]["highway"="pedestrian"](45.4325,12.3350,45.4360,12.3420);way["place"="square"](45.4325,12.3350,45.4360,12.3420););out tags geom;';
+// OSM's primary map API provides an independent fallback when Overpass is blocked.
+async function osmMapFallback(bbox,kind){
+const url='https://api.openstreetmap.org/api/0.6/map?bbox='+bbox.join(',');
+const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
+try{
+const res=await fetch(url,{signal:controller.signal});
+if(!res.ok)throw Error('OSM API HTTP '+res.status);
+const xml=new DOMParser().parseFromString(await res.text(),'application/xml');
+if(xml.querySelector('parsererror'))throw Error('Invalid OSM XML');
+const nodes=new Map([...xml.querySelectorAll('node[id][lat][lon]')].map(n=>[n.getAttribute('id'),{lat:+n.getAttribute('lat'),lon:+n.getAttribute('lon')}]));
+const elements=[];
+for(const way of xml.querySelectorAll('way')){
+const tags=Object.fromEntries([...way.querySelectorAll('tag')].map(t=>[t.getAttribute('k'),t.getAttribute('v')]));
+const highway=tags.highway||'';
+const isWalk=/^(pedestrian|footway|path|steps|living_street|residential|service)$/.test(highway)&&!['private','no'].includes(tags.access)&&tags.foot!=='no';
+const isArea=tags.area==='yes'&&highway==='pedestrian'||tags.place==='square';
+if(kind==='walk'?!isWalk&&!isArea:!tags.building)continue;
+const geometry=[...way.querySelectorAll('nd')].map(n=>nodes.get(n.getAttribute('ref'))).filter(Boolean);
+if(geometry.length<2)continue;
+elements.push({type:'way',id:+way.getAttribute('id'),tags,geometry});
+}
+if(!elements.length)throw Error('No matching OSM features');
+return {elements};
+}finally{clearTimeout(timer)}
+}
 const endpoints=['https://overpass.kumi.systems/api/interpreter','https://overpass-api.de/api/interpreter','https://overpass.nchc.org.tw/api/interpreter'];
 let result=null,lastError='',dataSource='';
 status.setAttribute('role','status');
@@ -326,6 +351,10 @@ const payload=await res.json();
 if(!Array.isArray(payload.elements)||payload.elements.length===0)throw Error('Empty OSM response');
 result=payload;dataSource=new URL(url).host;break;
 }catch(error){lastError=error.name==='AbortError'?'timeout':String(error.message||error)}
+}
+if(!result){
+status.textContent='正在尝试 OpenStreetMap 主数据接口 / Trying OSM primary API…';
+try{result=await osmMapFallback([12.3350,45.4325,12.3420,45.4360],'walk');dataSource='api.openstreetmap.org'}catch(e){lastError=String(e.message||e)}
 }
 if(!result){showRetry('步行网络加载失败（'+lastError+'）。基础地图仍可使用，但分析图层尚未载入。 / OSM network unavailable.');return;}
 // Explicit panes guarantee that plaza fills cannot hide walking lines or analysis points.
@@ -551,6 +580,16 @@ status.textContent='读取真实建筑轮廓 '+(i+1)+'/'+sources.length+' / Load
 const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),11000);
 try{const response=await fetch(sources[i],{method:'POST',body:new URLSearchParams({data:query}),signal:controller.signal});if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();draw(data.elements||[]);return}catch(e){}finally{clearTimeout(timer)}
 }
+status.textContent='正在尝试 OpenStreetMap 主数据接口 / Trying primary OSM API…';
+try{
+const response=await fetch('https://api.openstreetmap.org/api/0.6/map?bbox=12.3356,45.4329,12.3420,45.4360');
+if(!response.ok)throw Error('OSM API '+response.status);
+const xml=new DOMParser().parseFromString(await response.text(),'application/xml');
+if(xml.querySelector('parsererror'))throw Error('Invalid XML');
+const nodes=new Map([...xml.querySelectorAll('node[id][lat][lon]')].map(n=>[n.getAttribute('id'),{lat:+n.getAttribute('lat'),lon:+n.getAttribute('lon')}]));
+const elements=[...xml.querySelectorAll('way')].map(way=>({type:'way',tags:Object.fromEntries([...way.querySelectorAll('tag')].map(t=>[t.getAttribute('k'),t.getAttribute('v')])),geometry:[...way.querySelectorAll('nd')].map(n=>nodes.get(n.getAttribute('ref'))).filter(Boolean)}));
+draw(elements);return;
+}catch(e){}
 svg.replaceChildren(el('rect',{width:W,height:H,fill:'#f8f5ef'}));
 const msg=el('text',{x:W/2,y:H/2,'text-anchor':'middle',fill:'#736758','font-size':'18'});msg.textContent='建筑数据暂不可用 / Building data unavailable';svg.appendChild(msg);
 status.textContent='真实建筑数据暂时无法获取。';
