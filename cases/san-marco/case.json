@@ -1,0 +1,70 @@
+{
+  "id": "san-marco",
+  "title": {
+    "zh": "圣马可广场",
+    "en": "Piazza San Marco"
+  },
+  "location": {
+    "city": "Venice",
+    "country": "Italy"
+  },
+  "status": "research",
+  "thesis": {
+    "zh": "Piazza、Piazzetta、柱廊、钟楼与潟湖共同构成层次分明的公共空间系统。",
+    "en": "Piazza, Piazzetta, arcades, Campanile and lagoon form an interconnected civic spatial system."
+  },
+  "spatial_elements": [
+    "Piazza",
+    "Piazzetta",
+    "Procuratie arcades",
+    "Campanile",
+    "Basilica",
+    "Doge's Palace",
+    "Lagoon edge"
+  ],
+  "scales": [
+    "urban",
+    "district",
+    "section",
+    "human"
+  ],
+  "dimensions": {
+    "boundary": {
+      "score": null,
+      "evidence": [],
+      "status": "unassessed"
+    },
+    "richness": {
+      "score": null,
+      "evidence": [],
+      "status": "unassessed"
+    },
+    "connectivity": {
+      "score": null,
+      "evidence": [],
+      "status": "unassessed"
+    },
+    "nature": {
+      "score": null,
+      "evidence": [],
+      "status": "unassessed"
+    },
+    "public_vitality": {
+      "score": null,
+      "evidence": [],
+      "status": "unassessed"
+    },
+    "cultural_value": {
+      "score": null,
+      "evidence": [],
+      "status": "unassessed"
+    },
+    "operations": {
+      "score": null,
+      "evidence": [],
+      "status": "unassessed"
+    }
+  },
+  "measurements": [],
+  "source_ids": []
+}
