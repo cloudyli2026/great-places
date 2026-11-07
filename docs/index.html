@@ -128,11 +128,11 @@ body *{visibility:hidden!important}
 <section class="syntax-real-figure" style="margin:28px 0 32px">
 <div class="eyebrow">REAL URBAN FOOTPRINT / 真实城市图底</div>
 <h3 style="font-size:clamp(22px,3vw,32px);margin:8px 0">真实建筑轮廓 · 圣马可广场</h3>
-<p style="max-width:750px;color:var(--muted)">深色为真实建筑轮廓，浅色为街道与广场。可以切换查看街巷连接关系；两种视图都使用同一份 OpenStreetMap 地理数据。</p>
+<p style="max-width:750px;color:var(--muted)">深色为真实建筑轮廓，金黄色突出 OSM 已标注的开放广场范围，其余浅色为街巷与未标注的公共空间。可以切换查看街巷连接关系；两种视图都使用同一份 OpenStreetMap 地理数据。</p>
 <div style="border:1px solid var(--line);background:#f8f5ef;position:relative">
 <div style="padding:12px 16px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap"><button id="syntax-fg-buildings" type="button" aria-pressed="true" style="padding:7px 12px;border:1px solid #a34f38;background:#a34f38;color:white;cursor:pointer">建筑与广场</button><button id="syntax-fg-walk" type="button" aria-pressed="false" style="padding:7px 12px;border:1px solid #a34f38;background:transparent;color:#a34f38;cursor:pointer">街巷连接</button><span style="font-size:11px;color:#716c62">同一地理范围 · 北向上</span></div><div id="syntax-figure-ground-status" role="status" style="font-size:12px;padding:12px 16px;color:var(--muted)">正在读取真实建筑轮廓 / Loading building footprints…</div>
 <svg id="syntax-real-footprint-svg" viewBox="0 0 960 520" role="img" aria-label="基于真实地理坐标的圣马可广场建筑图底，加载后显示" style="display:block;width:100%;height:auto;background:#f8f5ef"><rect width="960" height="520" fill="#f8f5ef"/><text x="480" y="260" text-anchor="middle" fill="#81776c" font-size="16">Waiting for building geometry…</text></svg>
-<div style="padding:10px 16px;border-top:1px solid var(--line);display:flex;gap:12px;flex-wrap:wrap;align-items:center;font-size:11px;color:var(--muted)"><span><span style="display:inline-block;width:12px;height:12px;background:#42423d;vertical-align:middle"></span> 建筑</span><span><span style="display:inline-block;width:12px;height:12px;background:#f8f5ef;border:1px solid #cfc4b5;vertical-align:middle"></span> 街道与广场</span><span><span style="display:inline-block;width:12px;height:12px;background:#c8dce0;vertical-align:middle"></span> 水岸方向（示意）</span><span style="margin-left:auto">Source: © OpenStreetMap contributors · ODbL</span></div>
+<div style="padding:10px 16px;border-top:1px solid var(--line);display:flex;gap:12px;flex-wrap:wrap;align-items:center;font-size:11px;color:var(--muted)"><span><span style="display:inline-block;width:12px;height:12px;background:#42423d;vertical-align:middle"></span> 建筑</span><span><span style="display:inline-block;width:12px;height:12px;background:#e5ae54;border:1px solid #a65c2d;vertical-align:middle"></span> 已标注开放广场</span><span><span style="display:inline-block;width:12px;height:12px;background:#f8f5ef;border:1px solid #cfc4b5;vertical-align:middle"></span> 其他街巷</span><span><span style="display:inline-block;width:12px;height:12px;background:#c8dce0;vertical-align:middle"></span> 水岸方向（示意）</span><span style="margin-left:auto">Source: © OpenStreetMap contributors · ODbL</span></div>
 </div>
 <p style="font-size:11px;color:var(--muted)">建筑边界取自 OSM 的 building 标签；不代表完整室内公共空间或柱廊通行范围。数据不可用时不以虚构图形替代。</p>
 </section><section class="syntax-readability" aria-label="空间分析一眼读懂">
@@ -574,6 +574,14 @@ for(const b of currentBuildings){
 const points=b.geometry.map(p=>x(p.lon).toFixed(1)+','+y(p.lat).toFixed(1)).join(' ');
 svg.appendChild(el('polygon',{points,fill:bg,stroke:fg,'stroke-width':'0.6'}));
 }
+// Highlight only mapped open pedestrian plaza polygons, not inferred spaces.
+for(const area of currentWalkways){
+const tags=area.tags||{},pts=area.geometry||[];
+const closed=pts.length>=4&&Math.abs(pts[0].lat-pts[pts.length-1].lat)<1e-7&&Math.abs(pts[0].lon-pts[pts.length-1].lon)<1e-7;
+if(!closed||!((tags.highway==='pedestrian'&&tags.area==='yes')||tags.place==='square'))continue;
+const points=pts.map(p=>x(p.lon).toFixed(1)+','+y(p.lat).toFixed(1)).join(' ');
+svg.appendChild(el('polygon',{points,fill:'#e5ae54','fill-opacity':'0.88',stroke:'#a65c2d','stroke-width':'1.5'}));
+}
 if(mode==='walk'){
 for(const way of currentWalkways){
 const tags=way.tags||{},h=tags.highway||'';
@@ -586,7 +594,7 @@ const label=(lon,lat,title,sub)=>{const xx=x(lon),yy=y(lat),t=el('text',{x:xx,y:
 label(12.3379,45.4345,'PIAZZA SAN MARCO','圣马可广场');label(12.3398,45.4338,'PIAZZETTA','小广场');
 const north=el('text',{x:W-38,y:36,'text-anchor':'middle',fill:'#736758','font-size':'18'});north.textContent='N ↑';svg.appendChild(north);
 for(const [btn,on] of [[btnBuildings,mode==='buildings'],[btnWalk,mode==='walk']]){btn.setAttribute('aria-pressed',String(on));btn.style.background=on?'#a34f38':'transparent';btn.style.color=on?'white':'#a34f38'}
-status.textContent=currentBuildings.length+' 个真实建筑轮廓 · '+currentWalkways.length+' 条 OSM 步行候选道路 · '+(mode==='walk'?'橙色：步行道路；灰绿：其他可步行道路':'建筑深色，公共空间留白');
+status.textContent=currentBuildings.length+' 个真实建筑轮廓 · '+currentWalkways.length+' 条 OSM 步行候选道路 · '+(mode==='walk'?'橙色：步行道路；灰绿：其他可步行道路':'建筑深色，已标注广场为金黄色');
 }
 btnBuildings.addEventListener('click',()=>{mode='buildings';renderMode()});
 btnWalk.addEventListener('click',()=>{mode='walk';renderMode()});
