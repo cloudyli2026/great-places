@@ -219,7 +219,7 @@ const js=document.createElement('script');js.src='https://unpkg.com/leaflet@1.9.
 js.onload=async function(){
 const map=L.map(el,{scrollWheelZoom:false}).setView([45.4342,12.3387],17);
 function resizeMap(){if(document.getElementById('syntax')?.classList.contains('chapter-visible'))setTimeout(()=>map.invalidateSize({pan:false}),80)}
-addEventListener('greatplaces:chapterchange',resizeMap);addEventListener('resize',resizeMap);resizeMap();
+addEventListener('greatplaces:chapterchange',resizeMap);addEventListener('resize',resizeMap);document.querySelector('.syntax-technical')?.addEventListener('toggle',event=>{if(event.target.open)setTimeout(()=>map.invalidateSize({pan:false}),120)});resizeMap();
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
 L.control.scale({imperial:false,metric:true}).addTo(map);
 const compass=L.control({position:'topright'});compass.onAdd=function(){const n=L.DomUtil.create('div');n.style.cssText='background:#f4efe6;padding:7px 10px;font:bold 16px Georgia;border:1px solid #b7a995';n.textContent='N ↑';return n};compass.addTo(map);
