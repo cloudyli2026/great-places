@@ -125,7 +125,17 @@ body *{visibility:hidden!important}
 <figure class="section-figure"><svg viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="圣马可广场从周边街巷经Piazza、Piazzetta到潟湖的概念网络示意图，非地理测绘"><rect width="1000" height="360" fill="#eee8de"/><g fill="none" stroke="#aa9b86" stroke-width="2"><path d="M50 70H230M50 150H230M50 230H230M50 310H230"/><path d="M230 70V310"/><path d="M230 190H460M460 190H685M685 190H910"/></g><g fill="#f8f4ec" stroke="#756d5f" stroke-width="2"><rect x="260" y="100" width="205" height="180" rx="7"/><rect x="510" y="123" width="160" height="134" rx="7"/></g><path d="M670 123H850V257H670" fill="#d9e7e8" stroke="#76969b" stroke-width="2"/><g fill="none" stroke="#a34f38" stroke-width="5" stroke-linecap="round"><path d="M70 190H355H585H800"/><path d="M355 190L355 80"/><path d="M355 190L355 300"/></g><g fill="#a34f38"><circle cx="230" cy="190" r="8"/><circle cx="355" cy="190" r="9"/><circle cx="585" cy="190" r="9"/><circle cx="800" cy="190" r="9"/></g><g font-family="Arial,sans-serif" fill="#332f29" font-size="17" text-anchor="middle"><text x="130" y="175">Urban lanes</text><text x="355" y="175">Piazza</text><text x="585" y="175">Piazzetta</text><text x="765" y="175">Lagoon</text><text x="355" y="80" font-size="14">Side entrances</text><text x="355" y="326" font-size="14">Arcade connections</text></g><text x="20" y="345" font-family="Arial,sans-serif" font-size="13" fill="#716c62">Conceptual topology only · Not a surveyed map or calculated axial model</text></svg><figcaption>概念网络图：街巷入口—Piazza—Piazzetta—潟湖。仅表达连接关系，不代表真实地理朝向、路径长度、轴线模型或计算结果。</figcaption></figure>
 <div class="eyebrow" style="margin-top:32px">DESIGN LESSONS / 对设计师的启发</div>
 <div class="split" style="margin-top:14px"><div><h3>公共空间不必处处同质</h3><p>以开阔中心承载集体活动，以连续边界承载日常商业和停留，以入口与转角组织探索。不同空间承担不同角色，比把所有功能堆在中心更有效。</p></div><div><h3>看得见，不等于走得通</h3><p>开阔视野带来方向感，但实际通达性仍取决于街巷入口、柱廊是否开放以及与周边路网的连接。设计评估应同时看视觉体验与真实步行路径。</p></div></div>
-<section class="syntax-readability" aria-label="空间分析一眼读懂">
+<section class="syntax-real-figure" style="margin:28px 0 32px">
+<div class="eyebrow">REAL URBAN FOOTPRINT / 真实城市图底</div>
+<h3 style="font-size:clamp(22px,3vw,32px);margin:8px 0">真实建筑轮廓 · 圣马可广场</h3>
+<p style="max-width:750px;color:var(--muted)">建筑为深灰色，街道与广场留白，水面为淡蓝色。与上面的概念示意不同，这张图按 OpenStreetMap 建筑轮廓的真实地理坐标绘制，不添加未经核实的建筑形状。</p>
+<div style="border:1px solid var(--line);background:#f8f5ef;position:relative">
+<div id="syntax-figure-ground-status" role="status" style="font-size:12px;padding:12px 16px;color:var(--muted)">正在读取真实建筑轮廓 / Loading building footprints…</div>
+<svg id="syntax-real-footprint-svg" viewBox="0 0 960 520" role="img" aria-label="基于真实地理坐标的圣马可广场建筑图底，加载后显示" style="display:block;width:100%;height:auto;background:#f8f5ef"><rect width="960" height="520" fill="#f8f5ef"/><text x="480" y="260" text-anchor="middle" fill="#81776c" font-size="16">Waiting for building geometry…</text></svg>
+<div style="padding:10px 16px;border-top:1px solid var(--line);display:flex;gap:12px;flex-wrap:wrap;align-items:center;font-size:11px;color:var(--muted)"><span><span style="display:inline-block;width:12px;height:12px;background:#42423d;vertical-align:middle"></span> 建筑</span><span><span style="display:inline-block;width:12px;height:12px;background:#f8f5ef;border:1px solid #cfc4b5;vertical-align:middle"></span> 街道与广场</span><span><span style="display:inline-block;width:12px;height:12px;background:#c8dce0;vertical-align:middle"></span> 水岸方向（示意）</span><span style="margin-left:auto">Source: © OpenStreetMap contributors · ODbL</span></div>
+</div>
+<p style="font-size:11px;color:var(--muted)">建筑边界取自 OSM 的 building 标签；不代表完整室内公共空间或柱廊通行范围。数据不可用时不以虚构图形替代。</p>
+</section><section class="syntax-readability" aria-label="空间分析一眼读懂">
 <div class="eyebrow">READ THE SPACE / 一眼读懂空间</div>
 <h3 style="font-size:clamp(22px,3vw,34px);margin:9px 0 8px">两张图，理解圣马可广场</h3>
 <p style="max-width:740px;color:var(--muted)">先看<strong>空间如何围合</strong>，再看<strong>人如何穿行</strong>。下图是依据场地空间关系绘制的教学示意，不是测绘图或计算结果；原始数据与计算工具收在下方。</p>
@@ -507,5 +517,45 @@ exportButton.addEventListener('click',()=>{const collection={type:'FeatureCollec
 status.textContent='步行数据已加载 / OSM walking data loaded · '+allWays.length+' 条道路，'+openAreas.length+' 个广场面 · 来源 '+dataSource+'。入口及可达性图层需另行计算。';
 };
 js.onerror=()=>{status.textContent='地图组件加载失败 / Leaflet unavailable. 请检查网络并刷新页面。';};document.head.appendChild(js);
+})();
+</script><script id="syntax-real-footprint-script">
+(function(){
+const svg=document.getElementById('syntax-real-footprint-svg'),status=document.getElementById('syntax-figure-ground-status');
+if(!svg||!status)return;
+const NS='http://www.w3.org/2000/svg',bounds={w:12.3356,e:12.3420,s:45.4329,n:45.4360},W=960,H=520;
+const meanLat=(bounds.s+bounds.n)/2*Math.PI/180;
+const width=(bounds.e-bounds.w)*Math.cos(meanLat),height=bounds.n-bounds.s;
+const scale=Math.min((W-60)/width,(H-50)/height);
+const x=lon=>W/2+(lon-(bounds.w+bounds.e)/2)*Math.cos(meanLat)*scale;
+const y=lat=>H/2-(lat-(bounds.s+bounds.n)/2)*scale;
+const el=(tag,attrs)=>{const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs||{}))n.setAttribute(k,v);return n};
+function draw(elements){
+svg.replaceChildren(el('rect',{width:W,height:H,fill:'#f8f5ef'}));
+const buildings=elements.filter(o=>o.type==='way'&&o.tags&&o.tags.building&&o.geometry&&o.geometry.length>=4);
+if(buildings.length<10)throw Error('Not enough mapped buildings');
+for(const b of buildings){
+const points=b.geometry.map(p=>x(p.lon).toFixed(1)+','+y(p.lat).toFixed(1)).join(' ');
+svg.appendChild(el('polygon',{points,fill:'#42423d',stroke:'#f8f5ef','stroke-width':'0.6'}));
+}
+const label=(lon,lat,title,sub)=>{const xx=x(lon),yy=y(lat);const t=el('text',{x:xx,y:yy,'text-anchor':'middle',fill:'#a34f38','font-size':'15','font-weight':'600','paint-order':'stroke',stroke:'#f8f5ef','stroke-width':'4'});t.textContent=title;svg.appendChild(t);if(sub){const u=el('text',{x:xx,y:yy+17,'text-anchor':'middle',fill:'#736758','font-size':'11','paint-order':'stroke',stroke:'#f8f5ef','stroke-width':'3'});u.textContent=sub;svg.appendChild(u)}};
+label(12.3379,45.4345,'PIAZZA SAN MARCO','圣马可广场');
+label(12.3398,45.4338,'PIAZZETTA','小广场');
+const north=el('text',{x:W-38,y:36,'text-anchor':'middle',fill:'#736758','font-size':'18'});north.textContent='N ↑';svg.appendChild(north);
+status.textContent='已绘制 '+buildings.length+' 个 OSM 建筑轮廓 · 按真实地理坐标绘制 / '+buildings.length+' mapped buildings';
+}
+const query='[out:json][timeout:20];way["building"](45.4329,12.3356,45.4360,12.3420);out geom;';
+const sources=['https://overpass.kumi.systems/api/interpreter','https://overpass-api.de/api/interpreter','https://overpass.nchc.org.tw/api/interpreter'];
+async function load(){
+for(let i=0;i<sources.length;i++){
+status.textContent='读取真实建筑轮廓 '+(i+1)+'/'+sources.length+' / Loading OSM buildings…';
+const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),11000);
+try{const response=await fetch(sources[i],{method:'POST',body:new URLSearchParams({data:query}),signal:controller.signal});if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();draw(data.elements||[]);return}catch(e){}finally{clearTimeout(timer)}
+}
+svg.replaceChildren(el('rect',{width:W,height:H,fill:'#f8f5ef'}));
+const msg=el('text',{x:W/2,y:H/2,'text-anchor':'middle',fill:'#736758','font-size':'18'});msg.textContent='建筑数据暂不可用 / Building data unavailable';svg.appendChild(msg);
+status.textContent='真实建筑数据暂时无法获取。';
+const btn=document.createElement('button');btn.textContent='重试 / Retry';btn.style.cssText='margin-left:12px;padding:5px 12px;cursor:pointer';btn.onclick=()=>{btn.remove();load()};status.appendChild(btn);
+}
+load();
 })();
 </script></body></html>
