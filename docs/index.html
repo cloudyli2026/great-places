@@ -13,7 +13,7 @@ const el=document.getElementById('syntax-network-map'),status=document.getElemen
 if(!el)return;
 const controls=document.createElement('div');
 controls.className='syntax-map-controls';
-controls.innerHTML='<label><input type="checkbox" id="syntax-show-service"> <span data-zh="显示住宅及服务道路" data-en="Show residential / service ways">显示住宅及服务道路</span></label><button type="button" id="syntax-export" disabled data-zh="导出 GeoJSON" data-en="Export GeoJSON">导出 GeoJSON</button><span id="syntax-count"></span><button type="button" id="syntax-audit" disabled data-zh="检查网络连通性" data-en="Check connectivity">检查网络连通性</button>';
+controls.innerHTML='<label><input type="checkbox" id="syntax-show-service"> <span data-zh="显示住宅及服务道路" data-en="Show residential / service ways">显示住宅及服务道路</span></label><button type="button" id="syntax-export" disabled data-zh="导出 GeoJSON" data-en="Export GeoJSON">导出 GeoJSON</button><label><input type="checkbox" id="syntax-show-areas" checked> Open plaza polygons / 广场开放面</label><span id="syntax-count"></span><button type="button" id="syntax-audit" disabled data-zh="检查网络连通性" data-en="Check connectivity">检查网络连通性</button>';
 el.parentElement.insertBefore(controls,el);
 const css=document.createElement('link');css.rel='stylesheet';css.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';document.head.appendChild(css);
 const js=document.createElement('script');js.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
@@ -22,25 +22,31 @@ const map=L.map(el,{scrollWheelZoom:false}).setView([45.4342,12.3387],17);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
 L.control.scale({imperial:false,metric:true}).addTo(map);
 const compass=L.control({position:'topright'});compass.onAdd=function(){const n=L.DomUtil.create('div');n.style.cssText='background:#f4efe6;padding:7px 10px;font:bold 16px Georgia;border:1px solid #b7a995';n.textContent='N ↑';return n};compass.addTo(map);
-const query='[out:json][timeout:25];way["highway"~"^(pedestrian|footway|path|steps|living_street|residential|service)$"]["area"!="yes"]["access"!~"^(private|no)$"]["foot"!="no"](45.4325,12.3350,45.4360,12.3420);out tags geom;';
+const query='[out:json][timeout:25];way["highway"~"^(pedestrian|footway|path|steps|living_street|residential|service)$"]["access"!~"^(private|no)$"]["foot"!="no"](45.4325,12.3350,45.4360,12.3420);out tags geom;';
 const endpoints=['https://overpass-api.de/api/interpreter','https://overpass.kumi.systems/api/interpreter'];let result=null;
 for(const url of endpoints){try{const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),12000);let res;try{res=await fetch(url+'?data='+encodeURIComponent(query),{signal:controller.signal})}finally{clearTimeout(timer)}if(!res.ok)continue;result=await res.json();break}catch(e){}}
 if(!result){status.textContent='OSM pedestrian data is temporarily unavailable / 步行数据暂不可用。';return;}
-const walk=L.layerGroup().addTo(map),other=L.layerGroup();
-const features=[],allWays=[];
+const walk=L.layerGroup().addTo(map),other=L.layerGroup(),plazas=L.layerGroup().addTo(map);
+const features=[],allWays=[],openAreas=[];
 for(const way of result.elements||[]){
 if(!way.geometry||way.geometry.length<2)continue;
 const tags=way.tags||{},kind=tags.highway;
-if(tags.area==='yes'||tags.access==='private'||tags.access==='no'||tags.foot==='no')continue;
+if(tags.access==='private'||tags.access==='no'||tags.foot==='no')continue;
+if(tags.area==='yes'||tags.place==='square'){
+const pts=way.geometry.map(p=>[p.lon,p.lat]);
+if(pts.length>3&&pts[0][0]===pts[pts.length-1][0]&&pts[0][1]===pts[pts.length-1][1]){
+openAreas.push({type:'Feature',geometry:{type:'Polygon',coordinates:[pts]},properties:{osm_id:way.id,name:tags.name||null,review_required:true}});
+L.polygon(way.geometry.map(p=>[p.lat,p.lon]),{color:'#927849',weight:2,fillColor:'#d2ad67',fillOpacity:.27}).addTo(plazas);
+}continue;}
 const coords=way.geometry.map(p=>[p.lon,p.lat]),latlngs=way.geometry.map(p=>[p.lat,p.lon]);
 const additional=kind==='residential'||kind==='service';
 const feature={type:'Feature',geometry:{type:'LineString',coordinates:coords},properties:{osm_id:way.id,highway:kind,name:tags.name||null,access:tags.access||null,foot:tags.foot||null,review_required:true}};
 features.push(feature);allWays.push({feature,additional});
 L.polyline(latlngs,{color:additional?'#627987':'#a34f38',weight:additional?2:3,opacity:.85,dashArray:additional?'6 5':null}).bindPopup((tags.name||kind||'OSM way')+' · OSM '+way.id).addTo(additional?other:walk);
 }
-const count=document.getElementById('syntax-count'),toggle=document.getElementById('syntax-show-service'),exportButton=document.getElementById('syntax-export');
-function refresh(){if(toggle.checked)other.addTo(map);else map.removeLayer(other);const countShown=allWays.filter(x=>toggle.checked||!x.additional).length;count.textContent=countShown+' OSM ways';}
-toggle.addEventListener('change',refresh);refresh();
+const count=document.getElementById('syntax-count'),toggle=document.getElementById('syntax-show-service'),areaToggle=document.getElementById('syntax-show-areas'),exportButton=document.getElementById('syntax-export');
+function refresh(){if(toggle.checked)other.addTo(map);else map.removeLayer(other);if(areaToggle.checked)plazas.addTo(map);else map.removeLayer(plazas);const countShown=allWays.filter(x=>toggle.checked||!x.additional).length;count.textContent=countShown+' OSM ways / '+openAreas.length+' plaza polygons';}
+toggle.addEventListener('change',refresh);areaToggle.addEventListener('change',refresh);refresh();
 const auditButton=document.getElementById('syntax-audit'),auditResults=document.getElementById('syntax-audit-results');auditButton.disabled=false;
 auditButton.addEventListener('click',()=>{
 const selected=allWays.filter(x=>toggle.checked||!x.additional);
@@ -58,7 +64,7 @@ auditResults.style.display='block';auditResults.textContent=lang==='en'
 :'初步顶点连通性检查：'+selected.length+' 条道路；'+groups.size+' 个独立连通组；最大连通组 '+(sorted[0]||0)+' 条；'+dangling+' 个未共享端点。仅按相同坐标顶点判断；未处理无共同节点的交叉线、通行权、广场内部空间及不同高程连接。这不是空间句法指标。';
 });
 exportButton.disabled=false;
-exportButton.addEventListener('click',()=>{const collection={type:'FeatureCollection',name:'Piazza San Marco OSM walking-way candidates',metadata:{source:'OpenStreetMap / Overpass',bounds:[12.3350,45.4325,12.3420,45.4360],not_validated:true,not_space_syntax_results:true,exported_at:new Date().toISOString()},features:allWays.filter(x=>toggle.checked||!x.additional).map(x=>x.feature)};const blob=new Blob([JSON.stringify(collection,null,2)],{type:'application/geo+json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='san-marco-osm-walking-candidates.geojson';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+exportButton.addEventListener('click',()=>{const collection={type:'FeatureCollection',name:'Piazza San Marco OSM walking-way candidates',metadata:{source:'OpenStreetMap / Overpass',bounds:[12.3350,45.4325,12.3420,45.4360],not_validated:true,not_space_syntax_results:true,open_area_polygons_not_connected:true,exported_at:new Date().toISOString()},features:[...allWays.filter(x=>toggle.checked||!x.additional).map(x=>x.feature),...(areaToggle.checked?openAreas:[])]};const blob=new Blob([JSON.stringify(collection,null,2)],{type:'application/geo+json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='san-marco-osm-walking-candidates.geojson';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
 status.textContent='OSM source data loaded · 原始道路候选数据已载入（未校核拓扑，未计算句法）';
 };
 js.onerror=()=>{status.textContent='Map library unavailable / 地图组件无法加载';};document.head.appendChild(js);
