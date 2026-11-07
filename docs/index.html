@@ -22,7 +22,7 @@ const map=L.map(el,{scrollWheelZoom:false}).setView([45.4342,12.3387],17);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
 L.control.scale({imperial:false,metric:true}).addTo(map);
 const compass=L.control({position:'topright'});compass.onAdd=function(){const n=L.DomUtil.create('div');n.style.cssText='background:#f4efe6;padding:7px 10px;font:bold 16px Georgia;border:1px solid #b7a995';n.textContent='N ↑';return n};compass.addTo(map);
-const query='[out:json][timeout:25];way["highway"~"^(pedestrian|footway|path|steps|living_street|residential|service)$"]["access"!~"^(private|no)$"]["foot"!="no"](45.4325,12.3350,45.4360,12.3420);out tags geom;';
+const query='[out:json][timeout:25];(way["highway"~"^(pedestrian|footway|path|steps|living_street|residential|service)$"]["access"!~"^(private|no)$"]["foot"!="no"](45.4325,12.3350,45.4360,12.3420);way["area"="yes"]["highway"="pedestrian"](45.4325,12.3350,45.4360,12.3420);way["place"="square"](45.4325,12.3350,45.4360,12.3420););out tags geom;';
 const endpoints=['https://overpass-api.de/api/interpreter','https://overpass.kumi.systems/api/interpreter'];let result=null;
 for(const url of endpoints){try{const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),12000);let res;try{res=await fetch(url+'?data='+encodeURIComponent(query),{signal:controller.signal})}finally{clearTimeout(timer)}if(!res.ok)continue;result=await res.json();break}catch(e){}}
 if(!result){status.textContent='OSM pedestrian data is temporarily unavailable / 步行数据暂不可用。';return;}
