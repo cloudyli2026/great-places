@@ -63,3 +63,9 @@ A synthetic square with corners [0,0], [0.0001,0], [0.0001,0.0001], [0,0.0001] a
 ### Critical next step
 
 Review the OSM base data against verified building plans and a georeferenced architectural plan, including arcades, entrances, steps, temporary barriers and raised walkways during flooding. Only after validating the pedestrian-space geometry should the project run a formal VGA or angular segment analysis.
+
+### Shared versus unshared road endpoints
+
+The plaza-edge audit now counts how many distinct OSM ways contain each endpoint coordinate. Endpoints occurring in only one way are marked **unshared** and shown by default; those shared with another OSM way can be included using the map checkbox. This reduces ordinary junction false positives but does not prove that an unshared endpoint is an entrance: OSM may represent a legitimate intersection as a mid-way vertex or omit mapped paths. Exports retain `unshared_endpoint` and `shared_way_count` fields.
+
+A synthetic two-way test with one shared inside-polygon endpoint and one near-boundary unshared endpoint returned one shared and one unshared candidate.
