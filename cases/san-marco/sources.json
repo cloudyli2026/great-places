@@ -1,16 +1,66 @@
 {
   "case_id": "san-marco",
-  "sources": [],
-  "note": "Source records intentionally empty until archive metadata, rights and exact source URLs have been independently checked. Do not mistake search candidates for verified assets.",
-  "required_fields": [
-    "id",
-    "title",
-    "creator",
-    "date",
-    "institution",
-    "source_url",
-    "source_class",
-    "rights_status",
-    "confidence"
+  "verified_at": "2026-11-07",
+  "sources": [
+    {
+      "id": "QM-1831-01",
+      "title": "Pianta della Piazza e Piazetta di San Marco",
+      "creator": "Dionisio Moretti; text by Antonio Quadri",
+      "date": 1831,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Quadri-Moretti,_Piazza_San_Marco_(1831),_01.jpg",
+      "source_class": "S1 historical published engraving",
+      "rights_status": "Wikimedia Commons Public Domain Mark; check local jurisdiction",
+      "confidence": "high for plate identity, not dimensional accuracy",
+      "scope": "historical plan"
+    },
+    {
+      "id": "QM-1831-09",
+      "title": "Nuova Fabbrica del Palazzo Reale",
+      "creator": "Dionisio Moretti; text by Antonio Quadri",
+      "date": 1831,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Quadri-Moretti,_Piazza_San_Marco_(1831),_09.jpg",
+      "source_class": "S1 historical published engraving",
+      "rights_status": "Wikimedia Commons Public Domain Mark; check local jurisdiction",
+      "confidence": "high for plate identity, not dimensional accuracy",
+      "scope": "facade and plans"
+    },
+    {
+      "id": "QM-1831-10",
+      "title": "Procuratie Nuove ora Palazzo Reale",
+      "creator": "Dionisio Moretti; text by Antonio Quadri",
+      "date": 1831,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Quadri-Moretti,_Piazza_San_Marco_(1831),_10.jpg",
+      "source_class": "S1 historical published engraving",
+      "rights_status": "Wikimedia Commons Public Domain Mark; check local jurisdiction",
+      "confidence": "high for plate identity, not dimensional accuracy",
+      "scope": "historical facade"
+    },
+    {
+      "id": "QM-1831-12",
+      "title": "Campanile di S. Marco",
+      "creator": "Dionisio Moretti; text by Antonio Quadri",
+      "date": 1831,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Quadri-Moretti,_Piazza_San_Marco_(1831),_12.jpg",
+      "source_class": "S1 historical published engraving",
+      "rights_status": "Wikimedia Commons Public Domain Mark; check local jurisdiction",
+      "confidence": "high for plate identity, not dimensional accuracy",
+      "scope": "pre-1902 tower elevation section and plans"
+    },
+    {
+      "id": "QM-1831-14",
+      "title": "Veduta Presa dal Molo della Piazetta verso la R.ª Zecca",
+      "creator": "Dionisio Moretti; text by Antonio Quadri",
+      "date": 1831,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Quadri-Moretti,_Piazza_San_Marco_(1831),_14.jpg",
+      "source_class": "S1 historical published engraving",
+      "rights_status": "Wikimedia Commons Public Domain Mark; check local jurisdiction",
+      "confidence": "high for plate identity, not dimensional accuracy",
+      "scope": "historical waterfront view"
+    }
+  ],
+  "cautions": [
+    "1831 plate is not a contemporary surveyed plan",
+    "Campanile plate predates 1902 collapse and reconstruction",
+    "Modern building heights and geometry not verified"
   ]
 }
