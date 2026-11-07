@@ -54,8 +54,8 @@ function renderReview(){
 if(!reviewReady||!lastPlazaAudit)return;
 reviewPanel.replaceChildren();reviewPanel.style.display='block';reviewExport.disabled=false;
 const items=lastPlazaAudit.entries.filter(e=>!danglingToggle.checked||e.dangling);
-const heading=document.createElement('div');heading.style.cssText='font-size:12px;margin-bottom:12px';heading.textContent='人工核查工作台 / Candidate review · '+items.length+' candidates · decisions stored in this browser only';reviewPanel.appendChild(heading);
-for(const e of items.slice(0,80)){
+const heading=document.createElement('div');heading.style.cssText='font-size:12px;margin-bottom:12px';heading.textContent='人工核查工作台 / Candidate review · '+items.length+' candidates · decisions stored in this browser only';reviewPanel.appendChild(heading);const summary=document.createElement('div');summary.style.cssText='font-size:11px;margin-bottom:10px;color:#716c62';const counts=window.SanMarcoReview.summary(items,reviewDecisions);summary.textContent='待核查 '+counts.unreviewed+' · 现场核查 '+counts.inspect+' · 可能开放 '+counts['likely-open']+' · 受阻 '+counts.blocked+' · 非入口 '+counts['not-entrance'];reviewPanel.appendChild(summary);
+for(const e of items.slice(0,500)){
 const k=window.SanMarcoReview.key(e),record=reviewDecisions[k]||{};
 const row=document.createElement('div');row.dataset.reviewKey=k;row.style.cssText='display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:8px 0;border-top:1px solid #ddd2c2;font-size:12px';
 const info=document.createElement('span');info.style.cssText='flex:1;min-width:170px';info.textContent=e.point.map(x=>x.toFixed(6)).join(', ')+' · '+(e.inside?'inside':'edge '+e.distanceMeters.toFixed(1)+'m')+' · '+(e.dangling?'unshared':'junction');row.appendChild(info);
@@ -63,11 +63,11 @@ const select=document.createElement('select');select.style.cssText='padding:5px;
 for(const [value,label] of [['unreviewed','待核查 / Unreviewed'],['inspect','需要现场核查 / Inspect'],['likely-open','可能可通行 / Possibly open'],['blocked','受阻 / Blocked'],['not-entrance','非入口 / Not entrance']]){const opt=document.createElement('option');opt.value=value;opt.textContent=label;select.appendChild(opt)}
 select.value=record.status||'unreviewed';row.appendChild(select);
 const note=document.createElement('input');note.type='text';note.placeholder='依据 / Evidence note';note.value=record.note||'';note.maxLength=400;note.style.cssText='flex:1;min-width:140px;padding:5px;border:1px solid #b9aa96;background:#f7f3ed';row.appendChild(note);
-const store=()=>{reviewDecisions[k]={status:select.value,note:note.value};window.SanMarcoReview.save(reviewKey,reviewDecisions);drawEntranceCandidates(lastPlazaAudit)};
+const store=()=>{reviewDecisions[k]={status:select.value,note:note.value};window.SanMarcoReview.save(reviewKey,reviewDecisions);drawEntranceCandidates(lastPlazaAudit);const counts=window.SanMarcoReview.summary(items,reviewDecisions);summary.textContent='待核查 '+counts.unreviewed+' · 现场核查 '+counts.inspect+' · 可能开放 '+counts['likely-open']+' · 受阻 '+counts.blocked+' · 非入口 '+counts['not-entrance']};
 select.addEventListener('change',store);note.addEventListener('change',store);
 reviewPanel.appendChild(row);
 }
-const foot=document.createElement('div');foot.style.cssText='font-size:11px;color:#766c5f;margin-top:10px';foot.textContent='Showing up to 80 candidates. Local browser storage only. Export your decisions to preserve them; import will match current candidate coordinates and polygon IDs.';reviewPanel.appendChild(foot);
+const foot=document.createElement('div');foot.style.cssText='font-size:11px;color:#766c5f;margin-top:10px';foot.textContent='Showing up to 500 candidates. Local browser storage only. Export your decisions to preserve them; import will match current candidate coordinates and polygon IDs.';reviewPanel.appendChild(foot);
 }
 reviewImport.addEventListener('click',()=>reviewFile.click());
 reviewFile.addEventListener('change',async()=>{
