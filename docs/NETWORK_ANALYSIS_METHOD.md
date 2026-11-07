@@ -19,25 +19,25 @@ This is a **computed exploratory network metric**, not formal Space Syntax axial
 2. Weight edges by approximate geodesic length using an equirectangular approximation around the segment latitude.
 3. Deduplicate identical undirected vertex-pair edges.
 4. Compute connected components using depth-first search.
-5. Sample at most approximately 350 vertices using a deterministic index stride. This is **not spatially uniform** sampling.
-6. For each sampled vertex, run Dijkstra shortest paths limited to 300m.
-7. Sum the portion of each edge within network distance 300m, counting each edge once. For an edge with endpoint distances dA and dB and length L, included length = min(L, max(0,min(L,300-dA)) + max(0,min(L,300-dB))).
+5. Partition the region into approximately 22m metric grid cells and select the OSM vertex nearest each cell center. Limit to approximately 350 samples by deterministic stride over occupied cells. This reduces bias from uneven OSM vertex density, but does not constitute a full grid-based visibility analysis.
+6. For each sampled vertex, run Dijkstra shortest paths limited to the selected 150m, 300m or 500m radius.
+7. Sum the portion of each edge within network distance R, counting each edge once. For an edge with endpoint distances dA and dB and length L, included length = min(L, max(0,min(L,R-dA)) + max(0,min(L,R-dB))).
 8. Color sample markers by relative min/max within that specific run. These colors are not comparable between runs with different OSM filters.
-9. Export sample-point GeoJSON with `reach_300m_m`, `degree`, `component`.
+9. Export sample-point GeoJSON with `network_reach_m`, `degree`, `component`, and radius metadata.
 
 ## Important limitations
 
 - Exact shared-vertex topology misses crossing lines without shared OSM vertices, and may misrepresent multi-level connections.
 - Streets inside pedestrian plaza polygons are not represented as continuous traversable space; a proper polygon-based visibility model remains pending.
 - OSM access tags and physical barriers have not been independently verified.
-- Boundary effects depress reach near the bounding-box edges.
-- OSM vertex density affects the **sample locations** (though the reach metric sums physical edge lengths rather than vertex counts).
+- Boundary effects depress reach near the bounding-box edges, particularly at the 500m radius. Cross-radius color scales are independently normalized and cannot be compared visually without numerical values.
+- Sampling is based on a 22m geographic grid; selection remains sensitive to cell alignment and the available OSM vertices.
 - Do not interpret this metric as pedestrian counts, accessibility compliance, pedestrian flow, or safety.
 - A genuine VGA requires a surveyed pedestrian boundary and obstruction dataset; a genuine angular segment analysis requires audited topology, turn angles and model calibration.
 
 ## Smoke test
 
-The 3-edge T-shaped synthetic graph with four vertices at [0,0], [0.0001,0], [0.0002,0], [0.0001,0.0001] has one connected component and, at a 100m radius, all four vertices can reach the full approximately 33m network. This was evaluated against the module.
+The 3-edge T-shaped synthetic graph with four vertices at [0,0], [0.0001,0], [0.0002,0], [0.0001,0.0001] has one connected component, 4 vertices and 3 edges. At 150m, 300m and 500m radii, the test returns 33.36m of reachable network at its sample point. An independent 10m radius test from the first vertex returns exactly 10m of reachable network. These checks were executed against the current module.
 
 ## Next technical priorities
 
