@@ -77,3 +77,12 @@ The live map now includes a **local-only review workstation** for up to 80 plaza
 Export the complete candidate set as GeoJSON with review annotations. The review records are not synchronized between devices, and browser storage can be cleared; exported files are the durable record. `likely-open` means an **unverified working hypothesis**, never a confirmed public entrance. This workflow does not automatically create graph edges or change network reach results.
 
 The standalone review module was checked with two synthetic candidates and one manually annotated status, returning the expected summary counts.
+
+### Review round-trip and visual triage
+
+- Candidate statuses now color the map markers: possible open (green), blocked (red), not an entrance (gray), inspect (amber), and unreviewed (original geometry classification colors).
+- Clicking a candidate marker offers a link to the corresponding review row; the review panel lists up to 500 candidates and shows status totals.
+- Exported review GeoJSON can be re-imported. The importer accepts only FeatureCollection Point features with a valid review status and a coordinate/polygon-ID key matching the **current** candidate set. Unknown or stale OSM candidates are ignored and reported; existing local decisions are merged rather than replaced.
+- This is a browser-only annotation tool, not a multiuser database or a field-survey validation system. No candidate review status modifies the underlying graph or network reach computation.
+
+Round-trip smoke test: a GeoJSON file containing one matching `inspect` point and one unknown point accepted one record and ignored the other, producing the expected status summary.
