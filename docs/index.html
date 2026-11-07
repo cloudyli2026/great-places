@@ -245,6 +245,7 @@ for(const img of document.querySelectorAll('.media img')){img.addEventListener('
 (function(){
 const el=document.getElementById('syntax-network-map'),status=document.getElementById('syntax-network-status');
 if(!el)return;
+status.textContent='等待地图组件 / Initializing map…';
 const controls=document.createElement('div');
 controls.className='syntax-map-controls';
 controls.innerHTML='<label><input type="checkbox" id="syntax-show-service"> <span data-zh="显示住宅及服务道路" data-en="Show residential / service ways">显示住宅及服务道路</span></label><button type="button" id="syntax-export" disabled data-zh="导出 GeoJSON" data-en="Export GeoJSON">导出 GeoJSON</button><label><input type="checkbox" id="syntax-show-areas" checked> Open plaza polygons / 广场开放面</label><span id="syntax-count"></span><button type="button" id="syntax-audit" disabled data-zh="检查网络连通性" data-en="Check connectivity">检查网络连通性</button><label>研究半径 / Radius <select id="syntax-radius" style="padding:6px;border:1px solid #b9aa96;background:#f7f3ed"><option value="150">150 m</option><option value="300" selected>300 m</option><option value="500">500 m</option></select></label><button type="button" id="syntax-reach" disabled>计算路网可达性 / Compute reach</button><button type="button" id="syntax-reach-export" disabled>导出计算结果 / Export results</button><button type="button" id="syntax-compare" disabled>对比三个半径 / Compare radii</button><button type="button" id="syntax-plaza-audit" disabled>检查广场入口候选点 / Plaza-edge audit</button><label><input type="checkbox" id="syntax-entrance-layer" checked> 入口候选点 / Candidate endpoints</label><label><input type="checkbox" id="syntax-dangling-only" checked> 仅显示未共享端点 / Unshared only</label><button type="button" id="syntax-entrance-export" disabled>导出入口候选点 / Export candidates</button><button type="button" id="syntax-review-export" disabled>导出审核记录 / Export review</button><button type="button" id="syntax-review-import" disabled>导入审核记录 / Import review</button><input type="file" id="syntax-review-file" accept=".geojson,.json,application/geo+json,application/json" style="display:none"><label><input type="checkbox" id="syntax-reach-layer" checked> 可达性图层 / Reach layer</label>';
@@ -259,9 +260,29 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,att
 L.control.scale({imperial:false,metric:true}).addTo(map);
 const compass=L.control({position:'topright'});compass.onAdd=function(){const n=L.DomUtil.create('div');n.style.cssText='background:#f4efe6;padding:7px 10px;font:bold 16px Georgia;border:1px solid #b7a995';n.textContent='N ↑';return n};compass.addTo(map);
 const query='[out:json][timeout:25];(way["highway"~"^(pedestrian|footway|path|steps|living_street|residential|service)$"]["access"!~"^(private|no)$"]["foot"!="no"](45.4325,12.3350,45.4360,12.3420);way["area"="yes"]["highway"="pedestrian"](45.4325,12.3350,45.4360,12.3420);way["place"="square"](45.4325,12.3350,45.4360,12.3420););out tags geom;';
-const endpoints=['https://overpass-api.de/api/interpreter','https://overpass.kumi.systems/api/interpreter'];let result=null;
-for(const url of endpoints){try{const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),12000);let res;try{res=await fetch(url+'?data='+encodeURIComponent(query),{signal:controller.signal})}finally{clearTimeout(timer)}if(!res.ok)continue;result=await res.json();break}catch(e){}}
-if(!result){status.textContent='OSM pedestrian data is temporarily unavailable / 步行数据暂不可用。请稍后重试。';return;}
+const endpoints=['https://overpass.kumi.systems/api/interpreter','https://overpass-api.de/api/interpreter','https://overpass.nchc.org.tw/api/interpreter'];
+let result=null,lastError='',dataSource='';
+status.setAttribute('role','status');
+function showRetry(message){
+status.replaceChildren();
+const label=document.createElement('span');label.textContent=message;status.appendChild(label);
+const retry=document.createElement('button');retry.type='button';retry.textContent='重试加载 / Retry';retry.style.cssText='margin-left:12px;padding:7px 12px;border:1px solid #a34f38;background:#f7f3ed;color:#a34f38;cursor:pointer';
+retry.addEventListener('click',()=>location.reload());status.appendChild(retry);
+}
+for(let i=0;i<endpoints.length;i++){
+const url=endpoints[i];status.textContent='正在获取步行网络 / Loading OSM walking data · '+(i+1)+'/'+endpoints.length+'…';
+try{
+const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),10000);
+let res;
+try{res=await fetch(url,{method:'POST',body:new URLSearchParams({data:query}),signal:controller.signal})}
+finally{clearTimeout(timer)}
+if(!res.ok)throw Error('HTTP '+res.status);
+const payload=await res.json();
+if(!Array.isArray(payload.elements)||payload.elements.length===0)throw Error('Empty OSM response');
+result=payload;dataSource=new URL(url).host;break;
+}catch(error){lastError=error.name==='AbortError'?'timeout':String(error.message||error)}
+}
+if(!result){showRetry('步行网络加载失败（'+lastError+'）。基础地图仍可使用，但分析图层尚未载入。 / OSM network unavailable.');return;}
 // Explicit panes guarantee that plaza fills cannot hide walking lines or analysis points.
 for(const [name,z] of [['plaza',410],['roads',430],['analysis',450],['candidates',470]]){map.createPane('syntax-'+name);map.getPane('syntax-'+name).style.zIndex=String(z)}
 const walk=L.layerGroup().addTo(map),other=L.layerGroup(),plazas=L.layerGroup().addTo(map),reachLayer=L.layerGroup().addTo(map),entranceLayer=L.layerGroup().addTo(map);
@@ -432,8 +453,8 @@ auditResults.style.display='block';auditResults.textContent=lang==='en'
 });
 exportButton.disabled=false;
 exportButton.addEventListener('click',()=>{const collection={type:'FeatureCollection',name:'Piazza San Marco OSM walking-way candidates',metadata:{source:'OpenStreetMap / Overpass',bounds:[12.3350,45.4325,12.3420,45.4360],not_validated:true,not_space_syntax_results:true,open_area_polygons_not_connected:true,exported_at:new Date().toISOString()},features:[...allWays.filter(x=>toggle.checked||!x.additional).map(x=>x.feature),...(areaToggle.checked?openAreas:[])]};const blob=new Blob([JSON.stringify(collection,null,2)],{type:'application/geo+json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='san-marco-osm-walking-candidates.geojson';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
-status.textContent='OSM source data loaded · 原始道路候选数据已载入（未校核拓扑，未计算句法）';
+status.textContent='步行数据已加载 / OSM walking data loaded · '+allWays.length+' 条道路，'+openAreas.length+' 个广场面 · 来源 '+dataSource+'。入口及可达性图层需另行计算。';
 };
-js.onerror=()=>{status.textContent='Map library unavailable / 地图组件无法加载';};document.head.appendChild(js);
+js.onerror=()=>{status.textContent='地图组件加载失败 / Leaflet unavailable. 请检查网络并刷新页面。';};document.head.appendChild(js);
 })();
 </script></body></html>
