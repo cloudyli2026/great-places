@@ -49,9 +49,20 @@ function refresh(){if(toggle.checked)other.addTo(map);else map.removeLayer(other
 toggle.addEventListener('change',()=>{reachLayer.clearLayers();entranceLayer.clearLayers();lastPlazaAudit=null;entranceExport.disabled=true;plazaResults.style.display='none';lastAnalysis=null;reachExport.disabled=true;reachResults.style.display='none';refresh()});areaToggle.addEventListener('change',refresh);entranceToggle.addEventListener('change',refresh);danglingToggle.addEventListener('change',()=>{if(lastPlazaAudit)drawEntranceCandidates(lastPlazaAudit);refresh()});radiusSelect.addEventListener('change',()=>{reachLayer.clearLayers();lastAnalysis=null;reachExport.disabled=true;reachResults.style.display='none'});reachToggle.addEventListener('change',refresh);refresh();
 const plazaScript=document.createElement('script');plazaScript.src='syntax-plaza-audit.js';plazaScript.onload=()=>{plazaButton.disabled=false};plazaScript.onerror=()=>{plazaResults.style.display='block';plazaResults.textContent='Plaza audit module unavailable / 广场边界检查模块加载失败'};document.head.appendChild(plazaScript);
 function drawEntranceCandidates(result){
-drawEntranceCandidates(result);
-plazaResults.style.display='block';const lang=document.documentElement.lang.startsWith('en')?'en':'zh';
-plazaResults.textContent=lang==='en'?'Geometry-only plaza audit: '+result.polygonCount+' mapped plaza polygons; '+result.endpointCandidates+' distinct road endpoints checked; '+result.insideCount+' endpoints inside polygons and '+result.nearCount+' within '+result.thresholdMeters+'m of an edge; '+result.danglingCount+' unshared road endpoints and '+result.sharedCount+' shared junctions. These are potential review points, NOT verified entrances or connected paths. If polygons are missing, the result is incomplete.':'广场边界几何检查：'+result.polygonCount+' 个已绘制广场面；检查 '+result.endpointCandidates+' 个不同道路端点；其中 '+result.insideCount+' 个位于多边形内，'+result.nearCount+' 个距离边界不超过 '+result.thresholdMeters+' 米；其中 '+result.danglingCount+' 个为未共享道路端点、'+result.sharedCount+' 个为已共享路口顶点。仅为待人工核对的候选点，不代表已确认的入口或道路连接。若 OSM 缺少广场面，结果也不完整。';
+entranceLayer.clearLayers();
+for(const item of result.entries){
+if(danglingToggle.checked&&!item.dangling)continue;
+L.circleMarker([item.point[1],item.point[0]],{radius:5,weight:1,color:'#fff',fillColor:item.inside?'#446b82':'#d58b36',fillOpacity:.95}).bindPopup((item.inside?'Inside mapped plaza':'Near plaza edge')+' · '+Math.round(item.distanceMeters*10)/10+'m · OSM polygon '+item.polygonId+' · '+(item.dangling?'Unshared endpoint':'Shared OSM junction')).addTo(entranceLayer);
+}
+}
+plazaButton.addEventListener('click',()=>{
+if(!window.SanMarcoPlazaAudit)return;
+const selected=allWays.filter(x=>toggle.checked||!x.additional).map(x=>x.feature);
+const result=window.SanMarcoPlazaAudit.audit(selected,openAreas,8);
+lastPlazaAudit=result;drawEntranceCandidates(result);
+plazaResults.style.display='block';
+const lang=document.documentElement.lang.startsWith('en')?'en':'zh';
+plazaResults.textContent=lang==='en'?'Geometry-only plaza audit: '+result.polygonCount+' mapped plaza polygons; '+result.endpointCandidates+' distinct road endpoints checked; '+result.insideCount+' endpoints inside polygons; '+result.nearCount+' within '+result.thresholdMeters+'m of an edge; '+result.danglingCount+' unshared road endpoints and '+result.sharedCount+' shared junctions. These are NOT verified entrances or connected paths.':'广场边界几何检查：'+result.polygonCount+' 个已绘制广场面；检查 '+result.endpointCandidates+' 个不同道路端点；'+result.insideCount+' 个位于多边形内，'+result.nearCount+' 个距边界不超过 '+result.thresholdMeters+' 米；其中 '+result.danglingCount+' 个为未共享道路端点、'+result.sharedCount+' 个为共享路口顶点。这些不是已核实的出入口或路网连接。';
 entranceExport.disabled=!result.entries.length;entranceToggle.checked=true;refresh();
 });
 entranceExport.addEventListener('click',()=>{
