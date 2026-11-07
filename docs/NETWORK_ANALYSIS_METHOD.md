@@ -44,3 +44,22 @@ The 3-edge T-shaped synthetic graph with four vertices at [0,0], [0.0001,0], [0.
 1. Audit OSM way topology and plaza entrance points against reliable architectural base plans.
 2. Acquire and document actual walkable polygon boundaries, building walls, obstructions, barriers and portico permeability.
 3. Generate a validated visibility grid and angular segment graph using a dedicated syntax engine; publish parameters and results separately.
+
+## Plaza-edge geometric QA (added)
+
+Implementation: `docs/syntax-plaza-audit.js`.
+
+- Input: OSM road line endpoints and mapped OSM pedestrian-area / square polygons.
+- For each unique road endpoint, check whether it lies inside any polygon (planar ray casting), or within **8m** of a polygon boundary (nearest point on line segment).
+- Display blue markers for endpoints inside polygons, orange markers for endpoints near polygon boundaries; export GeoJSON with polygon OSM ID, approximate distance and review-required flag.
+- This **does not create graph edges**, infer pedestrian entrances, validate access permissions, or infer visibility.
+- Polygons from OSM may be incomplete or inaccurate, may not represent the entire Piazza, and may contain unmodeled obstacles.
+- This check is a triage aid for a later manually verified base map, not a replacement for a surveyed pedestrian-space boundary.
+
+### Plaza geometry smoke test
+
+A synthetic square with corners [0,0], [0.0001,0], [0.0001,0.0001], [0,0.0001] and a line with endpoints [0.00005,0.00005] and [0.0002,0.00005] yields: one endpoint inside the polygon; the second approximately 7.81m from its boundary, therefore flagged as a near-boundary candidate at 8m threshold. Both outcomes were checked against the JavaScript module.
+
+### Critical next step
+
+Review the OSM base data against verified building plans and a georeferenced architectural plan, including arcades, entrances, steps, temporary barriers and raised walkways during flooding. Only after validating the pedestrian-space geometry should the project run a formal VGA or angular segment analysis.
