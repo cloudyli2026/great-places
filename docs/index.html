@@ -332,6 +332,10 @@ return {elements};
 }
 const endpoints=['https://overpass.kumi.systems/api/interpreter','https://overpass-api.de/api/interpreter','https://overpass.nchc.org.tw/api/interpreter'];
 let result=null,lastError='',dataSource='';
+try{
+const cached=await fetch('./data/san-marco-walkways.json',{cache:'no-cache'});
+if(cached.ok){const data=await cached.json();if(Array.isArray(data.elements)&&data.elements.length>10){result=data;dataSource='GitHub OSM snapshot · '+(data.retrieved_at||'');}}
+}catch(e){}
 status.setAttribute('role','status');
 function showRetry(message){
 status.replaceChildren();
@@ -339,7 +343,7 @@ const label=document.createElement('span');label.textContent=message;status.appe
 const retry=document.createElement('button');retry.type='button';retry.textContent='重试加载 / Retry';retry.style.cssText='margin-left:12px;padding:7px 12px;border:1px solid #a34f38;background:#f7f3ed;color:#a34f38;cursor:pointer';
 retry.addEventListener('click',()=>location.reload());status.appendChild(retry);
 }
-for(let i=0;i<endpoints.length;i++){
+for(let i=0;!result&&i<endpoints.length;i++){
 const url=endpoints[i];status.textContent='正在获取步行网络 / Loading OSM walking data · '+(i+1)+'/'+endpoints.length+'…';
 try{
 const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),10000);
@@ -575,6 +579,11 @@ status.textContent='已绘制 '+buildings.length+' 个 OSM 建筑轮廓 · 按�
 const query='[out:json][timeout:20];way["building"](45.4329,12.3356,45.4360,12.3420);out geom;';
 const sources=['https://overpass.kumi.systems/api/interpreter','https://overpass-api.de/api/interpreter','https://overpass.nchc.org.tw/api/interpreter'];
 async function load(){
+status.textContent='正在读取项目内建筑数据 / Loading local OSM snapshot…';
+try{
+const cached=await fetch('./data/san-marco-buildings.json',{cache:'no-cache'});
+if(cached.ok){const data=await cached.json();if(Array.isArray(data.elements)){draw(data.elements);status.textContent+=' · '+(data.retrieved_at||'');return;}}
+}catch(e){}
 for(let i=0;i<sources.length;i++){
 status.textContent='读取真实建筑轮廓 '+(i+1)+'/'+sources.length+' / Loading OSM buildings…';
 const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),11000);
