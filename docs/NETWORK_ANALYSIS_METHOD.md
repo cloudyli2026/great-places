@@ -69,3 +69,11 @@ Review the OSM base data against verified building plans and a georeferenced arc
 The plaza-edge audit now counts how many distinct OSM ways contain each endpoint coordinate. Endpoints occurring in only one way are marked **unshared** and shown by default; those shared with another OSM way can be included using the map checkbox. This reduces ordinary junction false positives but does not prove that an unshared endpoint is an entrance: OSM may represent a legitimate intersection as a mid-way vertex or omit mapped paths. Exports retain `unshared_endpoint` and `shared_way_count` fields.
 
 A synthetic two-way test with one shared inside-polygon endpoint and one near-boundary unshared endpoint returned one shared and one unshared candidate.
+
+## Candidate entrance review workstation
+
+The live map now includes a **local-only review workstation** for up to 80 plaza-edge candidates per view. Review statuses: `unreviewed`, `inspect`, `likely-open`, `blocked`, `not-entrance`. Each candidate can include a free-text evidence note (max 400 characters). Entries are keyed by coordinate rounded to 7 decimal places and the OSM polygon ID, and stored in the browser's `localStorage` under `san-marco-plaza-review-v1`.
+
+Export the complete candidate set as GeoJSON with review annotations. The review records are not synchronized between devices, and browser storage can be cleared; exported files are the durable record. `likely-open` means an **unverified working hypothesis**, never a confirmed public entrance. This workflow does not automatically create graph edges or change network reach results.
+
+The standalone review module was checked with two synthetic candidates and one manually annotated status, returning the expected summary counts.
