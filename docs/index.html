@@ -244,14 +244,13 @@ window.addEventListener('greatplaces:chapterchange',hide);
 </script><script id="chapter-reader-script">
 (function(){
 const chapters=[
-{id:'intro',sections:['intro','history'],zh:'概况与历史',en:'Overview & history'},
-{id:'scale',sections:['scale','figure-ground'],zh:'尺度与图底关系',en:'Scale & Figure–Ground'},
-{id:'syntax',sections:['syntax'],zh:'空间句法',en:'Space syntax'},
-{id:'boundary',sections:['boundary'],zh:'边界与立面',en:'Edges & elevations'},
-{id:'life',sections:['life'],zh:'公共生活',en:'Public life'},
-{id:'climate',sections:['climate'],zh:'气候与水患',en:'Climate & flooding'},
-{id:'conclusion',sections:['conclusion','sources'],zh:'评价与资料',en:'Evaluation & sources'},
-{id:'factsheet',sections:['factsheet'],zh:'一页档案',en:'Factsheet'}
+{id:'intro',name:['01 概况','01 Overview'],parts:['intro','history']},
+{id:'scale',name:['02 尺度','02 Scale'],parts:['scale','figure-ground','syntax']},
+{id:'boundary',name:['03 边界','03 Edges'],parts:['boundary']},
+{id:'life',name:['04 使用','04 Public life'],parts:['life','climate']},
+{id:'conclusion',name:['05 评价','05 Evaluation'],parts:['conclusion','siena-comparison']},
+{id:'sources',name:['资料来源','Sources'],parts:['sources']},
+{id:'factsheet',name:['一页档案','Factsheet'],parts:['factsheet']}
 ];
 const map=new Map();chapters.forEach((c,i)=>c.sections.forEach(id=>map.set(id,i)));
 const main=document.querySelector('main'),nav=[...document.querySelectorAll('header nav a')];
