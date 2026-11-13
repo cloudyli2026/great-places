@@ -442,7 +442,21 @@
         "活动主办方／官方发布图集；摄影者未逐图注明",
         "Organiser / official published gallery; individual photographer unspecified"
       ],
-      "drawing": false
+      "drawing": false,
+      "original_size": [
+        3810,
+        1080
+      ],
+      "crop": [
+        1270,
+        0,
+        1270,
+        1080
+      ],
+      "rights": [
+        "版权归原权利人；网页取官方宽幅配图中央实景，放大查看完整原图。",
+        "Copyright retained; the page frames the central photograph within the official wide image. Enlarge for the complete original."
+      ]
     },
     "polish": {
       "url": "https://fedsquare.wpenginepowered.com/wp-content/uploads/2025/10/polish-festival-dancers-on-stage.jpg",
@@ -459,7 +473,21 @@
         "活动主办方／官方发布图集；摄影者未逐图注明",
         "Organiser / official published gallery; individual photographer unspecified"
       ],
-      "drawing": false
+      "drawing": false,
+      "original_size": [
+        1905,
+        540
+      ],
+      "crop": [
+        635,
+        0,
+        635,
+        540
+      ],
+      "rights": [
+        "版权归原权利人；网页取官方宽幅配图中央实景，放大查看完整原图。",
+        "Copyright retained; the page frames the central photograph within the official wide image. Enlarge for the complete original."
+      ]
     }
   },
   "facts": [
