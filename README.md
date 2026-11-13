@@ -28,3 +28,9 @@ Source discovery → provenance review → spatial analysis → visual cross-che
 5. Build the bilingual interactive case page.
 
 The repository starts with research infrastructure; it does **not** claim a finished survey or published site.
+
+## 04 Federation Square
+
+The bilingual case in `docs/cases/federation-square.html` now has reviewed content in `cases/federation-square/case.json`, an individual asset register, frozen official Melbourne 2020 footprints and a reproducible SVG figure-ground. See [the comparison audit](cases/federation-square/RESEARCH_AUDIT.md) and [actual browser/source test results](docs/research/federation-square/README.md). Formal Space Syntax results, independent behavioural observations and a complete calibrated orthographic elevation set remain unavailable and are explicitly identified.
+
+Regenerate the page with `python scripts/build_federation_page.py`, and the figure-ground with `python scripts/update_federation_gis.py --offline`. Run `python tests/federation-gis.py`, `python tests/federation-links.py`, and the Chromium/Playwright regression in `tests/federation-browser.cjs` while serving `docs/` on port 8000.

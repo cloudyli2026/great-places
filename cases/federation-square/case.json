@@ -1,0 +1,1902 @@
+{
+  "id": "04",
+  "slug": "federation-square",
+  "reviewed": "2026-11-13",
+  "chapters": [
+    {
+      "id": "intro",
+      "icon": "◉",
+      "title": [
+        "概况",
+        "Overview"
+      ],
+      "blocks": [
+        {
+          "type": "h1",
+          "text": [
+            "Federation Square.",
+            "Federation Square."
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "不是建筑之间剩下的空地，而是铁路之上被共同建造的城市地面。",
+            "A civic ground deliberately built over railway infrastructure, rather than space left between buildings."
+          ],
+          "class": "lead"
+        },
+        {
+          "type": "p",
+          "text": [
+            "人工地面 · 文化集群 · 公共表达",
+            "Artificial ground · Cultural ensemble · Public expression"
+          ],
+          "class": "eyebrow"
+        },
+        {
+          "type": "figure",
+          "asset": "fed-context"
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": [
+                "位置",
+                "Location"
+              ],
+              "value": [
+                "墨尔本，澳大利亚 · Wurundjeri Country",
+                "Melbourne, Australia · Wurundjeri Country"
+              ]
+            },
+            {
+              "label": [
+                "年代",
+                "Period"
+              ],
+              "value": [
+                "2002年建成；1997年竞赛获胜",
+                "Completed 2002; competition won 1997"
+              ]
+            },
+            {
+              "label": [
+                "公布面积",
+                "Published area"
+              ],
+              "value": [
+                "广场7,500 m²；建筑项目44,000 m²",
+                "Plaza 7,500 m²; architectural project 44,000 m²"
+              ]
+            },
+            {
+              "label": [
+                "主要用途",
+                "Primary uses"
+              ],
+              "value": [
+                "文化参观、穿行、免费停留、活动与集会",
+                "Culture, passage, informal stay, events and assemblies"
+              ]
+            },
+            {
+              "label": [
+                "空间类型",
+                "Spatial typology"
+              ],
+              "value": [
+                "铁路上盖上的坡地广场与公共通廊",
+                "Sloped civic plaza and covered passage over rail"
+              ]
+            },
+            {
+              "label": [
+                "定义性特征",
+                "Defining character"
+              ],
+              "value": [
+                "多栋建筑和Atrium围绕连续公共地面",
+                "Buildings and Atrium around a continuous public ground"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "面积必须按统计边界阅读：Karres en Brands公布广场7,500 m²，并另列约45,000 m²项目范围及4.5公顷任务规模；Bates Smart公布44,000 m²项目面积。三者不是同一口径，不能相加、互换，或从照片反算广场净面积。",
+            "Read areas by their boundaries: Karres en Brands publishes a 7,500 m² square, an approximately 45,000 m² project and a 4.5 ha assignment. Bates Smart lists 44,000 m². These scopes are not interchangeable and are neither added nor inferred from photographs."
+          ],
+          "class": "note"
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "https://www.karresenbrands.com/en/projects/federation-square",
+              "label": [
+                "景观设计方：面积与空间策略",
+                "Landscape architect: published areas and design strategy"
+              ]
+            },
+            {
+              "url": "https://www.batessmart.com/projects/fed-square",
+              "label": [
+                "联合建筑师：年代、项目面积与功能",
+                "Joint architect: year, project area and programme"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "class": "note",
+          "text": [
+            "年代口径：Bates Smart将建筑项目列为2002年完成；Karres en Brands档案的Construction字段为2004年。保留两个来源的字段差异，不将景观任务日期直接改写为整个广场的开放日期。",
+            "Date scopes: Bates Smart lists project completion in 2002; Karres en Brands lists 2004 in its Construction field. Both source fields are retained rather than treating the landscape assignment date as the opening date of the entire square."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "城市位置：网格、车站与河流之间",
+            "Urban context: between grid, station and river"
+          ]
+        },
+        {
+          "type": "figure",
+          "asset": "fed-location-plan"
+        },
+        {
+          "type": "p",
+          "text": [
+            "区位图与河侧鸟瞰共同定位：北面是Flinders Street与CBD，西侧经Swanston Street／Princes Bridge连接车站和南岸，东侧为铁路走廊及相邻公共空间，南面指向Yarra／Birrarung。它既承担文化目的地，也处在城市穿行路线中；“穿过”与“留下”必须分开研究。",
+            "Read the location drawing with the river-side aerial: Flinders Street and the CBD lie to the north; Swanston Street and Princes Bridge connect the station and south bank to the west; rail and adjacent public spaces lie east; the Yarra/Birrarung lies south. Destination visits and through journeys require separate study."
+          ]
+        },
+        {
+          "type": "cards",
+          "cards": [
+            {
+              "title": [
+                "01 / 地面",
+                "01 / Ground"
+              ],
+              "text": [
+                "广场首先是一项基础设施转换：平台让公共空间跨越铁路；平面不能独自解释这种立体关系。",
+                "The deck changes the infrastructural condition. A plan alone cannot explain the resulting vertical relationships."
+              ]
+            },
+            {
+              "title": [
+                "02 / 边界",
+                "02 / Edges"
+              ],
+              "text": [
+                "室外广场、Atrium与文化机构入口形成不同开放条件，玻璃透明性与公共可进入性不能直接画等号。",
+                "Plaza, Atrium and institutional entrances have different access conditions. Transparency does not establish public access."
+              ]
+            },
+            {
+              "title": [
+                "03 / 使用",
+                "03 / Use"
+              ],
+              "text": [
+                "用日常坐靠、活动布置、节庆与集会分别检验公共性，不用某一张拥挤照片为全年表现背书。",
+                "Study informal sitting, events, festivals and assemblies separately. One crowded photograph cannot represent annual performance."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "历史：设计、建成与公共价值",
+            "History: design, completion and public value"
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              "阶段",
+              "Stage"
+            ],
+            [
+              "可追溯事实",
+              "Traceable fact"
+            ],
+            [
+              "研究意义",
+              "Research implication"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "1997",
+                "1997"
+              ],
+              [
+                "LAB与Bates Smart赢得设计竞赛。",
+                "LAB and Bates Smart won the competition."
+              ],
+              [
+                "原始竞赛方案不能当作最终建成图。",
+                "Competition drawings are not automatically as-built records."
+              ]
+            ],
+            [
+              [
+                "2002",
+                "2002"
+              ],
+              [
+                "建筑项目完成；州图书馆记录广场开放。",
+                "Project completed; State Library records the square’s opening."
+              ],
+              [
+                "用建成期照片与原图对读，保留时间差。",
+                "Compare early photographs and drawings while retaining their different dates."
+              ]
+            ],
+            [
+              [
+                "2003 / 2015",
+                "2003 / 2015"
+              ],
+              [
+                "图书馆留存和平集会与焰火活动照片。",
+                "Library publishes peace-rally and fireworks images."
+              ],
+              [
+                "活动档案证实不同公共角色，不能提供常态流量。",
+                "Event archives demonstrate different civic roles, not typical flow."
+              ]
+            ],
+            [
+              [
+                "2019",
+                "2019"
+              ],
+              [
+                "维多利亚遗产委员会决定将其纳入州遗产登记。",
+                "Heritage Council determined inclusion in the state register."
+              ],
+              [
+                "保护对象涉及建筑整体与公共空间价值。",
+                "Conservation concerns the ensemble and civic space."
+              ]
+            ],
+            [
+              [
+                "2020",
+                "2020"
+              ],
+              [
+                "市政府建筑轮廓数据在5月采集。",
+                "Municipal building footprints captured in May."
+              ],
+              [
+                "本案GIS只代表该时点，不能冒充现状。",
+                "This GIS represents its capture date, not a current survey."
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+              "label": [
+                "州图书馆：场地历史与公共生活影像",
+                "State Library: site history and public-life archive"
+              ]
+            },
+            {
+              "url": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf",
+              "label": [
+                "遗产委员会：2019年登记决定（真实PDF）",
+                "Heritage Council: 2019 determination (verified PDF)"
+              ]
+            },
+            {
+              "url": "https://www.ngv.vic.gov.au/exhibition/draw-the-line/",
+              "label": [
+                "NGV：LAB原始设计档案与2009年展览",
+                "NGV: LAB archive and 2009 exhibition"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "阅读路线：先读真实图纸和2020图底，再检验连通、边界与公共使用，最后阅读证据评价。研究结论与缺口同时公开。",
+            "Reading route: drawings and 2020 figure-ground, then connectivity, edges and public life, followed by an evidence-based evaluation. Findings and gaps are published together."
+          ],
+          "class": "note"
+        }
+      ]
+    },
+    {
+      "id": "scale",
+      "icon": "▦",
+      "title": [
+        "尺度与图底",
+        "Scale & figure-ground"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": [
+            "在铁路上盖上，建筑实体、公共平台和可通行地面是三个不同对象。",
+            "On a rail deck, building mass, public platform and walkable ground are three different objects."
+          ],
+          "class": "lead"
+        },
+        {
+          "type": "figure",
+          "asset": "fed-aerial"
+        },
+        {
+          "type": "h2",
+          "text": [
+            "官方数据生成的真实Figure Ground",
+            "True figure-ground from official data"
+          ]
+        },
+        {
+          "type": "figure",
+          "asset": "fed-gis"
+        },
+        {
+          "type": "p",
+          "text": [
+            "数据链：City of Melbourne的2020 Building Footprints → 有效的intersects空间相交查询 → 分页取回1001条tier=1记录 → 排除94条Bridge记录 → 保留907条Structure记录 → 本地等距近似投影 → 保存GeoJSON快照与SVG。页面不再等待远程GIS接口才显示图纸。",
+            "Data chain: City of Melbourne 2020 Building Footprints → valid intersects query → all 1,001 tier-1 records paginated → 94 Bridge records excluded → 907 Structure records retained → local metric projection → frozen GeoJSON and SVG. The drawing renders without a remote GIS request."
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "官方定义包含建筑墙体与地面或基座相交的轮廓，多层建筑按tier分层。tier=1不保证每处都是同一街道标高；广场上盖和建筑平台必须结合剖面解释。未覆盖或未分类的白色空间不能当作已测量的广场净面积。",
+            "The official footprint meets ground or podium; tiers represent changes in built form. Tier 1 does not guarantee a single street elevation everywhere. Read podium and deck with sections. Unclassified white areas are not a measured net plaza area."
+          ],
+          "class": "note"
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              "绘图参数",
+              "Drawing parameter"
+            ],
+            [
+              "采用值与处理",
+              "Value and treatment"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "采集／下载",
+                "Capture / retrieval"
+              ],
+              [
+                "2020年5月／2026-11-13；保留原始几何与属性",
+                "May 2020 / 2026-11-13; source geometry and attributes retained"
+              ]
+            ],
+            [
+              [
+                "边界框 W/S/E/N",
+                "Bounding box W/S/E/N"
+              ],
+              [
+                "144.9605 / −37.8245 / 144.9782 / −37.8115",
+                "144.9605 / −37.8245 / 144.9782 / −37.8115"
+              ]
+            ],
+            [
+              [
+                "实体",
+                "Solid"
+              ],
+              [
+                "tier=1且footprint_type=Structure；桥梁不混作建筑",
+                "tier=1 and footprint_type=Structure; bridges excluded"
+              ]
+            ],
+            [
+              [
+                "坐标与比例尺",
+                "Coordinates and scale"
+              ],
+              [
+                "WGS84输入；中纬度局部等距近似；横纵同尺度；100 m图形尺",
+                "WGS84 input; local mid-latitude equirectangular approximation; equal axis scale; 100 m bar"
+              ]
+            ],
+            [
+              [
+                "多边形",
+                "Polygons"
+              ],
+              [
+                "Polygon／MultiPolygon；evenodd保留内环；图幅裁切",
+                "Polygon / MultiPolygon; evenodd preserves holes; clipped to frame"
+              ]
+            ],
+            [
+              [
+                "比较限制",
+                "Comparison limit"
+              ],
+              [
+                "01与04目前不是统一视域、年代和语义的定量图底比较",
+                "01 and 04 do not yet share extent, date and semantics for quantitative comparison"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "../data/federation-figure-ground.svg",
+              "label": [
+                "打开／保存SVG图纸",
+                "Open / save SVG drawing"
+              ]
+            },
+            {
+              "url": "../data/federation-buildings.json",
+              "label": [
+                "下载官方数据子集与元数据",
+                "Download source subset and metadata"
+              ]
+            },
+            {
+              "url": "https://data.melbourne.vic.gov.au/explore/dataset/2020-building-footprints/",
+              "label": [
+                "官方数据字典、精度限制与CC BY许可",
+                "Official data dictionary, caveats and CC BY licence"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "原始平面：保持层级，不把不同楼层压平",
+            "Original plan: preserve levels rather than flatten them"
+          ]
+        },
+        {
+          "type": "figure",
+          "asset": "fed-composite-plan"
+        },
+        {
+          "type": "p",
+          "text": [
+            "图中Plaza、St Paul’s Court、North Atrium、South Atrium／Amphitheatre、ACMI、NGV和Public Circulation有独立编号。组合图适合判断功能邻接和空间序列；它不提供已审计的连续可步行边界，不能直接生成VGA或计算开放空间率。",
+            "The numbered key distinguishes Plaza, St Paul’s Court, North Atrium, South Atrium/Amphitheatre, ACMI, NGV and public circulation. It supports programme adjacency and sequence, but supplies no audited continuous walkable boundary for VGA or open-space ratios."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "两张真实剖面：从平台到城市尺度",
+            "Two real sections: from deck to city"
+          ]
+        },
+        {
+          "type": "figure",
+          "asset": "fed-section-city"
+        },
+        {
+          "type": "figure",
+          "asset": "fed-section-river"
+        },
+        {
+          "type": "cards",
+          "cards": [
+            {
+              "title": [
+                "平台与铁路",
+                "Deck and railway"
+              ],
+              "text": [
+                "剖面把铁路基础设施与上部公共地面同时显示。它能解释立体重叠，不能替代结构安全、净空或振动报告。",
+                "The section shows rail below civic ground. It explains superposition, not structural safety, clearance certification or vibration performance."
+              ]
+            },
+            {
+              "title": [
+                "体量与天际线",
+                "Mass and skyline"
+              ],
+              "text": [
+                "城市剖面还包含教堂、车站及背景建筑；部分为投影立面，部分切过室内。不可把所有线条当成同一切割面的实墙。",
+                "The urban section includes cathedral, station and background buildings, combining projections and cuts. Not every line represents a wall at one section plane."
+              ]
+            },
+            {
+              "title": [
+                "高差与路径",
+                "Level changes and routes"
+              ],
+              "text": [
+                "原图可读出公共地面与室内文化空间的层级关系；具体坡比、无障碍连续性及标高仍需带标注原件或现场核验。",
+                "The drawing explains relationships between public ground and interiors. Gradients, accessible continuity and levels still need annotated originals or field checks."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "asset": "fed-section-deck"
+        },
+        {
+          "type": "p",
+          "text": [
+            "图纸状态：已直接展示出版的真实区位总图、组合平面及三张剖面／剖面立面图。没有把概念SVG冒充建筑师原件。原图缺完整可校准图签，因此不宣称测绘精度、统一比例或完整施工图。",
+            "Drawing status: actual published location plan, composite plan and three section/section-elevation images are displayed directly. Concept SVGs are not presented as originals. Missing calibrated title blocks prevent claims of survey precision, common scale or a complete construction set."
+          ],
+          "class": "note"
+        }
+      ]
+    },
+    {
+      "id": "syntax",
+      "icon": "⌘",
+      "title": [
+        "空间句法",
+        "Space syntax"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": [
+            "先证明哪里能走、哪里能看，再谈整合度。",
+            "Establish where people can walk and see before claiming integration."
+          ],
+          "class": "lead"
+        },
+        {
+          "type": "p",
+          "text": [
+            "本章是可检验的方法审计与空间阅读，不是已完成的Angular Integration、Choice或VGA计算。本站没有为04运行并校准正式句法模型，也没有可发布的实测人流。",
+            "This chapter audits a testable method and spatial reading. It is not a completed angular integration, choice or VGA calculation. No calibrated formal syntax model or measured pedestrian flow is published for case 04."
+          ],
+          "class": "note"
+        },
+        {
+          "type": "h2",
+          "text": [
+            "一套问题，三种模型",
+            "One set of questions, three different models"
+          ]
+        },
+        {
+          "type": "cards",
+          "cards": [
+            {
+              "title": [
+                "01 / 城市网络",
+                "01 / Urban network"
+              ],
+              "text": [
+                "检验车站—CBD—河岸的路径是否经过广场。输入需含真实步行路网、路口过街、开放时段与竖向连接；铁路和机动车道不得当作人行边。",
+                "Test whether station–CBD–river journeys pass through the square. Inputs need real pedestrian links, crossings, opening hours and level changes. Rail and traffic lanes cannot become pedestrian edges."
+              ]
+            },
+            {
+              "title": [
+                "02 / 广场视域",
+                "02 / Plaza visibility"
+              ],
+              "text": [
+                "检验广场与Atrium入口是否相互可见。输入需分层步行多边形、墙、玻璃、台阶、坡地和临时遮挡。玻璃可见与可穿越要用两个属性。",
+                "Test intervisibility of plaza and Atrium entrances. Inputs need level-specific walkable polygons, walls, glass, stairs, slopes and temporary obstructions. Visibility and permeability require separate attributes."
+              ]
+            },
+            {
+              "title": [
+                "03 / 行为验证",
+                "03 / Behavioural validation"
+              ],
+              "text": [
+                "区分穿行、等候、自由坐靠、消费与活动观众。按入口、时段和活动状态记录；观察数据与模型分开存档，再检验相关关系。",
+                "Separate through movement, waiting, free sitting, consumption and event attendance. Record entrance, time and event state; archive observations separately before testing relationships with models."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "当前证据能支持什么",
+            "What the current evidence supports"
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              "输入／结果",
+              "Input / result"
+            ],
+            [
+              "当前状态",
+              "Current state"
+            ],
+            [
+              "可做与不可做",
+              "Permitted interpretation"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "官方建筑轮廓",
+                "Official footprints"
+              ],
+              [
+                "已有2020快照，907条建筑记录",
+                "2020 snapshot available: 907 structure records"
+              ],
+              [
+                "可读建筑实体；不能识别全部入口或公共通行权",
+                "Read building mass; cannot establish all entrances or access rights"
+              ]
+            ],
+            [
+              [
+                "出版组合平面／剖面",
+                "Published composite plan / sections"
+              ],
+              [
+                "已核对像素与原出处，直接展示",
+                "Pixels and provenance checked; displayed directly"
+              ],
+              [
+                "可解释邻接与层级；不可自动拼成同层VGA边界",
+                "Explain adjacency and levels; cannot automatically form a single VGA surface"
+              ]
+            ],
+            [
+              [
+                "分层人行网络与障碍物",
+                "Layered paths and obstructions"
+              ],
+              [
+                "未取得已审计的完整数据",
+                "Complete audited data not available"
+              ],
+              [
+                "不计算正式Integration／Choice／VGA",
+                "No formal integration, choice or VGA computed"
+              ]
+            ],
+            [
+              [
+                "照片",
+                "Photographs"
+              ],
+              [
+                "日常、活动、节庆与集会均有档案",
+                "Archives cover everyday use, events, festivals and assemblies"
+              ],
+              [
+                "可确认发生过某类使用；不能提供频率与总体流量",
+                "Confirm documented uses, not frequencies or total flow"
+              ]
+            ],
+            [
+              [
+                "模型输出",
+                "Model outputs"
+              ],
+              [
+                "无04正式计算值或热力图",
+                "No formal case-04 values or heatmaps"
+              ],
+              [
+                "研究假设不赋精确分数",
+                "Hypotheses receive no numerical scores"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "从可复核参数到结果复现",
+            "From auditable parameters to reproducible outputs"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "正式建模前，应冻结底图日期、数据许可、坐标系、模型边界与外侧缓冲区；人工审查跨层连接、过街、门禁及障碍物。记录轴线／线段建模规则、角度权重、半径、归一化与软件版本。VGA还需注明网格间距、观察高度、玻璃和地形处理规则。所有参数和几何应与结果一起公开。",
+            "Before formal modelling, freeze date, licence, CRS, boundary and external buffer. Audit level connections, crossings, doors and obstacles. Record axial/segment construction, angular weighting, radii, normalisation and software version. VGA also requires grid spacing, eye height, glass and terrain rules. Publish parameters and geometry with results."
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "01当前已有的探索性network reach使用长度加权最短路径；它不等于经典空间句法。04不能因章节名称相同就复制01数值。未来如复用该模块，应先用独立小图验证最短路径和半径截断，再报告连通分量、边界效应与未映射广场区域。",
+            "Case 01’s exploratory network reach uses length-weighted shortest paths; it is not classical Space Syntax. Sharing a chapter title does not justify copying its values to 04. Reusing that module would require independent checks of paths and radius clipping, plus connected components, boundary effects and unmapped plaza areas."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "../NETWORK_ANALYSIS_METHOD.md",
+              "label": [
+                "01现有算法与限制：network reach方法",
+                "Case 01 algorithm and limitations: network reach"
+              ]
+            },
+            {
+              "url": "#fed-composite-plan",
+              "label": [
+                "返回原始平面，核查输入边界",
+                "Return to original plan and inspect input boundaries"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "可以被证伪的研究判断",
+            "Falsifiable spatial hypotheses"
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              "假设",
+              "Hypothesis"
+            ],
+            [
+              "检验办法",
+              "Test"
+            ],
+            [
+              "反证条件",
+              "What would challenge it"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "车站到达与文化目的地共同支持使用",
+                "Station arrival and cultural destinations jointly support use"
+              ],
+              [
+                "分别记录穿行、进馆与停留，并比较活动日／无活动日",
+                "Separate passage, institutional entry and staying; compare event and non-event days"
+              ],
+              [
+                "高到达不转化为自主停留，或使用仅在活动时出现",
+                "Arrival produces little voluntary stay, or use appears only during events"
+              ]
+            ],
+            [
+              [
+                "非正交边界产生多重空间焦点",
+                "Non-orthogonal edges create several spatial foci"
+              ],
+              [
+                "分区等时段停留观察＋分层视域模型",
+                "Equal-period zonal observations plus layered visibility model"
+              ],
+              [
+                "焦点与停留无稳定联系，反而入口不清或路径绕行",
+                "Foci show no stable relationship to stay, or entrances are unclear and routes indirect"
+              ]
+            ],
+            [
+              [
+                "Atrium补充室外公共空间",
+                "Atrium complements the outdoor plaza"
+              ],
+              [
+                "比较室内外开放条件与不同时段的使用",
+                "Compare indoor/outdoor access and use across times"
+              ],
+              [
+                "室内通行权、关闭时段或消费限制使连续性中断",
+                "Access restrictions, closing times or consumption requirements interrupt continuity"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "没有现场采样，因而不发表人流因果结论；没有校准模型，因而不发表彩色热力图。空白结果是审计结论的一部分。",
+            "Without field sampling, no causal flow claim is published; without a calibrated model, no heatmap is produced. Missing results are part of the audit."
+          ],
+          "class": "note"
+        }
+      ]
+    },
+    {
+      "id": "boundary",
+      "icon": "▥",
+      "title": [
+        "边界与建筑",
+        "Edges & architecture"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": [
+            "圣马可依靠连续柱廊组织边界；Federation Square依靠多栋建筑、开口与公共通廊共同组织边界。",
+            "San Marco organises its edge through continuous arcades; Federation Square combines separate buildings, openings and public passages."
+          ],
+          "class": "lead"
+        },
+        {
+          "type": "h2",
+          "text": [
+            "立面图纸与立面照片必须分开",
+            "Keep elevation drawings distinct from elevation photographs"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "尺度章已展示带真实立面投影的城市剖面。下列为原刊标注的立面与城市界面照片，不把摄影写成正投影测绘图。当前未取得可校准的完整四向正立面套图；北侧、河侧、铁路侧及广场内侧按可核实的视点分别阅读。",
+            "The scale chapter displays a real urban section with projected elevations. The following are published facade and context photographs, not orthographic surveys. A calibrated four-direction elevation set is unavailable; read the documented street, river, rail and plaza-facing viewpoints separately."
+          ],
+          "class": "note"
+        },
+        {
+          "type": "gallery",
+          "assets": [
+            "fed-north",
+            "fed-south"
+          ]
+        },
+        {
+          "type": "gallery",
+          "assets": [
+            "fed-east",
+            "fed-plaza-edge"
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              "空间界面",
+              "Spatial edge"
+            ],
+            [
+              "图像／证据",
+              "Image / evidence"
+            ],
+            [
+              "观察要点",
+              "Reading"
+            ],
+            [
+              "证据边界",
+              "Limit"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "北侧／Flinders Street",
+                "North / Flinders Street"
+              ],
+              [
+                "原刊明确标注立面照片",
+                "Publication labels the street elevation photograph"
+              ],
+              [
+                "城市街道与建筑入口的接触",
+                "Contact between city street and entrances"
+              ],
+              [
+                "照片不是完整街段入口清单",
+                "Not a complete entrance inventory"
+              ]
+            ],
+            [
+              [
+                "西侧／车站与St Paul’s Court",
+                "West / station and St Paul’s Court"
+              ],
+              [
+                "城市区位图与广场内侧照片",
+                "Location plan and plaza-facing images"
+              ],
+              [
+                "转角到达、城市地标与开放地面",
+                "Corner arrival, city landmarks and open ground"
+              ],
+              [
+                "未测过街时间与无障碍连接",
+                "Crossing times and accessible links not measured"
+              ]
+            ],
+            [
+              [
+                "东侧／建筑与铁路走廊",
+                "East / buildings and rail corridor"
+              ],
+              [
+                "区位图、铁路侧照片与建筑剖面",
+                "Location drawing, rail-side photo and section"
+              ],
+              [
+                "文化建筑与基础设施边界",
+                "Cultural building / infrastructure boundary"
+              ],
+              [
+                "不推定铁路侧公众可通行",
+                "No assumption of public rail-side access"
+              ]
+            ],
+            [
+              [
+                "南侧／Yarra河",
+                "South / Yarra"
+              ],
+              [
+                "跨河照片、Atrium与河端剖面",
+                "Across-river photo, Atrium and river-end section"
+              ],
+              [
+                "公共空间如何向河岸展开",
+                "How civic space opens toward the river"
+              ],
+              [
+                "照片不足以确认每条路线全天开放",
+                "Photos cannot establish continuous 24-hour access"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "Atrium：建筑内部也是公共空间研究对象",
+            "Atrium: building interiors as part of the civic-space study"
+          ]
+        },
+        {
+          "type": "gallery",
+          "assets": [
+            "fed-atrium-street",
+            "fed-atrium"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "与圣马可柱廊不同，Atrium不是仅附着在单侧立面上的浅进深边缘，而是可单独进入和穿行的覆盖空间。建筑师资料将其视为联系Flinders Street与河流的公共空间；实际通行时间、活动占用与无障碍路径仍应由现行运营信息或现场核验。",
+            "Unlike San Marco’s edge arcade, the Atrium is a covered space that can be entered and traversed in its own right. The architects describe a connection between Flinders Street and the river; current hours, event occupation and step-free continuity still require operational or field checks."
+          ]
+        },
+        {
+          "type": "cards",
+          "cards": [
+            {
+              "title": [
+                "表皮与开口",
+                "Cladding and openings"
+              ],
+              "text": [
+                "石材、金属与玻璃在照片中形成不同透明程度。表皮图案提供识别，但不能代替入口可见性、可进入性和沿街活动的研究。",
+                "Stone, metal and glass present different apparent transparency. Cladding patterns create identity but cannot substitute for entry visibility, access or ground-level activity."
+              ]
+            },
+            {
+              "title": [
+                "地面与坐靠",
+                "Ground and seating edges"
+              ],
+              "text": [
+                "坐靠照片显示部分高差被日常使用；这种现象值得记录，但不证明所有台阶满足舒适和无障碍需求。",
+                "Photographs show some level changes used as seats. This observation does not establish comfort or accessibility of all steps."
+              ]
+            },
+            {
+              "title": [
+                "室内与室外",
+                "Inside and outside"
+              ],
+              "text": [
+                "Atrium提供覆盖条件，室外广场支持更大规模聚集。两者互补的判断需要比较活动布置与普通时段，而非只看建筑空景。",
+                "Atrium provides cover while the plaza supports larger gatherings. Their complementarity needs event/non-event comparison rather than empty architectural images alone."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "人与建筑的尺度：从图纸回到视点",
+            "Human scale: from drawings back to viewpoints"
+          ]
+        },
+        {
+          "type": "gallery",
+          "assets": [
+            "fed-daily-seat",
+            "fed-daily-walk"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "观察顺序：先定位公共地面，再辨认首层开口、坐靠、遮蔽与文化入口，最后查看是否允许不消费的停留。建筑高度、街墙连续率和首层开放比例没有可靠实测来源，暂不填写数字。",
+            "Read public ground first, then openings, seating edges, cover and cultural entrances, and finally whether staying requires consumption. No reliable measured heights, edge-continuity ratios or ground-floor openness percentages are available, so no numbers are invented."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life",
+      "icon": "♧",
+      "title": [
+        "公共生活",
+        "Public life"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": [
+            "同一片地面：从午间停留，到文化活动、节庆与公共表达。",
+            "One ground: everyday pauses, cultural events, festivals and civic expression."
+          ],
+          "class": "lead"
+        },
+        {
+          "type": "p",
+          "text": [
+            "日常使用与活动档案分别阅读。气候不单独设章，遮蔽、雨天路径、日晒与活动时段作为使用条件纳入讨论；本案未开展热舒适或风环境实测。",
+            "Read everyday use separately from event archives. Cover, rain routes, sun and timing are conditions of use within this chapter, without a separate climate chapter. No thermal-comfort or wind measurements have been undertaken."
+          ],
+          "class": "note"
+        },
+        {
+          "type": "h2",
+          "text": [
+            "01 / 普通时段：停留、穿行与消费",
+            "01 / Everyday: staying, passing and consumption"
+          ]
+        },
+        {
+          "type": "gallery",
+          "assets": [
+            "fed-daily-seat",
+            "fed-daily-walk"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "坐在地面边缘与穿行的照片确认这些使用确实发生，但照片的选择由设计方完成，时间未知，存在展示偏差。应在工作日／周末、午间／傍晚、活动／无活动、室外／Atrium分别采样，区分自由停留与商业座位。",
+            "Photographs establish that sitting at edges and walking occur, but designer selection and unknown timing introduce display bias. Sample weekdays/weekends, lunch/evening, event/non-event and outdoor/Atrium conditions separately, distinguishing informal stay from commercial seating."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "02 / 文化活动：从舞台到室内公共通廊",
+            "02 / Cultural events: screen, stage and covered passage"
+          ]
+        },
+        {
+          "type": "gallery",
+          "assets": [
+            "fed-screen",
+            "fed-atrium-use"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "大屏幕和临时座椅显示可被布置的活动地面；开幕夜Atrium照片由2003年原刊确认。两种场景说明室内外可承载不同活动，不能据此证明全年活动频率、总参与人数或不设门槛的使用权。",
+            "Screen and temporary seating show a programmable ground; the 2003 publication identifies the Atrium opening-night scene. The images show different indoor/outdoor uses but cannot establish annual frequency, total attendance or unrestricted access."
+          ]
+        },
+        {
+          "type": "figure",
+          "asset": "fed-event"
+        },
+        {
+          "type": "h2",
+          "text": [
+            "03 / 节庆：地面与城市天际线共同成为背景",
+            "03 / Festivals: ground and skyline as a shared setting"
+          ]
+        },
+        {
+          "type": "figure",
+          "asset": "fed-festival"
+        },
+        {
+          "type": "p",
+          "text": [
+            "州图书馆将焰火照片标注为2015年。节庆使广场成为城市集体观看的地点，同时带来临时设施、通行和人群管理问题。这里不从图像估计容量，也不把举办过一次活动解释为目前仍按同样规则运营。",
+            "The library dates the fireworks image to 2015. Celebration makes the square a shared viewing place while introducing temporary infrastructure and crowd-management demands. Capacity is not inferred, and a past event does not establish current operating rules."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "04 / 公共集会：公共性还包括表达与争论",
+            "04 / Assemblies: publicness includes expression and disagreement"
+          ]
+        },
+        {
+          "type": "figure",
+          "asset": "fed-peace-rally"
+        },
+        {
+          "type": "p",
+          "text": [
+            "2003年和平集会照片确认广场具有公共表达的历史用途。2019年遗产委员会决定进一步提供关于公共空间价值的制度性证据。照片与登记决定相互补充，但都不能替代当前活动许可、安保边界或自主使用规则的核查。",
+            "The 2003 peace-rally image documents a civic-expression use. The 2019 heritage determination provides institutional evidence of civic value. These sources complement one another without replacing checks of present permits, security boundaries or informal-use rules."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+              "label": [
+                "州图书馆：2003集会与2015焰火原图出处",
+                "State Library: sources for 2003 rally and 2015 fireworks"
+              ]
+            },
+            {
+              "url": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf",
+              "label": [
+                "遗产决定：公共空间价值与登记理由",
+                "Heritage determination: civic value and reasons"
+              ]
+            },
+            {
+              "url": "https://assets.artsprecinct.melbourne/assets/Melbourne-Arts-Precinct-Corporation-Annual-Report-2023-24.pdf",
+              "label": [
+                "MAP Co 2023–24年报：运营方活动记录（PDF）",
+                "MAP Co 2023–24 annual report: operator event records (PDF)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "使用评价：什么还需要现场证据",
+            "Use evaluation: what still requires field evidence"
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              "问题",
+              "Question"
+            ],
+            [
+              "现场记录",
+              "Field record"
+            ],
+            [
+              "避免的误判",
+              "Avoided error"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "自由停留还是消费停留？",
+                "Informal or commercial stay?"
+              ],
+              [
+                "座位归属、停留时间、购买条件、冲突与离开",
+                "Seat control, duration, purchase requirements, conflicts and departure"
+              ],
+              [
+                "不能将咖啡座全算免费公共座位",
+                "Do not count all cafe seats as free public seating"
+              ]
+            ],
+            [
+              [
+                "活动时是否仍能穿行？",
+                "Can people still pass during events?"
+              ],
+              [
+                "临时围栏、排队、替代路径与轮椅通行",
+                "Temporary fencing, queues, alternatives and wheelchair continuity"
+              ],
+              [
+                "不能用满场照片证明通行便利",
+                "A full crowd does not establish convenient movement"
+              ]
+            ],
+            [
+              [
+                "遮蔽如何影响使用？",
+                "How does cover affect use?"
+              ],
+              [
+                "同时间室外／Atrium观察，记录天气与运营状态",
+                "Simultaneous plaza/Atrium observations, weather and access state"
+              ],
+              [
+                "不把一张阳光照片当成全年舒适证明",
+                "Sunlit imagery does not prove year-round comfort"
+              ]
+            ],
+            [
+              [
+                "公共表达的进入条件？",
+                "Conditions for civic expression?"
+              ],
+              [
+                "现行政策、活动许可及临时管理记录",
+                "Current policy, permits and temporary management records"
+              ],
+              [
+                "历史集会不自动证明当前无条件开放",
+                "Past assembly does not establish unconditional access today"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "运营方年报是有价值的活动档案，但存在机构视角；其汇总人次与独立行为样本口径不同。本页不将其作为空间句法校准数据。",
+            "The operator’s annual report is a useful institutional event archive. Its aggregate attendance is not an independent behavioural sample and is not used to calibrate syntax here."
+          ],
+          "class": "note"
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "icon": "◎",
+      "title": [
+        "评价与来源",
+        "Evaluation & sources"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": [
+            "可迁移的是公共地面、文化入口与城市连接的关系，而不是把不规则表皮复制到另一座城市。",
+            "The transferable lesson lies in civic ground, cultural entrances and city connections, rather than copying irregular cladding elsewhere."
+          ],
+          "class": "lead"
+        },
+        {
+          "type": "h2",
+          "text": [
+            "与01逐项对照：相同问题，不同证据",
+            "Comparison with 01: common questions, different evidence"
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              "项目",
+              "Item"
+            ],
+            [
+              "01 Piazza San Marco",
+              "01 Piazza San Marco"
+            ],
+            [
+              "04 Federation Square",
+              "04 Federation Square"
+            ],
+            [
+              "审核状态",
+              "Audit status"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "章节与导航",
+                "Chapters and navigation"
+              ],
+              [
+                "独立章节；历史归概况、图底归尺度、来源归评价",
+                "Chapter views; history in overview, figure-ground in scale, sources in evaluation"
+              ],
+              [
+                "同样组织；空间句法独立；气候并入使用；另有可打印档案",
+                "Same grouping; separate syntax; climate within use; printable factsheet"
+              ],
+              [
+                "完成页面结构",
+                "Structure complete"
+              ]
+            ],
+            [
+              [
+                "字体与排版",
+                "Type and layout"
+              ],
+              [
+                "纸色、Georgia／中文衬线标题、网格与章首",
+                "Paper palette, Georgia/Chinese serif headings, grids and mastheads"
+              ],
+              [
+                "沿用01基础样式；修复溢出与图纸裁切",
+                "Reuses 01 base style; overflow and drawing crop addressed"
+              ],
+              [
+                "需以浏览器回归记录为准",
+                "See browser regression record"
+              ]
+            ],
+            [
+              [
+                "中英文",
+                "Chinese / English"
+              ],
+              [
+                "双语切换",
+                "Bilingual switch"
+              ],
+              [
+                "正文、图注、表格、按钮、图片替代文字与文档语言同步",
+                "Body, captions, tables, buttons, alt text and document language switch together"
+              ],
+              [
+                "双语内容完整",
+                "Bilingual content complete"
+              ]
+            ],
+            [
+              [
+                "概况与面积",
+                "Overview and area"
+              ],
+              [
+                "区分Piazza与Piazzetta",
+                "Distinguishes Piazza and Piazzetta"
+              ],
+              [
+                "六项统一字段；7,500 m²广场与44,000 m²项目分列",
+                "Six common fields; 7,500 m² plaza distinguished from 44,000 m² project"
+              ],
+              [
+                "有出处；不混合口径",
+                "Sourced; boundaries kept distinct"
+              ]
+            ],
+            [
+              [
+                "真实图底",
+                "True figure-ground"
+              ],
+              [
+                "OSM建筑数据",
+                "OSM footprints"
+              ],
+              [
+                "市政府2020数据、907条建筑记录、可重建SVG与快照",
+                "Official 2020 data, 907 structures, reproducible SVG and snapshot"
+              ],
+              [
+                "完成；不代表2026现状",
+                "Complete; not a 2026 survey"
+              ]
+            ],
+            [
+              [
+                "原始总图与剖面",
+                "Original plans and sections"
+              ],
+              [
+                "历史图版和建筑档案",
+                "Historical plates and architectural archives"
+              ],
+              [
+                "区位图、组合平面与三张剖面／剖面立面直接展示",
+                "Location plan, composite plan and three section/section-elevation images displayed"
+              ],
+              [
+                "完成出版图纸展示；比例未校准",
+                "Published drawings displayed; scale uncalibrated"
+              ]
+            ],
+            [
+              [
+                "立面与多侧视点",
+                "Elevations and multiple viewpoints"
+              ],
+              [
+                "历史立面图、修复资料与照片",
+                "Historic elevations, restoration material and photos"
+              ],
+              [
+                "真实剖面中的立面投影；街道、河侧、铁路侧与广场照片",
+                "Projected elevations in real sections; street, river, rail and plaza photographs"
+              ],
+              [
+                "完整四向正立面套图仍缺",
+                "Full four-direction orthographic set remains unavailable"
+              ]
+            ],
+            [
+              [
+                "使用与公共生活",
+                "Use and civic life"
+              ],
+              [
+                "穿行、免费停留、商业、节庆与集会",
+                "Movement, informal stay, commerce, festivals and assembly"
+              ],
+              [
+                "对应五类；Atrium活动补充；事件与日期分别注明",
+                "Corresponding uses plus Atrium event; dates and identities distinguished"
+              ],
+              [
+                "档案完成；独立观察仍缺",
+                "Archive complete; independent field observations missing"
+              ]
+            ],
+            [
+              [
+                "句法方法",
+                "Syntax method"
+              ],
+              [
+                "探索性network reach；非正式VGA",
+                "Exploratory network reach; not formal VGA"
+              ],
+              [
+                "逐项审计输入、模型与反证；无虚构数值／热图",
+                "Inputs, models and counter-evidence audited; no invented values or heatmaps"
+              ],
+              [
+                "方法完成；正式计算未做",
+                "Method audited; formal computation not performed"
+              ]
+            ],
+            [
+              [
+                "来源与图像检查",
+                "Source and image checks"
+              ],
+              [
+                "逐图出处与大图查看",
+                "Per-image sources and inspection overlay"
+              ],
+              [
+                "逐资产来源登记、HTTP检查及大图查看",
+                "Per-asset register, HTTP checks and inspection overlay"
+              ],
+              [
+                "以测试报告保留实际结果",
+                "Actual outcomes retained in test report"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "七维证据评价：不强行填分数",
+            "Seven evidence dimensions: no forced numerical scores"
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              "维度",
+              "Dimension"
+            ],
+            [
+              "目前可支持的判断",
+              "Supported reading"
+            ],
+            [
+              "仍需验证",
+              "Still required"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "边界",
+                "Boundary"
+              ],
+              [
+                "多栋建筑与覆盖通廊形成不同边界",
+                "Buildings and covered passage provide different edge conditions"
+              ],
+              [
+                "完整四向立面、入口与开口测绘",
+                "Complete elevations, entrance and opening survey"
+              ]
+            ],
+            [
+              [
+                "丰富性",
+                "Richness"
+              ],
+              [
+                "平面包含多类文化设施与公共空间",
+                "Plan documents cultural facilities and public spaces"
+              ],
+              [
+                "现行功能、开放时间与非消费使用核验",
+                "Current programme, hours and non-commercial access"
+              ]
+            ],
+            [
+              [
+                "连通性",
+                "Connectivity"
+              ],
+              [
+                "区位与剖面显示城市／铁路／河流关系",
+                "Drawings show city, rail and river relationships"
+              ],
+              [
+                "分层步行边界与实际路线审计",
+                "Layered walkable boundaries and actual routes"
+              ]
+            ],
+            [
+              [
+                "自然",
+                "Nature"
+              ],
+              [
+                "河流构成城市空间背景",
+                "River provides an urban landscape context"
+              ],
+              [
+                "生态作用、绿量与使用舒适度实测",
+                "Ecological function, greenery and comfort measurements"
+              ]
+            ],
+            [
+              [
+                "公共活力",
+                "Public vitality"
+              ],
+              [
+                "影像记录坐靠、穿行、活动与集会",
+                "Images document sitting, passage, events and assembly"
+              ],
+              [
+                "分时段独立观察与使用权记录",
+                "Independent time samples and access records"
+              ]
+            ],
+            [
+              [
+                "文化价值",
+                "Cultural value"
+              ],
+              [
+                "文化机构、历史集会与遗产登记",
+                "Cultural institutions, assemblies and heritage listing"
+              ],
+              [
+                "不同群体经验与持续代表性",
+                "Experiences and representation across groups"
+              ]
+            ],
+            [
+              [
+                "运营",
+                "Operations"
+              ],
+              [
+                "有运营方年报与活动档案",
+                "Operator annual report and event archive exist"
+              ],
+              [
+                "现行规则、维护、活动与无活动比较",
+                "Current rules, maintenance and event/non-event comparison"
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "三条可迁移原则",
+            "Three transferable principles"
+          ]
+        },
+        {
+          "type": "cards",
+          "cards": [
+            {
+              "title": [
+                "先建立可用的公共地面",
+                "Establish usable civic ground"
+              ],
+              "text": [
+                "基础设施上盖必须与周边过街、室内通廊和河岸路线一起设计；几何连续不代表公共使用连续。",
+                "Design the deck with crossings, covered passages and river routes. Geometric continuity does not automatically provide continuous public use."
+              ]
+            },
+            {
+              "title": [
+                "让文化入口与自由停留并存",
+                "Combine cultural entry and informal stay"
+              ],
+              "text": [
+                "公共空间不应只有进馆和消费两种目的；通过座位、边缘和通行路径给自主停留留下位置。",
+                "Museum entry and consumption should not be the only purposes. Seating, edges and routes should also accommodate voluntary informal stay."
+              ]
+            },
+            {
+              "title": [
+                "把运营当作空间条件",
+                "Treat operations as a spatial condition"
+              ],
+              "text": [
+                "临时围栏、活动搭建和开放时间会改变平面可达性；应将它们纳入验证，而非以建筑照片代替。",
+                "Fencing, event installations and hours change access. Include them in verification rather than relying on architecture photographs."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": [
+            "资料与图像出处",
+            "Sources and image provenance"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "证据等级：S1原始设计／官方资料，S2可靠出版与机构档案，S3 GIS几何，S4研究推断。图纸和照片的图注均保留来源、作者或署名缺口、年代及版权状态。图片在原出版服务器上直接显示，不将第三方受版权保护的文件复制入仓库。",
+            "Evidence classes: S1 original design/official records; S2 published and institutional archives; S3 GIS geometry; S4 interpretation. Captions retain provenance, creator or credit gap, date and rights. Third-party images display from publisher servers and are not copied into the repository."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "https://www.batessmart.com/projects/fed-square",
+              "label": [
+                "Bates Smart · 项目事实",
+                "Bates Smart · project facts"
+              ]
+            },
+            {
+              "url": "https://www.karresenbrands.com/en/projects/federation-square",
+              "label": [
+                "Karres en Brands · 景观设计、图纸与照片",
+                "Karres en Brands · landscape design, drawings and photos"
+              ]
+            },
+            {
+              "url": "https://architizer.com/projects/federation-square/",
+              "label": [
+                "LAB / Architizer · 原始平面与区位图",
+                "LAB / Architizer · original plan and location drawing"
+              ]
+            },
+            {
+              "url": "https://architectureau.com/articles/preview/",
+              "label": [
+                "Architecture Australia · 2003年原刊与Trevor Mein摄影",
+                "Architecture Australia · 2003 publication and Trevor Mein photos"
+              ]
+            },
+            {
+              "url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+              "label": [
+                "State Library Victoria · 历史与公共生活档案",
+                "State Library Victoria · history and civic-life archive"
+              ]
+            },
+            {
+              "url": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf",
+              "label": [
+                "Heritage Council Victoria · 2019登记决定PDF",
+                "Heritage Council Victoria · 2019 determination PDF"
+              ]
+            },
+            {
+              "url": "https://data.melbourne.vic.gov.au/explore/dataset/2020-building-footprints/",
+              "label": [
+                "City of Melbourne · 2020建筑轮廓",
+                "City of Melbourne · 2020 building footprints"
+              ]
+            },
+            {
+              "url": "https://www.ngv.vic.gov.au/exhibition/draw-the-line/",
+              "label": [
+                "NGV · LAB原始设计档案",
+                "NGV · LAB design archive"
+              ]
+            },
+            {
+              "url": "https://assets.artsprecinct.melbourne/assets/Melbourne-Arts-Precinct-Corporation-Annual-Report-2023-24.pdf",
+              "label": [
+                "MAP Co · 2023–24年报PDF",
+                "MAP Co · 2023–24 annual report PDF"
+              ]
+            },
+            {
+              "url": "https://github.com/cloudyli2026/great-places/blob/research/federation-square-evidence/cases/federation-square/sources.json",
+              "label": [
+                "Git仓库内逐资产登记（在GitHub查看）",
+                "Per-asset register in Git repository (view on GitHub)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "失效资料处理：删除旧Architizer imgix域名410图链；替换不可加载的Commons Special:FilePath图片；撤下已404的Heritage Impact Statement平面PDF链接及无法复核的页码说明。原始竞赛馆藏仅作为研究线索，不宣称已获得其扫描件。",
+            "Broken-source treatment: removed 410 imgix URLs, replaced non-loading Commons Special:FilePath images, and withdrew the 404 Heritage Impact Statement plan PDF and unverified page references. A competition catalogue record remains a research lead, not an acquired scan."
+          ],
+          "class": "note"
+        },
+        {
+          "type": "p",
+          "text": [
+            "研究边界：出版图纸的几何关系、2020数据和不同年代照片可以互相解释，但不是同一次现场测绘。正式句法计算、完整四向正立面及独立行为观察仍为明确缺口；本页不宣称这些已经完成。",
+            "Research boundary: published drawings, 2020 geometry and differently dated photographs can inform one another but are not one field survey. Formal syntax computation, a complete orthographic elevation set and independent behavioural observation remain explicit gaps."
+          ],
+          "class": "note"
+        }
+      ]
+    },
+    {
+      "id": "factsheet",
+      "icon": "▤",
+      "title": [
+        "一页档案",
+        "Factsheet"
+      ],
+      "blocks": [
+        {
+          "type": "print"
+        },
+        {
+          "type": "h2",
+          "text": [
+            "Federation Square · 研究摘要",
+            "Federation Square · research summary"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "铁路上盖上的公共地面：文化机构、覆盖通廊与多种公共生活共同构成城市片区。",
+            "Civic ground over rail: cultural institutions, covered passage and varied public life form an urban precinct."
+          ]
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": [
+                "位置／年代",
+                "Location / period"
+              ],
+              "value": [
+                "墨尔本 · 2002",
+                "Melbourne · 2002"
+              ]
+            },
+            {
+              "label": [
+                "建筑／景观",
+                "Architecture / landscape"
+              ],
+              "value": [
+                "LAB + Bates Smart / Karres en Brands",
+                "LAB + Bates Smart / Karres en Brands"
+              ]
+            },
+            {
+              "label": [
+                "面积口径",
+                "Area boundaries"
+              ],
+              "value": [
+                "广场7,500 m²；Bates Smart项目44,000 m²",
+                "Plaza 7,500 m²; Bates Smart project 44,000 m²"
+              ]
+            },
+            {
+              "label": [
+                "证据状态",
+                "Evidence state"
+              ],
+              "value": [
+                "真实出版图纸＋2020官方GIS＋机构影像档案",
+                "Published original drawings + official 2020 GIS + institutional photo archive"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "asset": "fed-gis"
+        },
+        {
+          "type": "p",
+          "text": [
+            "主要判断：公共空间由地面、入口、通廊与运营共同形成。可确认多类使用发生过；不据照片推导人流、容量、热舒适或句法指标。",
+            "Principal reading: ground, entrances, passage and operations jointly shape civic space. Multiple uses are documented; flow, capacity, thermal comfort and syntax metrics are not inferred from photos."
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "限制：2020建筑快照不是2026现场；出版剖面无校准比例；完整四向正立面、正式句法计算与独立行为观察仍缺。",
+            "Limits: 2020 footprints are not a 2026 survey; published sections have no calibrated scale; complete orthographic elevations, formal syntax computation and independent observations remain unavailable."
+          ],
+          "class": "note"
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "https://www.karresenbrands.com/en/projects/federation-square",
+              "label": [
+                "7,500 m²出处：Karres en Brands",
+                "7,500 m² source: Karres en Brands"
+              ]
+            },
+            {
+              "url": "https://www.batessmart.com/projects/fed-square",
+              "label": [
+                "44,000 m²出处：Bates Smart",
+                "44,000 m² source: Bates Smart"
+              ]
+            },
+            {
+              "url": "https://data.melbourne.vic.gov.au/explore/dataset/2020-building-footprints/",
+              "label": [
+                "图底数据：City of Melbourne · CC BY",
+                "Figure-ground data: City of Melbourne · CC BY"
+              ]
+            },
+            {
+              "url": "#conclusion",
+              "label": [
+                "完整审核表与来源",
+                "Complete audit and sources"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
