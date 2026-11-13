@@ -1,0 +1,439 @@
+{
+  "checked": "2026-11-13",
+  "scope": "All image src and href URLs in Federation Square page, plus the asset register. HTTP GET and MIME/PDF-signature validation. Browser independently decodes visible images.",
+  "local": [
+    {
+      "url": "#main",
+      "pass": true
+    },
+    {
+      "url": "../index.html",
+      "pass": true
+    },
+    {
+      "url": "la-rambla.html",
+      "pass": true
+    },
+    {
+      "url": "piazza-del-campo.html",
+      "pass": true
+    },
+    {
+      "url": "federation-square.html",
+      "pass": true
+    },
+    {
+      "url": "schouwburgplein.html",
+      "pass": true
+    },
+    {
+      "url": "place-de-la-republique.html",
+      "pass": true
+    },
+    {
+      "url": "#intro",
+      "pass": true
+    },
+    {
+      "url": "#scale",
+      "pass": true
+    },
+    {
+      "url": "#syntax",
+      "pass": true
+    },
+    {
+      "url": "#boundary",
+      "pass": true
+    },
+    {
+      "url": "#life",
+      "pass": true
+    },
+    {
+      "url": "#conclusion",
+      "pass": true
+    },
+    {
+      "url": "#factsheet",
+      "pass": true
+    },
+    {
+      "url": "#scale",
+      "pass": true
+    },
+    {
+      "url": "../data/federation-figure-ground.svg",
+      "pass": true
+    },
+    {
+      "url": "../data/federation-figure-ground.svg",
+      "pass": true
+    },
+    {
+      "url": "../data/federation-buildings.json",
+      "pass": true
+    },
+    {
+      "url": "#intro",
+      "pass": true
+    },
+    {
+      "url": "#syntax",
+      "pass": true
+    },
+    {
+      "url": "../NETWORK_ANALYSIS_METHOD.md",
+      "pass": true
+    },
+    {
+      "url": "#fed-composite-plan",
+      "pass": true
+    },
+    {
+      "url": "#scale",
+      "pass": true
+    },
+    {
+      "url": "#boundary",
+      "pass": true
+    },
+    {
+      "url": "#syntax",
+      "pass": true
+    },
+    {
+      "url": "#life",
+      "pass": true
+    },
+    {
+      "url": "#boundary",
+      "pass": true
+    },
+    {
+      "url": "#conclusion",
+      "pass": true
+    },
+    {
+      "url": "../data/federation-sources.json",
+      "pass": true
+    },
+    {
+      "url": "#life",
+      "pass": true
+    },
+    {
+      "url": "#factsheet",
+      "pass": true
+    },
+    {
+      "url": "../data/federation-figure-ground.svg",
+      "pass": true
+    },
+    {
+      "url": "#conclusion",
+      "pass": true
+    },
+    {
+      "url": "#conclusion",
+      "pass": true
+    }
+  ],
+  "remote": [
+    {
+      "url": "https://architectureau.com/articles/preview/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 75346,
+      "kind": "html",
+      "pass_check": true,
+      "sha256": "33c3e8365f176b9e8755f0348fb366ddd89d325569786cc0c169f9da58526b0d",
+      "final_url": "https://architectureau.com/articles/preview/"
+    },
+    {
+      "url": "https://architizer.com/projects/federation-square/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 184263,
+      "kind": "html",
+      "pass_check": true,
+      "sha256": "0d345440fb5a1a25d9696b20083fd790a8b395e4b111462bc3dd4ebc42eaa0a8",
+      "final_url": "https://architizer.com/projects/federation-square/"
+    },
+    {
+      "url": "https://assets.artsprecinct.melbourne/assets/Melbourne-Arts-Precinct-Corporation-Annual-Report-2023-24.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "bytes": 9399541,
+      "kind": "pdf",
+      "pass_check": true,
+      "sha256": "3079a4b10b9bdc4da951fe74a18207df8933b4ff5619f877a845eda90381552d",
+      "final_url": "https://assets.artsprecinct.melbourne/assets/Melbourne-Arts-Precinct-Corporation-Annual-Report-2023-24.pdf"
+    },
+    {
+      "url": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "bytes": 1277623,
+      "kind": "pdf",
+      "pass_check": true,
+      "sha256": "72da0fa1dbbefa61879ed658ec936832b6bb20f2b5e7a4e46df69a5abcbde9b9",
+      "final_url": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf"
+    },
+    {
+      "url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 157255,
+      "kind": "html",
+      "pass_check": true,
+      "sha256": "f74ee6f6d920a37bd580167f940cfe194640ebc629ec4f7553346ba72079b594",
+      "final_url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/"
+    },
+    {
+      "url": "https://blogs.slv.vic.gov.au/wp-content/uploads/2020/10/20150101_DX_4068-master-pano-fireworks-picc-1-1024x655.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 148025,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "4d272ce6092ead2fb5800b3b0e8130df622434e831620c9989acc3dfd36df9bc",
+      "final_url": "https://blogs.slv.vic.gov.au/wp-content/uploads/2020/10/20150101_DX_4068-master-pano-fireworks-picc-1-1024x655.jpg"
+    },
+    {
+      "url": "https://blogs.slv.vic.gov.au/wp-content/uploads/2020/10/Image-9-Federation-Square-Peace-Rally-2003-The-Age-1024x682.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 205015,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "ea4f28c98868a778fad603b40e9ed694802f80534675592cf79aa3829b2f98c7",
+      "final_url": "https://blogs.slv.vic.gov.au/wp-content/uploads/2020/10/Image-9-Federation-Square-Peace-Rally-2003-The-Age-1024x682.jpg"
+    },
+    {
+      "url": "https://data.melbourne.vic.gov.au/explore/dataset/2020-building-footprints/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 99986,
+      "kind": "html",
+      "pass_check": true,
+      "sha256": "d926a549c05a9d2654390de43b3cce7fafb6a77351284a76041709b3c39c0590",
+      "final_url": "https://data.melbourne.vic.gov.au/explore/dataset/2020-building-footprints/"
+    },
+    {
+      "url": "https://images.architizer.com/mediadata/projects/242012/186f5d43.jpg?width=1200&quality=80",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 280565,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "a3283592e2ae2bb2882a6c66af57018e4c9091df357410c5b36e4afdca39cf7c",
+      "final_url": "https://images.architizer.com/mediadata/projects/242012/186f5d43.jpg?width=1200&quality=80"
+    },
+    {
+      "url": "https://images.architizer.com/mediadata/projects/242012/19f69e4e.jpg?width=1200&quality=80",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 114299,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "029bf32440489407b1b343cc4674ebd821446e925c672957f35c4391a03a52b5",
+      "final_url": "https://images.architizer.com/mediadata/projects/242012/19f69e4e.jpg?width=1200&quality=80"
+    },
+    {
+      "url": "https://images.architizer.com/mediadata/projects/242012/a77b5ae8.jpg?width=1200&quality=80",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 193230,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "ec0a2a823809e1326eebc583be3113bd973816188c3864914f625863eb8687c2",
+      "final_url": "https://images.architizer.com/mediadata/projects/242012/a77b5ae8.jpg?width=1200&quality=80"
+    },
+    {
+      "url": "https://images.architizer.com/mediadata/projects/242012/a980c272.jpg?width=1200&quality=80",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 298589,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "102b7eb8885e97cdf73ce626adf58254e283d9eea6510b30e428ef976d482649",
+      "final_url": "https://images.architizer.com/mediadata/projects/242012/a980c272.jpg?width=1200&quality=80"
+    },
+    {
+      "url": "https://media3.architecturemedia.net/site_media/media/cache/7b/17/7b1769150f4208672ea1a23dc3790158.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 15494,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "172091655b96af6762be710bc2fca67a5e78c3ba206d463ffd0141446b722e43",
+      "final_url": "https://media3.architecturemedia.net/site_media/media/cache/7b/17/7b1769150f4208672ea1a23dc3790158.jpg"
+    },
+    {
+      "url": "https://media4.architecturemedia.net/site_media/media/cache/ca/e4/cae47232b25c4ea0bfc91b81955fdaa4.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 10127,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "f33f6a2350b83d6329941bc97d12015c94e9ee80977f8f58522226c96c7add3c",
+      "final_url": "https://media4.architecturemedia.net/site_media/media/cache/ca/e4/cae47232b25c4ea0bfc91b81955fdaa4.jpg"
+    },
+    {
+      "url": "https://media4.architecturemedia.net/site_media/media/cache/d3/36/d336e0fa6bf5f67ccb187cc4d8000ce6.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 17017,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "d200d3751d46f1843708c86332eeb60b09cb38f5c9195ed285f6b7f6693fd875",
+      "final_url": "https://media4.architecturemedia.net/site_media/media/cache/d3/36/d336e0fa6bf5f67ccb187cc4d8000ce6.jpg"
+    },
+    {
+      "url": "https://media5.architecturemedia.net/site_media/media/cache/e7/d7/e7d7d5b03a49e33555797a719b1955ca.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 20078,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "beabbb61c442d6171d78f90e23cd1fcca7c31152ca698344178de74ec6203742",
+      "final_url": "https://media5.architecturemedia.net/site_media/media/cache/e7/d7/e7d7d5b03a49e33555797a719b1955ca.jpg"
+    },
+    {
+      "url": "https://media5.architecturemedia.net/site_media/media/cache/f5/c9/f5c98533c7eed6dea7182804e148cad5.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 9487,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "f843cbd3a547599e3b6e2fa0c2f0c947f2fdbb8d303cb06974d647e0045892fd",
+      "final_url": "https://media5.architecturemedia.net/site_media/media/cache/f5/c9/f5c98533c7eed6dea7182804e148cad5.jpg"
+    },
+    {
+      "url": "https://www.batessmart.com/projects/fed-square",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 157473,
+      "kind": "html",
+      "pass_check": true,
+      "sha256": "19b26c6ffcf9254640b59ab5584791109dec73066b5fa9a5719eec21fce3a362",
+      "final_url": "https://www.batessmart.com/projects/fed-square"
+    },
+    {
+      "url": "https://www.karresenbrands.com/en/projects/federation-square",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 29415,
+      "kind": "html",
+      "pass_check": true,
+      "sha256": "7adcd2d1f2626a6e8335b7e1d0783af4913665a8390cff553e2d8a5eebb092a4",
+      "final_url": "https://www.karresenbrands.com/en/projects/federation-square"
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-02_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 488846,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "f2d2139957478175477b6c7157e5786e68c1ae1bf1108a3b87adfb29896edf90",
+      "final_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-02_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg"
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-03_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 473106,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "675f794e8838af497824bc8e06cda33f6a38651ef9f48e6e034d7dda2f9b3c89",
+      "final_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-03_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg"
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-06_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 655464,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "218ebab4fb5266ddbe1d0bc2bcdc16eaa0305a5cd0a396641b349f1db08b2b41",
+      "final_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-06_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg"
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-07_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 416549,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "adab166500a1505752429bd8c88b05d1fa2cdefe5cd056c48fea6ee485e81076",
+      "final_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-07_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg"
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-10_-_39ada00_-_2e5004b807d6ce4b7ceae944ffa20a9b1d8abc06.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 355047,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "d9c670a2145a417902032829f6cc2cd00d0b3f66d4791f6e2fa5098d736f132c",
+      "final_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-10_-_39ada00_-_2e5004b807d6ce4b7ceae944ffa20a9b1d8abc06.jpg"
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-16_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 78764,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "fd34561facc0253cab0f9cacb0faf8fae033480477884544bde2eaae00128338",
+      "final_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-16_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg"
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-17_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 64384,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "c783c5975058a680eed57d8d618686e50ce28b8686b411e80891b1f8e815b78e",
+      "final_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-17_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg"
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-18_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 129983,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "3b7a8ad104b7792ed43db783d65213e3062c167812190ff196acdcfd7d94b3d8",
+      "final_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-18_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg"
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-23_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 332775,
+      "kind": "image",
+      "pass_check": true,
+      "sha256": "27238532866e166ba99dcd5fb1c215a7832b7d4ff92d518eab1a97a9de574075",
+      "final_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-23_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg"
+    },
+    {
+      "url": "https://www.ngv.vic.gov.au/exhibition/draw-the-line/",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "bytes": 164022,
+      "kind": "html",
+      "pass_check": true,
+      "sha256": "cd65ad5e08d215bbeb5a1b41f846f68e9c6a6d1b5062be5210082ead6118767e",
+      "final_url": "https://www.ngv.vic.gov.au/exhibition/draw-the-line/"
+    }
+  ],
+  "summary": {
+    "local_refs": 34,
+    "remote_urls": 29,
+    "failed": 0
+  }
+}

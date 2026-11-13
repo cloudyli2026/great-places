@@ -1,5 +1,6 @@
 """Freeze official 2020 tier-1 footprints and render a metric SVG. Python stdlib only."""
 import json, math, urllib.request, urllib.parse, pathlib, hashlib
+from datetime import datetime, timezone
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / 'docs/data'
 BBOX = (144.9605, -37.8245, 144.9782, -37.8115)
@@ -18,7 +19,7 @@ def fetch():
     for r in rows:
         if r['tier']!=1 or r['footprint_type']!='Structure': continue
         features.append({'type':'Feature','geometry':r['geo_shape']['geometry'],'properties':{k:v for k,v in r.items() if k not in ('geo_shape','geo_point_2d')}})
-    return {'type':'FeatureCollection','source':SOURCE,'bbox':list(BBOX),'capture_date':'2020-05','retrieved':'2026-11-13','license':'CC BY 4.0','selection':'tier=1 AND footprint_type=Structure; bridges excluded','records_returned':len(rows),'features':features}
+    return {'type':'FeatureCollection','source':SOURCE,'bbox':list(BBOX),'capture_date':'2020-05','retrieved':datetime.now(timezone.utc).date().isoformat(),'license':'CC BY 4.0','selection':'tier=1 AND footprint_type=Structure; bridges excluded','records_returned':len(rows),'features':features}
 def render(data):
     # Local equirectangular metric projection; same scale on both axes.
     w,s,e,n=BBOX; lat0=math.radians((s+n)/2); R=6371008.8

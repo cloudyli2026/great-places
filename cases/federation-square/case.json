@@ -1748,10 +1748,10 @@
               ]
             },
             {
-              "url": "https://github.com/cloudyli2026/great-places/blob/research/federation-square-evidence/cases/federation-square/sources.json",
+              "url": "../data/federation-sources.json",
               "label": [
-                "Git仓库内逐资产登记（在GitHub查看）",
-                "Per-asset register in Git repository (view on GitHub)"
+                "下载逐资产来源与版权登记",
+                "Download per-asset sources and rights register"
               ]
             }
           ]

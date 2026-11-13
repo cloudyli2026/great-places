@@ -2228,9 +2228,9 @@ main{min-height:75vh}section.chapter{padding:0 0 36px;border:0}.chapter-masthead
 </a>
 </li>
 <li>
-<a href="https://github.com/cloudyli2026/great-places/blob/research/federation-square-evidence/cases/federation-square/sources.json" target="_blank" rel="noopener noreferrer">
-<span lang="zh">Git仓库内逐资产登记（在GitHub查看）</span>
-<span lang="en">Per-asset register in Git repository (view on GitHub)</span>
+<a href="../data/federation-sources.json">
+<span lang="zh">下载逐资产来源与版权登记</span>
+<span lang="en">Download per-asset sources and rights register</span>
 </a>
 </li>
 </ul>
@@ -2422,6 +2422,8 @@ main{min-height:75vh}section.chapter{padding:0 0 36px;border:0}.chapter-masthead
 const sections=[...document.querySelectorAll('main>section')],nav=[...document.querySelectorAll('.chapter-nav a')];
 const aliases={history:'intro','figure-ground':'scale',climate:'life',sources:'conclusion','fed-gis-figure-ground':'scale','fed-verified-section':'scale','fed-original-drawing-set':'scale','fg-data-protocol-04':'scale','fg-published-federation':'scale','syntax-research-v3':'syntax','fed-evidence-audit':'conclusion'};
 function render(focus=false){let raw=decodeURIComponent(location.hash.slice(1)),target=document.getElementById(raw);let id=aliases[raw]||target?.closest('section.chapter')?.id||raw;if(!sections.some(s=>s.id===id))id='intro';sections.forEach(s=>s.hidden=s.id!==id);nav.forEach(a=>{if(a.hash==='#'+id)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});if(focus)document.getElementById('heading-'+id).focus({preventScroll:true});window.scrollTo(0,0);if(target&&!sections.includes(target))target.scrollIntoView({block:'start'});}
+// Keep chapter navigation within the current viewer, including GitHub HTML previews.
+document.querySelectorAll('.chapter-nav a,.chapter-pagination a,.source-list a,.skip-link').forEach(a=>a.addEventListener('click',e=>{const hash=a.hash.slice(1);if(!hash||(!document.getElementById(hash)&&!aliases[hash]))return;e.preventDefault();if(location.hash===a.hash)render(true);else location.hash=a.hash;}));
 window.addEventListener('hashchange',()=>render(true));render();
 function language(lang){lang=lang==='en'?'en':'zh';document.documentElement.dataset.language=lang;document.documentElement.lang=lang;document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));document.querySelectorAll('img[data-alt-zh]').forEach(im=>im.alt=im.dataset[lang==='en'?'altEn':'altZh']);try{localStorage.setItem('great-places-language',lang)}catch{};document.title='THE GREAT PLACES · Federation Square';}
 let saved;try{saved=localStorage.getItem('great-places-language')}catch{}language(saved);document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>language(b.dataset.lang)));

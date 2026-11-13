@@ -22,7 +22,7 @@ const base=process.env.TEST_BASE||'http://127.0.0.1:8000/cases/federation-square
    for(const id of ids){
     await page.evaluate(id=>location.hash=id,id);await page.waitForTimeout(150);
     expect(await page.locator('main>section:visible').count()===1&&await page.locator(`section#${id}`).isVisible(),`${label}/${lang}/${id}: one chapter visible`);
-    expect(await page.locator('.chapter-nav a[aria-current="page"]').getAttribute('href')==='#'+id,`${label}/${lang}/${id}: active nav`);
+    expect(await page.locator('.chapter-nav a[aria-current="page"]').evaluate(a=>a.hash)==='#'+id,`${label}/${lang}/${id}: active nav`);
     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${label}/${lang}/${id}: no document overflow`);
     const images=page.locator(`section#${id} img`);
     for(let i=0;i<await images.count();i++){
@@ -37,7 +37,7 @@ const base=process.env.TEST_BASE||'http://127.0.0.1:8000/cases/federation-square
    }
   }
   await page.evaluate(()=>location.hash='scale');await page.waitForTimeout(100);
-  await page.locator('.chapter-nav a[href="#syntax"]').click();await page.waitForTimeout(100);
+  await page.locator('.chapter-nav a[href$="#syntax"]').click();await page.waitForTimeout(100);
   expect(await page.locator('#syntax').isVisible(),`${label}: chapter nav click`);
   await page.locator('#syntax .chapter-pagination a').first().click();await page.waitForTimeout(100);
   expect(await page.locator('#scale').isVisible(),`${label}: previous chapter click`);
