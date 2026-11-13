@@ -38,3 +38,5 @@ def fetch(item):
 with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:external=list(pool.map(fetch,urls.items()))
 result={'checked':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'local':local,'external':external};result['summary']={'local_total':len(local),'local_failed':sum(not x['valid'] for x in local),'external_total':len(external),'external_failed':sum(not x['valid'] for x in external),'access_challenges':sum(x.get('content_verified') is False for x in external)}
 out=ROOT/'work/reader-tests';out.mkdir(exist_ok=True,parents=True);(out/'link-results.json').write_text(json.dumps(result,indent=2,ensure_ascii=False));print(json.dumps(result['summary']));print(json.dumps([x for x in external if not x['valid']],indent=2,ensure_ascii=False))
+
+if result['summary']['local_failed'] or result['summary']['external_failed']:raise SystemExit(1)

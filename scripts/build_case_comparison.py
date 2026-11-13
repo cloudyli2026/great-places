@@ -45,7 +45,7 @@ def build():
  (DOCS/'comparison.html').write_text(html.replace('><','>\n<'))
  export={'checked':'2026-11-13','vocabulary':json.loads((ROOT/'cases/reader/vocabulary.json').read_text()),'cases':[{k:d[k] for k in ['number','name','coordinates','metrics','assessment','highlights']} for d in ds]};(DOCS/'data/case-comparison.json').write_text(json.dumps(export,ensure_ascii=False,indent=2)+'\n')
  with (DOCS/'data/case-comparison.csv').open('w',newline='') as f:
-  w=csv.writer(f);w.writerow(['case','metric','value','unit','year','scope_zh','scope_en','source','measurement','status'])
+  w=csv.writer(f,lineterminator="\n");w.writerow(['case','metric','value','unit','year','scope_zh','scope_en','source','measurement','status'])
   for d in ds:
    for m in d['metrics']:w.writerow([d['number'],m['key'],'' if m['value'] is None else m['value'],m['unit'] or '',m['year'] or '',*m['scope'],m['source'],m['measurement'] or '', 'unavailable' if m['value'] is None else 'available'])
  print('Comparison built: 3 cases, 10 aligned dimensions, source-scoped numerical export')
