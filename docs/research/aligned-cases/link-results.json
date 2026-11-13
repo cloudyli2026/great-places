@@ -1,0 +1,3198 @@
+{
+  "checked": "2026-11-13T09:26:27Z",
+  "local": [
+    {
+      "page": "index.html",
+      "url": "#intro",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "index.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "index.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "cases/la-rambla.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "cases/piazza-del-campo.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "cases/federation-square.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "cases/schouwburgplein.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "cases/place-de-la-republique.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "#intro",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#scale",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#syntax",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#boundary",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#life",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#conclusion",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#sources",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#factsheet",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "comparison.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "#intro",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#location",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#history",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#figure-ground",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#plan",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#section",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#syntax",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#boundary",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#detail",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#life",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#events",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#metrics",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#assessment",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#use-assessment",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#conclusion",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#sources",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#factsheet",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "venice-urban-aerial.jpg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "procuratie-elevation-photo.jpg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "data/san-marco-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "data/san-marco-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "comparison.html#figure-ground",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "san-marco-satellite-plan.jpg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "basilica-section-plan.jpg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "san-marco-satellite-plan.jpg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "procuratie-elevation-photo.jpg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "basilica-elevation-drawing.jpg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "procuratie-arcade-perspective.jpg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "piazzetta-waterfront-life.jpg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "piazza-cafe-terrace.jpg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "piazza-pavement-aerial.jpg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "comparison.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "data/san-marco-comparison-buildings.geojson",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "data/san-marco-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "index.html",
+      "url": "#intro",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "index.html",
+      "url": "#location",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#intro",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../index.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../index.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../cases/la-rambla.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../cases/piazza-del-campo.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../cases/federation-square.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../cases/schouwburgplein.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../cases/place-de-la-republique.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#intro",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#scale",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#syntax",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#boundary",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#life",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#conclusion",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#sources",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#factsheet",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../comparison.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#intro",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#location",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#history",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#figure-ground",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#plan",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#section",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#syntax",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#boundary",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#detail",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#life",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#events",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#metrics",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#assessment",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#use-assessment",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#conclusion",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#sources",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#factsheet",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../data/siena-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../data/siena-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../comparison.html#figure-ground",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../drawings/siena-nolli-2025.webp",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../drawings/siena-sections-2025.webp",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../comparison.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../data/siena-comparison-buildings.geojson",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "../data/siena-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#intro",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/piazza-del-campo.html",
+      "url": "#location",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#intro",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../index.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../index.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../cases/la-rambla.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../cases/piazza-del-campo.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../cases/federation-square.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../cases/schouwburgplein.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../cases/place-de-la-republique.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#intro",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#scale",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#syntax",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#boundary",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#life",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#conclusion",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#sources",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#factsheet",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../comparison.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#intro",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#location",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#history",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#figure-ground",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#plan",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#section",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#syntax",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#boundary",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#detail",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#life",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#events",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#metrics",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#assessment",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#use-assessment",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#conclusion",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#sources",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#factsheet",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../data/federation-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../data/federation-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../comparison.html#figure-ground",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../comparison.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../data/federation-buildings.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "../data/federation-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#intro",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "cases/federation-square.html",
+      "url": "#location",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "comparison.html",
+      "url": "index.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "index.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "cases/piazza-del-campo.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "cases/federation-square.html",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "#figure-ground",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "comparison.html",
+      "url": "#metrics",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "comparison.html",
+      "url": "#assessment",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "comparison.html",
+      "url": "#use",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/san-marco-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/san-marco-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/siena-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/siena-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/federation-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/federation-figure-ground-600m.svg",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/case-comparison.csv",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/comparison-figures.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/case-comparison.csv",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "data/case-comparison.json",
+      "valid": true,
+      "type": "file"
+    },
+    {
+      "page": "comparison.html",
+      "url": "#figure-ground",
+      "valid": true,
+      "type": "fragment"
+    },
+    {
+      "page": "comparison.html",
+      "url": "#metrics",
+      "valid": true,
+      "type": "fragment"
+    }
+  ],
+  "external": [
+    {
+      "url": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Piazza_San_Marco",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://it.wikipedia.org/wiki/Piazza_San_Marco",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.google.com/maps?q=45.4342,12.3387&z=17&output=embed",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1s45.4342,12.3387!6i17",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "iframe",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=45.4342,12.3387",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://www.google.com/maps/search/?api=1&query=45.4342,12.3387",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.openstreetmap.org/?mlat=45.4342&mlon=12.3387#map=17/45.4342/12.3387",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://www.openstreetmap.org/?mlat=45.4342&mlon=12.3387#map=17/45.4342/12.3387",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.comune.venezia.it/it/content/serie-storiche",
+      "status": 200,
+      "type": "text/html",
+      "final": "https://www.comune.venezia.it/it/content/serie-storiche",
+      "valid": true,
+      "content_verified": false,
+      "warning": "Access challenge; HTTP 200 alone does not verify page content",
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana",
+      "status": 200,
+      "type": "text/html",
+      "final": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana",
+      "valid": true,
+      "content_verified": false,
+      "warning": "Access challenge; HTTP 200 alone does not verify page content",
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/394/",
+      "status": 200,
+      "type": "text/html;charset=UTF-8",
+      "final": "https://whc.unesco.org/en/list/394/",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.overturemaps.org/attribution/#buildings",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://docs.overturemaps.org/attribution/#buildings",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.comune.venezia.it/it/content/la-precipitazione-venezia-a-venezia",
+      "status": 200,
+      "type": "text/html",
+      "final": "https://www.comune.venezia.it/it/content/la-precipitazione-venezia-a-venezia",
+      "valid": true,
+      "content_verified": false,
+      "warning": "Access challenge; HTTP 200 alone does not verify page content",
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.comune.venezia.it/it/content/centro-previsioni-e-segnalazioni-maree",
+      "status": 200,
+      "type": "text/html",
+      "final": "https://www.comune.venezia.it/it/content/centro-previsioni-e-segnalazioni-maree",
+      "valid": true,
+      "content_verified": false,
+      "warning": "Access challenge; HTTP 200 alone does not verify page content",
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.comune.venezia.it/it/content/occupazione-suolo-plateatici",
+      "status": 200,
+      "type": "text/html",
+      "final": "https://www.comune.venezia.it/it/content/occupazione-suolo-plateatici",
+      "valid": true,
+      "content_verified": false,
+      "warning": "Access challenge; HTTP 200 alone does not verify page content",
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni",
+      "status": 200,
+      "type": "text/html",
+      "final": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni",
+      "valid": true,
+      "content_verified": false,
+      "warning": "Access challenge; HTTP 200 alone does not verify page content",
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.comune.venezia.it/it/content/valori-caratteristici-marea-venezia-il-periodo-1872-2015",
+      "status": 200,
+      "type": "text/html",
+      "final": "https://www.comune.venezia.it/it/content/valori-caratteristici-marea-venezia-il-periodo-1872-2015",
+      "valid": true,
+      "content_verified": false,
+      "warning": "Access challenge; HTTP 200 alone does not verify page content",
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.comune.venezia.it/it/content/studi",
+      "status": 200,
+      "type": "text/html",
+      "final": "https://www.comune.venezia.it/it/content/studi",
+      "valid": true,
+      "content_verified": false,
+      "warning": "Access challenge; HTTP 200 alone does not verify page content",
+      "references": [
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "index.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/La_piazza_1_5659afa42a.jpg",
+      "status": 200,
+      "type": "image/webp",
+      "final": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/La_piazza_1_5659afa42a.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "img",
+          "attribute": "src"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.visitsiena.it/en/piazza-del-campo/",
+      "status": 200,
+      "type": "text/html;charset=utf-8",
+      "final": "https://www.visitsiena.it/en/piazza-del-campo",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://iris.uniroma1.it/bitstream/11573/1658610/1/Sepe_Covid%E2%80%9119-pandemic-and-public_2021.pdf",
+      "status": 200,
+      "type": "application/pdf;charset=UTF-8",
+      "final": "https://iris.uniroma1.it/bitstream/11573/1658610/1/Sepe_Covid%E2%80%9119-pandemic-and-public_2021.pdf",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.google.com/maps?q=43.31865,11.33165&z=17&output=embed",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1s43.31865,11.33165!6i17",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "iframe",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=43.31865,11.33165",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://www.google.com/maps/search/?api=1&query=43.31865,11.33165",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.openstreetmap.org/?mlat=43.31865&mlon=11.33165#map=17/43.31865/11.33165",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://www.openstreetmap.org/?mlat=43.31865&mlon=11.33165#map=17/43.31865/11.33165",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.comune.siena.it/sites/default/files/2026-03/Popolazione%20residente%20al%2031.12.2025%20per%20et%C3%A0_0.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "final": "https://www.comune.siena.it/sites/default/files/2026-03/Popolazione%20residente%20al%2031.12.2025%20per%20et%C3%A0_0.pdf",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.visitsiena.it/trasporti-pubblici",
+      "status": 200,
+      "type": "text/html;charset=utf-8",
+      "final": "https://www.visitsiena.it/trasporti-pubblici",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/717/",
+      "status": 200,
+      "type": "text/html;charset=UTF-8",
+      "final": "https://whc.unesco.org/en/list/717/",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://palio.comune.siena.it/node/75",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://palio.comune.siena.it/node/75",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+      "status": 200,
+      "type": "text/html",
+      "final": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/piazza_del_campo_e447f61e2f.jpg",
+      "status": 200,
+      "type": "image/webp",
+      "final": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/piazza_del_campo_e447f61e2f.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "img",
+          "attribute": "src"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Siena_2_7885c24b37.jpg",
+      "status": 200,
+      "type": "image/webp",
+      "final": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Siena_2_7885c24b37.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Piazza_del_Campo_ee78e13708_fbd07d0ecd.jpg",
+      "status": 200,
+      "type": "image/webp",
+      "final": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Piazza_del_Campo_ee78e13708_fbd07d0ecd.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "img",
+          "attribute": "src"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Piazza_del_Campo_dal_basso_613be86f02_354abf07e2.jpg",
+      "status": 200,
+      "type": "image/webp",
+      "final": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Piazza_del_Campo_dal_basso_613be86f02_354abf07e2.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lamma.toscana.it/node/788",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://www.lamma.toscana.it/node/788",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/palio_c23d4e0816.jpeg",
+      "status": 200,
+      "type": "image/webp",
+      "final": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/palio_c23d4e0816.jpeg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.visitsiena.it",
+      "status": 200,
+      "type": "text/html;charset=utf-8",
+      "final": "https://www.visitsiena.it",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/piazza-del-campo.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-02_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-02_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.karresenbrands.com/en/projects/federation-square",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://www.karresenbrands.com/en/projects/federation-square",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://fedsquare.com/venues/main-square",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://fedsquare.com/venues/main-square",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.google.com/maps?q=-37.8178,144.969&z=17&output=embed",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1s-37.8178,144.969!6i17",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "iframe",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=-37.8178,144.969",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://www.google.com/maps/search/?api=1&query=-37.8178,144.969",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.openstreetmap.org/?mlat=-37.8178&mlon=144.969#map=17/-37.8178/144.969",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://www.openstreetmap.org/?mlat=-37.8178&mlon=144.969#map=17/-37.8178/144.969",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.abs.gov.au/statistics/people/population/regional-population/2024-25",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://www.abs.gov.au/statistics/people/population/regional-population/2024-25",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://fedsquare.com/getting-here",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://fedsquare.com/getting-here",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.batessmart.com/projects/fed-square",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://www.batessmart.com/projects/fed-square",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "final": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://data.melbourne.vic.gov.au/explore/dataset/2020-building-footprints/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://data.melbourne.vic.gov.au/explore/dataset/2020-building-footprints/",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://images.architizer.com/mediadata/projects/242012/19f69e4e.jpg?width=1200&quality=80",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://images.architizer.com/mediadata/projects/242012/19f69e4e.jpg?width=1200&quality=80",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://architizer.com/projects/federation-square/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://architizer.com/projects/federation-square/",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-16_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-16_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "image",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-17_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-17_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "image",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf#page=6",
+      "status": 200,
+      "type": "application/pdf",
+      "final": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf#page=6",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://media4.architecturemedia.net/site_media/media/cache/d3/36/d336e0fa6bf5f67ccb187cc4d8000ce6.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://media4.architecturemedia.net/site_media/media/cache/d3/36/d336e0fa6bf5f67ccb187cc4d8000ce6.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://architectureau.com/articles/preview/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://architectureau.com/articles/preview/",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://images.architizer.com/mediadata/projects/242012/a77b5ae8.jpg?width=1200&quality=80",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://images.architizer.com/mediadata/projects/242012/a77b5ae8.jpg?width=1200&quality=80",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://media5.architecturemedia.net/site_media/media/cache/f5/c9/f5c98533c7eed6dea7182804e148cad5.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://media5.architecturemedia.net/site_media/media/cache/f5/c9/f5c98533c7eed6dea7182804e148cad5.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://media3.architecturemedia.net/site_media/media/cache/7b/17/7b1769150f4208672ea1a23dc3790158.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://media3.architecturemedia.net/site_media/media/cache/7b/17/7b1769150f4208672ea1a23dc3790158.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://images.architizer.com/mediadata/projects/242012/186f5d43.jpg?width=1200&quality=80",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://images.architizer.com/mediadata/projects/242012/186f5d43.jpg?width=1200&quality=80",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-23_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-23_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://media5.architecturemedia.net/site_media/media/cache/e7/d7/e7d7d5b03a49e33555797a719b1955ca.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://media5.architecturemedia.net/site_media/media/cache/e7/d7/e7d7d5b03a49e33555797a719b1955ca.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://media4.architecturemedia.net/site_media/media/cache/ca/e4/cae47232b25c4ea0bfc91b81955fdaa4.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://media4.architecturemedia.net/site_media/media/cache/ca/e4/cae47232b25c4ea0bfc91b81955fdaa4.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.bom.gov.au/climate/averages/tables/cw_086071.shtml",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://www.bom.gov.au/climate/averages/tables/cw_086071.shtml",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://fedsquare.com/sustainability",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "final": "https://fedsquare.com/sustainability",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=14",
+      "status": 200,
+      "type": "application/pdf",
+      "final": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=14",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-07_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-07_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-10_-_39ada00_-_2e5004b807d6ce4b7ceae944ffa20a9b1d8abc06.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-10_-_39ada00_-_2e5004b807d6ce4b7ceae944ffa20a9b1d8abc06.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "final": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-06_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-06_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://blogs.slv.vic.gov.au/wp-content/uploads/2020/10/20150101_DX_4068-master-pano-fireworks-picc-1-1024x655.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://blogs.slv.vic.gov.au/wp-content/uploads/2020/10/20150101_DX_4068-master-pano-fireworks-picc-1-1024x655.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "final": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://blogs.slv.vic.gov.au/wp-content/uploads/2020/10/Image-9-Federation-Square-Peace-Rally-2003-The-Age-1024x682.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://blogs.slv.vic.gov.au/wp-content/uploads/2020/10/Image-9-Federation-Square-Peace-Rally-2003-The-Age-1024x682.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=67",
+      "status": 200,
+      "type": "application/pdf",
+      "final": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=67",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=15",
+      "status": 200,
+      "type": "application/pdf",
+      "final": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=15",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=16",
+      "status": 200,
+      "type": "application/pdf",
+      "final": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=16",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "cases/federation-square.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        },
+        {
+          "page": "comparison.html",
+          "tag": "a",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "url": "https://images.architizer.com/mediadata/projects/242012/a980c272.jpg?width=1200&quality=80",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://images.architizer.com/mediadata/projects/242012/a980c272.jpg?width=1200&quality=80",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-18_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-18_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    },
+    {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-03_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "final": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-03_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "valid": true,
+      "content_verified": true,
+      "warning": null,
+      "references": [
+        {
+          "page": "cases/federation-square.html",
+          "tag": "img",
+          "attribute": "src"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "local_total": 174,
+    "local_failed": 0,
+    "external_total": 75,
+    "external_failed": 0,
+    "access_challenges": 8
+  }
+}

@@ -54,7 +54,7 @@ await Promise.all([['01','index.html'],['03','cases/piazza-del-campo.html'],['04
  }
 }));
 for(const [device,width,height] of [['desktop',1440,1000],['mobile',390,844]]){
- const p=await browser.newPage({viewport:{width,height}});await p.goto(base+'comparison.html',{waitUntil:'domcontentloaded'});
+ const p=await browser.newPage({viewport:{width,height}});await p.goto(base+'comparison.html',{waitUntil:'domcontentloaded'});await p.locator('.page-count').waitFor();await p.waitForFunction(()=>document.querySelectorAll('.case-view:not([hidden])').length===1);for(const im of await p.locator('.comparison-grid img').all())await im.evaluate(x=>x.decode());
  const sizes=await p.locator('.comparison-grid img').evaluateAll(xs=>xs.map(x=>x.getBoundingClientRect().width));check(sizes.length===3&&Math.max(...sizes)-Math.min(...sizes)<.1,`comparison/${device}: all three diagrams at identical display scale`);
  for(const id of ['figure-ground','metrics','assessment','use']){await p.evaluate(id=>location.hash=id,id);await p.waitForTimeout(80);check(await p.locator('.case-view:visible').count()===1,`comparison/${device}/${id}: pagination`);check(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`comparison/${device}/${id}: no document overflow`);await p.screenshot({path:path.join(out,`comparison-${device}-${id}.png`),fullPage:true});}await p.close();
 }

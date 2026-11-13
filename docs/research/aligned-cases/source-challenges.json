@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://www.comune.venezia.it/it/content/serie-storiche",
+    "http_status": 200,
+    "direct_get": "access challenge",
+    "independent_web_reader": "page title and body available, checked 2026-11-13"
+  },
+  {
+    "url": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana",
+    "http_status": 200,
+    "direct_get": "access challenge",
+    "independent_web_reader": "page title and body available, checked 2026-11-13"
+  },
+  {
+    "url": "https://www.comune.venezia.it/it/content/la-precipitazione-venezia-a-venezia",
+    "http_status": 200,
+    "direct_get": "access challenge",
+    "independent_web_reader": "page title and body available, checked 2026-11-13"
+  },
+  {
+    "url": "https://www.comune.venezia.it/it/content/centro-previsioni-e-segnalazioni-maree",
+    "http_status": 200,
+    "direct_get": "access challenge",
+    "independent_web_reader": "page title and body available, checked 2026-11-13"
+  },
+  {
+    "url": "https://www.comune.venezia.it/it/content/occupazione-suolo-plateatici",
+    "http_status": 200,
+    "direct_get": "access challenge",
+    "independent_web_reader": "page title and body available, checked 2026-11-13"
+  },
+  {
+    "url": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni",
+    "http_status": 200,
+    "direct_get": "access challenge",
+    "independent_web_reader": "page title and body available, checked 2026-11-13"
+  },
+  {
+    "url": "https://www.comune.venezia.it/it/content/valori-caratteristici-marea-venezia-il-periodo-1872-2015",
+    "http_status": 200,
+    "direct_get": "access challenge",
+    "independent_web_reader": "page title and body available, checked 2026-11-13"
+  },
+  {
+    "url": "https://www.comune.venezia.it/it/content/studi",
+    "http_status": 200,
+    "direct_get": "access challenge",
+    "independent_web_reader": "page title and body available, checked 2026-11-13"
+  }
+]

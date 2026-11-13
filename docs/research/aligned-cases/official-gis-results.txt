@@ -1,0 +1,2 @@
+{"features": 907, "records_returned": 1001, "sha256": "6dd22665cce833d2a41433cf2b41b4d4dd5d9366d89b1b819178644a19695144"}
+{"features": 907, "polygons": 907, "holes": 28, "vertices": 13860, "deterministic_rebuild": true, "bar_100m_px": 41.507, "source_sha256": "6dd22665cce833d2a41433cf2b41b4d4dd5d9366d89b1b819178644a19695144"}
