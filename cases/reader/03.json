@@ -1,0 +1,2217 @@
+{
+  "number": "03",
+  "name": "Piazza del Campo",
+  "location": [
+    "锡耶纳，意大利",
+    "Siena, Italy"
+  ],
+  "coordinates": [
+    43.31865,
+    11.33165
+  ],
+  "assets": {
+    "hero": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/La_piazza_1_5659afa42a.jpg",
+      "title": [
+        "高视点下的壳形广场与市政宫",
+        "Elevated view of the shell-shaped square and civic palace"
+      ],
+      "source": "https://www.visitsiena.it/en/piazza-del-campo/",
+      "credit": [
+        "Visit Siena · Comune di Siena图集；摄影者未逐图标注",
+        "Visit Siena / Comune di Siena gallery; individual photographer unspecified"
+      ],
+      "caption": [
+        "高视点下的壳形广场与市政宫",
+        "Elevated view of the shell-shaped square and civic palace"
+      ],
+      "drawing": false
+    },
+    "edge1": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Siena_2_7885c24b37.jpg",
+      "title": [
+        "市政宫与塔楼界面",
+        "Palazzo Pubblico and tower edge"
+      ],
+      "source": "https://www.visitsiena.it/en/piazza-del-campo/",
+      "credit": [
+        "Visit Siena · Comune di Siena图集；摄影者未逐图标注",
+        "Visit Siena / Comune di Siena gallery; individual photographer unspecified"
+      ],
+      "caption": [
+        "市政宫与塔楼界面",
+        "Palazzo Pubblico and tower edge"
+      ],
+      "drawing": false
+    },
+    "detail": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Piazza_del_Campo_dal_basso_613be86f02_354abf07e2.jpg",
+      "title": [
+        "硬质地面与建筑边缘",
+        "Paving and architectural edge"
+      ],
+      "source": "https://www.visitsiena.it/en/piazza-del-campo/",
+      "credit": [
+        "Visit Siena · Comune di Siena图集；摄影者未逐图标注",
+        "Visit Siena / Comune di Siena gallery; individual photographer unspecified"
+      ],
+      "caption": [
+        "③ 广场内部：天空与坡面同时展开，远侧街墙退到视野边缘",
+        "③ Inside the square: sky and sloping ground open out, and the opposite street wall recedes"
+      ],
+      "drawing": false
+    },
+    "daily2": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/piazza_del_campo_e447f61e2f.jpg",
+      "title": [
+        "狭窄街巷向广场展开",
+        "A narrow lane opening to the square"
+      ],
+      "source": "https://www.visitsiena.it/en/piazza-del-campo/",
+      "credit": [
+        "Visit Siena · Comune di Siena图集；摄影者未逐图标注",
+        "Visit Siena / Comune di Siena gallery; individual photographer unspecified"
+      ],
+      "caption": [
+        "从街巷进入Campo：塔楼提供方向，狭窄入口把穿行带到可自由停留的坡面",
+        "Entering Campo from a lane: the tower gives orientation, and a narrow entrance leads to open sloping ground"
+      ],
+      "drawing": false
+    },
+    "event": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/palio_c23d4e0816.jpeg",
+      "title": [
+        "Palio期间的中央人群与外围赛道",
+        "Palio crowd in the centre and racecourse at the edge"
+      ],
+      "source": "https://www.visitsiena.it/en/piazza-del-campo/",
+      "credit": [
+        "Visit Siena · Comune di Siena图集；摄影者未逐图标注",
+        "Visit Siena / Comune di Siena gallery; individual photographer unspecified"
+      ],
+      "caption": [
+        "Palio期间的中央人群与外围赛道",
+        "Palio crowd in the centre and racecourse at the edge"
+      ],
+      "drawing": false
+    },
+    "plan": {
+      "url": "@/drawings/siena-nolli-2025.webp",
+      "title": [
+        "Nolli平面：公共地面与入口关系",
+        "Nolli plan: civic ground and entrances"
+      ],
+      "source": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+      "credit": [
+        "Lisa Hollmann，2025，Abb.4；PDF第26幅跨页",
+        "Lisa Hollmann, 2025, Fig.4; PDF spread 26"
+      ],
+      "caption": [
+        "Nolli平面：公共地面与入口关系",
+        "Nolli plan: civic ground and entrances"
+      ],
+      "drawing": true
+    },
+    "section": {
+      "url": "@/drawings/siena-sections-2025.webp",
+      "title": [
+        "壳形地面的横、纵剖面（原图含比例尺）",
+        "Cross and longitudinal sections of the shell-like ground (original scale bar retained)"
+      ],
+      "source": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+      "credit": [
+        "Lisa Hollmann，2025，Abb.7／8；PDF第29幅跨页，印刷页54—55",
+        "Lisa Hollmann, 2025, Figs.7/8; PDF spread 29, printed pp.54–55"
+      ],
+      "caption": [
+        "壳形地面的横、纵剖面（原图含比例尺）",
+        "Cross and longitudinal sections of the shell-like ground (original scale bar retained)"
+      ],
+      "drawing": true
+    },
+    "figure-ground": {
+      "url": "@/data/siena-figure-ground-600m.svg",
+      "title": [
+        "600 × 600米建筑图底，北向上，100米比例尺",
+        "600 × 600 m figure-ground, north up, 100 m scale bar"
+      ],
+      "source": "https://docs.overturemaps.org/attribution/#buildings",
+      "credit": [
+        "Overture Maps 2026-10-21 / TerraLab / ODbL 1.0",
+        "Overture Maps 2026-10-21 / TerraLab / ODbL 1.0"
+      ],
+      "caption": [
+        "600 × 600米建筑图底，北向上，100米比例尺",
+        "600 × 600 m figure-ground, north up, 100 m scale bar"
+      ],
+      "drawing": true,
+      "rights": [
+        "01／03数据为ODbL；04数据为CC BY 4.0。红圈仅标位置；白色包括水面和铁路，不等于可步行空间。",
+        "01/03 data: ODbL; 04: CC BY 4.0. Red circle marks location. White includes water and rail; it is not a walkability map."
+      ]
+    },
+    "street-citta": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/ml/gallery/via-di-citta-dettaglio-albero-orizzontale-6a760cafdbae0567543631.jpg",
+      "title": [
+        "① Via di Città：两侧墙体贴近视野，天空收窄",
+        "① Via di Città: close walls and a narrow opening to the sky"
+      ],
+      "caption": [
+        "① Via di Città：两侧墙体贴近视野，天空收窄",
+        "① Via di Città: close walls and a narrow opening to the sky"
+      ],
+      "source": "https://www.visitsiena.it/en/via-di-citta",
+      "credit": [
+        "Visit Siena／Comune di Siena；摄影者及日期未注明",
+        "Visit Siena / Comune di Siena; photographer and date unspecified"
+      ],
+      "drawing": false
+    },
+    "street-rinaldini": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/ml/gallery/via-rinaldini-2-6abe7e1b43347782177907.jpg",
+      "title": [
+        "② Via Rinaldini：沿街墙向广场与塔楼接近",
+        "② Via Rinaldini: approach between street walls toward the square and tower"
+      ],
+      "caption": [
+        "② Via Rinaldini：沿街墙向广场与塔楼接近",
+        "② Via Rinaldini: approach between street walls toward the square and tower"
+      ],
+      "source": "https://www.visitsiena.it/via-rinaldini-chiasso-largo",
+      "credit": [
+        "Visit Siena／Comune di Siena；摄影者及日期未注明",
+        "Visit Siena / Comune di Siena; photographer and date unspecified"
+      ],
+      "drawing": false
+    },
+    "open-square": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Piazza_del_Campo_ee78e13708_fbd07d0ecd.jpg",
+      "title": [
+        "连续街墙与倾斜铺地",
+        "Continuous fronts and sloping paving"
+      ],
+      "source": "https://www.visitsiena.it/en/piazza-del-campo/",
+      "credit": [
+        "Visit Siena · Comune di Siena图集；摄影者未逐图标注",
+        "Visit Siena / Comune di Siena gallery; individual photographer unspecified"
+      ],
+      "caption": [
+        "Campo全景：硬质坡面构成主要公共地面，树荫并不是中心广场的主要庇护方式",
+        "Campo overview: the paved slope forms the civic ground; tree canopy is not the main form of shelter in the central square"
+      ],
+      "drawing": false
+    },
+    "palio-crowd": {
+      "url": "@/images/events/siena-palio-crowd-2007.jpg",
+      "title": [
+        "2007年7月2日Palio开赛前：广场中央的站立观众",
+        "2 July 2007 before the Palio: standing spectators in the square"
+      ],
+      "caption": [
+        "2007年7月2日Palio开赛前：广场中央的站立观众",
+        "2 July 2007 before the Palio: standing spectators in the square"
+      ],
+      "source": "https://commons.wikimedia.org/wiki/File:La_folla_durante_il_Palio.jpg",
+      "credit": [
+        "Giuseppe Ceglia · 2007-07-02 · Wikimedia Commons",
+        "Giuseppe Ceglia · 2 July 2007 · Wikimedia Commons"
+      ],
+      "drawing": false,
+      "rights": [
+        "按原图所示许可使用；本站复制Wikimedia缩略图，未再修改。",
+        "Under the linked original licence; Wikimedia thumbnail copied without further changes."
+      ],
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "carabinieri": {
+      "url": "@/images/events/siena-carabinieri-2007.jpg",
+      "title": [
+        "2007年Palio赛前的Carabinieri骑兵仪式，不是正赛",
+        "2007 pre-race Carabinieri ceremony, not the Palio race"
+      ],
+      "caption": [
+        "2007年Palio赛前的Carabinieri骑兵仪式，不是正赛",
+        "2007 pre-race Carabinieri ceremony, not the Palio race"
+      ],
+      "source": "https://commons.wikimedia.org/wiki/File:Carica_lg_palio_provenzano_2007.jpg",
+      "credit": [
+        "Roberto Vicario／Toscana Foto Notizie · 2007-07-02",
+        "Roberto Vicario / Toscana Foto Notizie · 2 July 2007"
+      ],
+      "drawing": false,
+      "rights": [
+        "按原图所示许可使用；本站复制Wikimedia缩略图，未再修改。",
+        "Under the linked original licence; Wikimedia thumbnail copied without further changes."
+      ],
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "oca-parade": {
+      "url": "@/images/events/siena-oca-parade-2007.jpg",
+      "title": [
+        "2007年Contrada dell’Oca街巷游行：庆典从广场延伸到社区",
+        "2007 Contrada dell’Oca street procession: celebration extends into the neighbourhood"
+      ],
+      "caption": [
+        "2007年Contrada dell’Oca街巷游行：庆典从广场延伸到社区",
+        "2007 Contrada dell’Oca street procession: celebration extends into the neighbourhood"
+      ],
+      "source": "https://commons.wikimedia.org/wiki/File:Quarter_Goose_palio_parade,_Siena,_2007.jpg",
+      "credit": [
+        "МаратД · 2007 · Wikimedia Commons",
+        "МаратД · 2007 · Wikimedia Commons"
+      ],
+      "drawing": false,
+      "rights": [
+        "按原图所示许可使用；本站复制Wikimedia缩略图，未再修改。",
+        "Under the linked original licence; Wikimedia thumbnail copied without further changes."
+      ],
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "palio-race": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Palio_6_d833e56c9f.jpg",
+      "title": [
+        "Palio赛马沿外围赛道奔跑；照片未标明具体场次",
+        "Palio horses race around the perimeter; this image does not identify a specific running"
+      ],
+      "caption": [
+        "Palio赛马沿外围赛道奔跑；照片未标明具体场次",
+        "Palio horses race around the perimeter; this image does not identify a specific running"
+      ],
+      "source": "https://www.visitsiena.it/palio",
+      "credit": [
+        "活动主办方／官方发布图集；摄影者未逐图注明",
+        "Organiser / official published gallery; individual photographer unspecified"
+      ],
+      "drawing": false
+    },
+    "market": {
+      "url": "https://www.comune.siena.it/sites/default/files/styles/webp/public/2024-03/mercato%20campo.jpg.webp?itok=VCm9HY9Y",
+      "title": [
+        "往届Mercato nel Campo：摊位与通行空间交替；市政府2026公告配图，拍摄年份未注明",
+        "An earlier Mercato nel Campo: stalls alternate with circulation; municipal 2026 announcement image, photograph year unspecified"
+      ],
+      "caption": [
+        "往届Mercato nel Campo：摊位与通行空间交替；市政府2026公告配图，拍摄年份未注明",
+        "An earlier Mercato nel Campo: stalls alternate with circulation; municipal 2026 announcement image, photograph year unspecified"
+      ],
+      "source": "https://www.comune.siena.it/novita/mercato-nel-campo-2026-edizione-potenziata-saranno-cinque-giorni-di-evento-piazza-del-campo",
+      "credit": [
+        "活动主办方／官方发布图集；摄影者未逐图注明",
+        "Organiser / official published gallery; individual photographer unspecified"
+      ],
+      "drawing": false
+    },
+    "concert": {
+      "url": "https://www.radiosienatv.it/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-18-at-22.22.51.jpeg",
+      "title": [
+        "2025年7月18日Concerto per l’Italia：Campo上的舞台、座椅与夜间观众",
+        "18 July 2025 Concerto per l’Italia: stage, seating and evening audience in Campo"
+      ],
+      "caption": [
+        "2025年7月18日：同一片坡地布置音乐会座椅与临时舞台，区别于Palio赛道",
+        "18 July 2025: chairs and a temporary stage occupy the slope, unlike the Palio track"
+      ],
+      "source": "https://www.radiosienatv.it/piazza-del-campo-abbraccia-la-grande-musica-in-5000-a-siena-per-il-concerto-per-litalia/",
+      "credit": [
+        "Radio Siena TV现场报道配图；摄影者未署名",
+        "Radio Siena TV event-report photograph; photographer unspecified"
+      ],
+      "drawing": false
+    }
+  },
+  "facts": [
+    {
+      "label": [
+        "位置",
+        "Location"
+      ],
+      "value": [
+        "锡耶纳，意大利",
+        "Siena, Italy"
+      ]
+    },
+    {
+      "label": [
+        "年代",
+        "Period"
+      ],
+      "value": [
+        "12—14世纪逐步形成",
+        "Formed during the 12th–14th centuries"
+      ]
+    },
+    {
+      "label": [
+        "公布面积",
+        "Published area"
+      ],
+      "value": [
+        "11,510 m² · 文献值",
+        "11,510 m² · published study"
+      ]
+    },
+    {
+      "label": [
+        "主要用途",
+        "Primary uses"
+      ],
+      "value": [
+        "穿行、停留、文化参观、活动",
+        "Passage, staying, cultural visits, events"
+      ]
+    },
+    {
+      "label": [
+        "空间类型",
+        "Spatial type"
+      ],
+      "value": [
+        "壳形坡地＋连续街墙",
+        "Shell-shaped slope + continuous fronts"
+      ]
+    },
+    {
+      "label": [
+        "服务对象",
+        "Users"
+      ],
+      "value": [
+        "BOTH · 社区仪式与旅游",
+        "BOTH · community ritual and tourism"
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "key": "population",
+      "label": [
+        "所在城市人口",
+        "City population"
+      ],
+      "value": 53588,
+      "display": [
+        "53,588 人",
+        "53,588 residents"
+      ],
+      "scope": [
+        "2025-12-31；Comune di Siena全市镇注册常住人口，不是省级人口。",
+        "31 Dec 2025; municipal registered residents, not the province."
+      ],
+      "source": "https://www.comune.siena.it/sites/default/files/2026-03/Popolazione%20residente%20al%2031.12.2025%20per%20et%C3%A0_0.pdf",
+      "year": "2025-12-31",
+      "unit": "residents",
+      "measurement": "municipal resident population"
+    },
+    {
+      "key": "plaza_area",
+      "label": [
+        "公布广场面积",
+        "Published plaza area"
+      ],
+      "value": 11510.38,
+      "display": [
+        "11,510 m²",
+        "11,510 m²"
+      ],
+      "scope": [
+        "Sepe等2021论文所列广场表面积；此处四舍五入显示，不由图像推算。",
+        "Square surface area listed in Sepe et al. 2021; display rounded, not measured from an image."
+      ],
+      "source": "https://iris.uniroma1.it/bitstream/11573/1658610/1/Sepe_Covid%E2%80%9119-pandemic-and-public_2021.pdf",
+      "year": null,
+      "unit": "m²",
+      "measurement": "published value; not GIS estimate"
+    },
+    {
+      "key": "event_capacity",
+      "label": [
+        "公布活动容量",
+        "Published event capacity"
+      ],
+      "value": 15000,
+      "display": [
+        "约15,000 人",
+        "Approx. 15,000 people"
+      ],
+      "scope": [
+        "2026 Palio中央站立区，赛事安保方说明；不含所有外围看台，也不是平日固定上限。",
+        "2026 Palio central standing area, per event security provider; not all grandstands or a permanent ordinary-day limit."
+      ],
+      "source": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/",
+      "year": "2026-07-03",
+      "unit": "people",
+      "measurement": "event- or configuration-specific; not a permanent universal maximum"
+    },
+    {
+      "key": "annual_visits",
+      "label": [
+        "广场年到访量",
+        "Annual square visitation"
+      ],
+      "value": null,
+      "display": [
+        "未确认",
+        "Not established"
+      ],
+      "scope": [
+        "未取得广场级完整年度统计；不使用全市住宿人次替代。",
+        "No complete square-level annual count found; city accommodation nights are excluded."
+      ],
+      "source": "https://www.visitsiena.it",
+      "year": null,
+      "unit": "reported visitors/year",
+      "measurement": "missing square-level statistic"
+    },
+    {
+      "key": "regular_palio_dates",
+      "label": [
+        "常规Palio场次",
+        "Regular Palio races"
+      ],
+      "value": 2,
+      "display": [
+        "2 场／年",
+        "2 races/year"
+      ],
+      "scope": [
+        "常规日期7月2日与8月16日，可因天气延期；不是广场全部年度活动数。",
+        "Regular dates: 2 July and 16 August; weather postponements possible. Not the total square event count."
+      ],
+      "source": "https://palio.comune.siena.it/node/75",
+      "year": null,
+      "unit": "regular races/year",
+      "measurement": "programme count"
+    },
+    {
+      "key": "building_coverage",
+      "label": [
+        "600米图幅建筑覆盖率",
+        "Buildings in the 600 m frame"
+      ],
+      "value": 54.98,
+      "display": [
+        "54.98%",
+        "54.98%"
+      ],
+      "scope": [
+        "统一600 × 600米图幅；合并并裁切真实建筑轮廓后计算。分母含水面；不是公共开放率。",
+        "Union of source footprints clipped to the same 600 × 600 m frame. Denominator includes water; not a public-open-space ratio."
+      ],
+      "source": "@/data/comparison-figures.json",
+      "year": null,
+      "unit": "%",
+      "measurement": "computed footprint union / 360000 m²; source dates differ"
+    }
+  ],
+  "assessment": [
+    {
+      "key": "form",
+      "label": [
+        "空间形态",
+        "Spatial form"
+      ],
+      "verdict": [
+        "坡地向心",
+        "Sloped inward focus"
+      ],
+      "text": [
+        "壳形坡面与低侧市政宫共同形成观看和停留方向。",
+        "Shell-shaped ground and the low-side palace establish direction for viewing and staying."
+      ],
+      "source": "https://repositum.tuwien.at/handle/20.500.12708/221531"
+    },
+    {
+      "key": "transport",
+      "label": [
+        "交通可达性",
+        "Public transport"
+      ],
+      "verdict": [
+        "有公共交通",
+        "Public transport present"
+      ],
+      "text": [
+        "火车与公交衔接历史中心，最终步行进入广场。",
+        "Rail and buses connect to the historic centre, with a final pedestrian approach."
+      ],
+      "source": "https://www.visitsiena.it/trasporti-pubblici"
+    },
+    {
+      "key": "landscape",
+      "label": [
+        "景观融入",
+        "Landscape integration"
+      ],
+      "verdict": [
+        "地形主导，植被有限",
+        "Terrain-led; limited planting"
+      ],
+      "text": [
+        "坡地与喷泉融入空间体验；核心为硬质铺装，而非连续绿地。",
+        "Slope and fountain shape experience; the core is paved rather than continuous planted land."
+      ],
+      "source": "https://www.visitsiena.it/en/piazza-del-campo/"
+    },
+    {
+      "key": "commercial",
+      "label": [
+        "商业界面",
+        "Commercial edges"
+      ],
+      "verdict": [
+        "商业环绕",
+        "Commercial edge present"
+      ],
+      "text": [
+        "餐饮与外摆沿边缘展开，中心仍承担免费停留与公共活动。",
+        "Dining and terraces occupy edges while the centre supports informal stay and civic events."
+      ],
+      "source": "https://www.visitsiena.it/en/piazza-del-campo/"
+    },
+    {
+      "key": "climate",
+      "label": [
+        "气候适应",
+        "Climate response"
+      ],
+      "verdict": [
+        "遮阴依赖建筑",
+        "Building-dependent shade"
+      ],
+      "text": [
+        "夏季需避晒，凉季有雨；原LaMMA基准年降雨785.7 mm（1961—1990），不是当前年度。",
+        "Summer sun and cool-season rain matter; LaMMA’s baseline annual rainfall is 785.7 mm (1961–1990), not a current-year total."
+      ],
+      "source": "https://www.lamma.toscana.it/node/788"
+    },
+    {
+      "key": "function",
+      "label": [
+        "使用功能",
+        "Use programme"
+      ],
+      "verdict": [
+        "多功能",
+        "Mixed use"
+      ],
+      "text": [
+        "穿行／停留／文化参观／公共活动四类并存，Palio是特定时段的转换。",
+        "Passage / staying / cultural visits / public events coexist, with Palio as a timed transformation."
+      ],
+      "source": "https://palio.comune.siena.it/node/75"
+    },
+    {
+      "key": "calendar",
+      "label": [
+        "平日／节假日",
+        "Ordinary / holiday use"
+      ],
+      "verdict": [
+        "赛事改变地面规则",
+        "Events change ground rules"
+      ],
+      "text": [
+        "平日坐卧和穿行；Palio常规每年2场，赛事时配置赛道、围栏和受控入口。",
+        "Ordinary sitting and passage change to track, barriers and controlled entries for the two regular annual Palio races."
+      ],
+      "source": "https://palio.comune.siena.it/node/75"
+    },
+    {
+      "key": "demand",
+      "label": [
+        "容量与年到访量",
+        "Capacity & annual visitation"
+      ],
+      "verdict": [
+        "容量分区，年量缺失",
+        "Zoned capacity; annual count missing"
+      ],
+      "text": [
+        "2026安保执行记录为中央区约15,000人；不是全广场人数，也没有广场年量。",
+        "2026 provider account: approximately 15,000 in the centre; not a whole-square total. Annual square count unavailable."
+      ],
+      "source": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/"
+    },
+    {
+      "key": "technology",
+      "label": [
+        "科技接入",
+        "Technology"
+      ],
+      "verdict": [
+        "管理型科技",
+        "Management technology"
+      ],
+      "text": [
+        "数字交通信息与赛事流量管理为主；未证实核心广场有常设大型数字艺术屏。",
+        "Digital transit information and event-flow management are documented; no permanent large digital-art screen in the core is established."
+      ],
+      "source": "https://www.visitsiena.it/trasporti-pubblici"
+    },
+    {
+      "key": "audience",
+      "label": [
+        "服务对象",
+        "Community / tourism"
+      ],
+      "verdict": [
+        "BOTH · 社区仪式突出",
+        "BOTH · strong community ritual"
+      ],
+      "text": [
+        "Contrade组织和Palio体现社区作用，同时是世界性游客目的地。",
+        "Contrade and Palio express community roles alongside international tourism."
+      ],
+      "source": "https://palio.comune.siena.it/node/75"
+    }
+  ],
+  "highlights": [
+    {
+      "title": [
+        "可坐卧的坡地",
+        "An inhabitable slope"
+      ],
+      "text": [
+        "地面本身就参与停留与观看，而不只是一片铺装。",
+        "Ground itself supports staying and viewing rather than acting only as paving."
+      ]
+    },
+    {
+      "title": [
+        "街巷收束与展开",
+        "Compression and release"
+      ],
+      "text": [
+        "狭窄街巷在进入广场时突然开敞，增强整体空间辨识。",
+        "Narrow lanes release into the square, strengthening its spatial identity."
+      ]
+    },
+    {
+      "title": [
+        "社区仪式的延续",
+        "Continuity of civic ritual"
+      ],
+      "text": [
+        "Palio将地方社区和公共地面持续联系起来。",
+        "Palio keeps local communities connected to civic ground."
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "intro",
+      "chapter": "intro",
+      "tab": [
+        "案例概况",
+        "Case overview"
+      ],
+      "title": [
+        "Piazza del Campo",
+        "Piazza del Campo"
+      ],
+      "lede": [
+        "把坡地变成城市客厅：壳形地面、街巷入口与市政宫共同形成向心的公共空间。",
+        "A slope becomes a civic living room: shell-shaped ground, lane entrances and the civic palace create an inward focus."
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "asset": "hero"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.visitsiena.it/en/piazza-del-campo/",
+          "label": [
+            "Visit Siena：广场概况",
+            "Visit Siena: square overview"
+          ]
+        },
+        {
+          "url": "https://iris.uniroma1.it/bitstream/11573/1658610/1/Sepe_Covid%E2%80%9119-pandemic-and-public_2021.pdf",
+          "label": [
+            "Sepe等：广场面积",
+            "Sepe et al.: published square area"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "location",
+      "chapter": "intro",
+      "tab": [
+        "地图与城市",
+        "Map & city"
+      ],
+      "title": [
+        "位置：历史街巷汇聚的城市中心",
+        "Location: the civic focus of converging lanes"
+      ],
+      "lede": [
+        "市镇常住人口53,588人（2025年末）；公共交通到达历史中心外围，再步行进入广场。",
+        "53,588 municipal residents at end-2025; transit reaches the edges of the historic centre, followed by walking."
+      ],
+      "blocks": [
+        {
+          "type": "map"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "公共交通",
+                "Public transport"
+              ],
+              "text": [
+                "城外火车站与Piazza Gramsci等节点由公交连接。",
+                "Buses connect the railway station outside the walls with nodes such as Piazza Gramsci."
+              ]
+            },
+            {
+              "title": [
+                "最后一段步行",
+                "The final walk"
+              ],
+              "text": [
+                "广场本体不由机动车贯穿，需穿过历史街巷到达。",
+                "Vehicles do not run through the square; the final approach uses historic lanes."
+              ]
+            },
+            {
+              "title": [
+                "城市角色",
+                "Civic role"
+              ],
+              "text": [
+                "市政、Contrade社区仪式与旅游共享同一中心。",
+                "Municipal life, Contrade community ritual and tourism share the same centre."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.comune.siena.it/sites/default/files/2026-03/Popolazione%20residente%20al%2031.12.2025%20per%20et%C3%A0_0.pdf",
+          "label": [
+            "锡耶纳市政府：2025人口",
+            "Municipality: 2025 residents"
+          ]
+        },
+        {
+          "url": "https://www.visitsiena.it/trasporti-pubblici",
+          "label": [
+            "Visit Siena：公共交通",
+            "Visit Siena: public transport"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "chapter": "intro",
+      "tab": [
+        "形成过程",
+        "Formation"
+      ],
+      "title": [
+        "历史：公共地面与共同规则",
+        "History: civic ground and shared rules"
+      ],
+      "lede": [
+        "广场的整体性既来自地形，也来自跨建筑的市政建设与管理。",
+        "Its coherence comes from terrain as well as municipal building and management rules."
+      ],
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "地面",
+                "Ground"
+              ],
+              "text": [
+                "砖铺地与放射石带加强壳形地面的统一性。",
+                "Brick paving and radial stone bands reinforce the unity of the shell-like ground."
+              ]
+            },
+            {
+              "title": [
+                "边界",
+                "Edges"
+              ],
+              "text": [
+                "市政宫与外围建筑共同围合，不依赖各楼完全等高。",
+                "Civic palace and surrounding buildings provide enclosure without every building being equal in height."
+              ]
+            },
+            {
+              "title": [
+                "公共传统",
+                "Civic tradition"
+              ],
+              "text": [
+                "Contrade与Palio使广场长期承担社区表达，而非只有观光用途。",
+                "Contrade and Palio sustain community expression beyond sightseeing."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/717/",
+          "label": [
+            "UNESCO：锡耶纳历史中心",
+            "UNESCO: Historic Centre of Siena"
+          ]
+        },
+        {
+          "url": "https://palio.comune.siena.it/node/75",
+          "label": [
+            "市政府：Siena与Palio",
+            "Municipality: Siena and Palio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figure-ground",
+      "chapter": "scale",
+      "tab": [
+        "图底",
+        "Figure-ground"
+      ],
+      "title": [
+        "同一比例，看三种城市肌理",
+        "One scale, three urban fabrics"
+      ],
+      "lede": [
+        "Campo是密集历史街区中的壳形空场；相同图幅让它与圣马可和墨尔本直接比较。",
+        "Campo is a shell-shaped opening in dense fabric; the common frame makes direct visual comparison possible."
+      ],
+      "blocks": [
+        {
+          "type": "metric"
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "三案均为600 × 600米，北向上、横纵同尺度；矢量图按300毫米宽输出时为1:2500。网页缩放请读图形比例尺。",
+            "All three frames cover 600 × 600 m, north up with identical axis scale. Native SVG at 300 mm width is 1:2500; use the graphic bar on screens."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "@/data/comparison-figures.json",
+          "label": [
+            "制图参数与计算结果",
+            "Drawing parameters and computed measures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "chapter": "scale",
+      "tab": [
+        "平面",
+        "Plan"
+      ],
+      "title": [
+        "平面：空间如何组织",
+        "Plan: how the place is organised"
+      ],
+      "lede": [
+        "用原研究平面阅读街巷入口与公共地面的相互关系。",
+        "Use the published plan to read entrances and civic ground together."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "plan"
+        },
+        {
+          "type": "p",
+          "text": [
+            "弧形边缘与多处街巷入口让地面成为一个明确的城市房间。Nolli图中的公共地面与建筑内部应按原图的研究定义阅读。",
+            "Curved edges and multiple lane entrances make a legible civic room. Public ground and interiors in the Nolli drawing follow the author’s research definitions."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+          "label": [
+            "Hollmann 2025：Abb.4",
+            "Hollmann 2025: Fig.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section",
+      "chapter": "scale",
+      "tab": [
+        "剖面",
+        "Section"
+      ],
+      "title": [
+        "剖面：坡面朝市政宫汇聚",
+        "Section: the ground converges toward the palace"
+      ],
+      "lede": [
+        "横、纵剖面保留原始比例尺，坡地如何汇聚一目了然。",
+        "Cross and longitudinal sections retain their original bar, making the slope legible."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "section"
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "原研究剖面清楚显示：地面并非水平，市政宫位于视觉低侧。坡面把观看、坐卧和城市仪式组织在同一场地中。",
+            "The published section shows a non-level ground and the palace at the visual low side. The slope brings viewing, informal sitting and civic ritual into one space."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+          "label": [
+            "原始剖面与比例尺：Abb.7／8",
+            "Original sections and bars: Figs.7/8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "syntax",
+      "chapter": "syntax",
+      "tab": [
+        "步行连接",
+        "Walking connections"
+      ],
+      "title": [
+        "从窄街到广场：收束—接近—展开",
+        "Street to square: enclosure, approach and release"
+      ],
+      "lede": [
+        "三张不同视点照片比较街墙、天空开口与可见地面：街巷越收束，进入广场时的开敞感越明显。",
+        "Three distinct views compare enclosing walls, sky and visible ground: compressed streets make the square’s openness more evident."
+      ],
+      "blocks": [
+        {
+          "type": "triptych",
+          "assets": [
+            "street-citta",
+            "street-rinaldini",
+            "detail"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "①与②是两条不同的进入路径，③在广场内部；比较两侧街墙的包围感、天空开口与可见地面的变化。",
+            "① and ② show two different approaches, while ③ is inside the square. Compare enclosing street walls, the opening to the sky and visible ground."
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "抵达",
+                "Arrival"
+              ],
+              "text": [
+                "公共交通到达外围节点，再从街巷进入。",
+                "Transit arrives at peripheral nodes, followed by lanes."
+              ]
+            },
+            {
+              "title": [
+                "穿行",
+                "Passage"
+              ],
+              "text": [
+                "入口压缩后迅速展开，广场兼有通行与目的地属性。",
+                "Compressed entrances open rapidly; the square is both route and destination."
+              ]
+            },
+            {
+              "title": [
+                "停留",
+                "Staying"
+              ],
+              "text": [
+                "坡面和边缘让坐、看与交谈有不同位置可选。",
+                "Slope and edges provide choices for sitting, viewing and conversation."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "街巷收束视野，广场释放视野；建筑边缘和坡面为穿行、坐靠与共同观看提供不同位置。",
+            "Lanes compress the view and the square releases it; building edges and the slope offer different places for passage, sitting and shared viewing."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.visitsiena.it/trasporti-pubblici",
+          "label": [
+            "官方公共交通信息",
+            "Official public transport information"
+          ]
+        },
+        {
+          "url": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+          "label": [
+            "原研究：入口与空间体验",
+            "Published study: entrances and spatial experience"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boundary",
+      "chapter": "boundary",
+      "tab": [
+        "建筑边界",
+        "Architectural edges"
+      ],
+      "title": [
+        "边界：建筑与公共地面",
+        "Edges: buildings meet civic ground"
+      ],
+      "lede": [
+        "连续街墙提供整体围合，市政宫与塔楼提供重点；统一不等于完全相同。",
+        "Continuous fronts provide enclosure; palace and tower provide focus. Coherence does not require uniformity."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "edge1"
+        },
+        {
+          "type": "p",
+          "text": [
+            "边界包含不同材料、开间与年代的建筑。整体空间秩序来自连续界面与共同地面，不是把每栋建筑画成同一种立面。",
+            "Edges include different materials, bays and periods. Continuous fronts and shared ground create coherence, not identical individual facades."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "detail",
+      "chapter": "boundary",
+      "tab": [
+        "景观与气候",
+        "Landscape & climate"
+      ],
+      "title": [
+        "环境：景观、气候与科技",
+        "Environment: landscape, climate and technology"
+      ],
+      "lede": [
+        "内陆丘陵气候、开敞砖地与建筑阴影决定使用条件；树木不是核心广场的主要围合元素。",
+        "Inland hill climate, exposed brick ground and building shade shape use; trees are not the core square’s enclosing device."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "open-square"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "景观",
+                "Landscape"
+              ],
+              "text": [
+                "坡地和Fonte Gaia提供地形与水的体验，核心不是绿地公园。",
+                "Slope and Fonte Gaia provide terrain and water experiences; the core is not a planted park."
+              ]
+            },
+            {
+              "title": [
+                "天气与气候",
+                "Weather and climate"
+              ],
+              "text": [
+                "夏季较热，冬季较凉，秋季降雨较多。LaMMA的1961—1990基准年降雨785.7 mm；建筑阴影提供局部缓冲，雨会影响赛事。",
+                "Hotter summers, cooler winters and wetter autumns. LaMMA baseline rainfall is 785.7 mm/year (1961–1990); building shade offers local relief and rain affects racing."
+              ]
+            },
+            {
+              "title": [
+                "科技",
+                "Technology"
+              ],
+              "text": [
+                "以信息、交通和赛事安全管理为主，不把历史空间误写成数字展示广场。",
+                "Information, transit and event management matter more than digital spectacle."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.lamma.toscana.it/node/788",
+          "label": [
+            "LaMMA：锡耶纳气候，1961—1990基准",
+            "LaMMA: Siena climate, 1961–1990 reference"
+          ]
+        },
+        {
+          "url": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/",
+          "label": [
+            "2026安保执行记录：雨天延期",
+            "2026 security-provider account: rain postponement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life",
+      "chapter": "life",
+      "tab": [
+        "平日",
+        "Ordinary days"
+      ],
+      "title": [
+        "平日：人们怎样使用这里",
+        "Ordinary days: how people use the place"
+      ],
+      "lede": [
+        "普通日的坡面是穿行、短坐、交谈与观看建筑的共同地面。",
+        "On ordinary days, the slope supports passage, short stays, conversation and views of architecture."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "daily2"
+        },
+        {
+          "type": "p",
+          "text": [
+            "普通日可以慢行、坐卧与观看；餐饮消费集中在边缘。这里的开放并不意味着所有位置都适合所有身体条件。",
+            "Ordinary days allow walking, sitting and viewing, with dining at the edges. Openness does not make every position equally accessible."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "milestones",
+      "chapter": "life",
+      "tab": [
+        "重要事件",
+        "Major events"
+      ],
+      "title": [
+        "这里发生过什么：历史、典礼、音乐与集会",
+        "What happened here: history, ceremony, music and assembly"
+      ],
+      "lede": [
+        "按时间列出在场地内发生、或明确通过场地共同观看的事件。每项说明地点与空间意义。",
+        "A chronology of events held here, or explicitly watched here by broadcast. Each entry identifies its spatial role."
+      ],
+      "blocks": [
+        {
+          "type": "timeline"
+        }
+      ]
+    },
+    {
+      "id": "public-programme",
+      "chapter": "life",
+      "tab": [
+        "公共活动",
+        "Public activities"
+      ],
+      "title": [
+        "公共活动：这里可以参与什么",
+        "Public activities: what people can take part in"
+      ],
+      "lede": [
+        "从活动内容、参与方式和现场布置，读懂公共地面如何被不同的人使用。",
+        "Read the programme, participation and layout to see how different people use the civic ground."
+      ],
+      "blocks": [
+        {
+          "type": "programmes",
+          "kind": "public"
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "chapter": "life",
+      "tab": [
+        "节假日与活动",
+        "Holidays & events"
+      ],
+      "title": [
+        "节假日与活动：地面的另一种状态",
+        "Holidays and events: the ground transforms"
+      ],
+      "lede": [
+        "Palio不是普通周末的放大版：赛道、围栏、看台和入口控制改变了整个使用方式。",
+        "Palio is not simply a busier weekend: track, barriers, grandstands and controlled entries change how the ground works."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "event"
+        },
+        {
+          "type": "figure",
+          "asset": "carabinieri"
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              "比较项",
+              "Item"
+            ],
+            [
+              "平日",
+              "Ordinary weekday"
+            ],
+            [
+              "普通周末／节假日",
+              "Ordinary weekend / holiday"
+            ],
+            [
+              "大型活动日",
+              "Major event day"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "主要功能",
+                "Main functions"
+              ],
+              [
+                "穿行、坐卧、交谈、参观与餐饮",
+                "Passage, sitting, conversation, visits and dining"
+              ],
+              [
+                "同类休闲与参观；不推定固定人流增幅",
+                "Similar leisure and visits; no assumed fixed rise"
+              ],
+              [
+                "Palio与Contrade仪式",
+                "Palio and Contrade ritual"
+              ]
+            ],
+            [
+              [
+                "空间布置",
+                "Spatial layout"
+              ],
+              [
+                "坡面自由停留，餐饮主要沿边缘",
+                "Informal use on slope, dining mainly at edges"
+              ],
+              [
+                "无活动时保留普通公共地面",
+                "Ordinary civic ground when no event is installed"
+              ],
+              [
+                "赛道、中央站立区、外围看台分区",
+                "Track, central standing area and perimeter stands"
+              ]
+            ],
+            [
+              [
+                "通行与管理",
+                "Access & management"
+              ],
+              [
+                "从街巷进入；不等于全部无障碍",
+                "Lane access; not universal step-free access"
+              ],
+              [
+                "按活动、天气和临时管理变化",
+                "Depends on events, weather and management"
+              ],
+              [
+                "2026安保方记录：中央区约15,000人",
+                "2026 provider account: about 15,000 centrally"
+              ]
+            ],
+            [
+              [
+                "定量记录",
+                "Quantitative record"
+              ],
+              [
+                "未有同口径日均统计",
+                "No matched daily count"
+              ],
+              [
+                "未有同口径日均统计",
+                "No matched daily count"
+              ],
+              [
+                "常规2场Palio／年，不是所有活动数",
+                "2 regular Palio races/year, not all square events"
+              ]
+            ]
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://palio.comune.siena.it/node/75",
+          "label": [
+            "市政府：常规赛事与Contrade",
+            "Municipality: regular races and Contrade"
+          ]
+        },
+        {
+          "url": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/",
+          "label": [
+            "2026执行记录：约15,000人中央区限额",
+            "2026 provider account: approximately 15,000 central-area limit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "celebrations",
+      "chapter": "life",
+      "tab": [
+        "节日庆典",
+        "Festivals"
+      ],
+      "title": [
+        "节日庆典：有名称、有场景的公共生活",
+        "Festivals: named celebrations, visible civic life"
+      ],
+      "lede": [
+        "从舞台朝向、观众站位与通行路径，看节庆如何把同一地面变成另一种公共场景。",
+        "Stage orientation, audience positions and circulation show how festivals transform the same ground into another civic setting."
+      ],
+      "blocks": [
+        {
+          "type": "programmes",
+          "kind": "festival"
+        }
+      ]
+    },
+    {
+      "id": "metrics",
+      "chapter": "life",
+      "tab": [
+        "关键数字",
+        "Key numbers"
+      ],
+      "title": [
+        "数字：规模、容量与使用强度",
+        "Numbers: scale, capacity and use"
+      ],
+      "lede": [
+        "人口按市镇／LGA范围；容量是特定活动或场地布置口径；年到访量单独列出。",
+        "Population uses municipal/LGA boundaries; capacity is event- or layout-specific; annual visitation is listed separately."
+      ],
+      "blocks": [
+        {
+          "type": "metrics"
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "活动容量不是全年访客量，也不是随时允许进入的人数。三案未公开同口径的平日／节假日人流序列，因此不伪造倍数关系。",
+            "Event capacity is neither annual visitation nor a constant admission allowance. Matched ordinary-day/holiday footfall series are unavailable, so no multiplier is invented."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "assessment",
+      "chapter": "conclusion",
+      "tab": [
+        "空间与环境",
+        "Space & environment"
+      ],
+      "title": [
+        "统一评价①：空间与环境",
+        "Aligned assessment 1: space and environment"
+      ],
+      "lede": [
+        "以下五项在三个案例中采用完全相同的名称、顺序和判断口径。",
+        "The same five dimensions, in the same order and with the same interpretation, apply to all three cases."
+      ],
+      "blocks": [
+        {
+          "type": "assessment",
+          "start": 0,
+          "end": 5
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "use-assessment",
+      "chapter": "conclusion",
+      "tab": [
+        "使用与公共性",
+        "Use & publicness"
+      ],
+      "title": [
+        "统一评价②：使用与公共性",
+        "Aligned assessment 2: use and publicness"
+      ],
+      "lede": [
+        "区分功能、时段、规模、科技与服务对象；BOTH表示社区与游客均被服务，不代表两者人数相等。",
+        "Separate programme, timing, scale, technology and users. BOTH means both communities and visitors are served, not equal headcounts."
+      ],
+      "blocks": [
+        {
+          "type": "assessment",
+          "start": 5,
+          "end": 10
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "conclusion",
+      "chapter": "conclusion",
+      "tab": [
+        "三个特点",
+        "Three defining qualities"
+      ],
+      "title": [
+        "最突出的三个特点",
+        "Three defining qualities"
+      ],
+      "lede": [
+        "最鲜明的价值在于坡地、街巷与社区仪式的共同作用，而不只是壳形轮廓。",
+        "Its defining value lies in slope, lanes and civic ritual acting together, beyond the shell-shaped outline."
+      ],
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "可坐卧的坡地",
+                "An inhabitable slope"
+              ],
+              "text": [
+                "地面本身就参与停留与观看，而不只是一片铺装。",
+                "Ground itself supports staying and viewing rather than acting only as paving."
+              ]
+            },
+            {
+              "title": [
+                "街巷收束与展开",
+                "Compression and release"
+              ],
+              "text": [
+                "狭窄街巷在进入广场时突然开敞，增强整体空间辨识。",
+                "Narrow lanes release into the square, strengthening its spatial identity."
+              ]
+            },
+            {
+              "title": [
+                "社区仪式的延续",
+                "Continuity of civic ritual"
+              ],
+              "text": [
+                "Palio将地方社区和公共地面持续联系起来。",
+                "Palio keeps local communities connected to civic ground."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "主要限制：坡地不等于普遍无障碍，夏季遮阴有限，赛事时自由通行受到明显限制。",
+            "Principal limitations: slope is not universal accessibility, summer shade is limited, and events restrict free passage."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "@/comparison.html",
+              "label": [
+                "对照三个案例的完整评价矩阵",
+                "Compare the full three-case assessment matrix"
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "sources",
+      "chapter": "sources",
+      "tab": [
+        "资料附录",
+        "Source appendix"
+      ],
+      "title": [
+        "资料与证据边界",
+        "Sources and evidence limits"
+      ],
+      "lede": [
+        "正文保留空间判断；完整出处、统计口径与方法集中在这里。",
+        "The main pages focus on spatial findings; complete provenance, statistical definitions and methods are collected here."
+      ],
+      "blocks": [
+        {
+          "type": "archive",
+          "title": [
+            "人口、容量与年到访量",
+            "Population, capacity and annual visits"
+          ],
+          "blocks": [
+            {
+              "type": "p",
+              "text": [
+                "保留来源年份、统计范围与空值。01的2018活动限额、03的2026赛事站立区和04的现行场租容量不可直接理解为同一时点的全广场安全上限。",
+                "Year, boundary and missing values are retained. The 2018 event cap in 01, 2026 standing area in 03 and current venue listing in 04 are not a single-date set of universal safety limits."
+              ]
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "url": "https://www.comune.siena.it/sites/default/files/2026-03/Popolazione%20residente%20al%2031.12.2025%20per%20et%C3%A0_0.pdf",
+                  "label": [
+                    "所在城市人口",
+                    "City population"
+                  ]
+                },
+                {
+                  "url": "https://iris.uniroma1.it/bitstream/11573/1658610/1/Sepe_Covid%E2%80%9119-pandemic-and-public_2021.pdf",
+                  "label": [
+                    "公布广场面积",
+                    "Published plaza area"
+                  ]
+                },
+                {
+                  "url": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/",
+                  "label": [
+                    "公布活动容量",
+                    "Published event capacity"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it",
+                  "label": [
+                    "广场年到访量",
+                    "Annual square visitation"
+                  ]
+                },
+                {
+                  "url": "https://palio.comune.siena.it/node/75",
+                  "label": [
+                    "常规Palio场次",
+                    "Regular Palio races"
+                  ]
+                },
+                {
+                  "url": "@/data/comparison-figures.json",
+                  "label": [
+                    "600米图幅建筑覆盖率",
+                    "Buildings in the 600 m frame"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "archive",
+          "title": [
+            "地图、图底与数据许可",
+            "Maps, figure-ground and licences"
+          ],
+          "blocks": [
+            {
+              "type": "p",
+              "text": [
+                "Google Maps为三案统一位置地图。建筑图底统一图幅和米制投影；01／03使用Overture 2026-10-21资料，经TerraLab提取，04保留墨尔本官方2020地面层资料。年代与轮廓定义不同；计算结果用于描述形态，不作为公共空间质量排名。",
+                "Google Maps is the common location map. Figure-ground uses an identical metric frame: 01/03 use Overture 2026-10-21 through TerraLab; 04 retains official Melbourne 2020 ground/podium data. Dates and footprint definitions differ; results describe form rather than rank civic quality."
+              ]
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "url": "@/data/comparison-figures.json",
+                  "label": [
+                    "同尺度参数与覆盖率算法结果",
+                    "Common-scale parameters and coverage results"
+                  ]
+                },
+                {
+                  "url": "@/data/siena-comparison-buildings.geojson",
+                  "label": [
+                    "下载本案原始建筑轮廓",
+                    "Download source building footprints"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "archive",
+          "title": [
+            "图纸与图像登记",
+            "Drawings and image register"
+          ],
+          "blocks": [
+            {
+              "type": "links",
+              "items": [
+                {
+                  "url": "https://www.visitsiena.it/en/piazza-del-campo/",
+                  "label": [
+                    "高视点下的壳形广场与市政宫",
+                    "Elevated view of the shell-shaped square and civic palace"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it/en/piazza-del-campo/",
+                  "label": [
+                    "市政宫与塔楼界面",
+                    "Palazzo Pubblico and tower edge"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it/en/piazza-del-campo/",
+                  "label": [
+                    "硬质地面与建筑边缘",
+                    "Paving and architectural edge"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it/en/piazza-del-campo/",
+                  "label": [
+                    "狭窄街巷向广场展开",
+                    "A narrow lane opening to the square"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it/en/piazza-del-campo/",
+                  "label": [
+                    "Palio期间的中央人群与外围赛道",
+                    "Palio crowd in the centre and racecourse at the edge"
+                  ]
+                },
+                {
+                  "url": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+                  "label": [
+                    "Nolli平面：公共地面与入口关系",
+                    "Nolli plan: civic ground and entrances"
+                  ]
+                },
+                {
+                  "url": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+                  "label": [
+                    "壳形地面的横、纵剖面（原图含比例尺）",
+                    "Cross and longitudinal sections of the shell-like ground (original scale bar retained)"
+                  ]
+                },
+                {
+                  "url": "https://docs.overturemaps.org/attribution/#buildings",
+                  "label": [
+                    "600 × 600米建筑图底，北向上，100米比例尺",
+                    "600 × 600 m figure-ground, north up, 100 m scale bar"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it/en/via-di-citta",
+                  "label": [
+                    "① Via di Città：两侧墙体贴近视野，天空收窄",
+                    "① Via di Città: close walls and a narrow opening to the sky"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it/via-rinaldini-chiasso-largo",
+                  "label": [
+                    "② Via Rinaldini：沿街墙向广场与塔楼接近",
+                    "② Via Rinaldini: approach between street walls toward the square and tower"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it/en/piazza-del-campo/",
+                  "label": [
+                    "连续街墙与倾斜铺地",
+                    "Continuous fronts and sloping paving"
+                  ]
+                },
+                {
+                  "url": "https://commons.wikimedia.org/wiki/File:La_folla_durante_il_Palio.jpg",
+                  "label": [
+                    "2007年7月2日Palio开赛前：广场中央的站立观众",
+                    "2 July 2007 before the Palio: standing spectators in the square"
+                  ]
+                },
+                {
+                  "url": "https://commons.wikimedia.org/wiki/File:Carica_lg_palio_provenzano_2007.jpg",
+                  "label": [
+                    "2007年Palio赛前的Carabinieri骑兵仪式，不是正赛",
+                    "2007 pre-race Carabinieri ceremony, not the Palio race"
+                  ]
+                },
+                {
+                  "url": "https://commons.wikimedia.org/wiki/File:Quarter_Goose_palio_parade,_Siena,_2007.jpg",
+                  "label": [
+                    "2007年Contrada dell’Oca街巷游行：庆典从广场延伸到社区",
+                    "2007 Contrada dell’Oca street procession: celebration extends into the neighbourhood"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it/palio",
+                  "label": [
+                    "Palio赛马沿外围赛道奔跑；照片未标明具体场次",
+                    "Palio horses race around the perimeter; this image does not identify a specific running"
+                  ]
+                },
+                {
+                  "url": "https://www.comune.siena.it/novita/mercato-nel-campo-2026-edizione-potenziata-saranno-cinque-giorni-di-evento-piazza-del-campo",
+                  "label": [
+                    "往届Mercato nel Campo：摊位与通行空间交替；市政府2026公告配图，拍摄年份未注明",
+                    "An earlier Mercato nel Campo: stalls alternate with circulation; municipal 2026 announcement image, photograph year unspecified"
+                  ]
+                },
+                {
+                  "url": "https://www.radiosienatv.it/piazza-del-campo-abbraccia-la-grande-musica-in-5000-a-siena-per-il-concerto-per-litalia/",
+                  "label": [
+                    "2025年7月18日Concerto per l’Italia：Campo上的舞台、座椅与夜间观众",
+                    "18 July 2025 Concerto per l’Italia: stage, seating and evening audience in Campo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "archive",
+          "title": [
+            "方法与证据边界",
+            "Methods and evidence limits"
+          ],
+          "blocks": [
+            {
+              "type": "p",
+              "text": [
+                "连接章节是基于地图、图纸与照片的形态解读，不是本站正式空间句法计算。没有用照片推算人数、建筑高度、容量或全年舒适度；没有以城市游客数或单座博物馆入场数替代广场年访客量。",
+                "Connectivity is a reading of maps, drawings and photographs, not a formal syntax computation by this site. Photos do not supply population, heights, capacity or annual comfort; city tourism and individual museum admissions do not replace square-level annual visitation."
+              ]
+            },
+            {
+              "type": "p",
+              "text": [
+                "图像保留原作者版权，逐图出处可展开查看。学术剖面作为有限图示摘录保留原始几何和比例尺，并非本站实测；图底是数据重建，非施工或测绘边界。",
+                "Creators retain image rights; per-image credits expand in place. Limited scholarly drawing excerpts retain original geometry and bars; they are not surveys by this site. GIS drawings are data reconstructions, not construction or legal survey boundaries."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "factsheet",
+      "chapter": "factsheet",
+      "tab": [
+        "一页档案",
+        "One-page factsheet"
+      ],
+      "title": [
+        "Piazza del Campo · 一页档案",
+        "Piazza del Campo · factsheet"
+      ],
+      "lede": [
+        "把坡地变成城市客厅：壳形地面、街巷入口与市政宫共同形成向心的公共空间。",
+        "A slope becomes a civic living room: shell-shaped ground, lane entrances and the civic palace create an inward focus."
+      ],
+      "blocks": [
+        {
+          "type": "factsheet"
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "三个特点：可坐卧的坡地；街巷收束与展开；社区仪式的延续。",
+            "Three qualities: An inhabitable slope; Compression and release; Continuity of civic ritual."
+          ]
+        }
+      ],
+      "sources": []
+    }
+  ],
+  "raw_gis": "@/data/siena-comparison-buildings.geojson",
+  "intro_lede": [
+    "把坡地变成城市客厅：壳形地面、街巷入口与市政宫共同形成向心的公共空间。",
+    "A slope becomes a civic living room: shell-shaped ground, lane entrances and the civic palace create an inward focus."
+  ],
+  "plan_text": [
+    "弧形边缘与多处街巷入口让地面成为一个明确的城市房间。Nolli图中的公共地面与建筑内部应按原图的研究定义阅读。",
+    "Curved edges and multiple lane entrances make a legible civic room. Public ground and interiors in the Nolli drawing follow the author’s research definitions."
+  ],
+  "plan_refs": [
+    {
+      "url": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+      "label": [
+        "Hollmann 2025：Abb.4",
+        "Hollmann 2025: Fig.4"
+      ]
+    }
+  ],
+  "section_title": [
+    "剖面：坡面朝市政宫汇聚",
+    "Section: the ground converges toward the palace"
+  ],
+  "section_blocks": [
+    {
+      "type": "figure",
+      "asset": "section"
+    },
+    {
+      "type": "takeaway",
+      "text": [
+        "原研究剖面清楚显示：地面并非水平，市政宫位于视觉低侧。坡面把观看、坐卧和城市仪式组织在同一场地中。",
+        "The published section shows a non-level ground and the palace at the visual low side. The slope brings viewing, informal sitting and civic ritual into one space."
+      ]
+    }
+  ],
+  "section_refs": [
+    {
+      "url": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+      "label": [
+        "原始剖面与比例尺：Abb.7／8",
+        "Original sections and bars: Figs.7/8"
+      ]
+    }
+  ],
+  "syntax_lede": [
+    "狭窄入口突然打开为宽阔坡面，是Campo最鲜明的步行体验。",
+    "Narrow entrances suddenly opening to the broad slope define Campo’s walking experience."
+  ],
+  "transport_refs": [
+    {
+      "url": "https://www.visitsiena.it/trasporti-pubblici",
+      "label": [
+        "官方公共交通信息",
+        "Official public transport information"
+      ]
+    },
+    {
+      "url": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+      "label": [
+        "原研究：入口与空间体验",
+        "Published study: entrances and spatial experience"
+      ]
+    }
+  ],
+  "boundary_lede": [
+    "连续街墙提供整体围合，市政宫与塔楼提供重点；统一不等于完全相同。",
+    "Continuous fronts provide enclosure; palace and tower provide focus. Coherence does not require uniformity."
+  ],
+  "boundary_text": [
+    "边界包含不同材料、开间与年代的建筑。整体空间秩序来自连续界面与共同地面，不是把每栋建筑画成同一种立面。",
+    "Edges include different materials, bays and periods. Continuous fronts and shared ground create coherence, not identical individual facades."
+  ],
+  "environment_lede": [
+    "内陆丘陵气候、开敞砖地与建筑阴影决定使用条件；树木不是核心广场的主要围合元素。",
+    "Inland hill climate, exposed brick ground and building shade shape use; trees are not the core square’s enclosing device."
+  ],
+  "environment_refs": [
+    {
+      "url": "https://www.lamma.toscana.it/node/788",
+      "label": [
+        "LaMMA：锡耶纳气候，1961—1990基准",
+        "LaMMA: Siena climate, 1961–1990 reference"
+      ]
+    },
+    {
+      "url": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/",
+      "label": [
+        "2026安保执行记录：雨天延期",
+        "2026 security-provider account: rain postponement"
+      ]
+    }
+  ],
+  "life_lede": [
+    "普通日的坡面是穿行、短坐、交谈与观看建筑的共同地面。",
+    "On ordinary days, the slope supports passage, short stays, conversation and views of architecture."
+  ],
+  "event_lede": [
+    "Palio不是普通周末的放大版：赛道、围栏、看台和入口控制改变了整个使用方式。",
+    "Palio is not simply a busier weekend: track, barriers, grandstands and controlled entries change how the ground works."
+  ],
+  "event_refs": [
+    {
+      "url": "https://palio.comune.siena.it/node/75",
+      "label": [
+        "市政府：常规赛事与Contrade",
+        "Municipality: regular races and Contrade"
+      ]
+    },
+    {
+      "url": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/",
+      "label": [
+        "2026执行记录：约15,000人中央区限额",
+        "2026 provider account: approximately 15,000 central-area limit"
+      ]
+    }
+  ],
+  "conclusion_lede": [
+    "最鲜明的价值在于坡地、街巷与社区仪式的共同作用，而不只是壳形轮廓。",
+    "Its defining value lies in slope, lanes and civic ritual acting together, beyond the shell-shaped outline."
+  ],
+  "conclusion_limit": [
+    "主要限制：坡地不等于普遍无障碍，夏季遮阴有限，赛事时自由通行受到明显限制。",
+    "Principal limitations: slope is not universal accessibility, summer shade is limited, and events restrict free passage."
+  ],
+  "programmes": [
+    {
+      "id": "concert",
+      "kind": "public",
+      "name": [
+        "Concerto per l’Italia：广场交响音乐会",
+        "Concerto per l’Italia: a symphonic concert in the square"
+      ],
+      "when": [
+        "已记录场次：2025-07-18",
+        "Documented edition: 18 Jul 2025"
+      ],
+      "access": [
+        "该场免费、须预约；以主办方票务说明为准",
+        "That edition was free with reservation; follow organiser ticketing information"
+      ],
+      "text": [
+        "James Conlon执棒RAI国家交响乐团，Lilya Zilberstein担任钢琴独奏。",
+        "James Conlon conducted the RAI National Symphony Orchestra, with pianist Lilya Zilberstein."
+      ],
+      "spatial_change": [
+        "坡地成为面向舞台的露天音乐厅；座椅和出入口取代比赛日的赛道组织。",
+        "The slope becomes an open-air concert hall facing a stage; seating and entrances replace race-day track arrangements."
+      ],
+      "source": "https://www.chigiana.org/concerto-per-l-italia/",
+      "image": "concert"
+    },
+    {
+      "id": "market",
+      "kind": "public",
+      "name": [
+        "Mercato nel Campo：工艺与食品集市",
+        "Mercato nel Campo: craft and food market"
+      ],
+      "when": [
+        "往届已举办；2026年公告计划12月4—8日",
+        "Held in earlier years; announced 2026 dates: 4–8 Dec"
+      ],
+      "access": [
+        "步行逛摊，购买商品另计；这里展示的是案例，不是实时日程",
+        "Browse on foot; purchases are separate. This is a case-study example, not a live schedule"
+      ],
+      "text": [
+        "季节性集市把手工艺、地方食品与居民、游客联系起来。",
+        "The seasonal market connects crafts, local food, residents and visitors."
+      ],
+      "spatial_change": [
+        "临时摊位在坡面建立细小街巷，保留逛摊与穿行的通道。",
+        "Temporary stalls create small aisles across the slope, maintaining browsing and passage routes."
+      ],
+      "source": "https://www.comune.siena.it/novita/mercato-nel-campo-2026-edizione-potenziata-saranno-cinque-giorni-di-evento-piazza-del-campo",
+      "image": "market"
+    },
+    {
+      "id": "contrade",
+      "kind": "public",
+      "name": [
+        "Contrade游行与社区仪式",
+        "Contrade processions and civic ritual"
+      ],
+      "when": [
+        "围绕Palio发生；图为2007年Oca街巷游行",
+        "Around Palio; pictured: Oca street procession, 2007"
+      ],
+      "access": [
+        "沿途观看；参加社区仪式由Contrada组织",
+        "Watch along the route; participation in civic ritual is organised by the Contrada"
+      ],
+      "text": [
+        "旗帜、鼓乐与服装使广场的公共活动延伸进相邻街巷。",
+        "Flags, drums and costume extend the square’s civic life into surrounding streets."
+      ],
+      "spatial_change": [
+        "活动在狭窄街巷中形成移动队列，到达广场后转为大尺度共同观看。",
+        "Moving groups pass through narrow lanes before meeting the larger collective setting of the square."
+      ],
+      "source": "https://www.visitsiena.it/palio",
+      "image": "oca-parade"
+    },
+    {
+      "id": "provenzano",
+      "kind": "festival",
+      "name": [
+        "Palio di Provenzano",
+        "Palio di Provenzano"
+      ],
+      "when": [
+        "通常7月2日；实际日期可因天气调整",
+        "Normally 2 Jul; weather may change the actual date"
+      ],
+      "access": [
+        "观看试跑、仪式及比赛；赛马由Contrade组织，不是游客报名项目",
+        "Watch trials, ceremony and racing; Contrade organise the race, rather than visitor sign-ups"
+      ],
+      "text": [
+        "锡耶纳各Contrada竞争与认同的年度焦点之一。",
+        "One of the annual focal points of competition and identity among Siena’s Contrade."
+      ],
+      "spatial_change": [
+        "外围铺设赛道，中央为站立观众，外围建筑前设看台。",
+        "A perimeter track surrounds standing spectators, with grandstands against the buildings."
+      ],
+      "source": "https://palio.comune.siena.it/node/75",
+      "image": "palio-crowd"
+    },
+    {
+      "id": "assunta",
+      "kind": "festival",
+      "name": [
+        "Palio dell’Assunta",
+        "Palio dell’Assunta"
+      ],
+      "when": [
+        "通常8月16日；实际日期可因天气调整",
+        "Normally 16 Aug; weather may change the actual date"
+      ],
+      "access": [
+        "到访观看须依当届入口、看台与安全安排",
+        "Attendance follows that edition’s entrances, grandstands and safety arrangements"
+      ],
+      "text": [
+        "另一场常规Palio同样以城市社区而非旅游演出为核心。",
+        "The other regular Palio also centres on civic communities rather than being simply a tourist show."
+      ],
+      "spatial_change": [
+        "同一坡地从日常坐卧场所转为赛道、观众区与仪式场地。",
+        "The same slope changes from informal staying ground to track, spectator area and ceremonial place."
+      ],
+      "source": "https://palio.comune.siena.it/node/75",
+      "image": "palio-race"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "1944-07",
+      "name": [
+        "解放后的公共欢迎",
+        "Public welcome after liberation"
+      ],
+      "text": [
+        "国家档案馆记录：1944年7月，Campo迎接de Monsabert及盟军来访者，广场成为城市解放后的共同庆祝场所。",
+        "The State Archive documents Campo welcoming de Monsabert and Allied visitors in July 1944, making it a shared setting for liberation celebrations."
+      ],
+      "source": "https://cultura.gov.it/evento/mostra-fotografica-luglio-1944-nel-campo-ottantanni-fa-la-liberazione-di-siena-e-delle-sue-terre-a-cura-di-luca-betti",
+      "type": [
+        "历史事件",
+        "Historical event"
+      ],
+      "place": null
+    },
+    {
+      "date": "1945-08-20",
+      "name": [
+        "Palio della Pace：战后和平Palio",
+        "Palio della Pace: the post-war peace race"
+      ],
+      "text": [
+        "常规赛恢复后另办特别Palio；市政府史料也记录其激烈争议，不将“和平”名称等同于没有冲突。",
+        "A special Palio followed the return of regular racing. Municipal history also records its controversy; its name does not mean it was conflict-free."
+      ],
+      "source": "https://palio.comune.siena.it/node/5780",
+      "type": [
+        "特别庆典",
+        "Special celebration"
+      ],
+      "place": null
+    },
+    {
+      "date": "2024-04-25",
+      "name": [
+        "解放日官方典礼",
+        "Official Liberation Day ceremony"
+      ],
+      "text": [
+        "广场举行公共纪念仪式，证明它也是市政典礼与公共记忆的场所。",
+        "An official ceremony used the square as a setting for civic commemoration and public memory."
+      ],
+      "source": "https://www.radiosienatv.it/25-aprile-le-celebrazioni-a-siena/",
+      "type": [
+        "城市典礼",
+        "Civic ceremony"
+      ],
+      "place": null
+    },
+    {
+      "date": "2025-07-18",
+      "name": [
+        "Concerto per l’Italia",
+        "Concerto per l’Italia"
+      ],
+      "text": [
+        "Chigiana音乐节在Campo举办交响音乐会；临时舞台与座椅使空间朝一个方向组织。",
+        "The Chigiana festival staged a symphonic concert in Campo; stage and seating organised the space around one viewing direction."
+      ],
+      "source": "https://www.chigiana.org/concerto-per-l-italia/",
+      "type": [
+        "音乐会",
+        "Concert"
+      ],
+      "place": null,
+      "reader_page": "public-programme"
+    },
+    {
+      "date": "2026-07-03",
+      "name": [
+        "2026年七月Palio：受天气影响的活动管理",
+        "July 2026 Palio: weather-sensitive event management"
+      ],
+      "text": [
+        "安保方对7月3日活动的记录说明：入口控制、看台和中央站席区需要针对实际场次组织。",
+        "The safety provider’s account of the 3 July event describes entrances, stands and central standing space organised for that particular running."
+      ],
+      "source": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/",
+      "type": [
+        "赛马／节庆",
+        "Race / festival"
+      ],
+      "place": null,
+      "reader_page": "celebrations"
+    }
+  ]
+}

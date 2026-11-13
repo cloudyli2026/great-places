@@ -1,0 +1,632 @@
+{
+  "checked": "2026-11-13",
+  "assets": [
+    {
+      "id": "fed-context",
+      "kind": "photo",
+      "title": {
+        "zh": "从河流一侧的高视点看城市片区",
+        "en": "Elevated context from the river side"
+      },
+      "image_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-03_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "source_url": "https://www.karresenbrands.com/en/projects/federation-square",
+      "publisher": "Karres en Brands",
+      "creator": "Marcel Aucar / John Gollings (project-level credit; individual image not specified)",
+      "date": "Date not specified / 未注明",
+      "source_class": "S1",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "官方景观设计档案；比较广场、河流、车站和CBD。照片不是测绘底图。",
+        "en": "Landscape designer’s archive; plaza, river, station and CBD. Photograph, not a survey."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Marcel Aucar / John Gollings（项目统一署名，未逐张对应）",
+      "date_zh": "拍摄／制图日期未注明"
+    },
+    {
+      "id": "fed-aerial",
+      "kind": "photo",
+      "title": {
+        "zh": "近垂直鸟瞰：开放地面与非正交建筑边界",
+        "en": "Near-vertical aerial: plaza and non-orthogonal edges"
+      },
+      "image_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-02_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "source_url": "https://www.karresenbrands.com/en/projects/federation-square",
+      "publisher": "Karres en Brands",
+      "creator": "Marcel Aucar / John Gollings (project-level credit; individual image not specified)",
+      "date": "Date not specified / 未注明",
+      "source_class": "S1",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "可辨识地面、人群和建筑边缘；不从照片推算人数或面积。",
+        "en": "Ground, people and building edges are visible; no area or crowd count is inferred."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Marcel Aucar / John Gollings（项目统一署名，未逐张对应）",
+      "date_zh": "拍摄／制图日期未注明"
+    },
+    {
+      "id": "fed-location-plan",
+      "kind": "drawing",
+      "title": {
+        "zh": "设计团队发布的城市区位总图",
+        "en": "Published urban location plan"
+      },
+      "image_url": "https://images.architizer.com/mediadata/projects/242012/a980c272.jpg?width=1200&quality=80",
+      "source_url": "https://architizer.com/projects/federation-square/",
+      "publisher": "Architizer / LAB architecture studio",
+      "creator": "LAB architecture studio + Bates Smart",
+      "date": "Project 2002; image date not specified",
+      "source_class": "S1",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "历史项目图：CBD、铁路、车站、河流与新建筑群；非2026年现状测绘。",
+        "en": "Historic project drawing: CBD, rail, station, river and buildings; not a 2026 survey."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "LAB architecture studio + Bates Smart",
+      "date_zh": "项目2002年；图像日期未注明"
+    },
+    {
+      "id": "fed-composite-plan",
+      "kind": "drawing",
+      "title": {
+        "zh": "LAB原始 Level 2 Composite Plan",
+        "en": "LAB Level 2 Composite Plan"
+      },
+      "image_url": "https://images.architizer.com/mediadata/projects/242012/19f69e4e.jpg?width=1200&quality=80",
+      "source_url": "https://architizer.com/projects/federation-square/",
+      "publisher": "Architizer / LAB architecture studio",
+      "creator": "LAB architecture studio + Bates Smart",
+      "date": "Project 2002; image date not specified",
+      "source_class": "S1",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "保留原图功能编号与图例。多层组合平面，不是地面层实测边界；不与2020 GIS混算。",
+        "en": "Original numbered programme key retained. Multi-level composite plan, not surveyed ground boundaries; do not merge it numerically with 2020 GIS."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "LAB architecture studio + Bates Smart",
+      "date_zh": "项目2002年；图像日期未注明"
+    },
+    {
+      "id": "fed-section-city",
+      "kind": "drawing",
+      "title": {
+        "zh": "城市剖面及立面投影：教堂、广场、建筑与铁路",
+        "en": "Urban section and projected elevations: cathedral, plaza, buildings and rail"
+      },
+      "image_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-16_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "source_url": "https://www.karresenbrands.com/en/projects/federation-square",
+      "publisher": "Karres en Brands",
+      "creator": "LAB + Bates Smart / Karres en Brands (project archive)",
+      "date": "Date not specified / 未注明",
+      "source_class": "S1",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "设计团队图纸；切到的楼层与未切到的外立面并存。图中有列车，不据像素推算结构净高。",
+        "en": "Designer-published drawing mixes cut floors with uncut elevations. Trains are shown; structural clearance is not measured from pixels."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "LAB + Bates Smart / Karres en Brands（项目档案）",
+      "date_zh": "拍摄／制图日期未注明"
+    },
+    {
+      "id": "fed-section-river",
+      "kind": "drawing",
+      "title": {
+        "zh": "建筑剖面：文化空间、平台与河岸端",
+        "en": "Building section: cultural spaces, deck and river end"
+      },
+      "image_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-17_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "source_url": "https://www.karresenbrands.com/en/projects/federation-square",
+      "publisher": "Karres en Brands",
+      "creator": "LAB + Bates Smart / Karres en Brands (project archive)",
+      "date": "Date not specified / 未注明",
+      "source_class": "S1",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "与城市横向剖面互读；原图片无可校准图签，不填写标高、坡度或印刷比例。",
+        "en": "Read with the urban section; no calibrated title block in this image, so no levels, gradients or print scale are asserted."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "LAB + Bates Smart / Karres en Brands（项目档案）",
+      "date_zh": "拍摄／制图日期未注明"
+    },
+    {
+      "id": "fed-section-deck",
+      "kind": "drawing",
+      "title": {
+        "zh": "平台下部空间与建筑剖面",
+        "en": "Under-deck spaces and building section"
+      },
+      "image_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-18_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "source_url": "https://www.karresenbrands.com/en/projects/federation-square",
+      "publisher": "Karres en Brands",
+      "creator": "LAB + Bates Smart / Karres en Brands (project archive)",
+      "date": "Date not specified / 未注明",
+      "source_class": "S1",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "设计方发布的真实技术表达；色彩和箭头属于原图，不是本站模拟结果。",
+        "en": "Actual designer-published technical representation; colours and arrows belong to the source, not a simulation by this site."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "LAB + Bates Smart / Karres en Brands（项目档案）",
+      "date_zh": "拍摄／制图日期未注明"
+    },
+    {
+      "id": "fed-north",
+      "kind": "photo",
+      "title": {
+        "zh": "北侧界面：Flinders Street立面照片",
+        "en": "North edge: Flinders Street elevation photograph"
+      },
+      "image_url": "https://media4.architecturemedia.net/site_media/media/cache/d3/36/d336e0fa6bf5f67ccb187cc4d8000ce6.jpg",
+      "source_url": "https://architectureau.com/articles/preview/",
+      "publisher": "Architecture Australia",
+      "creator": "Trevor Mein",
+      "date": "Published 2003-01-01",
+      "source_class": "S2",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "原刊明确图注为Flinders Street elevation；这是摄影，不是正投影立面图。",
+        "en": "Original caption identifies Flinders Street elevation. This is a photograph, not an orthographic drawing."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Trevor Mein",
+      "date_zh": "出版：2003-01-01"
+    },
+    {
+      "id": "fed-south",
+      "kind": "photo",
+      "title": {
+        "zh": "南侧城市界面：隔Yarra河观看",
+        "en": "South context: view across the Yarra"
+      },
+      "image_url": "https://media5.architecturemedia.net/site_media/media/cache/f5/c9/f5c98533c7eed6dea7182804e148cad5.jpg",
+      "source_url": "https://architectureau.com/articles/preview/",
+      "publisher": "Architecture Australia",
+      "creator": "Trevor Mein",
+      "date": "Published 2003-01-01",
+      "source_class": "S2",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "原刊图注为View across the river；同时包含城市天际线，不等于单栋南立面测绘。",
+        "en": "Captioned “View across the river”; includes the skyline and is not a measured south elevation."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Trevor Mein",
+      "date_zh": "出版：2003-01-01"
+    },
+    {
+      "id": "fed-east",
+      "kind": "photo",
+      "title": {
+        "zh": "铁路侧界面：跨轨道观察建筑",
+        "en": "Rail-side edge: view across the railyards"
+      },
+      "image_url": "https://media3.architecturemedia.net/site_media/media/cache/7b/17/7b1769150f4208672ea1a23dc3790158.jpg",
+      "source_url": "https://architectureau.com/articles/preview/",
+      "publisher": "Architecture Australia",
+      "creator": "Trevor Mein",
+      "date": "Published 2003-01-01",
+      "source_class": "S2",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "原刊核实视点为铁路侧；不凭该照片指定精确相机方位角。",
+        "en": "Publication confirms the rail-side view; exact camera bearing is not established."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Trevor Mein",
+      "date_zh": "出版：2003-01-01"
+    },
+    {
+      "id": "fed-plaza-edge",
+      "kind": "photo",
+      "title": {
+        "zh": "广场内侧立面：折线实体与首层边缘",
+        "en": "Plaza-facing facade: folded mass and ground edge"
+      },
+      "image_url": "https://images.architizer.com/mediadata/projects/242012/a77b5ae8.jpg?width=1200&quality=80",
+      "source_url": "https://architizer.com/projects/federation-square/",
+      "publisher": "Architizer / LAB architecture studio",
+      "creator": "Photographer not identified in project gallery",
+      "date": "Project 2002; image date not specified",
+      "source_class": "S2",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "通过人视照片观察表皮、开口与地面邻接；朝向未经图纸逐点配准。",
+        "en": "Eye-level study of cladding, openings and ground contact; direction has not been georeferenced."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "项目图集未标注摄影者",
+      "date_zh": "项目2002年；图像日期未注明"
+    },
+    {
+      "id": "fed-atrium",
+      "kind": "photo",
+      "title": {
+        "zh": "Atrium：覆盖空间中的公共通行",
+        "en": "Atrium: public passage under cover"
+      },
+      "image_url": "https://images.architizer.com/mediadata/projects/242012/186f5d43.jpg?width=1200&quality=80",
+      "source_url": "https://architizer.com/projects/federation-square/",
+      "publisher": "Architizer / LAB architecture studio",
+      "creator": "Photographer not identified in project gallery",
+      "date": "Project 2002; image date not specified",
+      "source_class": "S2",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "钢与玻璃形成室内空间，光影不能代替全天日照、热舒适或通行时段证据。",
+        "en": "Steel and glass enclose the passage; shadows do not establish all-day comfort or opening hours."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "项目图集未标注摄影者",
+      "date_zh": "项目2002年；图像日期未注明"
+    },
+    {
+      "id": "fed-atrium-street",
+      "kind": "photo",
+      "title": {
+        "zh": "Flinders Street上的Atrium入口视点",
+        "en": "Atrium seen from Flinders Street"
+      },
+      "image_url": "https://media5.architecturemedia.net/site_media/media/cache/e7/d7/e7d7d5b03a49e33555797a719b1955ca.jpg",
+      "source_url": "https://architectureau.com/articles/preview/",
+      "publisher": "Architecture Australia",
+      "creator": "Trevor Mein",
+      "date": "Published 2003-01-01",
+      "source_class": "S2",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "原刊视点明确，可与内部通廊照片对读；不能据此证明无障碍路线连续。",
+        "en": "Published viewpoint is explicit; compare with the interior. It does not establish a continuous step-free route."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Trevor Mein",
+      "date_zh": "出版：2003-01-01"
+    },
+    {
+      "id": "fed-atrium-use",
+      "kind": "photo",
+      "title": {
+        "zh": "NGV开幕夜的Atrium：临时聚集",
+        "en": "Atrium on NGV opening night: temporary gathering"
+      },
+      "image_url": "https://media4.architecturemedia.net/site_media/media/cache/ca/e4/cae47232b25c4ea0bfc91b81955fdaa4.jpg",
+      "source_url": "https://architectureau.com/articles/preview/",
+      "publisher": "Architecture Australia",
+      "creator": "Trevor Mein",
+      "date": "Published 2003-01-01",
+      "source_class": "S2",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "事件由原刊图注确认；开幕活动不代表普通工作日使用。",
+        "en": "Event identified by the original caption; opening-night use is not a typical weekday sample."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Trevor Mein",
+      "date_zh": "出版：2003-01-01"
+    },
+    {
+      "id": "fed-daily-seat",
+      "kind": "photo",
+      "title": {
+        "zh": "日常停留：地面高差成为坐靠边缘",
+        "en": "Everyday pause: changes in level provide informal seats"
+      },
+      "image_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-07_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "source_url": "https://www.karresenbrands.com/en/projects/federation-square",
+      "publisher": "Karres en Brands",
+      "creator": "Marcel Aucar / John Gollings (project-level credit; individual image not specified)",
+      "date": "Date not specified / 未注明",
+      "source_class": "S1",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "照片可确认有人坐、有人停留；拍摄日期与样本时段未知，不能外推全年占用率。",
+        "en": "Seated and lingering users are visible; date and sampling period unknown, so annual occupancy cannot be inferred."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Marcel Aucar / John Gollings（项目统一署名，未逐张对应）",
+      "date_zh": "拍摄／制图日期未注明"
+    },
+    {
+      "id": "fed-daily-walk",
+      "kind": "photo",
+      "title": {
+        "zh": "穿行与停留：玻璃边界下的不同速度",
+        "en": "Walking and staying along a glazed edge"
+      },
+      "image_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-10_-_39ada00_-_2e5004b807d6ce4b7ceae944ffa20a9b1d8abc06.jpg",
+      "source_url": "https://www.karresenbrands.com/en/projects/federation-square",
+      "publisher": "Karres en Brands",
+      "creator": "Marcel Aucar / John Gollings (project-level credit; individual image not specified)",
+      "date": "Date not specified / 未注明",
+      "source_class": "S1",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "记录行走与停留并存，不把单幅照片解读成流量或步速测量。",
+        "en": "Shows movement and staying together; a single image supplies neither flow nor walking speed."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Marcel Aucar / John Gollings（项目统一署名，未逐张对应）",
+      "date_zh": "拍摄／制图日期未注明"
+    },
+    {
+      "id": "fed-screen",
+      "kind": "photo",
+      "title": {
+        "zh": "大屏幕与活动设施：集体观看的空间条件",
+        "en": "Screen and event facilities: conditions for shared viewing"
+      },
+      "image_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-23_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "source_url": "https://www.karresenbrands.com/en/projects/federation-square",
+      "publisher": "Karres en Brands",
+      "creator": "Marcel Aucar / John Gollings (project-level credit; individual image not specified)",
+      "date": "Date not specified / 未注明",
+      "source_class": "S1",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "屏幕、座椅和舞台可辨识；活动名称、日期未注明。",
+        "en": "Screen, seating and stage are visible; event name and date are not specified."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Marcel Aucar / John Gollings（项目统一署名，未逐张对应）",
+      "date_zh": "拍摄／制图日期未注明"
+    },
+    {
+      "id": "fed-event",
+      "kind": "photo",
+      "title": {
+        "zh": "夜间活动：同一地面的高密度使用",
+        "en": "Night event: intensive use of the same ground"
+      },
+      "image_url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-06_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "source_url": "https://www.karresenbrands.com/en/projects/federation-square",
+      "publisher": "Karres en Brands",
+      "creator": "Marcel Aucar / John Gollings (project-level credit; individual image not specified)",
+      "date": "Date not specified / 未注明",
+      "source_class": "S1",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "设计方发布活动影像；不从照片推算安全容量，也不编造节日名称。",
+        "en": "Designer-published event image; no crowd capacity or festival identity is inferred."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Marcel Aucar / John Gollings（项目统一署名，未逐张对应）",
+      "date_zh": "拍摄／制图日期未注明"
+    },
+    {
+      "id": "fed-peace-rally",
+      "kind": "photo",
+      "title": {
+        "zh": "2003年和平集会：公共表达占据广场",
+        "en": "2003 peace rally: the square as a place of public expression"
+      },
+      "image_url": "https://blogs.slv.vic.gov.au/wp-content/uploads/2020/10/Image-9-Federation-Square-Peace-Rally-2003-The-Age-1024x682.jpg",
+      "source_url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+      "publisher": "State Library Victoria",
+      "creator": "Federation Square (courtesy credit; photographer not identified)",
+      "date": "2003",
+      "source_class": "S2",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "州图书馆确认事件与年份，图片由Federation Square提供；摄影者未署名。",
+        "en": "State Library identifies event and year; image courtesy Federation Square, photographer not named."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Federation Square提供；摄影者未署名",
+      "date_zh": "2003"
+    },
+    {
+      "id": "fed-festival",
+      "kind": "photo",
+      "title": {
+        "zh": "2015年焰火：节庆中的广场与城市",
+        "en": "2015 fireworks: square and city in celebration"
+      },
+      "image_url": "https://blogs.slv.vic.gov.au/wp-content/uploads/2020/10/20150101_DX_4068-master-pano-fireworks-picc-1-1024x655.jpg",
+      "source_url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+      "publisher": "State Library Victoria",
+      "creator": "Federation Square (courtesy credit; photographer not identified)",
+      "date": "2015",
+      "source_class": "S2",
+      "scope": "Federation Square, Melbourne",
+      "note": {
+        "zh": "州图书馆图注明确2015年；不将此图当作当日人数、开放规则或现行运营证据。",
+        "en": "Library caption dates it to 2015; not evidence of crowd count, access rules or current operations."
+      },
+      "rights": {
+        "zh": "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "en": "Copyright retained; remote original displayed, no repository copy"
+      },
+      "confidence": "Source and pixels checked; original scale and camera geolocation not certified",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "Federation Square提供；摄影者未署名",
+      "date_zh": "2015"
+    },
+    {
+      "id": "fed-gis",
+      "kind": "drawing",
+      "title": {
+        "zh": "真实Figure Ground：2020官方建筑轮廓",
+        "en": "True figure-ground: official 2020 building footprints"
+      },
+      "image_url": "../data/federation-figure-ground.svg",
+      "source_url": "https://data.melbourne.vic.gov.au/explore/dataset/2020-building-footprints/",
+      "publisher": "City of Melbourne",
+      "creator": "City of Melbourne; SVG processing by THE GREAT PLACES",
+      "date": "Captured May 2020; retrieved 2026-11-13",
+      "source_class": "S3",
+      "scope": "W144.9605 S-37.8245 E144.9782 N-37.8115",
+      "note": {
+        "zh": "907条地面／基座层建筑记录；桥梁排除。黑色为建筑实体；白色含水面、铁路及未分类区域，不代表全部可通行。红圈仅为广场位置标记。",
+        "en": "907 ground/podium structure records; bridges excluded. Black is structure; white includes water, rail and unclassified space, not guaranteed walkability. Red circle is a location marker."
+      },
+      "rights": {
+        "zh": "CC BY 4.0 · 保留归属并注明投影、筛选与SVG转换",
+        "en": "CC BY 4.0 · Attribution retained; filtering, projection and SVG conversion disclosed"
+      },
+      "confidence": "Official 2020 snapshot; not current surveyed pedestrian boundaries",
+      "checked": "2026-11-13",
+      "http_status": 200,
+      "creator_zh": "City of Melbourne；本站完成SVG处理",
+      "date_zh": "采集：2020年5月；下载：2026-11-13"
+    }
+  ],
+  "rights_policy": "Third-party images remain on publisher servers and are linked and attributed. No third-party raster or PDF is copied into the repository. Remote availability is verified, not guaranteed forever.",
+  "sources": [
+    {
+      "id": "bates",
+      "url": "https://www.batessmart.com/projects/fed-square"
+    },
+    {
+      "id": "karres",
+      "url": "https://www.karresenbrands.com/en/projects/federation-square"
+    },
+    {
+      "id": "lab-archive",
+      "url": "https://architizer.com/projects/federation-square/"
+    },
+    {
+      "id": "library",
+      "url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/"
+    },
+    {
+      "id": "heritage",
+      "url": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf"
+    },
+    {
+      "id": "gis",
+      "url": "https://data.melbourne.vic.gov.au/explore/dataset/2020-building-footprints/"
+    },
+    {
+      "id": "ngv",
+      "url": "https://www.ngv.vic.gov.au/exhibition/draw-the-line/"
+    },
+    {
+      "id": "annual-report",
+      "url": "https://assets.artsprecinct.melbourne/assets/Melbourne-Arts-Precinct-Corporation-Annual-Report-2023-24.pdf"
+    },
+    {
+      "id": "architecture-australia",
+      "url": "https://architectureau.com/articles/preview/"
+    }
+  ]
+}

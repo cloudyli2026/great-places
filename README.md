@@ -28,3 +28,13 @@ Source discovery → provenance review → spatial analysis → visual cross-che
 5. Build the bilingual interactive case page.
 
 The repository starts with research infrastructure; it does **not** claim a finished survey or published site.
+
+## Aligned readers: 01 / 03 / 04
+
+San Marco, Piazza del Campo and Federation Square share one bilingual, paginated reader, ten assessment dimensions, scoped numerical indicators and three defining qualities per case. Start at [the three-case comparison](docs/comparison.html), or [01](docs/index.html), [03](docs/cases/piazza-del-campo.html), [04](docs/cases/federation-square.html).
+
+The current content source is `cases/reader/`, with shared CSS/JS under `docs/assets/`. Run `python scripts/build_case_readers.py`; do not hand-edit generated HTML. See [the content and evidence contract](cases/reader/README.md) for scope, reproducible build and browser/GIS/source test commands, and [actual review evidence](docs/research/aligned-cases/README.md).
+
+All three figure-grounds use 600 × 600 m metric frames, north up, and 100 m graphic bars. The native 300 mm SVG is 1:2500; responsive screen rendering uses the graphic bar. Melbourne retains official 2020 footprints; 01 and 03 use frozen Overture extracts with source/license metadata. Original data epochs differ and white space includes water.
+
+The earlier 04 source register and [first-stage audit](cases/federation-square/RESEARCH_AUDIT.md) remain available. Earlier 04-only browser screenshots refer to that previous reader, not the current three-case implementation.

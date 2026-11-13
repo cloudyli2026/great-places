@@ -1,0 +1,134 @@
+{
+  "case": "03",
+  "photo_count": 14,
+  "distinct_urls": 14,
+  "duplicates_or_near_duplicates": [],
+  "images": [
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/La_piazza_1_5659afa42a.jpg",
+      "dimensions": [
+        1102,
+        818
+      ],
+      "normalized_rgb_sha256": "95d745171a5928e96e46d23cb83fa767a6b29ae70212ed7841a063c85a6942c0",
+      "difference_hash": "0x206166aab6d6d87"
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/ml/gallery/via-di-citta-dettaglio-albero-orizzontale-6a760cafdbae0567543631.jpg",
+      "dimensions": [
+        2000,
+        1333
+      ],
+      "normalized_rgb_sha256": "a37a1a14ea790e727d2d9083e18cb0b3ea16166a8c9f926e05c8950134ef5e97",
+      "difference_hash": "0xf0f0f0f0f0f0716"
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/ml/gallery/via-rinaldini-2-6abe7e1b43347782177907.jpg",
+      "dimensions": [
+        1600,
+        1067
+      ],
+      "normalized_rgb_sha256": "6de875911010b866877673de40656e38bd3c5af12add10004620ca6209308d50",
+      "difference_hash": "0xd0f09c0ca6820f0"
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Piazza_del_Campo_dal_basso_613be86f02_354abf07e2.jpg",
+      "dimensions": [
+        2000,
+        1333
+      ],
+      "normalized_rgb_sha256": "4df3007aa7d2fe8c5952c716bf1be23b170edde6a745ace0c45de6e65dfca576",
+      "difference_hash": "0x43038783870f1307"
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Siena_2_7885c24b37.jpg",
+      "dimensions": [
+        1024,
+        470
+      ],
+      "normalized_rgb_sha256": "a289f253991cd899c425e6b837a6e51b521aaa1eac9bd875b28d61d36b31f0a2",
+      "difference_hash": "0x430b0d0e272b0707"
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Piazza_del_Campo_ee78e13708_fbd07d0ecd.jpg",
+      "dimensions": [
+        2000,
+        1349
+      ],
+      "normalized_rgb_sha256": "0550df9ec385769bd9e98ef9b28fb2a5a8b3055b0d4e9f9792a4f2907640f676",
+      "difference_hash": "0x486069e79c0f070e"
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/piazza_del_campo_e447f61e2f.jpg",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "normalized_rgb_sha256": "bc7a93aec857303ebfcbad90c88fd89c0628e6cbe92068f107ada086fe6edd15",
+      "difference_hash": "0x1f9f1e1f1f1f071f"
+    },
+    {
+      "url": "https://www.radiosienatv.it/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-18-at-22.22.51.jpeg",
+      "dimensions": [
+        2000,
+        1125
+      ],
+      "normalized_rgb_sha256": "5b7f5c652f57898d2ff1114397a1dd0ed7f17aa14a6e47847a50126c15b83ceb",
+      "difference_hash": "0x6f0f6b4b496c66c4"
+    },
+    {
+      "url": "https://www.comune.siena.it/sites/default/files/styles/webp/public/2024-03/mercato%20campo.jpg.webp?itok=VCm9HY9Y",
+      "dimensions": [
+        4252,
+        2835
+      ],
+      "normalized_rgb_sha256": "a10f86c2aa89658aefb66cb911dd16189bc1ab57cae30ef6007aa7f39086f673",
+      "difference_hash": "0x131317a7b796e515"
+    },
+    {
+      "url": "../images/events/siena-oca-parade-2007.jpg",
+      "dimensions": [
+        1920,
+        1440
+      ],
+      "normalized_rgb_sha256": "4dc8fda1850c8287b6b204231c798556cc2a708f88b390f3bc623d0a40911cc5",
+      "difference_hash": "0x717273532864c3cb"
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/palio_c23d4e0816.jpeg",
+      "dimensions": [
+        1200,
+        628
+      ],
+      "normalized_rgb_sha256": "f3995ecf222cfb19623d90c558cf63ecd5968f9ccabfe32047124d9cd3798300",
+      "difference_hash": "0xf97e434242224141"
+    },
+    {
+      "url": "../images/events/siena-carabinieri-2007.jpg",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "normalized_rgb_sha256": "3a5334cae4d48ea64633c6b5631bc451ce5fa5daf30c092e26a8c3689305f2dd",
+      "difference_hash": "0x9851707c75646407"
+    },
+    {
+      "url": "../images/events/siena-palio-crowd-2007.jpg",
+      "dimensions": [
+        960,
+        720
+      ],
+      "normalized_rgb_sha256": "922af05ac8128a19ba9bcf1b7d46eda83b7c52d55eb2ddfe68d7c2d9abc9203b",
+      "difference_hash": "0xc7573a78ddd54d64"
+    },
+    {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Palio_6_d833e56c9f.jpg",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "normalized_rgb_sha256": "961ead5e0ade6b07ccbf44143042bbae19867fa26bdb489ac5987838c0b31a6d",
+      "difference_hash": "0x6ec33fecc99b38f9"
+    }
+  ]
+}

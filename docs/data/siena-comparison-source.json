@@ -1,0 +1,134 @@
+{
+  "theme": "buildings",
+  "count": 428,
+  "totalFound": 428,
+  "truncated": false,
+  "bbox": [
+    11.327941714645027,
+    43.315952038908826,
+    11.335358285354973,
+    43.32134796109117
+  ],
+  "area_km2": 0.361,
+  "polygons_area_km2": 0.232,
+  "geometry_types": [
+    "Polygon"
+  ],
+  "types": [
+    {
+      "type": "class=church",
+      "count": 14
+    },
+    {
+      "type": "class=roof",
+      "count": 5
+    },
+    {
+      "type": "subtype=entertainment",
+      "count": 4
+    },
+    {
+      "type": "class=public",
+      "count": 3
+    },
+    {
+      "type": "class=hotel",
+      "count": 1
+    },
+    {
+      "type": "class=synagogue",
+      "count": 1
+    },
+    {
+      "type": "subtype=education",
+      "count": 1
+    },
+    {
+      "type": "class=garages",
+      "count": 1
+    },
+    {
+      "type": "class=apartments",
+      "count": 1
+    },
+    {
+      "type": "class=retail",
+      "count": 1
+    },
+    {
+      "type": "subtype=religious",
+      "count": 1
+    },
+    {
+      "type": "class=shed",
+      "count": 1
+    },
+    {
+      "type": "class=kiosk",
+      "count": 1
+    }
+  ],
+  "sample_attributes": [
+    {
+      "id": "c821b725-c60a-4c62-93d8-7f327892a6bb",
+      "height": 13.965096473693848,
+      "source": "OpenStreetMap",
+      "is_underground": false,
+      "has_parts": false
+    },
+    {
+      "id": "ceacf708-390c-41a2-b764-8833225ea8b2",
+      "height": 13.180532455444336,
+      "source": "OpenStreetMap",
+      "is_underground": false,
+      "has_parts": false
+    },
+    {
+      "id": "8b7d2acf-789d-44ce-852a-f35382de316c",
+      "height": 7.896636009216309,
+      "source": "OpenStreetMap",
+      "is_underground": false,
+      "has_parts": false
+    },
+    {
+      "id": "d53736cb-630c-41db-88f2-c5e55fce9f54",
+      "height": 10.753732681274414,
+      "source": "OpenStreetMap",
+      "is_underground": false,
+      "has_parts": false
+    },
+    {
+      "id": "4b691ed1-ad1c-43ab-9de9-1a6e960f41b3",
+      "name": "Palazzo Vestri",
+      "source": "OpenStreetMap",
+      "is_underground": false,
+      "has_parts": false
+    }
+  ],
+  "release": "2026-10-21",
+  "downloads": [
+    {
+      "label": "GeoPackage (one GIS file)",
+      "format": "geopackage",
+      "url": "https://mcp.terra-lab.ai/dl/geopackage/SQtWd28nmZtFp7uGgoqeUCI8EsLqMESON_Qvbm_aMWRm2V-kXsr49p47HGXiRNGntB42I1DjJsqhwl5BEUE9udXHGSeCGQVmaBNR3MVi4IFSSf_u2yocu6sCxDokDQRM1U4TkxskWqBUmPEGeZRXoC_oeXvlHoJy_AJMzb9AW8t_fwlIQ8Xb4XwbwKPDEW_7JOPKDyxRDsbU3wkwN6s2JN5viAQxeQFCyfnquVnFqK0/buildings-extract.gpkg",
+      "name": "buildings-extract.gpkg"
+    },
+    {
+      "label": "GeoJSON",
+      "format": "geojson",
+      "url": "https://mcp.terra-lab.ai/dl/geojson/SQtWd28nmZtFp7uGgoqeUCI8EsLqMESON_Qvbm_aMWRm2V-kXsr49p47HGXiRNGntB42I1DjJsqhwl5BEUE9udXHGSeCGQVmaBNR3MVi4IFSSf_u2yocu6sCxDokDQRM1U4TkxskWqBUmPEGeZRXoC_oeXvlHoJy_AJMzb9AW8t_fwlIQ8Xb4XwbwKPDEW_7JOPKDyxRDsbU3wkwN6s2JN5viAQxeQFCyfnquVnFqK0/buildings-extract.geojson",
+      "name": "buildings-extract.geojson"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Overture Maps 2026-10-21, buildings (via TerraLab open data API)",
+      "licence": "ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/), © OpenStreetMap contributors, Overture Maps Foundation, Microsoft Global ML Building Footprints (CDLA Permissive 2.0), Google Open Buildings (CC BY 4.0), Esri Community Maps contributors (CC BY 4.0), USGS 3DEP, Shi et al. 2023 (CC BY 4.0), IGN España BTN (CC BY 4.0). Clipped and converted by TerraLab. Sources and licences: https://docs.overturemaps.org/attribution/#buildings Extract clipped, reprojected and converted by TerraLab from Overture Maps release 2026-10-21; equivalent data: https://wiki.osmfoundation.org/wiki/How_To_Get_OpenStreetMap_Data",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "terms": "Commercial use allowed. Credit the source. A database you publish from this data must stay under ODbL; maps, images and reports you make can use any licence."
+    }
+  ],
+  "call_usage": {
+    "state": "not_counted"
+  }
+}

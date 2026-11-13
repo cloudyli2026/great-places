@@ -1,0 +1,77 @@
+{
+  "note": "Identical metric drawing scale, not identical source epochs or guaranteed footprint semantics. White includes water and other non-building surfaces. Not for surveying or navigation.",
+  "figures": [
+    {
+      "case": "01",
+      "slug": "san-marco",
+      "center": [
+        12.3387,
+        45.4342
+      ],
+      "span_m": 600,
+      "frame_svg_units": 800,
+      "px_per_m": 1.3333333333333333,
+      "scale_bar_m": 100,
+      "scale_bar_svg_units": 133.33333333333331,
+      "native_width_mm": 300,
+      "native_scale": 2500,
+      "projection": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8901]]],CONVERSION[\"unknown\",METHOD[\"Azimuthal Equidistant\",ID[\"EPSG\",1125]],PARAMETER[\"Latitude of natural origin\",45.4342,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",12.3387,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+      "built_area_in_frame_m2": 178497.971,
+      "built_coverage_percent": 49.58,
+      "source": "Overture Maps 2026-10-21 / TerraLab / ODbL 1.0",
+      "source_file": "san-marco-comparison-buildings.geojson",
+      "source_sha256": "3976551e4f7632e0c0f1e6f6a00e7288df954c925edd7dda958b1983b81cbcb0",
+      "polygons_in_frame": 487,
+      "holes": 78,
+      "svg": "san-marco-figure-ground-600m.svg"
+    },
+    {
+      "case": "03",
+      "slug": "siena",
+      "center": [
+        11.33165,
+        43.31865
+      ],
+      "span_m": 600,
+      "frame_svg_units": 800,
+      "px_per_m": 1.3333333333333333,
+      "scale_bar_m": 100,
+      "scale_bar_svg_units": 133.33333333333331,
+      "native_width_mm": 300,
+      "native_scale": 2500,
+      "projection": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8901]]],CONVERSION[\"unknown\",METHOD[\"Azimuthal Equidistant\",ID[\"EPSG\",1125]],PARAMETER[\"Latitude of natural origin\",43.31865,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",11.33165,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+      "built_area_in_frame_m2": 197917.93,
+      "built_coverage_percent": 54.98,
+      "source": "Overture Maps 2026-10-21 / TerraLab / ODbL 1.0",
+      "source_file": "siena-comparison-buildings.geojson",
+      "source_sha256": "947e486bcab98f9d792b985cc8ce233abdc033242da502e9604d6404cb2b080e",
+      "polygons_in_frame": 426,
+      "holes": 94,
+      "svg": "siena-figure-ground-600m.svg"
+    },
+    {
+      "case": "04",
+      "slug": "federation",
+      "center": [
+        144.969,
+        -37.8178
+      ],
+      "span_m": 600,
+      "frame_svg_units": 800,
+      "px_per_m": 1.3333333333333333,
+      "scale_bar_m": 100,
+      "scale_bar_svg_units": 133.33333333333331,
+      "native_width_mm": 300,
+      "native_scale": 2500,
+      "projection": "PROJCRS[\"unknown\",BASEGEOGCRS[\"unknown\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8901]]],CONVERSION[\"unknown\",METHOD[\"Azimuthal Equidistant\",ID[\"EPSG\",1125]],PARAMETER[\"Latitude of natural origin\",-37.8178,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",144.969,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]",
+      "built_area_in_frame_m2": 104276.071,
+      "built_coverage_percent": 28.97,
+      "source": "City of Melbourne 2020 / tier 1 Structure / CC BY 4.0",
+      "source_file": "federation-buildings.json",
+      "source_sha256": "6dd22665cce833d2a41433cf2b41b4d4dd5d9366d89b1b819178644a19695144",
+      "polygons_in_frame": 119,
+      "holes": 1,
+      "svg": "federation-figure-ground-600m.svg"
+    }
+  ]
+}

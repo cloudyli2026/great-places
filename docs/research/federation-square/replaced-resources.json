@@ -1,0 +1,237 @@
+{
+  "scope": "Observed previous page image URLs; 403 is an environment-specific access outcome, not proof a Commons file does not exist. These URLs were replaced by resources that passed GET and actual browser decode.",
+  "records": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20Overview%2C%20Melbourne.jpg?width=1200",
+      "alt": "鸟瞰/高视点：广场与周边建筑整体关系",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20Overview%2C%20Melbourne.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%2C%20Melbourne.jpg?width=1200",
+      "alt": "地面视角：不规则建筑界面与可使用地面",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%2C%20Melbourne.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Fed%20Square%20from%20Eureka%20Skydeck.jpg?width=1200",
+      "alt": "高视点照片：检视广场与中心城区建筑群的图底关系",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fed%20Square%20from%20Eureka%20Skydeck.jpg?width=1200"
+    },
+    {
+      "src": "https://architizer-prod.imgix.net/mediadata/projects/242012/d80fa71c.jpg?auto=format%2Ccompress&cs=strip&q=80&w=1680",
+      "alt": "LAB Architecture Studio Federation Square建筑剖面，显示地面广场、建筑群与下部空间",
+      "status": 410,
+      "type": "text/plain",
+      "bytes": 15,
+      "url": "https://architizer-prod.imgix.net/mediadata/projects/242012/d80fa71c.jpg?auto=format%2Ccompress&cs=strip&q=80&w=1680"
+    },
+    {
+      "src": "https://architizer-prod.imgix.net/mediadata/projects/242012/a980c272.jpg?auto=format%2Ccompress&cs=strip&fit=max&q=75&w=1680",
+      "alt": "LAB Federation Square原始城市区位平面：墨尔本CBD街块、Flinders Street Station、Yarra河与广场",
+      "status": 410,
+      "type": "text/plain",
+      "bytes": 15,
+      "url": "https://architizer-prod.imgix.net/mediadata/projects/242012/a980c272.jpg?auto=format%2Ccompress&cs=strip&fit=max&q=75&w=1680"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20outdoor%20Melbourne.jpg?width=1200",
+      "alt": "外部街墙与广场人视点",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20outdoor%20Melbourne.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20indoor%20Melbourne.jpg?width=1200",
+      "alt": "Atrium内部：钢与玻璃形成全天候公共通廊",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20indoor%20Melbourne.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20facade%20outdoor.jpg?width=1200",
+      "alt": "外立面近景：多边形幕墙、首层入口与建筑表皮",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20facade%20outdoor.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20Glass%20Detail%20(4507784133).jpg?width=1200",
+      "alt": "幕墙节点：玻璃钢构与几何表皮的材料关系",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20Glass%20Detail%20(4507784133).jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20indoor%20glass%20Melbourne.jpg?width=1200",
+      "alt": "Atrium室内立面：透明围护与全天候通廊",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20indoor%20glass%20Melbourne.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20Flinders%20Street%20Melbourne.JPG?width=1200",
+      "alt": "Flinders Street侧：城市街道与建筑界面",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20Flinders%20Street%20Melbourne.JPG?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20from%20the%20steps.jpg?width=1200",
+      "alt": "日常视角：台阶、开放地面与城市背景",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20from%20the%20steps.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/PXL%2020241006%20025526151.MP%20Yellow%20Suit%20Performance%20at%20Fed%20Square%2C%20Melbourne%20Australia%2001.jpg?width=1200",
+      "alt": "2024年表演活动：广场作为公共文化活动空间",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PXL%2020241006%20025526151.MP%20Yellow%20Suit%20Performance%20at%20Fed%20Square%2C%20Melbourne%20Australia%2001.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Second%20hand%20book%20market%20at%20Federation%20Square%20June%202014.jpg?width=1200",
+      "alt": "Atrium内的书市：室内公共空间与商业活动的叠加",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Second%20hand%20book%20market%20at%20Federation%20Square%20June%202014.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20December%202020.jpg?width=1200",
+      "alt": "不同年份的广场状态：不应以单次活动判断长期使用",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20December%202020.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20Open%20Space%20(4502180430).jpg?width=1200",
+      "alt": "日常开放地面：观察空场尺度、步行与自由停留",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20Open%20Space%20(4502180430).jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/AFC%20Asian%20Cup%20at%20Fed%20Square.jpg?width=1200",
+      "alt": "体育赛事公共观看：大规模集体使用场景",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AFC%20Asian%20Cup%20at%20Fed%20Square.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/2013%20Thai%20Festival%20Fed%20Sq%20(28462611).jpeg?width=1200",
+      "alt": "2013年泰国文化节：多元文化活动与广场运营",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2013%20Thai%20Festival%20Fed%20Sq%20(28462611).jpeg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/2005-11-15%20IR%20reform%20protests%20Melbourne%2001.jpg?width=1200",
+      "alt": "2005年公众集会：广场作为公民表达空间",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2005-11-15%20IR%20reform%20protests%20Melbourne%2001.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Second%20hand%20book%20market%20at%20Federation%20Square%20June%202014.jpg?width=1200",
+      "alt": "2014年Atrium二手书市：室内公共通廊的弹性使用",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Second%20hand%20book%20market%20at%20Federation%20Square%20June%202014.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20from%20the%20steps.jpg?width=1200",
+      "alt": "从台阶观察广场：坐靠边缘、地面和人群关系",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20from%20the%20steps.jpg?width=1200"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20Live%20Gig%20(4502180612).jpg?width=1100",
+      "alt": "现场音乐演出：临时舞台、观众聚集与开放广场的转换",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20Live%20Gig%20(4502180612).jpg?width=1100"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20Big%20Screen%20(4502180710).jpg?width=1100",
+      "alt": "大屏幕与公共观看：广场日常设施如何支持集体观看",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20Big%20Screen%20(4502180710).jpg?width=1100"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Enjoying%20The%20Show%20(4501965355).jpg?width=1100",
+      "alt": "观众视点：从人的高度观察活动与围合建筑",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enjoying%20The%20Show%20(4501965355).jpg?width=1100"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20indoor%20Melbourne.jpg?width=1100",
+      "alt": "Atrium室内人视点：不受天气影响的公共通道与停留",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20indoor%20Melbourne.jpg?width=1100"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Umbrellas%20in%20Federation%20Square%20(4501971929).jpg?width=1100",
+      "alt": "雨天公共空间：伞与遮蔽使用反映天气条件下的空间体验",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Umbrellas%20in%20Federation%20Square%20(4501971929).jpg?width=1100"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Christmas%20tree%20and%20Flinders%20Street%20Station%20at%20Federation%20Square%2C%20Melbourne.jpg?width=1100",
+      "alt": "圣诞季节性场景：城市节庆与车站侧公共界面",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christmas%20tree%20and%20Flinders%20Street%20Station%20at%20Federation%20Square%2C%20Melbourne.jpg?width=1100"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Free%20gift%20wrapping%20stand%20for%20Christmas%20inside%20The%20Atrium%20at%20Federation%20Square%2C%20Melbourne.jpg?width=1100",
+      "alt": "Atrium节庆活动：室内公共空间的临时运营",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Free%20gift%20wrapping%20stand%20for%20Christmas%20inside%20The%20Atrium%20at%20Federation%20Square%2C%20Melbourne.jpg?width=1100"
+    },
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20outdoor%20Melbourne.jpg?width=1100",
+      "alt": "广场外部人视点：首层立面与开放地面的关系",
+      "status": 403,
+      "type": "text/plain",
+      "bytes": 126,
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federation%20Square%20outdoor%20Melbourne.jpg?width=1100"
+    }
+  ]
+}

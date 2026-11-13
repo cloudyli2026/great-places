@@ -1,0 +1,6 @@
+[{"case": "01", "polygons": 487, "span_m": 600, "bar_svg_units": 133.33333333333331}, {"case": "03", "polygons": 426, "span_m": 600, "bar_svg_units": 133.33333333333331}, {"case": "04", "polygons": 119, "span_m": 600, "bar_svg_units": 133.33333333333331}]
+01 1b4d1562241d 17 pages 76731 characters
+03 1b4d1562241d 17 pages 79519 characters
+04 1b4d1562241d 17 pages 101288 characters
+Comparison built: 3 cases, 10 aligned dimensions, source-scoped numerical export
+{"shared_reader_version": "1b4d1562241d", "cases": 3, "pages_per_case": 17, "assessment_dimensions": 10, "qualities_per_case": 3, "figures": 3, "native_scale": "1:2500 at 300mm SVG width", "span_m": 600, "graphic_scale_m": 100, "geodesic_validation": "4 directions per case, error < 1mm at 100m", "reproducible_outputs": 10, "result": "pass"}

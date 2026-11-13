@@ -1,0 +1,17 @@
+[
+  {
+    "case": "03",
+    "url": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/cloudyli2026/great-places/21eb083e6181b43325fbb83fd5f5ea26f82d6ba2/docs/cases/piazza-del-campo.html",
+    "pass": true
+  },
+  {
+    "case": "04",
+    "url": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/cloudyli2026/great-places/21eb083e6181b43325fbb83fd5f5ea26f82d6ba2/docs/cases/federation-square.html",
+    "pass": true
+  },
+  {
+    "case": "01",
+    "url": "https://htmlpreview.github.io/?https://raw.githubusercontent.com/cloudyli2026/great-places/21eb083e6181b43325fbb83fd5f5ea26f82d6ba2/docs/index.html",
+    "pass": true
+  }
+]

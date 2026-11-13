@@ -1,0 +1,144 @@
+{
+  "theme": "buildings",
+  "count": 490,
+  "totalFound": 490,
+  "truncated": false,
+  "bbox": [
+    12.33485526043215,
+    45.431502038908825,
+    12.342544739567849,
+    45.43689796109117
+  ],
+  "area_km2": 0.361,
+  "polygons_area_km2": 0.205,
+  "geometry_types": [
+    "Polygon"
+  ],
+  "types": [
+    {
+      "type": "class=apartments",
+      "count": 110
+    },
+    {
+      "type": "class=church",
+      "count": 10
+    },
+    {
+      "type": "subtype=entertainment",
+      "count": 9
+    },
+    {
+      "type": "class=roof",
+      "count": 9
+    },
+    {
+      "type": "class=hotel",
+      "count": 8
+    },
+    {
+      "type": "class=kiosk",
+      "count": 8
+    },
+    {
+      "type": "class=commercial",
+      "count": 4
+    },
+    {
+      "type": "class=library",
+      "count": 2
+    },
+    {
+      "type": "class=office",
+      "count": 1
+    },
+    {
+      "type": "class=service",
+      "count": 1
+    },
+    {
+      "type": "class=transportation",
+      "count": 1
+    },
+    {
+      "type": "subtype=commercial",
+      "count": 1
+    },
+    {
+      "type": "class=hut",
+      "count": 1
+    }
+  ],
+  "sample_attributes": [
+    {
+      "id": "3ad14937-cfc2-4659-ad95-0ec30aaba4e4",
+      "subtype": "entertainment",
+      "height": 26,
+      "num_floors": 5,
+      "name": "Palazzo Bembo",
+      "source": "OpenStreetMap",
+      "is_underground": false,
+      "has_parts": true
+    },
+    {
+      "id": "7569d28b-69e4-46e1-b067-91b1cfe07c58",
+      "height": 21,
+      "source": "OpenStreetMap",
+      "is_underground": false,
+      "has_parts": true,
+      "roof_material": "roof_tiles"
+    },
+    {
+      "id": "766856f0-1208-4fd3-b587-7266272b8ab8",
+      "num_floors": 2,
+      "source": "OpenStreetMap",
+      "is_underground": false,
+      "has_parts": true,
+      "roof_material": "roof_tiles"
+    },
+    {
+      "id": "5bcc4ae0-edff-4054-8414-8cadd661f814",
+      "height": 20,
+      "num_floors": 5,
+      "source": "OpenStreetMap",
+      "is_underground": false,
+      "has_parts": true,
+      "roof_material": "roof_tiles"
+    },
+    {
+      "id": "1a691126-4df0-42a2-849a-42f4b494c10e",
+      "subtype": "residential",
+      "class": "apartments",
+      "num_floors": 5,
+      "source": "OpenStreetMap",
+      "is_underground": false,
+      "has_parts": false,
+      "roof_material": "roof_tiles"
+    }
+  ],
+  "release": "2026-10-21",
+  "downloads": [
+    {
+      "label": "GeoPackage (one GIS file)",
+      "format": "geopackage",
+      "url": "https://mcp.terra-lab.ai/dl/geopackage/NvQD1BIKJFeK3YBpq_kJkjWCcHCLJzjR8134ydlgrAxEqmsP0bIoamg3wYfI6WCNRxNhTINvUmOsLb6WVRbBJbLqOdUwvD2upQk3BKr6DFYCxwk59b974SxjCbbvWnn2EmJZXMptr92yFt8WXUtUnli7V01CgMzygt0LLvKiKbXWtBQm9cRF9y1tXIHke-EIxxj8k74tUcYB9jBq5uo3Eu3Um2dhrmL8bw4RkQo9oA/buildings-extract.gpkg",
+      "name": "buildings-extract.gpkg"
+    },
+    {
+      "label": "GeoJSON",
+      "format": "geojson",
+      "url": "https://mcp.terra-lab.ai/dl/geojson/NvQD1BIKJFeK3YBpq_kJkjWCcHCLJzjR8134ydlgrAxEqmsP0bIoamg3wYfI6WCNRxNhTINvUmOsLb6WVRbBJbLqOdUwvD2upQk3BKr6DFYCxwk59b974SxjCbbvWnn2EmJZXMptr92yFt8WXUtUnli7V01CgMzygt0LLvKiKbXWtBQm9cRF9y1tXIHke-EIxxj8k74tUcYB9jBq5uo3Eu3Um2dhrmL8bw4RkQo9oA/buildings-extract.geojson",
+      "name": "buildings-extract.geojson"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Overture Maps 2026-10-21, buildings (via TerraLab open data API)",
+      "licence": "ODbL 1.0 (https://opendatacommons.org/licenses/odbl/1-0/), © OpenStreetMap contributors, Overture Maps Foundation, Microsoft Global ML Building Footprints (CDLA Permissive 2.0), Google Open Buildings (CC BY 4.0), Esri Community Maps contributors (CC BY 4.0), USGS 3DEP, Shi et al. 2023 (CC BY 4.0), IGN España BTN (CC BY 4.0). Clipped and converted by TerraLab. Sources and licences: https://docs.overturemaps.org/attribution/#buildings Extract clipped, reprojected and converted by TerraLab from Overture Maps release 2026-10-21; equivalent data: https://wiki.osmfoundation.org/wiki/How_To_Get_OpenStreetMap_Data",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "terms": "Commercial use allowed. Credit the source. A database you publish from this data must stay under ODbL; maps, images and reports you make can use any licence."
+    }
+  ],
+  "call_usage": {
+    "state": "not_counted"
+  }
+}

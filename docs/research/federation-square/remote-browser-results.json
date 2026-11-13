@@ -1,0 +1,1405 @@
+{
+  "url": "https://htmlpreview.github.io/?https://github.com/cloudyli2026/great-places/blob/e5bc7eb110baec952de05ff07d6f80a257cbaa6c/docs/cases/federation-square.html",
+  "checked": "2026-11-13T04:14:25.268Z",
+  "checks": [
+    {
+      "pass": true,
+      "detail": "desktop/zh: document language"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/intro: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/intro: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/intro: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/intro: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/intro: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/intro: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/scale: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/scale: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/scale: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/scale: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/scale: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/scale: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/scale: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/scale: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/scale: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/scale: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/syntax: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/syntax: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/syntax: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/syntax: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/boundary: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/boundary: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/boundary: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/boundary: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/boundary: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/boundary: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/boundary: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/boundary: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/boundary: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/boundary: image 7 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/boundary: image 8 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/boundary: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/life: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/life: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/life: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/life: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/life: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/life: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/life: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/life: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/life: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/life: image 7 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/life: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/conclusion: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/conclusion: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/conclusion: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/conclusion: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/factsheet: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/factsheet: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/factsheet: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/factsheet: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/zh/factsheet: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en: document language"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/intro: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/intro: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/intro: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/intro: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/intro: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/intro: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/scale: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/scale: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/scale: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/scale: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/scale: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/scale: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/scale: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/scale: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/scale: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/scale: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/syntax: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/syntax: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/syntax: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/syntax: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/boundary: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/boundary: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/boundary: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/boundary: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/boundary: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/boundary: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/boundary: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/boundary: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/boundary: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/boundary: image 7 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/boundary: image 8 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/boundary: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/life: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/life: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/life: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/life: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/life: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/life: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/life: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/life: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/life: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/life: image 7 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/life: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/conclusion: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/conclusion: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/conclusion: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/conclusion: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/factsheet: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/factsheet: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/factsheet: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/factsheet: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "desktop/en/factsheet: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "desktop: chapter nav click"
+    },
+    {
+      "pass": true,
+      "detail": "desktop: previous chapter click"
+    },
+    {
+      "pass": true,
+      "detail": "desktop: image dialog opens"
+    },
+    {
+      "pass": true,
+      "detail": "desktop: Escape closes image dialog"
+    },
+    {
+      "pass": true,
+      "detail": "desktop: image dialog restores focus"
+    },
+    {
+      "pass": true,
+      "detail": "desktop: browser history restores chapter"
+    },
+    {
+      "pass": true,
+      "detail": "desktop: legacy #climate route"
+    },
+    {
+      "pass": true,
+      "detail": "desktop: legacy #sources route"
+    },
+    {
+      "pass": true,
+      "detail": "desktop: legacy #fed-gis-figure-ground route"
+    },
+    {
+      "pass": true,
+      "detail": "desktop: factsheet print view"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh: document language"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/intro: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/intro: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/intro: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/intro: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/intro: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/intro: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/scale: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/scale: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/scale: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/scale: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/scale: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/scale: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/scale: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/scale: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/scale: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/scale: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/syntax: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/syntax: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/syntax: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/syntax: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/boundary: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/boundary: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/boundary: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/boundary: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/boundary: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/boundary: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/boundary: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/boundary: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/boundary: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/boundary: image 7 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/boundary: image 8 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/boundary: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/life: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/life: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/life: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/life: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/life: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/life: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/life: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/life: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/life: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/life: image 7 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/life: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/conclusion: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/conclusion: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/conclusion: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/conclusion: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/factsheet: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/factsheet: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/factsheet: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/factsheet: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/zh/factsheet: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en: document language"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/intro: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/intro: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/intro: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/intro: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/intro: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/intro: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/scale: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/scale: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/scale: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/scale: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/scale: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/scale: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/scale: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/scale: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/scale: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/scale: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/syntax: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/syntax: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/syntax: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/syntax: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/boundary: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/boundary: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/boundary: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/boundary: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/boundary: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/boundary: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/boundary: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/boundary: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/boundary: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/boundary: image 7 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/boundary: image 8 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/boundary: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/life: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/life: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/life: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/life: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/life: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/life: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/life: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/life: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/life: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/life: image 7 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/life: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/conclusion: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/conclusion: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/conclusion: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/conclusion: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/factsheet: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/factsheet: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/factsheet: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/factsheet: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "mobile/en/factsheet: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "mobile: chapter nav click"
+    },
+    {
+      "pass": true,
+      "detail": "mobile: previous chapter click"
+    },
+    {
+      "pass": true,
+      "detail": "mobile: image dialog opens"
+    },
+    {
+      "pass": true,
+      "detail": "mobile: Escape closes image dialog"
+    },
+    {
+      "pass": true,
+      "detail": "mobile: image dialog restores focus"
+    },
+    {
+      "pass": true,
+      "detail": "mobile: browser history restores chapter"
+    },
+    {
+      "pass": true,
+      "detail": "mobile: legacy #climate route"
+    },
+    {
+      "pass": true,
+      "detail": "mobile: legacy #sources route"
+    },
+    {
+      "pass": true,
+      "detail": "mobile: legacy #fed-gis-figure-ground route"
+    },
+    {
+      "pass": true,
+      "detail": "mobile: factsheet print view"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh: document language"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/intro: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/intro: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/intro: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/intro: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/intro: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/intro: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/scale: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/scale: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/scale: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/scale: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/scale: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/scale: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/scale: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/scale: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/scale: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/scale: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/syntax: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/syntax: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/syntax: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/syntax: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/boundary: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/boundary: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/boundary: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/boundary: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/boundary: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/boundary: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/boundary: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/boundary: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/boundary: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/boundary: image 7 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/boundary: image 8 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/boundary: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/life: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/life: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/life: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/life: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/life: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/life: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/life: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/life: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/life: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/life: image 7 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/life: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/conclusion: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/conclusion: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/conclusion: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/conclusion: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/factsheet: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/factsheet: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/factsheet: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/factsheet: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/zh/factsheet: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en: document language"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/intro: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/intro: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/intro: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/intro: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/intro: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/intro: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/scale: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/scale: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/scale: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/scale: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/scale: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/scale: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/scale: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/scale: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/scale: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/scale: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/syntax: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/syntax: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/syntax: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/syntax: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/boundary: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/boundary: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/boundary: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/boundary: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/boundary: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/boundary: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/boundary: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/boundary: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/boundary: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/boundary: image 7 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/boundary: image 8 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/boundary: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/life: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/life: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/life: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/life: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/life: image 2 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/life: image 3 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/life: image 4 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/life: image 5 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/life: image 6 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/life: image 7 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/life: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/conclusion: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/conclusion: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/conclusion: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/conclusion: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/factsheet: one chapter visible"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/factsheet: active nav"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/factsheet: no document overflow"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/factsheet: image 1 decoded"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile/en/factsheet: opposite-language text hidden"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile: chapter nav click"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile: previous chapter click"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile: image dialog opens"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile: Escape closes image dialog"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile: image dialog restores focus"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile: browser history restores chapter"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile: legacy #climate route"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile: legacy #sources route"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile: legacy #fed-gis-figure-ground route"
+    },
+    {
+      "pass": true,
+      "detail": "small-mobile: factsheet print view"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "summary": {
+    "passed": 348,
+    "failed": 0,
+    "errors": 0
+  }
+}

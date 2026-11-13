@@ -1,0 +1,41 @@
+{
+  "creator": "Lisa Hollmann",
+  "title": "Das Menschliche in der Architektur – Menschenwürdige Daseinsgestaltung",
+  "publisher": "TU Wien / reposiTUm",
+  "date": "2025",
+  "source_url": "https://repositum.tuwien.at/handle/20.500.12708/221531",
+  "pdf_url": "https://repositum.tuwien.at/bitstream/20.500.12708/221531/1/Hollmann%20Lisa%20-%202025%20-%20Das%20Menschliche%20in%20der%20Architektur%20-%20Menschenwuerdige...pdf",
+  "rights": "Copyright retained by author. Limited figure excerpts for architectural discussion, not a licence to reuse the thesis. No claim of survey accuracy.",
+  "transformation": "Rendered excerpts of the figure half of two PDF spreads; original geometry and graphic scales retained. No drawing redrawn.",
+  "figures": [
+    {
+      "file": "siena-sections-2025.webp",
+      "physical_pdf_spread": 29,
+      "clip_pdf_points": [
+        535,
+        20,
+        1040,
+        674
+      ],
+      "reference": "Abb.7/8; printed p54–55; PDF spread 29"
+    },
+    {
+      "file": "siena-nolli-2025.webp",
+      "physical_pdf_spread": 26,
+      "clip_pdf_points": [
+        530,
+        20,
+        1040,
+        674
+      ],
+      "reference": "Abb.4; printed p48–49; PDF spread 26"
+    }
+  ],
+  "pdf_sha256": "805de761583eac5808d66781c37fcaa48b46e912326c6c30dc59988c58c600ed",
+  "render": {
+    "scale": 2.4,
+    "format": "WebP",
+    "quality": 94,
+    "script": "scripts/render_siena_drawings.py"
+  }
+}
