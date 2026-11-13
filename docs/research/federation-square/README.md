@@ -2,11 +2,13 @@
 
 核查日期：2026-11-13。变更在 `research/federation-square-evidence` 分支，供PR Review；GitHub Pages生产站从main发布，不因本分支提交自动更新。
 
+[打开已实测的分支网页预览](https://htmlpreview.github.io/?https://github.com/cloudyli2026/great-places/blob/e5bc7eb110baec952de05ff07d6f80a257cbaa6c/docs/cases/federation-square.html)（第三方HTML预览器；固定到已测试的页面代码提交，不是main生产站）。
+
 ## 浏览器回归
 
 真实 Chromium 156 / Playwright，1440×1000桌面、390×844移动及320×740窄屏；不是仅通过HTML源码推测显示效果。
 
-**348项通过，0项失败，0页面脚本错误，0失败网络请求。** [机器记录](browser-results.json)
+**本地348项通过；远程预览348项通过。两者均0失败、0页面脚本错误、0失败网络请求。** [本地机器记录](browser-results.json) · [远程机器记录](remote-browser-results.json)
 
 - 中英文各7章：仅当前章显示、正确高亮、正文与图注切换、html lang、图片alt、反向语言隐藏、页面无横向溢出。
 - 逐章滚动到图片并执行浏览器 `img.decode()`，确认不是返回HTML的伪图片链接。检查包括本地SVG和原出版站图片；重复出现的资产也逐处检查。
