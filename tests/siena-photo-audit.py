@@ -20,7 +20,7 @@ def read(u):
  if u.startswith('https://'):
   with urlopen(Request(u,headers={'User-Agent':'Mozilla/5.0'}),timeout=35) as r:b=r.read()
  else:b=(page.parent/unquote(urlsplit(u).path)).read_bytes()
- im=Image.open(io.BytesIO(b)).convert('RGB');small=im.convert('L').resize((9,8));v=list(small.getdata());bits=''.join('1' if v[y*9+x]>v[y*9+x+1] else '0' for y in range(8) for x in range(8));return {'url':u,'dimensions':list(im.size),'normalized_rgb_sha256':hashlib.sha256(im.resize((64,64)).tobytes()).hexdigest(),'difference_hash':hex(int(bits,2))}
+ im=Image.open(io.BytesIO(b)).convert('RGB');small=im.convert('L').resize((9,8));v=list(small.tobytes());bits=''.join('1' if v[y*9+x]>v[y*9+x+1] else '0' for y in range(8) for x in range(8));return {'url':u,'dimensions':list(im.size),'normalized_rgb_sha256':hashlib.sha256(im.resize((64,64)).tobytes()).hexdigest(),'difference_hash':hex(int(bits,2))}
 with ThreadPoolExecutor(max_workers=6) as pool:images=list(pool.map(read,p.urls))
 pairs=[]
 for i,a in enumerate(images):
