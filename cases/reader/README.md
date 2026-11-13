@@ -4,7 +4,7 @@ The current publication source is `01.json`, `03.json`, `04.json` and `vocabular
 
 Run `python scripts/build_case_readers.py` to regenerate all three case pages, the four-page comparison and JSON/CSV exports. Edit `docs/assets/case-reader.css` and `.js` once for all readers. The builder embeds identical copies to support GitHub's third-party HTML preview without raw-JavaScript MIME failures. Generated pages carry a shared reader-version hash.
 
-All cases use the same eight chapters and 17 smaller pages. The active page alone appears; hash URLs, browser history, chapter tabs, previous/next, language persistence, image inspection and printable factsheets share one implementation. Long citations and methodological discussion belong in collapsed Sources disclosures. Climate belongs in environmental assessment, not a separate chapter.
+All cases use the same eight chapters and paginated reading mechanism. The restored edition has 21 pages in 01 and 20 in 03/04; 01 keeps a separate elevation-evolution page so its historical evidence is not discarded to force an identical page count. The active page alone appears; hash URLs, browser history, chapter tabs, previous/next, language persistence, image inspection and printable factsheets share one implementation. Long citations and methodological discussion belong in collapsed Sources disclosures. Climate belongs in environmental assessment, not a separate chapter.
 
 ## Shared dimensions
 
@@ -43,3 +43,11 @@ node tests/case-reader-browser.cjs
 ```
 
 Browser defaults to `http://127.0.0.1:8017/`; set `TEST_BASE` to an alternate root and `TEST_OUTPUT` for artifacts. Link audit uses GET, actual image MIME, PDF magic bytes and reports access-challenge HTML separately from HTTP status. Browser validation decodes real images (including original SVG image references), checks rendered Google Maps, three viewport widths, both languages, pagination, history, inspection, and PDF printing. GIS integrity independently verifies metric scale against geodesic 100 m offsets and deterministic rebuilds. No live remote dataset is needed for offline GIS rebuilding.
+
+## Restored visual material and public programmes
+
+The `programmes` collection records a named activity, documented edition or regular timing, participation, spatial change, source and illustration. The `milestones` chronology records events that happened here; planned future markets stay in the programme record, not in a past-event chronology. Broadcast viewing is distinguished from hosting a ceremony. Photographs with unknown exposure dates are not relabeled as a dated edition.
+
+01 retains the 1689 and 1831 plans, Plate IX, the published comparative historical elevation, current Procuratie section/elevation and the existing Ducal Palace documents. Original licensed Wikimedia thumbnails are frozen in `docs/images/`; figure credits link the original Commons record and licence. The Procuratie PDFs are rendered without redrawing; `scripts/render_published_drawings.py` reproduces them from the SHA256-checked originals.
+
+03 has no repeated body photographs. The street-to-square comparison uses Via di Città, Via Rinaldini and a ground-level square view; these are different photographic viewpoints, not a measured continuous walk. `python tests/siena-photo-audit.py` checks actual image pixels as well as URLs. The old Carabinieri image is correctly identified as a pre-race ceremony, rather than the Palio race itself.

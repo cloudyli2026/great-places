@@ -6,3 +6,9 @@
 /* Route focus announces the page without drawing a box around the headline. */
 .case-view h1:focus{outline:none}
 @media print{body[data-case="comparison"] .case-view:not([hidden]){display:block!important}}
+
+/* Give visual evidence room without flattening all case content into one long page. */
+.image-triptych{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:start}.image-triptych .media{margin:15px 0}.image-triptych img{height:285px;object-fit:contain}.programme-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin:24px 0}.programme-list>article{min-width:0;border-top:2px solid var(--ink);padding-top:17px}.programme-list h2{font-size:26px;margin:0 0 10px}.programme-list p{font-size:14px;line-height:1.8;margin:12px 0}.programme-list .media{margin:15px 0}.programme-list img{max-height:320px;object-fit:contain}.programme-date{font-size:12px;color:var(--accent)}.programme-source{font-size:12px;color:var(--muted);margin-top:12px}.event-timeline{list-style:none;margin:28px 0;padding:0;max-width:1000px}.event-timeline>li{display:grid;grid-template-columns:140px minmax(0,1fr);gap:26px;border-top:1px solid var(--line);padding:23px 0}.event-timeline h2{font-size:26px;margin:5px 0 12px}.event-timeline p{font-size:15px;line-height:1.8;margin:0}.event-date{font:22px/1.4 Georgia,serif;color:var(--accent)}
+@media(max-width:700px){.image-triptych{grid-template-columns:1fr}.image-triptych img{height:auto;max-height:380px}.programme-list{grid-template-columns:1fr;gap:28px}.programme-list h2{font-size:25px}.event-timeline>li{grid-template-columns:1fr;gap:7px}.event-timeline h2{font-size:23px}.event-date{font-size:21px}}
+
+.image-pair .drawing .image-button img{height:auto;max-height:600px;object-fit:contain}

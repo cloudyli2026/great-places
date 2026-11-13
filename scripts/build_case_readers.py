@@ -15,13 +15,19 @@ def build_case(number):
   if a.get('crop'):
    x,y,w,h0=a['crop'];iw,ih=a['original_size'];h=f'<svg class="crop-svg" viewBox="{x} {y} {w} {h0}" role="img" aria-label="{e(z,quote=True)}" data-alt-zh="{e(z,quote=True)}" data-alt-en="{e(en,quote=True)}"><image href="{src}" x="0" y="0" width="{iw}" height="{ih}"/></svg>'
   else:h=f'<img src="{src}" alt="{e(z,quote=True)}" data-alt-zh="{e(z,quote=True)}" data-alt-en="{e(en,quote=True)}" loading="lazy" decoding="async">'
-  return f'<figure class="media {cl}"><button class="image-button" type="button" aria-label="Inspect image / 放大图像" data-image="{src}" data-alt-zh="{e(z,quote=True)}" data-alt-en="{e(en,quote=True)}" data-caption-zh="{e(caption[0],quote=True)}" data-caption-en="{e(caption[1],quote=True)}">'+h+'</button><figcaption><span class="caption-main">'+bi(caption)+'</span><details class="credit"><summary>'+bi(['图像出处','Image credit'])+'</summary><p>'+source_ref({'url':a['source'],'label':a['credit']})+'<br>'+bi(a.get('rights',['版权归原作者；按原出处核查使用范围。','Copyright retained; consult the original source for reuse.']))+'</p></details></figcaption></figure>'
+  return f'<figure class="media {cl}"><button class="image-button" type="button" aria-label="Inspect image / 放大图像" data-image="{src}" data-alt-zh="{e(z,quote=True)}" data-alt-en="{e(en,quote=True)}" data-caption-zh="{e(caption[0],quote=True)}" data-caption-en="{e(caption[1],quote=True)}">'+h+'</button><figcaption><span class="caption-main">'+bi(caption)+'</span><details class="credit"><summary>'+bi(['图像出处','Image credit'])+'</summary><p>'+source_ref({'url':a['source'],'label':a['credit']})+'<br>'+bi(a.get('rights',['版权归原作者；按原出处核查使用范围。','Copyright retained; consult the original source for reuse.']))+(' '+source_ref({'url':a['license_url'],'label':['许可 ↗','Licence ↗']}) if a.get('license_url') else '')+'</p></details></figcaption></figure>'
  def facts():return '<dl class="facts">'+''.join('<div><dt>'+bi(row['label'])+'</dt><dd>'+bi(row['value'])+'</dd></div>' for row in d['facts'])+'</dl>'
  def render(b):
   typ=b['type']
   if typ=='p':return '<p class="prose">'+bi(b['text'])+'</p>'
   if typ=='takeaway':return '<div class="takeaway">'+bi(b['text'])+'</div>'
   if typ=='figure':return figure(b['asset'])
+  if typ=='triptych':return '<div class="image-triptych">'+''.join(figure(x) for x in b['assets'])+'</div>'
+  if typ=='programmes':
+   items=[x for x in d['programmes'] if x['kind']==b['kind']]
+   return '<div class="programme-list">'+''.join('<article><h2>'+bi(x['name'])+'</h2><div class="programme-date">'+bi(x['when'])+'</div>'+(figure(x['image']) if x.get('image') else '')+'<p>'+bi(x['text'])+'</p><p><strong>'+bi(['怎样参与：','Participation: '])+'</strong>'+bi(x['access'])+'</p><p><strong>'+bi(['空间变化：','Spatial change: '])+'</strong>'+bi(x['spatial_change'])+'</p><div class="programme-source">'+source_ref({'url':x['source'],'label':['活动记录／主办方 ↗','Event record / organiser ↗']})+'</div></article>' for x in items)+'</div>'
+  if typ=='timeline':
+   return '<ol class="event-timeline">'+''.join('<li><div class="event-date">'+e(x['date'])+'</div><article><div class="eyebrow">'+bi(x['type'])+'</div><h2>'+bi(x['name'])+'</h2><p>'+bi(x['text'])+'</p><div class="programme-source">'+source_ref({'url':x['source'],'label':['事件出处 ↗','Event source ↗']})+(' · <a class="reader-link" href="#'+x['reader_page']+'">'+bi(['看相关图像','Related images'])+'</a>' if x.get('reader_page') else '')+'</div></article></li>' for x in d['milestones'])+'</ol>'
   if typ=='pair':return '<div class="image-pair">'+''.join(figure(x) for x in b['assets'])+'</div>'
   if typ=='hero':return '<div class="hero-layout">'+figure(b['asset'])+facts()+'</div>'
   if typ=='cards':return '<div class="reading-points">'+''.join('<article><h3>'+bi(x['title'])+'</h3><p>'+bi(x['text'])+'</p></article>' for x in b['items'])+'</div>'

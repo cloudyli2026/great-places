@@ -2,7 +2,7 @@
 (()=>{
  const views=[...document.querySelectorAll('.case-view')];
  if(!views.length)return;
- const aliases={scale:'figure-ground',climate:'events','comparative-drawings':'plan','measured-figure-ground':'figure-ground','siena-comparison':'conclusion','image-atlas':'boundary','facade-archive':'detail','urban-facts':'history','field-evidence':'life','comparative-method':'conclusion','fed-gis-figure-ground':'figure-ground','fed-verified-section':'section','fed-original-drawing-set':'section','fg-data-protocol-04':'figure-ground','fg-published-federation':'plan','syntax-research-v3':'syntax','fed-evidence-audit':'sources','fed-composite-plan':'plan'};
+ const aliases={'historical-elevations':'history-elevation','public-events':'public-programme','festival-gallery':'celebrations',scale:'figure-ground',climate:'events','comparative-drawings':'plan','measured-figure-ground':'figure-ground','siena-comparison':'conclusion','image-atlas':'boundary','facade-archive':'detail','urban-facts':'history','field-evidence':'life','comparative-method':'conclusion','fed-gis-figure-ground':'figure-ground','fed-verified-section':'section','fed-original-drawing-set':'section','fg-data-protocol-04':'figure-ground','fg-published-federation':'plan','syntax-research-v3':'syntax','fed-evidence-audit':'sources','fed-composite-plan':'plan'};
  const chapterLinks=[...document.querySelectorAll('.chapter-nav a')];
  let current=views[0],lang='zh';
  function title(view){return view.dataset[lang==='en'?'titleEn':'titleZh']}

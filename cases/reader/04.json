@@ -426,6 +426,40 @@
         "Elevated context from the river side"
       ],
       "drawing": false
+    },
+    "diwali": {
+      "url": "https://fedsquare.wpenginepowered.com/wp-content/uploads/2026/09/victoria-festival-of-diwali-2026.jpg",
+      "title": [
+        "Diwali官方2026活动页配图：舞蹈表演；照片年份未注明",
+        "Image on the official 2026 Diwali page: dance performance; exposure year unspecified"
+      ],
+      "caption": [
+        "Diwali官方2026活动页配图：舞蹈表演；照片年份未注明",
+        "Image on the official 2026 Diwali page: dance performance; exposure year unspecified"
+      ],
+      "source": "https://fedsquare.com/events/diwali",
+      "credit": [
+        "活动主办方／官方发布图集；摄影者未逐图注明",
+        "Organiser / official published gallery; individual photographer unspecified"
+      ],
+      "drawing": false
+    },
+    "polish": {
+      "url": "https://fedsquare.wpenginepowered.com/wp-content/uploads/2025/10/polish-festival-dancers-on-stage.jpg",
+      "title": [
+        "Polish Festival官方2025活动页配图：舞台舞蹈与观众",
+        "Official 2025 Polish Festival page image: stage dancers and audience"
+      ],
+      "caption": [
+        "Polish Festival官方2025活动页配图：舞台舞蹈与观众",
+        "Official 2025 Polish Festival page image: stage dancers and audience"
+      ],
+      "source": "https://fedsquare.com/events/polish-festival",
+      "credit": [
+        "活动主办方／官方发布图集；摄影者未逐图注明",
+        "Organiser / official published gallery; individual photographer unspecified"
+      ],
+      "drawing": false
     }
   },
   "facts": [
@@ -934,10 +968,6 @@
       ],
       "blocks": [
         {
-          "type": "figure",
-          "asset": "hero"
-        },
-        {
           "type": "cards",
           "items": [
             {
@@ -1152,7 +1182,7 @@
       "blocks": [
         {
           "type": "figure",
-          "asset": "hero"
+          "asset": "context"
         },
         {
           "type": "cards",
@@ -1192,8 +1222,8 @@
         {
           "type": "takeaway",
           "text": [
-            "此处是基于真实图纸和区位的形态解读；没有把它标为空间句法计算成果。",
-            "This is a reading of actual drawings and location, not a claimed formal syntax result."
+            "车站、街道与河岸在同一片公共地面相接，Atrium补充有遮蔽的通行与停留空间。",
+            "Station, streets and river meet across shared civic ground, with Atrium providing covered passage and staying space."
           ]
         }
       ],
@@ -1264,11 +1294,8 @@
       ],
       "blocks": [
         {
-          "type": "pair",
-          "assets": [
-            "detail",
-            "digital"
-          ]
+          "type": "figure",
+          "asset": "detail"
         },
         {
           "type": "pair",
@@ -1379,6 +1406,49 @@
       ]
     },
     {
+      "id": "milestones",
+      "chapter": "life",
+      "tab": [
+        "重要事件",
+        "Major events"
+      ],
+      "title": [
+        "这里发生过什么：历史、典礼、音乐与集会",
+        "What happened here: history, ceremony, music and assembly"
+      ],
+      "lede": [
+        "按时间列出在场地内发生、或明确通过场地共同观看的事件。每项说明地点与空间意义。",
+        "A chronology of events held here, or explicitly watched here by broadcast. Each entry identifies its spatial role."
+      ],
+      "blocks": [
+        {
+          "type": "timeline"
+        }
+      ]
+    },
+    {
+      "id": "public-programme",
+      "chapter": "life",
+      "tab": [
+        "公共活动",
+        "Public activities"
+      ],
+      "title": [
+        "公共活动：这里可以参与什么",
+        "Public activities: what people can take part in"
+      ],
+      "lede": [
+        "从活动内容、参与方式和现场布置，读懂公共地面如何被不同的人使用。",
+        "Read the programme, participation and layout to see how different people use the civic ground."
+      ],
+      "blocks": [
+        {
+          "type": "programmes",
+          "kind": "public"
+        }
+      ]
+    },
+    {
       "id": "events",
       "chapter": "life",
       "tab": [
@@ -1400,10 +1470,6 @@
             "event",
             "festival"
           ]
-        },
-        {
-          "type": "figure",
-          "asset": "peace-rally"
         },
         {
           "type": "table",
@@ -1515,6 +1581,28 @@
             "州图书馆：公共集会与节庆档案",
             "State Library: assembly and celebration archive"
           ]
+        }
+      ]
+    },
+    {
+      "id": "celebrations",
+      "chapter": "life",
+      "tab": [
+        "节日庆典",
+        "Festivals"
+      ],
+      "title": [
+        "节日庆典：有名称、有场景的公共生活",
+        "Festivals: named celebrations, visible civic life"
+      ],
+      "lede": [
+        "从舞台朝向、观众站位与通行路径，看节庆如何把同一地面变成另一种公共场景。",
+        "Stage orientation, audience positions and circulation show how festivals transform the same ground into another civic setting."
+      ],
+      "blocks": [
+        {
+          "type": "programmes",
+          "kind": "festival"
         }
       ]
     },
@@ -1795,8 +1883,8 @@
                 {
                   "url": "https://www.karresenbrands.com/en/projects/federation-square",
                   "label": [
-                    "从河流一侧的高视点看城市片区",
-                    "Elevated context from the river side"
+                    "近垂直鸟瞰：开放地面与非正交建筑边界",
+                    "Near-vertical aerial: plaza and non-orthogonal edges"
                   ]
                 },
                 {
@@ -1863,10 +1951,10 @@
                   ]
                 },
                 {
-                  "url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+                  "url": "https://www.karresenbrands.com/en/projects/federation-square",
                   "label": [
-                    "2003年和平集会：公共表达占据广场",
-                    "2003 peace rally: the square as a place of public expression"
+                    "夜间活动：同一地面的高密度使用",
+                    "Night event: intensive use of the same ground"
                   ]
                 },
                 {
@@ -1881,6 +1969,76 @@
                   "label": [
                     "600 × 600米建筑图底，北向上，100米比例尺",
                     "600 × 600 m figure-ground, north up, 100 m scale bar"
+                  ]
+                },
+                {
+                  "url": "https://architizer.com/projects/federation-square/",
+                  "label": [
+                    "设计团队发布的城市区位总图",
+                    "Published urban location plan"
+                  ]
+                },
+                {
+                  "url": "https://www.karresenbrands.com/en/projects/federation-square",
+                  "label": [
+                    "平台下部空间与建筑剖面",
+                    "Under-deck spaces and building section"
+                  ]
+                },
+                {
+                  "url": "https://architectureau.com/articles/preview/",
+                  "label": [
+                    "南侧城市界面：隔Yarra河观看",
+                    "South context: view across the Yarra"
+                  ]
+                },
+                {
+                  "url": "https://architectureau.com/articles/preview/",
+                  "label": [
+                    "铁路侧界面：跨轨道观察建筑",
+                    "Rail-side edge: view across the railyards"
+                  ]
+                },
+                {
+                  "url": "https://architectureau.com/articles/preview/",
+                  "label": [
+                    "Flinders Street上的Atrium入口视点",
+                    "Atrium seen from Flinders Street"
+                  ]
+                },
+                {
+                  "url": "https://architectureau.com/articles/preview/",
+                  "label": [
+                    "NGV开幕夜的Atrium：临时聚集",
+                    "Atrium on NGV opening night: temporary gathering"
+                  ]
+                },
+                {
+                  "url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+                  "label": [
+                    "2003年和平集会：公共表达占据广场",
+                    "2003 peace rally: the square as a place of public expression"
+                  ]
+                },
+                {
+                  "url": "https://www.karresenbrands.com/en/projects/federation-square",
+                  "label": [
+                    "从河流一侧的高视点看城市片区",
+                    "Elevated context from the river side"
+                  ]
+                },
+                {
+                  "url": "https://fedsquare.com/events/diwali",
+                  "label": [
+                    "Diwali官方2026活动页配图：舞蹈表演；照片年份未注明",
+                    "Image on the official 2026 Diwali page: dance performance; exposure year unspecified"
+                  ]
+                },
+                {
+                  "url": "https://fedsquare.com/events/polish-festival",
+                  "label": [
+                    "Polish Festival官方2025活动页配图：舞台舞蹈与观众",
+                    "Official 2025 Polish Festival page image: stage dancers and audience"
                   ]
                 }
               ]
@@ -1899,10 +2057,6 @@
                 {
                   "type": "figure",
                   "asset": "deck-section"
-                },
-                {
-                  "type": "figure",
-                  "asset": "context"
                 }
               ]
             }
@@ -2127,5 +2281,218 @@
   "conclusion_limit": [
     "主要限制：露天舒适性仍受天气影响，活动占用会改变穿行；高到访量不能独自证明每种使用者都得到同等服务。",
     "Principal limitations: weather affects outdoor comfort and events alter routes; high visitation alone does not establish equal service to all users."
+  ],
+  "programmes": [
+    {
+      "id": "cinema",
+      "kind": "public",
+      "name": [
+        "露天电影与共同观看",
+        "Outdoor cinema and collective viewing"
+      ],
+      "when": [
+        "已记录实例：2026-11-04，《Pellegrini’s: A Melbourne Legacy》",
+        "Documented example: 4 Nov 2026, Pellegrini’s: A Melbourne Legacy"
+      ],
+      "access": [
+        "该场官方标注免费；图为屏幕设施，不是该场次照片",
+        "This screening was officially listed as free; image shows the screen infrastructure, not that session"
+      ],
+      "text": [
+        "通过大屏幕一起观看本地文化纪录片，使路过者也能加入。",
+        "The Big Screen brings people together for a documentary about local culture, including passing visitors."
+      ],
+      "spatial_change": [
+        "屏幕建立共同朝向，坡面和台阶成为面向屏幕的停留地带。",
+        "The screen creates a shared orientation; slope and steps support staying and watching."
+      ],
+      "source": "https://fedsquare.com/events/outdoor-cinema-pellegrinis-a-melbourne-legacy",
+      "image": "digital"
+    },
+    {
+      "id": "civic-expression",
+      "kind": "public",
+      "name": [
+        "公共集会与城市表达",
+        "Civic assembly and public expression"
+      ],
+      "when": [
+        "历史实例：2003年和平集会",
+        "Historical example: the 2003 peace rally"
+      ],
+      "access": [
+        "历史照片记录公开集会；当前活动安排依场地规则",
+        "An archival example of public gathering; current events follow venue arrangements"
+      ],
+      "text": [
+        "广场可以承载政治与社会表达，而不仅是消费或文化参观。",
+        "The square has hosted political and social expression alongside commerce and cultural visits."
+      ],
+      "spatial_change": [
+        "人群填入开放地面，建筑边缘成为集会的共同背景。",
+        "People occupy the open ground, with architectural edges forming the setting for assembly."
+      ],
+      "source": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+      "image": "peace-rally"
+    },
+    {
+      "id": "diwali",
+      "kind": "festival",
+      "name": [
+        "Victorian Festival of Diwali",
+        "Victorian Festival of Diwali"
+      ],
+      "when": [
+        "已记录场次：2026-10-31",
+        "Documented edition: 31 Oct 2026"
+      ],
+      "access": [
+        "主办方标注免费；Celebrate India Inc.主办",
+        "Listed as free; presented by Celebrate India Inc."
+      ],
+      "text": [
+        "舞蹈、音乐与节庆活动让不同社区在城市中心共同庆祝。",
+        "Dance, music and festivities bring communities together in the city centre."
+      ],
+      "spatial_change": [
+        "Main Square、河岸步道与The Edge共同组成活动场地。",
+        "Main Square, the riverside walk and The Edge form the event setting."
+      ],
+      "source": "https://fedsquare.com/events/diwali",
+      "image": "diwali"
+    },
+    {
+      "id": "polish",
+      "kind": "festival",
+      "name": [
+        "Polish Festival @ Fed Square",
+        "Polish Festival @ Fed Square"
+      ],
+      "when": [
+        "已记录场次：2025-11-16",
+        "Documented edition: 16 Nov 2025"
+      ],
+      "access": [
+        "免费、家庭友好；展示波兰社区文化",
+        "Free and family friendly; a celebration of Polish community culture"
+      ],
+      "text": [
+        "舞台表演、传统舞蹈与社区展示把文化庆典带入公共地面。",
+        "Stage performances, traditional dance and community displays occupy the civic ground."
+      ],
+      "spatial_change": [
+        "舞台是观看焦点，其他公共空间承担逛游、相会与社区交流。",
+        "The stage anchors viewing, while adjacent spaces support browsing, meeting and exchange."
+      ],
+      "source": "https://fedsquare.com/events/polish-festival",
+      "image": "polish"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2002-10-26",
+      "name": [
+        "Fed Square向公众开放",
+        "Fed Square opens to the public"
+      ],
+      "text": [
+        "铁路上盖的公共地面成为墨尔本的新城市集会场所。",
+        "Civic ground over the railway opened as a new gathering place for Melbourne."
+      ],
+      "source": "https://fedsquare.com/events/20th-anniversary",
+      "type": [
+        "开放／城市建设",
+        "Opening / city building"
+      ],
+      "place": null
+    },
+    {
+      "date": "2003",
+      "name": [
+        "和平集会",
+        "Peace rally"
+      ],
+      "text": [
+        "州立图书馆图像记录广场内的和平集会：公共空间也承载政治与社会表达。",
+        "State Library imagery records a peace rally inside the square, showing a civic role beyond entertainment and consumption."
+      ],
+      "source": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+      "type": [
+        "公共集会",
+        "Public assembly"
+      ],
+      "place": null,
+      "reader_page": "public-programme"
+    },
+    {
+      "date": "2008",
+      "name": [
+        "全国道歉的公共转播观看",
+        "Collective viewing of the National Apology"
+      ],
+      "text": [
+        "人们在广场大屏幕前观看对被偷走的一代的全国道歉；典礼本身在堪培拉，广场是共同观看点。",
+        "People gathered at the Big Screen for the National Apology to the Stolen Generations. The ceremony took place in Canberra; the square was a collective viewing site."
+      ],
+      "source": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf#page=24",
+      "type": [
+        "国家典礼转播",
+        "Broadcast civic ceremony"
+      ],
+      "place": null
+    },
+    {
+      "date": "2010-06-04",
+      "name": [
+        "Solar Equation：Light in Winter互动公共艺术",
+        "Solar Equation: interactive art for The Light in Winter"
+      ],
+      "text": [
+        "Rafael Lozano-Hemmer的装置把模拟太阳悬于广场上方，公众可通过互动设备影响显示。",
+        "Rafael Lozano-Hemmer’s installation suspended a simulated sun over the square, with public interaction affecting its display."
+      ],
+      "source": "https://soho.nascom.nasa.gov/outreach/past/Equation/",
+      "type": [
+        "公共艺术／节庆",
+        "Public art / festival"
+      ],
+      "place": null
+    },
+    {
+      "date": "2025-11-16",
+      "name": [
+        "Polish Festival",
+        "Polish Festival"
+      ],
+      "text": [
+        "波兰社区以舞蹈、音乐与文化展示在广场举办免费家庭节庆。",
+        "The Polish community hosted a free family festival of dance, music and cultural displays."
+      ],
+      "source": "https://fedsquare.com/events/polish-festival",
+      "type": [
+        "社区节庆",
+        "Community festival"
+      ],
+      "place": null,
+      "reader_page": "celebrations"
+    },
+    {
+      "date": "2026-10-31",
+      "name": [
+        "Victorian Festival of Diwali",
+        "Victorian Festival of Diwali"
+      ],
+      "text": [
+        "Celebrate India主办的免费节庆使用Main Square、河岸步道与The Edge。",
+        "Celebrate India’s free festival used Main Square, the riverside walk and The Edge."
+      ],
+      "source": "https://fedsquare.com/events/diwali",
+      "type": [
+        "社区节庆",
+        "Community festival"
+      ],
+      "place": null,
+      "reader_page": "celebrations"
+    }
   ]
 }

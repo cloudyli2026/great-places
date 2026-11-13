@@ -183,6 +183,218 @@
         "01／03数据为ODbL；04数据为CC BY 4.0。红圈仅标位置；白色包括水面和铁路，不等于可步行空间。",
         "01/03 data: ODbL; 04: CC BY 4.0. Red circle marks location. White includes water and rail; it is not a walkability map."
       ]
+    },
+    "plan-1689": {
+      "url": "@/images/history/san-marco-plan-1689.jpg",
+      "title": [
+        "1689 · Robert de Cotte：改造前的Piazza与Piazzetta",
+        "1689 · Robert de Cotte: Piazza and Piazzetta before the western rebuilding"
+      ],
+      "caption": [
+        "1689 · Robert de Cotte：改造前的Piazza与Piazzetta",
+        "1689 · Robert de Cotte: Piazza and Piazzetta before the western rebuilding"
+      ],
+      "source": "https://commons.wikimedia.org/wiki/File:Venise_-_plan_de_la_place_Saint-Marc_-_dessin_-_Robert_de_Cotte_-_btv1b550007529_(1_of_2).jpg",
+      "credit": [
+        "Robert de Cotte · 1689 · 法国国家图书馆／Gallica",
+        "Robert de Cotte · 1689 · Bibliothèque nationale de France / Gallica"
+      ],
+      "drawing": true,
+      "rights": [
+        "公共领域历史图版；缩略图由Wikimedia生成，本站未改动原图。",
+        "Public-domain historical plate; Wikimedia thumbnail copied without further alteration."
+      ],
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "plan-1831": {
+      "url": "@/images/history/san-marco-plan-1831.jpg",
+      "title": [
+        "1831 · Quadri／Moretti 图版I：改造后的总平面",
+        "1831 · Quadri / Moretti, Plate I: plan after the western rebuilding"
+      ],
+      "caption": [
+        "1831 · Quadri／Moretti 图版I：改造后的总平面",
+        "1831 · Quadri / Moretti, Plate I: plan after the western rebuilding"
+      ],
+      "source": "https://commons.wikimedia.org/wiki/File:Quadri-Moretti,_Piazza_San_Marco_(1831),_01.jpg",
+      "credit": [
+        "Antonio Quadri／Dionisio Moretti · 1831；Aristeas扫描",
+        "Antonio Quadri / Dionisio Moretti · 1831; scan by Aristeas"
+      ],
+      "drawing": true,
+      "rights": [
+        "公共领域历史图版；缩略图由Wikimedia生成，本站未改动原图。",
+        "Public-domain historical plate; Wikimedia thumbnail copied without further alteration."
+      ],
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "west-1831": {
+      "url": "@/images/history/san-marco-west-1831.jpg",
+      "title": [
+        "1831 · 图版IX：拿破仑翼立面与新旧平面并置",
+        "1831 · Plate IX: Napoleonic Wing elevation with old and new plans"
+      ],
+      "caption": [
+        "1831 · 图版IX：拿破仑翼立面与新旧平面并置",
+        "1831 · Plate IX: Napoleonic Wing elevation with old and new plans"
+      ],
+      "source": "https://commons.wikimedia.org/wiki/File:Quadri-Moretti,_Piazza_San_Marco_(1831),_09.jpg",
+      "credit": [
+        "Antonio Quadri／Dionisio Moretti · 1831；Aristeas扫描",
+        "Antonio Quadri / Dionisio Moretti · 1831; scan by Aristeas"
+      ],
+      "drawing": true,
+      "rights": [
+        "公共领域历史图版；缩略图由Wikimedia生成，本站未改动原图。",
+        "Public-domain historical plate; Wikimedia thumbnail copied without further alteration."
+      ],
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "historical-elevation": {
+      "url": "@/drawings/san-marco-historical-elevation.webp",
+      "title": [
+        "广场边界展开立面：上为San Geminiano教堂，下为1807—1814年拿破仑翼",
+        "Unfolded square elevations: San Geminiano above; the 1807–1814 Napoleonic Wing below"
+      ],
+      "caption": [
+        "广场边界展开立面：上为San Geminiano教堂，下为1807—1814年拿破仑翼",
+        "Unfolded square elevations: San Geminiano above; the 1807–1814 Napoleonic Wing below"
+      ],
+      "source": "https://cdn.archilovers.com/projects/02b5ad2c-2b71-4b5d-acae-cdf17f1c5229.pdf",
+      "credit": [
+        "David Chipperfield Architects · Procuratie Vecchie项目发布图纸",
+        "David Chipperfield Architects · published Procuratie Vecchie project drawings"
+      ],
+      "drawing": true,
+      "crop": [
+        0,
+        740,
+        3200,
+        1190
+      ],
+      "original_size": [
+        3200,
+        2263
+      ]
+    },
+    "south-elevation": {
+      "url": "@/drawings/procuratie-south-elevation.webp",
+      "title": [
+        "Procuratie Vecchie朝向广场的南立面：规则开间与连续柱廊",
+        "Procuratie Vecchie south elevation facing the square: repeated bays and continuous arcade"
+      ],
+      "caption": [
+        "Procuratie Vecchie朝向广场的南立面：规则开间与连续柱廊",
+        "Procuratie Vecchie south elevation facing the square: repeated bays and continuous arcade"
+      ],
+      "source": "https://cdn.archilovers.com/projects/05b2c70c-77b1-4472-9abb-3ae7a8fa1287.pdf",
+      "credit": [
+        "David Chipperfield Architects · Procuratie Vecchie项目发布图纸",
+        "David Chipperfield Architects · published Procuratie Vecchie project drawings"
+      ],
+      "drawing": true
+    },
+    "transverse-section": {
+      "url": "@/drawings/procuratie-transverse-section.webp",
+      "title": [
+        "Procuratie Vecchie横剖面：柱廊、楼层与修复后内部空间",
+        "Procuratie Vecchie transverse section: arcade, storeys and restored interior"
+      ],
+      "caption": [
+        "Procuratie Vecchie横剖面：柱廊、楼层与修复后内部空间",
+        "Procuratie Vecchie transverse section: arcade, storeys and restored interior"
+      ],
+      "source": "https://cdn.archilovers.com/projects/99a07471-1d2a-45bd-9987-660b7de764fe.pdf",
+      "credit": [
+        "David Chipperfield Architects · Procuratie Vecchie项目发布图纸",
+        "David Chipperfield Architects · published Procuratie Vecchie project drawings"
+      ],
+      "drawing": true
+    },
+    "doge-elevation": {
+      "url": "@/doges-palace-elevation-drawing.jpg",
+      "title": [
+        "总督宫：双层开放柱廊与上部实体墙面",
+        "Doge’s Palace: two open arcade levels below a solid upper wall"
+      ],
+      "caption": [
+        "总督宫：双层开放柱廊与上部实体墙面",
+        "Doge’s Palace: two open arcade levels below a solid upper wall"
+      ],
+      "source": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "credit": [
+        "仓库原有用户提供扫描；作者与出版年代未注明",
+        "Existing user-provided scan; creator and publication date unspecified"
+      ],
+      "drawing": true
+    },
+    "doge-study": {
+      "url": "@/doges-palace-architectural-study.jpg",
+      "title": [
+        "总督宫水岸立面、柱廊与平面综合图",
+        "Doge’s Palace waterfront elevation, arcades and plan study"
+      ],
+      "caption": [
+        "总督宫水岸立面、柱廊与平面综合图",
+        "Doge’s Palace waterfront elevation, arcades and plan study"
+      ],
+      "source": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "credit": [
+        "仓库原有用户提供扫描；作者与出版年代未注明",
+        "Existing user-provided scan; creator and publication date unspecified"
+      ],
+      "drawing": true
+    },
+    "carnival": {
+      "url": "https://carnevale.venezia.it/wp-content/uploads/2025/02/DJI_0049-1536x864.jpg",
+      "title": [
+        "2025年狂欢节开幕：舞台与观众共同占据广场西端",
+        "2025 Carnival opening: stage and audience occupy the west end"
+      ],
+      "caption": [
+        "2025年狂欢节开幕：舞台与观众共同占据广场西端",
+        "2025 Carnival opening: stage and audience occupy the west end"
+      ],
+      "source": "https://carnevale.venezia.it/news/2025/da-piazza-san-marco-ha-preso-il-via-il-carnevale-2025-il-tempo-di-casanova/",
+      "credit": [
+        "活动主办方／官方发布图集；摄影者未逐图注明",
+        "Organiser / official published gallery; individual photographer unspecified"
+      ],
+      "drawing": false
+    },
+    "marie": {
+      "url": "https://carnevale.venezia.it/wp-content/uploads/2025/03/6M28718-1024x683.jpg",
+      "title": [
+        "2025年Festa delle Marie：仪式舞台与站立观众",
+        "2025 Festa delle Marie: ceremonial stage and standing spectators"
+      ],
+      "caption": [
+        "2025年Festa delle Marie：仪式舞台与站立观众",
+        "2025 Festa delle Marie: ceremonial stage and standing spectators"
+      ],
+      "source": "https://carnevale.venezia.it/news/2025/il-tempo-di-casanova-la-maria-2025-elena-sofia-cesca-si-presenta-al-pubblico-del-carnevale-in-piazza-san-marco/",
+      "credit": [
+        "活动主办方／官方发布图集；摄影者未逐图注明",
+        "Organiser / official published gallery; individual photographer unspecified"
+      ],
+      "drawing": false
+    },
+    "opera": {
+      "url": "https://www.teatrolafenice.it/wp-content/uploads/2024/05/Conc_Valc%CC%8Cuh_San_Marco-24-70-9626-copia-e1750939648138.jpg",
+      "title": [
+        "La Fenice发布的广场音乐会现场照片，具体拍摄年份未注明",
+        "Square concert photograph published by La Fenice; exact exposure year unspecified"
+      ],
+      "caption": [
+        "La Fenice发布的广场音乐会现场照片，具体拍摄年份未注明",
+        "Square concert photograph published by La Fenice; exact exposure year unspecified"
+      ],
+      "source": "https://www.teatrolafenice.it/event/la-fenice-in-piazza-san-marco-2025/",
+      "credit": [
+        "活动主办方／官方发布图集；摄影者未逐图注明",
+        "Organiser / official published gallery; individual photographer unspecified"
+      ],
+      "drawing": false
     }
   },
   "facts": [
@@ -347,6 +559,46 @@
       "year": null,
       "unit": "%",
       "measurement": "computed footprint union / 360000 m²; source dates differ"
+    },
+    {
+      "key": "campanile_height",
+      "label": [
+        "钟楼总高",
+        "Campanile total height"
+      ],
+      "value": 98.6,
+      "display": [
+        "98.6 m",
+        "98.6 m"
+      ],
+      "unit": "m",
+      "year": "1912重建／rebuilt 1912",
+      "scope": [
+        "大教堂官方公布的钟楼总高；基座为12 × 12m。不是两侧Procuratie的檐口高度。",
+        "Official total campanile height; the base is 12 × 12 m. This is not a Procuratie cornice height."
+      ],
+      "source": "https://www.basilicasanmarco.it/en/bell-tower/",
+      "measurement": "published total building height"
+    },
+    {
+      "key": "restoration_frontage",
+      "label": [
+        "北侧修复项目立面范围",
+        "Northern restoration project frontage"
+      ],
+      "value": 152,
+      "display": [
+        "152 m",
+        "152 m"
+      ],
+      "unit": "m",
+      "year": "2019项目说明／project statement",
+      "scope": [
+        "Generali项目涉及43／50个外部拱券、约12,400m²总楼面；152m是项目立面范围，不是整侧建筑总长。",
+        "Generali’s project covers 43 of 50 external arches and about 12,400 m² gross floor area; 152 m is its project frontage, not a verified entire-side length."
+      ],
+      "source": "https://www.generali.com/media/press-releases/all/2019/The-historic-Procuratie-Vecchie-building-renovation-project-kicks-off-in-Venice-s-Piazza-San-Marco",
+      "measurement": "published restoration project extent"
     }
   ],
   "assessment": [
@@ -655,60 +907,110 @@
         "Formation"
       ],
       "title": [
-        "历史：逐步封合的公共舞台",
-        "History: an incrementally enclosed civic stage"
+        "平面演变：西端如何从教堂变成完整界面",
+        "Plan evolution: replacing a church with a continuous western edge"
       ],
       "lede": [
-        "广场的整体性来自长期累积的建筑边界，而不是一次建设完成。",
-        "Its coherence comes from successive architectural edges rather than a single construction phase."
+        "1689与1831两张真实平面，记录同一广场西端重建前后的差异。",
+        "Actual plans from 1689 and 1831 record the western rebuilding of the same square."
       ],
       "blocks": [
         {
-          "type": "figure",
-          "asset": "edge1"
+          "type": "pair",
+          "assets": [
+            "plan-1689",
+            "plan-1831"
+          ]
         },
         {
           "type": "cards",
           "items": [
             {
               "title": [
-                "扩展",
-                "Expansion"
+                "1689：旧西端",
+                "1689: the earlier west end"
               ],
               "text": [
-                "广场在中世纪逐步扩展，形成大教堂前的主要公共地面。",
-                "Medieval expansion established the principal public ground before the basilica."
+                "Robert de Cotte的图纸早于拿破仑翼，西端仍由San Geminiano教堂参与组织。",
+                "Robert de Cotte’s drawing predates the Napoleonic Wing; San Geminiano still structures the west end."
               ]
             },
             {
               "title": [
-                "围合",
-                "Enclosure"
+                "1807—1814：重建",
+                "1807–1814: rebuilding"
               ],
               "text": [
-                "Procuratie的连续界面把多栋建筑联结成整体的城市房间。",
-                "The Procuratie’s continuous fronts unite separate buildings into a civic room."
+                "原教堂拆除，新翼延续相邻建筑的层次与开间，把西端纳入连续边界。",
+                "The church was removed and the new wing extended the layered, bay-based frontage."
               ]
             },
             {
               "title": [
-                "西端改造",
-                "Western transformation"
+                "1831：新整体",
+                "1831: the new ensemble"
               ],
               "text": [
-                "19世纪初的拿破仑翼改变西端边界，使广场的空间围合更完整。",
-                "The early-19th-century Napoleonic Wing changed the western edge and completed the enclosure."
+                "图版I呈现改造后的Piazza与Piazzetta；图版IX进一步对照新旧平面与立面。",
+                "Plate I records the altered Piazza and Piazzetta; Plate IX compares old and new plans with the elevation."
               ]
             }
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "两张历史图保持原图方向与比例，不作为同尺度叠图；可点击放大辨认建筑边界。",
+            "Historical orientation and scale are retained; these are not a calibrated overlay. Enlarge to read the building edges."
           ]
         }
       ],
       "sources": [
         {
-          "url": "https://whc.unesco.org/en/list/394/",
+          "url": "https://commons.wikimedia.org/wiki/File:Venise_-_plan_de_la_place_Saint-Marc_-_dessin_-_Robert_de_Cotte_-_btv1b550007529_(1_of_2).jpg",
           "label": [
-            "UNESCO：威尼斯及其潟湖",
-            "UNESCO: Venice and its Lagoon"
+            "1689 · Robert de Cotte：改造前的Piazza与Piazzetta",
+            "1689 · Robert de Cotte: Piazza and Piazzetta before the western rebuilding"
+          ]
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Quadri-Moretti,_Piazza_San_Marco_(1831),_01.jpg",
+          "label": [
+            "1831 · Quadri／Moretti 图版I：改造后的总平面",
+            "1831 · Quadri / Moretti, Plate I: plan after the western rebuilding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history-elevation",
+      "chapter": "intro",
+      "tab": [
+        "立面演变",
+        "Elevation evolution"
+      ],
+      "title": [
+        "立面演变：保留柱廊节奏，重写西端",
+        "Elevation evolution: arcade rhythm, transformed west end"
+      ],
+      "lede": [
+        "新旧立面展开图与1831图版共同显示：变化集中在西端，连续柱廊维持广场的整体性。",
+        "The comparative elevations and the 1831 plate locate the transformation at the west end while arcades maintain the ensemble."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "historical-elevation"
+        },
+        {
+          "type": "figure",
+          "asset": "west-1831"
+        },
+        {
+          "type": "p",
+          "text": [
+            "上排保留San Geminiano教堂，下排改为拿破仑翼。比较入口位置、层数与开间节奏，可见宗教端景如何转为连续的城市立面。",
+            "San Geminiano appears in the upper row and the Napoleonic Wing below. Compare entrances, storeys and bays: a church front becomes a continuous civic edge."
           ]
         }
       ]
@@ -797,6 +1099,13 @@
       ],
       "blocks": [
         {
+          "type": "p",
+          "text": [
+            "钟楼总高98.6m，基座12 × 12m；这个垂直地标的高度不能代替Procuratie柱廊的檐口高度。",
+            "The campanile is 98.6 m tall with a 12 × 12 m base; the landmark’s height cannot substitute for the Procuratie arcade cornice height."
+          ]
+        },
+        {
           "type": "figure",
           "asset": "section"
         },
@@ -806,9 +1115,21 @@
             "在这里，空间的主要变化来自建筑边界与垂直地标。历史剖面保留建筑层级；它不是整个广场的最新地形测绘。",
             "Here, architectural edges and vertical landmarks drive the spatial change. The historic section retains building levels; it is not a current terrain survey of the whole square."
           ]
+        },
+        {
+          "type": "figure",
+          "asset": "transverse-section"
         }
       ],
-      "sources": []
+      "sources": [
+        {
+          "url": "https://www.basilicasanmarco.it/en/bell-tower/",
+          "label": [
+            "大教堂官方：钟楼尺寸与重建",
+            "Official basilica: campanile dimensions and reconstruction"
+          ]
+        }
+      ]
     },
     {
       "id": "syntax",
@@ -868,8 +1189,8 @@
         {
           "type": "takeaway",
           "text": [
-            "此处是形态与路线解读，不是已计算的整合度或VGA热图。",
-            "This is a reading of form and routes, not a computed integration or VGA map."
+            "从街巷进入Piazza，再转向Piazzetta与潟湖：封闭与开敞交替，使抵达本身成为清晰的空间序列。",
+            "Lanes lead into Piazza, then Piazzetta and the lagoon: enclosure and openness alternate in a legible sequence."
           ]
         }
       ],
@@ -912,9 +1233,51 @@
             "柱廊、首层开口和咖啡外摆共同使建筑边界成为可使用的空间；中央铺地则保留为穿行、停留与活动的共同场地。",
             "Arcades, ground-floor openings and cafe terraces make the edge usable; the centre remains shared ground for passage, staying and events."
           ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "北侧Generali修复项目涉及43／50个外部拱券，临广场立面范围152m、总楼面约12,400m²。这是项目范围，不代表已测得整侧檐口高度或建筑总长。",
+            "Generali’s northern restoration project includes 43 of 50 external arches, 152 m of square-facing frontage and about 12,400 m² gross floor area. These describe the project, not a surveyed entire-side cornice height or length."
+          ]
+        },
+        {
+          "type": "figure",
+          "asset": "south-elevation"
+        },
+        {
+          "type": "archive",
+          "title": [
+            "Piazzetta与水岸：总督宫原有图纸",
+            "Piazzetta and waterfront: retained Ducal Palace drawings"
+          ],
+          "blocks": [
+            {
+              "type": "pair",
+              "assets": [
+                "doge-elevation",
+                "doge-study"
+              ]
+            },
+            {
+              "type": "p",
+              "text": [
+                "总督宫定义Piazzetta与水岸，而不是Piazza两侧的Procuratie边界。下部双层柱廊开放、上部墙体较实，形成不同于普通街墙的公共界面。",
+                "The palace defines Piazzetta and the waterfront, rather than the two Procuratie edges. Its open lower arcades and solid upper wall create a distinct civic frontage."
+              ]
+            }
+          ]
         }
       ],
-      "sources": []
+      "sources": [
+        {
+          "url": "https://www.generali.com/media/press-releases/all/2019/The-historic-Procuratie-Vecchie-building-renovation-project-kicks-off-in-Venice-s-Piazza-San-Marco",
+          "label": [
+            "Generali原始项目说明：范围与尺寸",
+            "Generali original project statement: extent and dimensions"
+          ]
+        }
+      ]
     },
     {
       "id": "detail",
@@ -1027,6 +1390,49 @@
             "市政府：商业外摆占地管理",
             "Municipality: outdoor terrace occupation"
           ]
+        }
+      ]
+    },
+    {
+      "id": "milestones",
+      "chapter": "life",
+      "tab": [
+        "重要事件",
+        "Major events"
+      ],
+      "title": [
+        "这里发生过什么：历史、典礼、音乐与集会",
+        "What happened here: history, ceremony, music and assembly"
+      ],
+      "lede": [
+        "按时间列出在场地内发生、或明确通过场地共同观看的事件。每项说明地点与空间意义。",
+        "A chronology of events held here, or explicitly watched here by broadcast. Each entry identifies its spatial role."
+      ],
+      "blocks": [
+        {
+          "type": "timeline"
+        }
+      ]
+    },
+    {
+      "id": "public-programme",
+      "chapter": "life",
+      "tab": [
+        "公共活动",
+        "Public activities"
+      ],
+      "title": [
+        "公共活动：这里可以参与什么",
+        "Public activities: what people can take part in"
+      ],
+      "lede": [
+        "从活动内容、参与方式和现场布置，读懂公共地面如何被不同的人使用。",
+        "Read the programme, participation and layout to see how different people use the civic ground."
+      ],
+      "blocks": [
+        {
+          "type": "programmes",
+          "kind": "public"
         }
       ]
     },
@@ -1160,6 +1566,28 @@
             "官方历史潮位记录",
             "Official historical tide records"
           ]
+        }
+      ]
+    },
+    {
+      "id": "celebrations",
+      "chapter": "life",
+      "tab": [
+        "节日庆典",
+        "Festivals"
+      ],
+      "title": [
+        "节日庆典：有名称、有场景的公共生活",
+        "Festivals: named celebrations, visible civic life"
+      ],
+      "lede": [
+        "从舞台朝向、观众站位与通行路径，看节庆如何把同一地面变成另一种公共场景。",
+        "Stage orientation, audience positions and circulation show how festivals transform the same ground into another civic setting."
+      ],
+      "blocks": [
+        {
+          "type": "programmes",
+          "kind": "festival"
         }
       ]
     },
@@ -1499,6 +1927,83 @@
                     "600 × 600米建筑图底，北向上，100米比例尺",
                     "600 × 600 m figure-ground, north up, 100 m scale bar"
                   ]
+                },
+                {
+                  "url": "https://commons.wikimedia.org/wiki/File:Venise_-_plan_de_la_place_Saint-Marc_-_dessin_-_Robert_de_Cotte_-_btv1b550007529_(1_of_2).jpg",
+                  "label": [
+                    "1689 · Robert de Cotte：改造前的Piazza与Piazzetta",
+                    "1689 · Robert de Cotte: Piazza and Piazzetta before the western rebuilding"
+                  ]
+                },
+                {
+                  "url": "https://commons.wikimedia.org/wiki/File:Quadri-Moretti,_Piazza_San_Marco_(1831),_01.jpg",
+                  "label": [
+                    "1831 · Quadri／Moretti 图版I：改造后的总平面",
+                    "1831 · Quadri / Moretti, Plate I: plan after the western rebuilding"
+                  ]
+                },
+                {
+                  "url": "https://commons.wikimedia.org/wiki/File:Quadri-Moretti,_Piazza_San_Marco_(1831),_09.jpg",
+                  "label": [
+                    "1831 · 图版IX：拿破仑翼立面与新旧平面并置",
+                    "1831 · Plate IX: Napoleonic Wing elevation with old and new plans"
+                  ]
+                },
+                {
+                  "url": "https://cdn.archilovers.com/projects/02b5ad2c-2b71-4b5d-acae-cdf17f1c5229.pdf",
+                  "label": [
+                    "广场边界展开立面：上为San Geminiano教堂，下为1807—1814年拿破仑翼",
+                    "Unfolded square elevations: San Geminiano above; the 1807–1814 Napoleonic Wing below"
+                  ]
+                },
+                {
+                  "url": "https://cdn.archilovers.com/projects/05b2c70c-77b1-4472-9abb-3ae7a8fa1287.pdf",
+                  "label": [
+                    "Procuratie Vecchie朝向广场的南立面：规则开间与连续柱廊",
+                    "Procuratie Vecchie south elevation facing the square: repeated bays and continuous arcade"
+                  ]
+                },
+                {
+                  "url": "https://cdn.archilovers.com/projects/99a07471-1d2a-45bd-9987-660b7de764fe.pdf",
+                  "label": [
+                    "Procuratie Vecchie横剖面：柱廊、楼层与修复后内部空间",
+                    "Procuratie Vecchie transverse section: arcade, storeys and restored interior"
+                  ]
+                },
+                {
+                  "url": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+                  "label": [
+                    "总督宫：双层开放柱廊与上部实体墙面",
+                    "Doge’s Palace: two open arcade levels below a solid upper wall"
+                  ]
+                },
+                {
+                  "url": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+                  "label": [
+                    "总督宫水岸立面、柱廊与平面综合图",
+                    "Doge’s Palace waterfront elevation, arcades and plan study"
+                  ]
+                },
+                {
+                  "url": "https://carnevale.venezia.it/news/2025/da-piazza-san-marco-ha-preso-il-via-il-carnevale-2025-il-tempo-di-casanova/",
+                  "label": [
+                    "2025年狂欢节开幕：舞台与观众共同占据广场西端",
+                    "2025 Carnival opening: stage and audience occupy the west end"
+                  ]
+                },
+                {
+                  "url": "https://carnevale.venezia.it/news/2025/il-tempo-di-casanova-la-maria-2025-elena-sofia-cesca-si-presenta-al-pubblico-del-carnevale-in-piazza-san-marco/",
+                  "label": [
+                    "2025年Festa delle Marie：仪式舞台与站立观众",
+                    "2025 Festa delle Marie: ceremonial stage and standing spectators"
+                  ]
+                },
+                {
+                  "url": "https://www.teatrolafenice.it/event/la-fenice-in-piazza-san-marco-2025/",
+                  "label": [
+                    "La Fenice发布的广场音乐会现场照片，具体拍摄年份未注明",
+                    "Square concert photograph published by La Fenice; exact exposure year unspecified"
+                  ]
                 }
               ]
             }
@@ -1667,5 +2172,218 @@
   "conclusion_limit": [
     "主要限制：旅游压力、商业占地和潮汐会改变公共空间的实际可用范围。",
     "Principal limitation: tourism pressure, commercial occupation and tides affect usable public space."
+  ],
+  "programmes": [
+    {
+      "id": "music",
+      "kind": "public",
+      "name": [
+        "音乐会与户外歌剧",
+        "Concerts and outdoor opera"
+      ],
+      "when": [
+        "实例：2025-07-12，La Fenice《乡村骑士》音乐会版",
+        "Example: 12 Jul 2025, La Fenice’s Cavalleria rusticana in concert"
+      ],
+      "access": [
+        "售票观看；不是全天自由入场的公共活动",
+        "Ticketed attendance, not unrestricted all-day access"
+      ],
+      "text": [
+        "乐团、合唱与歌剧独唱把广场变成露天剧场。",
+        "Orchestra, chorus and soloists turn the square into an open-air theatre."
+      ],
+      "spatial_change": [
+        "临时舞台和成排座椅建立朝向，部分自由通行地面转为观众区。",
+        "Temporary stage and chair rows establish a viewing direction and occupy normally open ground."
+      ],
+      "source": "https://www.teatrolafenice.it/event/la-fenice-in-piazza-san-marco-2025/",
+      "image": "opera"
+    },
+    {
+      "id": "daily-civic",
+      "kind": "public",
+      "name": [
+        "步行、相会与水岸停留",
+        "Walking, meeting and waterfront staying"
+      ],
+      "when": [
+        "非活动日的日常使用",
+        "Ordinary non-event days"
+      ],
+      "access": [
+        "公共地面可步行停留；咖啡馆消费与建筑参观另计",
+        "Walk and stay on public ground; cafes and building admission are separate"
+      ],
+      "text": [
+        "穿行Piazza，经Piazzetta走到潟湖，在柱廊与水岸选择停留位置。",
+        "Cross Piazza and Piazzetta to the lagoon, choosing places to stop along arcades and waterfront."
+      ],
+      "spatial_change": [
+        "不设统一观看方向，路径、自由停留与商业外摆共存。",
+        "No single viewing direction: routes, informal pauses and commercial terraces coexist."
+      ],
+      "source": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana",
+      "image": null
+    },
+    {
+      "id": "carnival",
+      "kind": "festival",
+      "name": [
+        "Carnevale：开幕与装扮展演",
+        "Carnevale: opening and costumed performance"
+      ],
+      "when": [
+        "已记录实例：2025年狂欢节开幕",
+        "Documented example: 2025 Carnival opening"
+      ],
+      "access": [
+        "观看舞台与装扮活动；参与办法依当届主办方公告",
+        "Watch stage and costume events; participation follows that edition’s organiser"
+      ],
+      "text": [
+        "表演、音乐与面具装扮把日常城市地面变成节庆聚集场所。",
+        "Performance, music and masks transform everyday civic ground into a festive gathering place."
+      ],
+      "spatial_change": [
+        "舞台、灯光、站立观众及入口管理改变广场的使用方向。",
+        "Stage, lighting, standing spectators and managed entrances change how the square is used."
+      ],
+      "source": "https://carnevale.venezia.it/news/2025/da-piazza-san-marco-ha-preso-il-via-il-carnevale-2025-il-tempo-di-casanova/",
+      "image": "carnival"
+    },
+    {
+      "id": "marie",
+      "kind": "festival",
+      "name": [
+        "Festa delle Marie：狂欢节中的城市典礼",
+        "Festa delle Marie: a civic ceremony within Carnival"
+      ],
+      "when": [
+        "已记录实例：2025-03-04",
+        "Documented example: 4 Mar 2025"
+      ],
+      "access": [
+        "观看公开亮相；候选人选拔不是任意到场报名",
+        "Watch the public presentation; candidate selection is a separate process"
+      ],
+      "text": [
+        "年度Maria与同伴在圣马可广场向公众亮相，连接城市传统与当代庆典。",
+        "The annual Maria and companions appear before the public, connecting civic tradition and contemporary celebration."
+      ],
+      "spatial_change": [
+        "仪式在舞台集中，观众在建筑界面前聚集；与开幕同属狂欢节。",
+        "Ceremony focuses on a stage, with spectators gathering before the facades; this is part of Carnival."
+      ],
+      "source": "https://carnevale.venezia.it/news/2025/il-tempo-di-casanova-la-maria-2025-elena-sofia-cesca-si-presenta-al-pubblico-del-carnevale-in-piazza-san-marco/",
+      "image": "marie"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "1807–1814",
+      "name": [
+        "San Geminiano拆除与拿破仑翼重建",
+        "San Geminiano removed; the Napoleonic Wing built"
+      ],
+      "text": [
+        "西端从教堂端景转为延续两侧柱廊的建筑界面，改变今日广场的围合方式。",
+        "A church frontage became an edge continuing the arcades, changing the square’s enclosure."
+      ],
+      "source": "https://cdn.archilovers.com/projects/02b5ad2c-2b71-4b5d-acae-cdf17f1c5229.pdf",
+      "type": [
+        "空间改造",
+        "Spatial transformation"
+      ],
+      "place": null,
+      "reader_page": "history-elevation"
+    },
+    {
+      "date": "1902-07-14",
+      "name": [
+        "圣马可钟楼倒塌",
+        "Collapse of St Mark’s Campanile"
+      ],
+      "text": [
+        "标志性塔楼倒塌，广场失去最重要的垂直地标；此后的重建关系到城市共同记忆。",
+        "The collapse removed the square’s principal vertical landmark; its reconstruction became a question of civic memory."
+      ],
+      "source": "https://www.basilicasanmarco.it/en/bell-tower/",
+      "type": [
+        "历史事件",
+        "Historical event"
+      ],
+      "place": null
+    },
+    {
+      "date": "1912-04-25",
+      "name": [
+        "重建钟楼揭幕典礼",
+        "Inauguration of the rebuilt campanile"
+      ],
+      "text": [
+        "新钟楼在圣马可节举行揭幕，延续“原样原址”的城市形象。",
+        "The rebuilt tower was inaugurated on St Mark’s Day, restoring its familiar form and location."
+      ],
+      "source": "https://www.basilicasanmarco.it/en/bell-tower/",
+      "type": [
+        "揭幕／城市典礼",
+        "Inauguration / civic ceremony"
+      ],
+      "place": null
+    },
+    {
+      "date": "1966-11-04",
+      "name": [
+        "特大潮水事件",
+        "Exceptional high tide"
+      ],
+      "text": [
+        "市政府潮位记录为194cm；这是城市潮位基准读数，不是广场各处水深。",
+        "The municipal record is 194 cm: a city tide-datum reading, not water depth at every point in the square."
+      ],
+      "source": "https://www.comune.venezia.it/it/content/valori-caratteristici-marea-venezia-il-periodo-1872-2015",
+      "type": [
+        "灾害／城市记忆",
+        "Disaster / civic memory"
+      ],
+      "place": null
+    },
+    {
+      "date": "2025-02-14",
+      "name": [
+        "2025狂欢节在广场开幕",
+        "2025 Carnival opening in the square"
+      ],
+      "text": [
+        "开幕表演、灯光与公众聚集把广场西端改成节庆舞台。",
+        "Opening performances, lighting and the public gathering transformed the west end into a festive stage."
+      ],
+      "source": "https://carnevale.venezia.it/news/2025/da-piazza-san-marco-ha-preso-il-via-il-carnevale-2025-il-tempo-di-casanova/",
+      "type": [
+        "节庆开幕",
+        "Festival opening"
+      ],
+      "place": null,
+      "reader_page": "celebrations"
+    },
+    {
+      "date": "2025-07-12",
+      "name": [
+        "La Fenice《乡村骑士》音乐会版",
+        "La Fenice’s Cavalleria rusticana in concert"
+      ],
+      "text": [
+        "乐团、合唱与独唱共同使用临时舞台；售票座席改变普通日的自由停留。",
+        "Orchestra, chorus and soloists used a temporary stage; ticketed seating changed ordinary patterns of informal staying."
+      ],
+      "source": "https://www.teatrolafenice.it/event/la-fenice-in-piazza-san-marco-2025/",
+      "type": [
+        "音乐会",
+        "Concert"
+      ],
+      "place": null,
+      "reader_page": "public-programme"
+    }
   ]
 }

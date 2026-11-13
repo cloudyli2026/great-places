@@ -4,7 +4,9 @@ import json,hashlib,re,subprocess,sys,xml.etree.ElementTree as ET,math
 from pyproj import CRS,Transformer,Geod
 ROOT=Path(__file__).resolve().parents[1]
 ns={'s':'http://www.w3.org/2000/svg'};cases=[json.loads((ROOT/f'cases/reader/{n}.json').read_text()) for n in ['01','03','04']]
-assert all([p['id'] for p in d['pages']]==[p['id'] for p in cases[0]['pages']] for d in cases)
+core=[p['id'] for p in cases[0]['pages'] if p['id']!='history-elevation']
+assert all([p['id'] for p in d['pages'] if p['id']!='history-elevation']==core for d in cases)
+assert all({'milestones','public-programme','celebrations'} <= {p['id'] for p in d['pages']} for d in cases)
 assert all([x['key'] for x in d['assessment']]==[x['key'] for x in cases[0]['assessment']] for d in cases)
 assert all(len(d['assessment'])==10 and len(d['highlights'])==3 for d in cases)
 for d in cases:
@@ -31,4 +33,4 @@ subprocess.run([sys.executable,str(ROOT/'scripts/build_case_readers.py')],check=
 assert all(p.read_bytes()==old for p,old in before.items()),'Build changed committed output'
 versions=[re.search('name="reader-version" content="([^"]+)',(ROOT/p).read_text())[1] for p in ['docs/index.html','docs/cases/piazza-del-campo.html','docs/cases/federation-square.html','docs/comparison.html']]
 assert len(set(versions))==1
-print(json.dumps({'shared_reader_version':versions[0],'cases':3,'pages_per_case':17,'assessment_dimensions':10,'qualities_per_case':3,'figures':3,'native_scale':'1:2500 at 300mm SVG width','span_m':600,'graphic_scale_m':100,'geodesic_validation':'4 directions per case, error < 1mm at 100m','reproducible_outputs':len(paths),'result':'pass'}))
+print(json.dumps({'shared_reader_version':versions[0],'cases':3,'pages_per_case':{d['number']:len(d['pages']) for d in cases},'assessment_dimensions':10,'qualities_per_case':3,'figures':3,'native_scale':'1:2500 at 300mm SVG width','span_m':600,'graphic_scale_m':100,'geodesic_validation':'4 directions per case, error < 1mm at 100m','reproducible_outputs':len(paths),'result':'pass'}))

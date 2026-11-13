@@ -14,7 +14,7 @@ await Promise.all([['01','index.html'],['03','cases/piazza-del-campo.html'],['04
  const ctx=await browser.newContext({viewport:{width,height}}),p=await ctx.newPage();p.on('pageerror',e=>result.errors.push({n,device,error:e.message}));
  await p.goto(base+url,{waitUntil:'domcontentloaded'});await p.locator('.page-count').waitFor();
  const ids=await p.locator('.case-view').evaluateAll(v=>v.map(x=>x.id));
- check(ids.length===17,`${n}/${device}: 17 paginated views`);
+ check(ids.length>=20,`${n}/${device}: restored history and programme pages available`);
  for(const lang of ['zh','en']){
   await p.locator(`[data-lang=${lang}]`).click();
   check(await p.locator('html').getAttribute('lang')===lang,`${n}/${device}/${lang}: language`);
@@ -29,13 +29,13 @@ await Promise.all([['01','index.html'],['03','cases/piazza-del-campo.html'],['04
     // Validate every ordinary image and SVG image, including originals inside disclosures.
     const urls=await view.locator('img,svg image').evaluateAll(xs=>xs.map(x=>x.tagName.toLowerCase()==='img'?x.src:x.href.baseVal));
     for(const src of [...new Set(urls)]){
-     const resolved=new URL(src,p.url()).href;
+     const resolved=await p.evaluate(src=>new URL(src,document.baseURI).href,src);
      const ok=await p.evaluate(async src=>{const im=new Image();im.src=src;try{await Promise.race([im.decode(),new Promise((_,r)=>setTimeout(()=>r(Error('timeout')),30000))]);return im.naturalWidth>0}catch{return false}},resolved);
      result.media.push({n,id,url:resolved,decoded:ok});check(ok,`${n}/${id}: media decoded ${resolved}`);
     }
-    if(['intro','figure-ground','section','metrics','assessment','conclusion'].includes(id)){await p.evaluate(()=>scrollTo(0,0));await p.screenshot({path:path.join(out,`${n}-${device}-${id}.png`),fullPage:true});}
+    if(['intro','history','history-elevation','figure-ground','section','syntax','milestones','public-programme','celebrations','metrics','assessment','conclusion'].includes(id)){await p.evaluate(()=>scrollTo(0,0));await p.screenshot({path:path.join(out,`${n}-${device}-${id}.png`),fullPage:true});}
    }
-   if(lang==='zh'&&device==='mobile'&&['intro','figure-ground','section','events','conclusion'].includes(id)){await p.evaluate(()=>scrollTo(0,0));await p.screenshot({path:path.join(out,`${n}-${device}-${id}.png`),fullPage:true});}
+   if(lang==='zh'&&device==='mobile'&&['intro','history','history-elevation','figure-ground','section','syntax','events','public-programme','celebrations','conclusion'].includes(id)){await p.evaluate(()=>scrollTo(0,0));await p.screenshot({path:path.join(out,`${n}-${device}-${id}.png`),fullPage:true});}
   }
  }
  await p.reload({waitUntil:'domcontentloaded'});check(await p.locator('html').getAttribute('lang')==='en',`${n}/${device}: language persists on reload`);

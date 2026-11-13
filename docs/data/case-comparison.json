@@ -198,6 +198,46 @@
           "year": null,
           "unit": "%",
           "measurement": "computed footprint union / 360000 m²; source dates differ"
+        },
+        {
+          "key": "campanile_height",
+          "label": [
+            "钟楼总高",
+            "Campanile total height"
+          ],
+          "value": 98.6,
+          "display": [
+            "98.6 m",
+            "98.6 m"
+          ],
+          "unit": "m",
+          "year": "1912重建／rebuilt 1912",
+          "scope": [
+            "大教堂官方公布的钟楼总高；基座为12 × 12m。不是两侧Procuratie的檐口高度。",
+            "Official total campanile height; the base is 12 × 12 m. This is not a Procuratie cornice height."
+          ],
+          "source": "https://www.basilicasanmarco.it/en/bell-tower/",
+          "measurement": "published total building height"
+        },
+        {
+          "key": "restoration_frontage",
+          "label": [
+            "北侧修复项目立面范围",
+            "Northern restoration project frontage"
+          ],
+          "value": 152,
+          "display": [
+            "152 m",
+            "152 m"
+          ],
+          "unit": "m",
+          "year": "2019项目说明／project statement",
+          "scope": [
+            "Generali项目涉及43／50个外部拱券、约12,400m²总楼面；152m是项目立面范围，不是整侧建筑总长。",
+            "Generali’s project covers 43 of 50 external arches and about 12,400 m² gross floor area; 152 m is its project frontage, not a verified entire-side length."
+          ],
+          "source": "https://www.generali.com/media/press-releases/all/2019/The-historic-Procuratie-Vecchie-building-renovation-project-kicks-off-in-Venice-s-Piazza-San-Marco",
+          "measurement": "published restoration project extent"
         }
       ],
       "assessment": [
@@ -392,6 +432,219 @@
             "同一公共地面容纳日常穿行、文化参观及城市仪式。",
             "One civic ground supports daily passage, cultural visits and civic ritual."
           ]
+        }
+      ],
+      "programmes": [
+        {
+          "id": "music",
+          "kind": "public",
+          "name": [
+            "音乐会与户外歌剧",
+            "Concerts and outdoor opera"
+          ],
+          "when": [
+            "实例：2025-07-12，La Fenice《乡村骑士》音乐会版",
+            "Example: 12 Jul 2025, La Fenice’s Cavalleria rusticana in concert"
+          ],
+          "access": [
+            "售票观看；不是全天自由入场的公共活动",
+            "Ticketed attendance, not unrestricted all-day access"
+          ],
+          "text": [
+            "乐团、合唱与歌剧独唱把广场变成露天剧场。",
+            "Orchestra, chorus and soloists turn the square into an open-air theatre."
+          ],
+          "spatial_change": [
+            "临时舞台和成排座椅建立朝向，部分自由通行地面转为观众区。",
+            "Temporary stage and chair rows establish a viewing direction and occupy normally open ground."
+          ],
+          "source": "https://www.teatrolafenice.it/event/la-fenice-in-piazza-san-marco-2025/",
+          "image": "opera"
+        },
+        {
+          "id": "daily-civic",
+          "kind": "public",
+          "name": [
+            "步行、相会与水岸停留",
+            "Walking, meeting and waterfront staying"
+          ],
+          "when": [
+            "非活动日的日常使用",
+            "Ordinary non-event days"
+          ],
+          "access": [
+            "公共地面可步行停留；咖啡馆消费与建筑参观另计",
+            "Walk and stay on public ground; cafes and building admission are separate"
+          ],
+          "text": [
+            "穿行Piazza，经Piazzetta走到潟湖，在柱廊与水岸选择停留位置。",
+            "Cross Piazza and Piazzetta to the lagoon, choosing places to stop along arcades and waterfront."
+          ],
+          "spatial_change": [
+            "不设统一观看方向，路径、自由停留与商业外摆共存。",
+            "No single viewing direction: routes, informal pauses and commercial terraces coexist."
+          ],
+          "source": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana",
+          "image": null
+        },
+        {
+          "id": "carnival",
+          "kind": "festival",
+          "name": [
+            "Carnevale：开幕与装扮展演",
+            "Carnevale: opening and costumed performance"
+          ],
+          "when": [
+            "已记录实例：2025年狂欢节开幕",
+            "Documented example: 2025 Carnival opening"
+          ],
+          "access": [
+            "观看舞台与装扮活动；参与办法依当届主办方公告",
+            "Watch stage and costume events; participation follows that edition’s organiser"
+          ],
+          "text": [
+            "表演、音乐与面具装扮把日常城市地面变成节庆聚集场所。",
+            "Performance, music and masks transform everyday civic ground into a festive gathering place."
+          ],
+          "spatial_change": [
+            "舞台、灯光、站立观众及入口管理改变广场的使用方向。",
+            "Stage, lighting, standing spectators and managed entrances change how the square is used."
+          ],
+          "source": "https://carnevale.venezia.it/news/2025/da-piazza-san-marco-ha-preso-il-via-il-carnevale-2025-il-tempo-di-casanova/",
+          "image": "carnival"
+        },
+        {
+          "id": "marie",
+          "kind": "festival",
+          "name": [
+            "Festa delle Marie：狂欢节中的城市典礼",
+            "Festa delle Marie: a civic ceremony within Carnival"
+          ],
+          "when": [
+            "已记录实例：2025-03-04",
+            "Documented example: 4 Mar 2025"
+          ],
+          "access": [
+            "观看公开亮相；候选人选拔不是任意到场报名",
+            "Watch the public presentation; candidate selection is a separate process"
+          ],
+          "text": [
+            "年度Maria与同伴在圣马可广场向公众亮相，连接城市传统与当代庆典。",
+            "The annual Maria and companions appear before the public, connecting civic tradition and contemporary celebration."
+          ],
+          "spatial_change": [
+            "仪式在舞台集中，观众在建筑界面前聚集；与开幕同属狂欢节。",
+            "Ceremony focuses on a stage, with spectators gathering before the facades; this is part of Carnival."
+          ],
+          "source": "https://carnevale.venezia.it/news/2025/il-tempo-di-casanova-la-maria-2025-elena-sofia-cesca-si-presenta-al-pubblico-del-carnevale-in-piazza-san-marco/",
+          "image": "marie"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "1807–1814",
+          "name": [
+            "San Geminiano拆除与拿破仑翼重建",
+            "San Geminiano removed; the Napoleonic Wing built"
+          ],
+          "text": [
+            "西端从教堂端景转为延续两侧柱廊的建筑界面，改变今日广场的围合方式。",
+            "A church frontage became an edge continuing the arcades, changing the square’s enclosure."
+          ],
+          "source": "https://cdn.archilovers.com/projects/02b5ad2c-2b71-4b5d-acae-cdf17f1c5229.pdf",
+          "type": [
+            "空间改造",
+            "Spatial transformation"
+          ],
+          "place": null,
+          "reader_page": "history-elevation"
+        },
+        {
+          "date": "1902-07-14",
+          "name": [
+            "圣马可钟楼倒塌",
+            "Collapse of St Mark’s Campanile"
+          ],
+          "text": [
+            "标志性塔楼倒塌，广场失去最重要的垂直地标；此后的重建关系到城市共同记忆。",
+            "The collapse removed the square’s principal vertical landmark; its reconstruction became a question of civic memory."
+          ],
+          "source": "https://www.basilicasanmarco.it/en/bell-tower/",
+          "type": [
+            "历史事件",
+            "Historical event"
+          ],
+          "place": null
+        },
+        {
+          "date": "1912-04-25",
+          "name": [
+            "重建钟楼揭幕典礼",
+            "Inauguration of the rebuilt campanile"
+          ],
+          "text": [
+            "新钟楼在圣马可节举行揭幕，延续“原样原址”的城市形象。",
+            "The rebuilt tower was inaugurated on St Mark’s Day, restoring its familiar form and location."
+          ],
+          "source": "https://www.basilicasanmarco.it/en/bell-tower/",
+          "type": [
+            "揭幕／城市典礼",
+            "Inauguration / civic ceremony"
+          ],
+          "place": null
+        },
+        {
+          "date": "1966-11-04",
+          "name": [
+            "特大潮水事件",
+            "Exceptional high tide"
+          ],
+          "text": [
+            "市政府潮位记录为194cm；这是城市潮位基准读数，不是广场各处水深。",
+            "The municipal record is 194 cm: a city tide-datum reading, not water depth at every point in the square."
+          ],
+          "source": "https://www.comune.venezia.it/it/content/valori-caratteristici-marea-venezia-il-periodo-1872-2015",
+          "type": [
+            "灾害／城市记忆",
+            "Disaster / civic memory"
+          ],
+          "place": null
+        },
+        {
+          "date": "2025-02-14",
+          "name": [
+            "2025狂欢节在广场开幕",
+            "2025 Carnival opening in the square"
+          ],
+          "text": [
+            "开幕表演、灯光与公众聚集把广场西端改成节庆舞台。",
+            "Opening performances, lighting and the public gathering transformed the west end into a festive stage."
+          ],
+          "source": "https://carnevale.venezia.it/news/2025/da-piazza-san-marco-ha-preso-il-via-il-carnevale-2025-il-tempo-di-casanova/",
+          "type": [
+            "节庆开幕",
+            "Festival opening"
+          ],
+          "place": null,
+          "reader_page": "celebrations"
+        },
+        {
+          "date": "2025-07-12",
+          "name": [
+            "La Fenice《乡村骑士》音乐会版",
+            "La Fenice’s Cavalleria rusticana in concert"
+          ],
+          "text": [
+            "乐团、合唱与独唱共同使用临时舞台；售票座席改变普通日的自由停留。",
+            "Orchestra, chorus and soloists used a temporary stage; ticketed seating changed ordinary patterns of informal staying."
+          ],
+          "source": "https://www.teatrolafenice.it/event/la-fenice-in-piazza-san-marco-2025/",
+          "type": [
+            "音乐会",
+            "Concert"
+          ],
+          "place": null,
+          "reader_page": "public-programme"
         }
       ]
     },
@@ -717,6 +970,227 @@
             "Palio keeps local communities connected to civic ground."
           ]
         }
+      ],
+      "programmes": [
+        {
+          "id": "concert",
+          "kind": "public",
+          "name": [
+            "Concerto per l’Italia：广场交响音乐会",
+            "Concerto per l’Italia: a symphonic concert in the square"
+          ],
+          "when": [
+            "已记录场次：2025-07-18",
+            "Documented edition: 18 Jul 2025"
+          ],
+          "access": [
+            "该场免费、须预约；以主办方票务说明为准",
+            "That edition was free with reservation; follow organiser ticketing information"
+          ],
+          "text": [
+            "James Conlon执棒RAI国家交响乐团，Lilya Zilberstein担任钢琴独奏。",
+            "James Conlon conducted the RAI National Symphony Orchestra, with pianist Lilya Zilberstein."
+          ],
+          "spatial_change": [
+            "坡地成为面向舞台的露天音乐厅；座椅和出入口取代比赛日的赛道组织。",
+            "The slope becomes an open-air concert hall facing a stage; seating and entrances replace race-day track arrangements."
+          ],
+          "source": "https://www.chigiana.org/concerto-per-l-italia/",
+          "image": "concert"
+        },
+        {
+          "id": "market",
+          "kind": "public",
+          "name": [
+            "Mercato nel Campo：工艺与食品集市",
+            "Mercato nel Campo: craft and food market"
+          ],
+          "when": [
+            "往届已举办；2026年公告计划12月4—8日",
+            "Held in earlier years; announced 2026 dates: 4–8 Dec"
+          ],
+          "access": [
+            "步行逛摊，购买商品另计；这里展示的是案例，不是实时日程",
+            "Browse on foot; purchases are separate. This is a case-study example, not a live schedule"
+          ],
+          "text": [
+            "季节性集市把手工艺、地方食品与居民、游客联系起来。",
+            "The seasonal market connects crafts, local food, residents and visitors."
+          ],
+          "spatial_change": [
+            "临时摊位在坡面建立细小街巷，保留逛摊与穿行的通道。",
+            "Temporary stalls create small aisles across the slope, maintaining browsing and passage routes."
+          ],
+          "source": "https://www.comune.siena.it/novita/mercato-nel-campo-2026-edizione-potenziata-saranno-cinque-giorni-di-evento-piazza-del-campo",
+          "image": "market"
+        },
+        {
+          "id": "contrade",
+          "kind": "public",
+          "name": [
+            "Contrade游行与社区仪式",
+            "Contrade processions and civic ritual"
+          ],
+          "when": [
+            "围绕Palio发生；图为2007年Oca街巷游行",
+            "Around Palio; pictured: Oca street procession, 2007"
+          ],
+          "access": [
+            "沿途观看；参加社区仪式由Contrada组织",
+            "Watch along the route; participation in civic ritual is organised by the Contrada"
+          ],
+          "text": [
+            "旗帜、鼓乐与服装使广场的公共活动延伸进相邻街巷。",
+            "Flags, drums and costume extend the square’s civic life into surrounding streets."
+          ],
+          "spatial_change": [
+            "活动在狭窄街巷中形成移动队列，到达广场后转为大尺度共同观看。",
+            "Moving groups pass through narrow lanes before meeting the larger collective setting of the square."
+          ],
+          "source": "https://www.visitsiena.it/palio",
+          "image": "oca-parade"
+        },
+        {
+          "id": "provenzano",
+          "kind": "festival",
+          "name": [
+            "Palio di Provenzano",
+            "Palio di Provenzano"
+          ],
+          "when": [
+            "通常7月2日；实际日期可因天气调整",
+            "Normally 2 Jul; weather may change the actual date"
+          ],
+          "access": [
+            "观看试跑、仪式及比赛；赛马由Contrade组织，不是游客报名项目",
+            "Watch trials, ceremony and racing; Contrade organise the race, rather than visitor sign-ups"
+          ],
+          "text": [
+            "锡耶纳各Contrada竞争与认同的年度焦点之一。",
+            "One of the annual focal points of competition and identity among Siena’s Contrade."
+          ],
+          "spatial_change": [
+            "外围铺设赛道，中央为站立观众，外围建筑前设看台。",
+            "A perimeter track surrounds standing spectators, with grandstands against the buildings."
+          ],
+          "source": "https://palio.comune.siena.it/node/75",
+          "image": "palio-crowd"
+        },
+        {
+          "id": "assunta",
+          "kind": "festival",
+          "name": [
+            "Palio dell’Assunta",
+            "Palio dell’Assunta"
+          ],
+          "when": [
+            "通常8月16日；实际日期可因天气调整",
+            "Normally 16 Aug; weather may change the actual date"
+          ],
+          "access": [
+            "到访观看须依当届入口、看台与安全安排",
+            "Attendance follows that edition’s entrances, grandstands and safety arrangements"
+          ],
+          "text": [
+            "另一场常规Palio同样以城市社区而非旅游演出为核心。",
+            "The other regular Palio also centres on civic communities rather than being simply a tourist show."
+          ],
+          "spatial_change": [
+            "同一坡地从日常坐卧场所转为赛道、观众区与仪式场地。",
+            "The same slope changes from informal staying ground to track, spectator area and ceremonial place."
+          ],
+          "source": "https://palio.comune.siena.it/node/75",
+          "image": "palio-race"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "1944-07",
+          "name": [
+            "解放后的公共欢迎",
+            "Public welcome after liberation"
+          ],
+          "text": [
+            "国家档案馆记录：1944年7月，Campo迎接de Monsabert及盟军来访者，广场成为城市解放后的共同庆祝场所。",
+            "The State Archive documents Campo welcoming de Monsabert and Allied visitors in July 1944, making it a shared setting for liberation celebrations."
+          ],
+          "source": "https://cultura.gov.it/evento/mostra-fotografica-luglio-1944-nel-campo-ottantanni-fa-la-liberazione-di-siena-e-delle-sue-terre-a-cura-di-luca-betti",
+          "type": [
+            "历史事件",
+            "Historical event"
+          ],
+          "place": null
+        },
+        {
+          "date": "1945-08-20",
+          "name": [
+            "Palio della Pace：战后和平Palio",
+            "Palio della Pace: the post-war peace race"
+          ],
+          "text": [
+            "常规赛恢复后另办特别Palio；市政府史料也记录其激烈争议，不将“和平”名称等同于没有冲突。",
+            "A special Palio followed the return of regular racing. Municipal history also records its controversy; its name does not mean it was conflict-free."
+          ],
+          "source": "https://palio.comune.siena.it/node/5780",
+          "type": [
+            "特别庆典",
+            "Special celebration"
+          ],
+          "place": null
+        },
+        {
+          "date": "2024-04-25",
+          "name": [
+            "解放日官方典礼",
+            "Official Liberation Day ceremony"
+          ],
+          "text": [
+            "广场举行公共纪念仪式，证明它也是市政典礼与公共记忆的场所。",
+            "An official ceremony used the square as a setting for civic commemoration and public memory."
+          ],
+          "source": "https://www.radiosienatv.it/25-aprile-le-celebrazioni-a-siena/",
+          "type": [
+            "城市典礼",
+            "Civic ceremony"
+          ],
+          "place": null
+        },
+        {
+          "date": "2025-07-18",
+          "name": [
+            "Concerto per l’Italia",
+            "Concerto per l’Italia"
+          ],
+          "text": [
+            "Chigiana音乐节在Campo举办交响音乐会；临时舞台与座椅使空间朝一个方向组织。",
+            "The Chigiana festival staged a symphonic concert in Campo; stage and seating organised the space around one viewing direction."
+          ],
+          "source": "https://www.chigiana.org/concerto-per-l-italia/",
+          "type": [
+            "音乐会",
+            "Concert"
+          ],
+          "place": null,
+          "reader_page": "public-programme"
+        },
+        {
+          "date": "2026-07-03",
+          "name": [
+            "2026年七月Palio：受天气影响的活动管理",
+            "July 2026 Palio: weather-sensitive event management"
+          ],
+          "text": [
+            "安保方对7月3日活动的记录说明：入口控制、看台和中央站席区需要针对实际场次组织。",
+            "The safety provider’s account of the 3 July event describes entrances, stands and central standing space organised for that particular running."
+          ],
+          "source": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/",
+          "type": [
+            "赛马／节庆",
+            "Race / festival"
+          ],
+          "place": null,
+          "reader_page": "celebrations"
+        }
       ]
     },
     {
@@ -1040,6 +1514,219 @@
             "文化机构、数字屏幕与全年活动支持社区和游客共同使用。",
             "Institutions, screen and year-round programming support both communities and visitors."
           ]
+        }
+      ],
+      "programmes": [
+        {
+          "id": "cinema",
+          "kind": "public",
+          "name": [
+            "露天电影与共同观看",
+            "Outdoor cinema and collective viewing"
+          ],
+          "when": [
+            "已记录实例：2026-11-04，《Pellegrini’s: A Melbourne Legacy》",
+            "Documented example: 4 Nov 2026, Pellegrini’s: A Melbourne Legacy"
+          ],
+          "access": [
+            "该场官方标注免费；图为屏幕设施，不是该场次照片",
+            "This screening was officially listed as free; image shows the screen infrastructure, not that session"
+          ],
+          "text": [
+            "通过大屏幕一起观看本地文化纪录片，使路过者也能加入。",
+            "The Big Screen brings people together for a documentary about local culture, including passing visitors."
+          ],
+          "spatial_change": [
+            "屏幕建立共同朝向，坡面和台阶成为面向屏幕的停留地带。",
+            "The screen creates a shared orientation; slope and steps support staying and watching."
+          ],
+          "source": "https://fedsquare.com/events/outdoor-cinema-pellegrinis-a-melbourne-legacy",
+          "image": "digital"
+        },
+        {
+          "id": "civic-expression",
+          "kind": "public",
+          "name": [
+            "公共集会与城市表达",
+            "Civic assembly and public expression"
+          ],
+          "when": [
+            "历史实例：2003年和平集会",
+            "Historical example: the 2003 peace rally"
+          ],
+          "access": [
+            "历史照片记录公开集会；当前活动安排依场地规则",
+            "An archival example of public gathering; current events follow venue arrangements"
+          ],
+          "text": [
+            "广场可以承载政治与社会表达，而不仅是消费或文化参观。",
+            "The square has hosted political and social expression alongside commerce and cultural visits."
+          ],
+          "spatial_change": [
+            "人群填入开放地面，建筑边缘成为集会的共同背景。",
+            "People occupy the open ground, with architectural edges forming the setting for assembly."
+          ],
+          "source": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+          "image": "peace-rally"
+        },
+        {
+          "id": "diwali",
+          "kind": "festival",
+          "name": [
+            "Victorian Festival of Diwali",
+            "Victorian Festival of Diwali"
+          ],
+          "when": [
+            "已记录场次：2026-10-31",
+            "Documented edition: 31 Oct 2026"
+          ],
+          "access": [
+            "主办方标注免费；Celebrate India Inc.主办",
+            "Listed as free; presented by Celebrate India Inc."
+          ],
+          "text": [
+            "舞蹈、音乐与节庆活动让不同社区在城市中心共同庆祝。",
+            "Dance, music and festivities bring communities together in the city centre."
+          ],
+          "spatial_change": [
+            "Main Square、河岸步道与The Edge共同组成活动场地。",
+            "Main Square, the riverside walk and The Edge form the event setting."
+          ],
+          "source": "https://fedsquare.com/events/diwali",
+          "image": "diwali"
+        },
+        {
+          "id": "polish",
+          "kind": "festival",
+          "name": [
+            "Polish Festival @ Fed Square",
+            "Polish Festival @ Fed Square"
+          ],
+          "when": [
+            "已记录场次：2025-11-16",
+            "Documented edition: 16 Nov 2025"
+          ],
+          "access": [
+            "免费、家庭友好；展示波兰社区文化",
+            "Free and family friendly; a celebration of Polish community culture"
+          ],
+          "text": [
+            "舞台表演、传统舞蹈与社区展示把文化庆典带入公共地面。",
+            "Stage performances, traditional dance and community displays occupy the civic ground."
+          ],
+          "spatial_change": [
+            "舞台是观看焦点，其他公共空间承担逛游、相会与社区交流。",
+            "The stage anchors viewing, while adjacent spaces support browsing, meeting and exchange."
+          ],
+          "source": "https://fedsquare.com/events/polish-festival",
+          "image": "polish"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2002-10-26",
+          "name": [
+            "Fed Square向公众开放",
+            "Fed Square opens to the public"
+          ],
+          "text": [
+            "铁路上盖的公共地面成为墨尔本的新城市集会场所。",
+            "Civic ground over the railway opened as a new gathering place for Melbourne."
+          ],
+          "source": "https://fedsquare.com/events/20th-anniversary",
+          "type": [
+            "开放／城市建设",
+            "Opening / city building"
+          ],
+          "place": null
+        },
+        {
+          "date": "2003",
+          "name": [
+            "和平集会",
+            "Peace rally"
+          ],
+          "text": [
+            "州立图书馆图像记录广场内的和平集会：公共空间也承载政治与社会表达。",
+            "State Library imagery records a peace rally inside the square, showing a civic role beyond entertainment and consumption."
+          ],
+          "source": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+          "type": [
+            "公共集会",
+            "Public assembly"
+          ],
+          "place": null,
+          "reader_page": "public-programme"
+        },
+        {
+          "date": "2008",
+          "name": [
+            "全国道歉的公共转播观看",
+            "Collective viewing of the National Apology"
+          ],
+          "text": [
+            "人们在广场大屏幕前观看对被偷走的一代的全国道歉；典礼本身在堪培拉，广场是共同观看点。",
+            "People gathered at the Big Screen for the National Apology to the Stolen Generations. The ceremony took place in Canberra; the square was a collective viewing site."
+          ],
+          "source": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf#page=24",
+          "type": [
+            "国家典礼转播",
+            "Broadcast civic ceremony"
+          ],
+          "place": null
+        },
+        {
+          "date": "2010-06-04",
+          "name": [
+            "Solar Equation：Light in Winter互动公共艺术",
+            "Solar Equation: interactive art for The Light in Winter"
+          ],
+          "text": [
+            "Rafael Lozano-Hemmer的装置把模拟太阳悬于广场上方，公众可通过互动设备影响显示。",
+            "Rafael Lozano-Hemmer’s installation suspended a simulated sun over the square, with public interaction affecting its display."
+          ],
+          "source": "https://soho.nascom.nasa.gov/outreach/past/Equation/",
+          "type": [
+            "公共艺术／节庆",
+            "Public art / festival"
+          ],
+          "place": null
+        },
+        {
+          "date": "2025-11-16",
+          "name": [
+            "Polish Festival",
+            "Polish Festival"
+          ],
+          "text": [
+            "波兰社区以舞蹈、音乐与文化展示在广场举办免费家庭节庆。",
+            "The Polish community hosted a free family festival of dance, music and cultural displays."
+          ],
+          "source": "https://fedsquare.com/events/polish-festival",
+          "type": [
+            "社区节庆",
+            "Community festival"
+          ],
+          "place": null,
+          "reader_page": "celebrations"
+        },
+        {
+          "date": "2026-10-31",
+          "name": [
+            "Victorian Festival of Diwali",
+            "Victorian Festival of Diwali"
+          ],
+          "text": [
+            "Celebrate India主办的免费节庆使用Main Square、河岸步道与The Edge。",
+            "Celebrate India’s free festival used Main Square, the riverside walk and The Edge."
+          ],
+          "source": "https://fedsquare.com/events/diwali",
+          "type": [
+            "社区节庆",
+            "Community festival"
+          ],
+          "place": null,
+          "reader_page": "celebrations"
         }
       ]
     }

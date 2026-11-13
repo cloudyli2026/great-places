@@ -1,0 +1,54 @@
+{
+  "checked": "2026-11-13",
+  "note": "Unmodified Wikimedia thumbnail bytes; creators, dates and licences are recorded in cases/reader content and linked from each figure.",
+  "files": [
+    {
+      "name": "Venise - plan de la place Saint-Marc - dessin - Robert de Cotte - btv1b550007529 (1 of 2).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Venise_-_plan_de_la_place_Saint-Marc_-_dessin_-_Robert_de_Cotte_-_btv1b550007529_%281_of_2%29.jpg/1920px-Venise_-_plan_de_la_place_Saint-Marc_-_dessin_-_Robert_de_Cotte_-_btv1b550007529_%281_of_2%29.jpg",
+      "bytes": 972144,
+      "type": "image/jpeg",
+      "local_file": "images/history/san-marco-plan-1689.jpg",
+      "sha256": "a48d3259d8fe11f680bf396b78e40bc1af2f56a4163098c2e53e27923a299eef"
+    },
+    {
+      "name": "Quadri-Moretti, Piazza San Marco (1831), 01.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Quadri-Moretti%2C_Piazza_San_Marco_%281831%29%2C_01.jpg/1920px-Quadri-Moretti%2C_Piazza_San_Marco_%281831%29%2C_01.jpg",
+      "bytes": 1581504,
+      "type": "image/jpeg",
+      "local_file": "images/history/san-marco-plan-1831.jpg",
+      "sha256": "1210db910d53432aefe2172932179ba97e39b0b4a6913df9762a0615022a550d"
+    },
+    {
+      "name": "Quadri-Moretti, Piazza San Marco (1831), 09.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Quadri-Moretti%2C_Piazza_San_Marco_%281831%29%2C_09.jpg/1920px-Quadri-Moretti%2C_Piazza_San_Marco_%281831%29%2C_09.jpg",
+      "bytes": 419610,
+      "type": "image/jpeg",
+      "local_file": "images/history/san-marco-west-1831.jpg",
+      "sha256": "9d43704e18a80ddc907c0b19fb92f877e9e44922af949d952a76e94ff319fec3"
+    },
+    {
+      "name": "La folla durante il Palio.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/La_folla_durante_il_Palio.jpg/960px-La_folla_durante_il_Palio.jpg",
+      "bytes": 223771,
+      "type": "image/jpeg",
+      "local_file": "images/events/siena-palio-crowd-2007.jpg",
+      "sha256": "b1e1acc32d7bbdd490621b1d074cff2036a96b2bd7fd842872e8693eaa2d6a0b"
+    },
+    {
+      "name": "Carica lg palio provenzano 2007.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Carica_lg_palio_provenzano_2007.jpg/1920px-Carica_lg_palio_provenzano_2007.jpg",
+      "bytes": 351420,
+      "type": "image/jpeg",
+      "local_file": "images/events/siena-carabinieri-2007.jpg",
+      "sha256": "df60189ef7fb8f9d1340a80828b23b3ef667c1bd7acff66308b113e686bd12d9"
+    },
+    {
+      "name": "Quarter Goose palio parade, Siena, 2007.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Quarter_Goose_palio_parade%2C_Siena%2C_2007.jpg/1920px-Quarter_Goose_palio_parade%2C_Siena%2C_2007.jpg",
+      "bytes": 324133,
+      "type": "image/jpeg",
+      "local_file": "images/events/siena-oca-parade-2007.jpg",
+      "sha256": "935fc220e41589d1f6e496c714a95afdb2e7c2b99ed5bb882651f6963edf644e"
+    }
+  ]
+}

@@ -44,23 +44,6 @@
       ],
       "drawing": false
     },
-    "edge2": {
-      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Piazza_del_Campo_ee78e13708_fbd07d0ecd.jpg",
-      "title": [
-        "连续街墙与倾斜铺地",
-        "Continuous fronts and sloping paving"
-      ],
-      "source": "https://www.visitsiena.it/en/piazza-del-campo/",
-      "credit": [
-        "Visit Siena · Comune di Siena图集；摄影者未逐图标注",
-        "Visit Siena / Comune di Siena gallery; individual photographer unspecified"
-      ],
-      "caption": [
-        "连续街墙与倾斜铺地",
-        "Continuous fronts and sloping paving"
-      ],
-      "drawing": false
-    },
     "detail": {
       "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Piazza_del_Campo_dal_basso_613be86f02_354abf07e2.jpg",
       "title": [
@@ -73,25 +56,8 @@
         "Visit Siena / Comune di Siena gallery; individual photographer unspecified"
       ],
       "caption": [
-        "硬质地面与建筑边缘",
-        "Paving and architectural edge"
-      ],
-      "drawing": false
-    },
-    "daily1": {
-      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Piazza_del_Campo_ee78e13708_fbd07d0ecd.jpg",
-      "title": [
-        "日常步行与坡面停留",
-        "Everyday walking and stays on the slope"
-      ],
-      "source": "https://www.visitsiena.it/en/piazza-del-campo/",
-      "credit": [
-        "Visit Siena · Comune di Siena图集；摄影者未逐图标注",
-        "Visit Siena / Comune di Siena gallery; individual photographer unspecified"
-      ],
-      "caption": [
-        "日常步行与坡面停留",
-        "Everyday walking and stays on the slope"
+        "③ 广场内部：天空与坡面同时展开，远侧街墙退到视野边缘",
+        "③ Inside the square: sky and sloping ground open out, and the opposite street wall recedes"
       ],
       "drawing": false
     },
@@ -107,8 +73,8 @@
         "Visit Siena / Comune di Siena gallery; individual photographer unspecified"
       ],
       "caption": [
-        "狭窄街巷向广场展开",
-        "A narrow lane opening to the square"
+        "从街巷进入Campo：塔楼提供方向，狭窄入口把穿行带到可自由停留的坡面",
+        "Entering Campo from a lane: the tower gives orientation, and a narrow entrance leads to open sloping ground"
       ],
       "drawing": false
     },
@@ -183,6 +149,174 @@
         "01／03数据为ODbL；04数据为CC BY 4.0。红圈仅标位置；白色包括水面和铁路，不等于可步行空间。",
         "01/03 data: ODbL; 04: CC BY 4.0. Red circle marks location. White includes water and rail; it is not a walkability map."
       ]
+    },
+    "street-citta": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/ml/gallery/via-di-citta-dettaglio-albero-orizzontale-6a760cafdbae0567543631.jpg",
+      "title": [
+        "① Via di Città：两侧墙体贴近视野，天空收窄",
+        "① Via di Città: close walls and a narrow opening to the sky"
+      ],
+      "caption": [
+        "① Via di Città：两侧墙体贴近视野，天空收窄",
+        "① Via di Città: close walls and a narrow opening to the sky"
+      ],
+      "source": "https://www.visitsiena.it/en/via-di-citta",
+      "credit": [
+        "Visit Siena／Comune di Siena；摄影者及日期未注明",
+        "Visit Siena / Comune di Siena; photographer and date unspecified"
+      ],
+      "drawing": false
+    },
+    "street-rinaldini": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/ml/gallery/via-rinaldini-2-6abe7e1b43347782177907.jpg",
+      "title": [
+        "② Via Rinaldini：沿街墙向广场与塔楼接近",
+        "② Via Rinaldini: approach between street walls toward the square and tower"
+      ],
+      "caption": [
+        "② Via Rinaldini：沿街墙向广场与塔楼接近",
+        "② Via Rinaldini: approach between street walls toward the square and tower"
+      ],
+      "source": "https://www.visitsiena.it/via-rinaldini-chiasso-largo",
+      "credit": [
+        "Visit Siena／Comune di Siena；摄影者及日期未注明",
+        "Visit Siena / Comune di Siena; photographer and date unspecified"
+      ],
+      "drawing": false
+    },
+    "open-square": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Piazza_del_Campo_ee78e13708_fbd07d0ecd.jpg",
+      "title": [
+        "连续街墙与倾斜铺地",
+        "Continuous fronts and sloping paving"
+      ],
+      "source": "https://www.visitsiena.it/en/piazza-del-campo/",
+      "credit": [
+        "Visit Siena · Comune di Siena图集；摄影者未逐图标注",
+        "Visit Siena / Comune di Siena gallery; individual photographer unspecified"
+      ],
+      "caption": [
+        "Campo全景：硬质坡面构成主要公共地面，树荫并不是中心广场的主要庇护方式",
+        "Campo overview: the paved slope forms the civic ground; tree canopy is not the main form of shelter in the central square"
+      ],
+      "drawing": false
+    },
+    "palio-crowd": {
+      "url": "@/images/events/siena-palio-crowd-2007.jpg",
+      "title": [
+        "2007年7月2日Palio开赛前：广场中央的站立观众",
+        "2 July 2007 before the Palio: standing spectators in the square"
+      ],
+      "caption": [
+        "2007年7月2日Palio开赛前：广场中央的站立观众",
+        "2 July 2007 before the Palio: standing spectators in the square"
+      ],
+      "source": "https://commons.wikimedia.org/wiki/File:La_folla_durante_il_Palio.jpg",
+      "credit": [
+        "Giuseppe Ceglia · 2007-07-02 · Wikimedia Commons",
+        "Giuseppe Ceglia · 2 July 2007 · Wikimedia Commons"
+      ],
+      "drawing": false,
+      "rights": [
+        "按原图所示许可使用；本站复制Wikimedia缩略图，未再修改。",
+        "Under the linked original licence; Wikimedia thumbnail copied without further changes."
+      ],
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "carabinieri": {
+      "url": "@/images/events/siena-carabinieri-2007.jpg",
+      "title": [
+        "2007年Palio赛前的Carabinieri骑兵仪式，不是正赛",
+        "2007 pre-race Carabinieri ceremony, not the Palio race"
+      ],
+      "caption": [
+        "2007年Palio赛前的Carabinieri骑兵仪式，不是正赛",
+        "2007 pre-race Carabinieri ceremony, not the Palio race"
+      ],
+      "source": "https://commons.wikimedia.org/wiki/File:Carica_lg_palio_provenzano_2007.jpg",
+      "credit": [
+        "Roberto Vicario／Toscana Foto Notizie · 2007-07-02",
+        "Roberto Vicario / Toscana Foto Notizie · 2 July 2007"
+      ],
+      "drawing": false,
+      "rights": [
+        "按原图所示许可使用；本站复制Wikimedia缩略图，未再修改。",
+        "Under the linked original licence; Wikimedia thumbnail copied without further changes."
+      ],
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "oca-parade": {
+      "url": "@/images/events/siena-oca-parade-2007.jpg",
+      "title": [
+        "2007年Contrada dell’Oca街巷游行：庆典从广场延伸到社区",
+        "2007 Contrada dell’Oca street procession: celebration extends into the neighbourhood"
+      ],
+      "caption": [
+        "2007年Contrada dell’Oca街巷游行：庆典从广场延伸到社区",
+        "2007 Contrada dell’Oca street procession: celebration extends into the neighbourhood"
+      ],
+      "source": "https://commons.wikimedia.org/wiki/File:Quarter_Goose_palio_parade,_Siena,_2007.jpg",
+      "credit": [
+        "МаратД · 2007 · Wikimedia Commons",
+        "МаратД · 2007 · Wikimedia Commons"
+      ],
+      "drawing": false,
+      "rights": [
+        "按原图所示许可使用；本站复制Wikimedia缩略图，未再修改。",
+        "Under the linked original licence; Wikimedia thumbnail copied without further changes."
+      ],
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "palio-race": {
+      "url": "https://www.visitsiena.it/_ipx/f_webp/_media/poi/cms/Palio_6_d833e56c9f.jpg",
+      "title": [
+        "Palio赛马沿外围赛道奔跑；照片未标明具体场次",
+        "Palio horses race around the perimeter; this image does not identify a specific running"
+      ],
+      "caption": [
+        "Palio赛马沿外围赛道奔跑；照片未标明具体场次",
+        "Palio horses race around the perimeter; this image does not identify a specific running"
+      ],
+      "source": "https://www.visitsiena.it/palio",
+      "credit": [
+        "活动主办方／官方发布图集；摄影者未逐图注明",
+        "Organiser / official published gallery; individual photographer unspecified"
+      ],
+      "drawing": false
+    },
+    "market": {
+      "url": "https://www.comune.siena.it/sites/default/files/styles/webp/public/2024-03/mercato%20campo.jpg.webp?itok=VCm9HY9Y",
+      "title": [
+        "往届Mercato nel Campo：摊位与通行空间交替；市政府2026公告配图，拍摄年份未注明",
+        "An earlier Mercato nel Campo: stalls alternate with circulation; municipal 2026 announcement image, photograph year unspecified"
+      ],
+      "caption": [
+        "往届Mercato nel Campo：摊位与通行空间交替；市政府2026公告配图，拍摄年份未注明",
+        "An earlier Mercato nel Campo: stalls alternate with circulation; municipal 2026 announcement image, photograph year unspecified"
+      ],
+      "source": "https://www.comune.siena.it/novita/mercato-nel-campo-2026-edizione-potenziata-saranno-cinque-giorni-di-evento-piazza-del-campo",
+      "credit": [
+        "活动主办方／官方发布图集；摄影者未逐图注明",
+        "Organiser / official published gallery; individual photographer unspecified"
+      ],
+      "drawing": false
+    },
+    "concert": {
+      "url": "https://www.radiosienatv.it/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-18-at-22.22.51.jpeg",
+      "title": [
+        "2025年7月18日Concerto per l’Italia：Campo上的舞台、座椅与夜间观众",
+        "18 July 2025 Concerto per l’Italia: stage, seating and evening audience in Campo"
+      ],
+      "caption": [
+        "2025年7月18日：同一片坡地布置音乐会座椅与临时舞台，区别于Palio赛道",
+        "18 July 2025: chairs and a temporary stage occupy the slope, unlike the Palio track"
+      ],
+      "source": "https://www.radiosienatv.it/piazza-del-campo-abbraccia-la-grande-musica-in-5000-a-siena-per-il-concerto-per-litalia/",
+      "credit": [
+        "Radio Siena TV现场报道配图；摄影者未署名",
+        "Radio Siena TV event-report photograph; photographer unspecified"
+      ],
+      "drawing": false
     }
   },
   "facts": [
@@ -691,10 +825,6 @@
       ],
       "blocks": [
         {
-          "type": "figure",
-          "asset": "hero"
-        },
-        {
           "type": "cards",
           "items": [
             {
@@ -868,17 +998,28 @@
         "Walking connections"
       ],
       "title": [
-        "连接：抵达、穿行与停留",
-        "Connections: arrival, passage and staying"
+        "从窄街到广场：收束—接近—展开",
+        "Street to square: enclosure, approach and release"
       ],
       "lede": [
-        "狭窄入口突然打开为宽阔坡面，是Campo最鲜明的步行体验。",
-        "Narrow entrances suddenly opening to the broad slope define Campo’s walking experience."
+        "三张不同视点照片比较街墙、天空开口与可见地面：街巷越收束，进入广场时的开敞感越明显。",
+        "Three distinct views compare enclosing walls, sky and visible ground: compressed streets make the square’s openness more evident."
       ],
       "blocks": [
         {
-          "type": "figure",
-          "asset": "daily2"
+          "type": "triptych",
+          "assets": [
+            "street-citta",
+            "street-rinaldini",
+            "detail"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "①与②是两条不同的进入路径，③在广场内部；比较两侧街墙的包围感、天空开口与可见地面的变化。",
+            "① and ② show two different approaches, while ③ is inside the square. Compare enclosing street walls, the opening to the sky and visible ground."
+          ]
         },
         {
           "type": "cards",
@@ -918,8 +1059,8 @@
         {
           "type": "takeaway",
           "text": [
-            "这是形态解读；不把出版研究图或照片包装成本网站的空间句法测算。",
-            "This is a spatial reading; published drawings and photos are not represented as syntax calculations by this site."
+            "街巷收束视野，广场释放视野；建筑边缘和坡面为穿行、坐靠与共同观看提供不同位置。",
+            "Lanes compress the view and the square releases it; building edges and the slope offer different places for passage, sitting and shared viewing."
           ]
         }
       ],
@@ -957,11 +1098,8 @@
       ],
       "blocks": [
         {
-          "type": "pair",
-          "assets": [
-            "edge1",
-            "edge2"
-          ]
+          "type": "figure",
+          "asset": "edge1"
         },
         {
           "type": "p",
@@ -991,7 +1129,7 @@
       "blocks": [
         {
           "type": "figure",
-          "asset": "detail"
+          "asset": "open-square"
         },
         {
           "type": "cards",
@@ -1063,11 +1201,8 @@
       ],
       "blocks": [
         {
-          "type": "pair",
-          "assets": [
-            "daily1",
-            "daily2"
-          ]
+          "type": "figure",
+          "asset": "daily2"
         },
         {
           "type": "p",
@@ -1078,6 +1213,49 @@
         }
       ],
       "sources": []
+    },
+    {
+      "id": "milestones",
+      "chapter": "life",
+      "tab": [
+        "重要事件",
+        "Major events"
+      ],
+      "title": [
+        "这里发生过什么：历史、典礼、音乐与集会",
+        "What happened here: history, ceremony, music and assembly"
+      ],
+      "lede": [
+        "按时间列出在场地内发生、或明确通过场地共同观看的事件。每项说明地点与空间意义。",
+        "A chronology of events held here, or explicitly watched here by broadcast. Each entry identifies its spatial role."
+      ],
+      "blocks": [
+        {
+          "type": "timeline"
+        }
+      ]
+    },
+    {
+      "id": "public-programme",
+      "chapter": "life",
+      "tab": [
+        "公共活动",
+        "Public activities"
+      ],
+      "title": [
+        "公共活动：这里可以参与什么",
+        "Public activities: what people can take part in"
+      ],
+      "lede": [
+        "从活动内容、参与方式和现场布置，读懂公共地面如何被不同的人使用。",
+        "Read the programme, participation and layout to see how different people use the civic ground."
+      ],
+      "blocks": [
+        {
+          "type": "programmes",
+          "kind": "public"
+        }
+      ]
     },
     {
       "id": "events",
@@ -1098,6 +1276,10 @@
         {
           "type": "figure",
           "asset": "event"
+        },
+        {
+          "type": "figure",
+          "asset": "carabinieri"
         },
         {
           "type": "table",
@@ -1209,6 +1391,28 @@
             "2026执行记录：约15,000人中央区限额",
             "2026 provider account: approximately 15,000 central-area limit"
           ]
+        }
+      ]
+    },
+    {
+      "id": "celebrations",
+      "chapter": "life",
+      "tab": [
+        "节日庆典",
+        "Festivals"
+      ],
+      "title": [
+        "节日庆典：有名称、有场景的公共生活",
+        "Festivals: named celebrations, visible civic life"
+      ],
+      "lede": [
+        "从舞台朝向、观众站位与通行路径，看节庆如何把同一地面变成另一种公共场景。",
+        "Stage orientation, audience positions and circulation show how festivals transform the same ground into another civic setting."
+      ],
+      "blocks": [
+        {
+          "type": "programmes",
+          "kind": "festival"
         }
       ]
     },
@@ -1503,22 +1707,8 @@
                 {
                   "url": "https://www.visitsiena.it/en/piazza-del-campo/",
                   "label": [
-                    "连续街墙与倾斜铺地",
-                    "Continuous fronts and sloping paving"
-                  ]
-                },
-                {
-                  "url": "https://www.visitsiena.it/en/piazza-del-campo/",
-                  "label": [
                     "硬质地面与建筑边缘",
                     "Paving and architectural edge"
-                  ]
-                },
-                {
-                  "url": "https://www.visitsiena.it/en/piazza-del-campo/",
-                  "label": [
-                    "日常步行与坡面停留",
-                    "Everyday walking and stays on the slope"
                   ]
                 },
                 {
@@ -1554,6 +1744,69 @@
                   "label": [
                     "600 × 600米建筑图底，北向上，100米比例尺",
                     "600 × 600 m figure-ground, north up, 100 m scale bar"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it/en/via-di-citta",
+                  "label": [
+                    "① Via di Città：两侧墙体贴近视野，天空收窄",
+                    "① Via di Città: close walls and a narrow opening to the sky"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it/via-rinaldini-chiasso-largo",
+                  "label": [
+                    "② Via Rinaldini：沿街墙向广场与塔楼接近",
+                    "② Via Rinaldini: approach between street walls toward the square and tower"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it/en/piazza-del-campo/",
+                  "label": [
+                    "连续街墙与倾斜铺地",
+                    "Continuous fronts and sloping paving"
+                  ]
+                },
+                {
+                  "url": "https://commons.wikimedia.org/wiki/File:La_folla_durante_il_Palio.jpg",
+                  "label": [
+                    "2007年7月2日Palio开赛前：广场中央的站立观众",
+                    "2 July 2007 before the Palio: standing spectators in the square"
+                  ]
+                },
+                {
+                  "url": "https://commons.wikimedia.org/wiki/File:Carica_lg_palio_provenzano_2007.jpg",
+                  "label": [
+                    "2007年Palio赛前的Carabinieri骑兵仪式，不是正赛",
+                    "2007 pre-race Carabinieri ceremony, not the Palio race"
+                  ]
+                },
+                {
+                  "url": "https://commons.wikimedia.org/wiki/File:Quarter_Goose_palio_parade,_Siena,_2007.jpg",
+                  "label": [
+                    "2007年Contrada dell’Oca街巷游行：庆典从广场延伸到社区",
+                    "2007 Contrada dell’Oca street procession: celebration extends into the neighbourhood"
+                  ]
+                },
+                {
+                  "url": "https://www.visitsiena.it/palio",
+                  "label": [
+                    "Palio赛马沿外围赛道奔跑；照片未标明具体场次",
+                    "Palio horses race around the perimeter; this image does not identify a specific running"
+                  ]
+                },
+                {
+                  "url": "https://www.comune.siena.it/novita/mercato-nel-campo-2026-edizione-potenziata-saranno-cinque-giorni-di-evento-piazza-del-campo",
+                  "label": [
+                    "往届Mercato nel Campo：摊位与通行空间交替；市政府2026公告配图，拍摄年份未注明",
+                    "An earlier Mercato nel Campo: stalls alternate with circulation; municipal 2026 announcement image, photograph year unspecified"
+                  ]
+                },
+                {
+                  "url": "https://www.radiosienatv.it/piazza-del-campo-abbraccia-la-grande-musica-in-5000-a-siena-per-il-concerto-per-litalia/",
+                  "label": [
+                    "2025年7月18日Concerto per l’Italia：Campo上的舞台、座椅与夜间观众",
+                    "18 July 2025 Concerto per l’Italia: stage, seating and evening audience in Campo"
                   ]
                 }
               ]
@@ -1739,5 +1992,226 @@
   "conclusion_limit": [
     "主要限制：坡地不等于普遍无障碍，夏季遮阴有限，赛事时自由通行受到明显限制。",
     "Principal limitations: slope is not universal accessibility, summer shade is limited, and events restrict free passage."
+  ],
+  "programmes": [
+    {
+      "id": "concert",
+      "kind": "public",
+      "name": [
+        "Concerto per l’Italia：广场交响音乐会",
+        "Concerto per l’Italia: a symphonic concert in the square"
+      ],
+      "when": [
+        "已记录场次：2025-07-18",
+        "Documented edition: 18 Jul 2025"
+      ],
+      "access": [
+        "该场免费、须预约；以主办方票务说明为准",
+        "That edition was free with reservation; follow organiser ticketing information"
+      ],
+      "text": [
+        "James Conlon执棒RAI国家交响乐团，Lilya Zilberstein担任钢琴独奏。",
+        "James Conlon conducted the RAI National Symphony Orchestra, with pianist Lilya Zilberstein."
+      ],
+      "spatial_change": [
+        "坡地成为面向舞台的露天音乐厅；座椅和出入口取代比赛日的赛道组织。",
+        "The slope becomes an open-air concert hall facing a stage; seating and entrances replace race-day track arrangements."
+      ],
+      "source": "https://www.chigiana.org/concerto-per-l-italia/",
+      "image": "concert"
+    },
+    {
+      "id": "market",
+      "kind": "public",
+      "name": [
+        "Mercato nel Campo：工艺与食品集市",
+        "Mercato nel Campo: craft and food market"
+      ],
+      "when": [
+        "往届已举办；2026年公告计划12月4—8日",
+        "Held in earlier years; announced 2026 dates: 4–8 Dec"
+      ],
+      "access": [
+        "步行逛摊，购买商品另计；这里展示的是案例，不是实时日程",
+        "Browse on foot; purchases are separate. This is a case-study example, not a live schedule"
+      ],
+      "text": [
+        "季节性集市把手工艺、地方食品与居民、游客联系起来。",
+        "The seasonal market connects crafts, local food, residents and visitors."
+      ],
+      "spatial_change": [
+        "临时摊位在坡面建立细小街巷，保留逛摊与穿行的通道。",
+        "Temporary stalls create small aisles across the slope, maintaining browsing and passage routes."
+      ],
+      "source": "https://www.comune.siena.it/novita/mercato-nel-campo-2026-edizione-potenziata-saranno-cinque-giorni-di-evento-piazza-del-campo",
+      "image": "market"
+    },
+    {
+      "id": "contrade",
+      "kind": "public",
+      "name": [
+        "Contrade游行与社区仪式",
+        "Contrade processions and civic ritual"
+      ],
+      "when": [
+        "围绕Palio发生；图为2007年Oca街巷游行",
+        "Around Palio; pictured: Oca street procession, 2007"
+      ],
+      "access": [
+        "沿途观看；参加社区仪式由Contrada组织",
+        "Watch along the route; participation in civic ritual is organised by the Contrada"
+      ],
+      "text": [
+        "旗帜、鼓乐与服装使广场的公共活动延伸进相邻街巷。",
+        "Flags, drums and costume extend the square’s civic life into surrounding streets."
+      ],
+      "spatial_change": [
+        "活动在狭窄街巷中形成移动队列，到达广场后转为大尺度共同观看。",
+        "Moving groups pass through narrow lanes before meeting the larger collective setting of the square."
+      ],
+      "source": "https://www.visitsiena.it/palio",
+      "image": "oca-parade"
+    },
+    {
+      "id": "provenzano",
+      "kind": "festival",
+      "name": [
+        "Palio di Provenzano",
+        "Palio di Provenzano"
+      ],
+      "when": [
+        "通常7月2日；实际日期可因天气调整",
+        "Normally 2 Jul; weather may change the actual date"
+      ],
+      "access": [
+        "观看试跑、仪式及比赛；赛马由Contrade组织，不是游客报名项目",
+        "Watch trials, ceremony and racing; Contrade organise the race, rather than visitor sign-ups"
+      ],
+      "text": [
+        "锡耶纳各Contrada竞争与认同的年度焦点之一。",
+        "One of the annual focal points of competition and identity among Siena’s Contrade."
+      ],
+      "spatial_change": [
+        "外围铺设赛道，中央为站立观众，外围建筑前设看台。",
+        "A perimeter track surrounds standing spectators, with grandstands against the buildings."
+      ],
+      "source": "https://palio.comune.siena.it/node/75",
+      "image": "palio-crowd"
+    },
+    {
+      "id": "assunta",
+      "kind": "festival",
+      "name": [
+        "Palio dell’Assunta",
+        "Palio dell’Assunta"
+      ],
+      "when": [
+        "通常8月16日；实际日期可因天气调整",
+        "Normally 16 Aug; weather may change the actual date"
+      ],
+      "access": [
+        "到访观看须依当届入口、看台与安全安排",
+        "Attendance follows that edition’s entrances, grandstands and safety arrangements"
+      ],
+      "text": [
+        "另一场常规Palio同样以城市社区而非旅游演出为核心。",
+        "The other regular Palio also centres on civic communities rather than being simply a tourist show."
+      ],
+      "spatial_change": [
+        "同一坡地从日常坐卧场所转为赛道、观众区与仪式场地。",
+        "The same slope changes from informal staying ground to track, spectator area and ceremonial place."
+      ],
+      "source": "https://palio.comune.siena.it/node/75",
+      "image": "palio-race"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "1944-07",
+      "name": [
+        "解放后的公共欢迎",
+        "Public welcome after liberation"
+      ],
+      "text": [
+        "国家档案馆记录：1944年7月，Campo迎接de Monsabert及盟军来访者，广场成为城市解放后的共同庆祝场所。",
+        "The State Archive documents Campo welcoming de Monsabert and Allied visitors in July 1944, making it a shared setting for liberation celebrations."
+      ],
+      "source": "https://cultura.gov.it/evento/mostra-fotografica-luglio-1944-nel-campo-ottantanni-fa-la-liberazione-di-siena-e-delle-sue-terre-a-cura-di-luca-betti",
+      "type": [
+        "历史事件",
+        "Historical event"
+      ],
+      "place": null
+    },
+    {
+      "date": "1945-08-20",
+      "name": [
+        "Palio della Pace：战后和平Palio",
+        "Palio della Pace: the post-war peace race"
+      ],
+      "text": [
+        "常规赛恢复后另办特别Palio；市政府史料也记录其激烈争议，不将“和平”名称等同于没有冲突。",
+        "A special Palio followed the return of regular racing. Municipal history also records its controversy; its name does not mean it was conflict-free."
+      ],
+      "source": "https://palio.comune.siena.it/node/5780",
+      "type": [
+        "特别庆典",
+        "Special celebration"
+      ],
+      "place": null
+    },
+    {
+      "date": "2024-04-25",
+      "name": [
+        "解放日官方典礼",
+        "Official Liberation Day ceremony"
+      ],
+      "text": [
+        "广场举行公共纪念仪式，证明它也是市政典礼与公共记忆的场所。",
+        "An official ceremony used the square as a setting for civic commemoration and public memory."
+      ],
+      "source": "https://www.radiosienatv.it/25-aprile-le-celebrazioni-a-siena/",
+      "type": [
+        "城市典礼",
+        "Civic ceremony"
+      ],
+      "place": null
+    },
+    {
+      "date": "2025-07-18",
+      "name": [
+        "Concerto per l’Italia",
+        "Concerto per l’Italia"
+      ],
+      "text": [
+        "Chigiana音乐节在Campo举办交响音乐会；临时舞台与座椅使空间朝一个方向组织。",
+        "The Chigiana festival staged a symphonic concert in Campo; stage and seating organised the space around one viewing direction."
+      ],
+      "source": "https://www.chigiana.org/concerto-per-l-italia/",
+      "type": [
+        "音乐会",
+        "Concert"
+      ],
+      "place": null,
+      "reader_page": "public-programme"
+    },
+    {
+      "date": "2026-07-03",
+      "name": [
+        "2026年七月Palio：受天气影响的活动管理",
+        "July 2026 Palio: weather-sensitive event management"
+      ],
+      "text": [
+        "安保方对7月3日活动的记录说明：入口控制、看台和中央站席区需要针对实际场次组织。",
+        "The safety provider’s account of the 3 July event describes entrances, stands and central standing space organised for that particular running."
+      ],
+      "source": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/",
+      "type": [
+        "赛马／节庆",
+        "Race / festival"
+      ],
+      "place": null,
+      "reader_page": "celebrations"
+    }
   ]
 }
