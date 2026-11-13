@@ -1,0 +1,90 @@
+{
+  "dimensions": [
+    {
+      "id": "form",
+      "label": [
+        "空间形态",
+        "Spatial form"
+      ]
+    },
+    {
+      "id": "transport",
+      "label": [
+        "交通可达性",
+        "Public transport"
+      ]
+    },
+    {
+      "id": "landscape",
+      "label": [
+        "景观融入",
+        "Landscape integration"
+      ]
+    },
+    {
+      "id": "commercial",
+      "label": [
+        "商业界面",
+        "Commercial edges"
+      ]
+    },
+    {
+      "id": "climate",
+      "label": [
+        "气候适应",
+        "Climate response"
+      ]
+    },
+    {
+      "id": "function",
+      "label": [
+        "使用功能",
+        "Use programme"
+      ]
+    },
+    {
+      "id": "calendar",
+      "label": [
+        "平日／节假日",
+        "Ordinary / holiday use"
+      ]
+    },
+    {
+      "id": "demand",
+      "label": [
+        "容量与年到访量",
+        "Capacity & annual visitation"
+      ]
+    },
+    {
+      "id": "technology",
+      "label": [
+        "科技接入",
+        "Technology"
+      ]
+    },
+    {
+      "id": "audience",
+      "label": [
+        "服务对象",
+        "Community / tourism"
+      ]
+    }
+  ],
+  "use_categories": [
+    "passage",
+    "staying",
+    "cultural_visit",
+    "public_event"
+  ],
+  "audience_categories": [
+    "COMMUNITY",
+    "TOURISM",
+    "BOTH"
+  ],
+  "capacity_policy": "A reported, event- or layout-specific number with year and spatial boundary; never inferred from area.",
+  "annual_visitation_policy": "Square-level operator counts only; distinguish visits, unique people and museum admissions. Missing is null, never zero.",
+  "weekday_holiday_policy": "Qualitative paired programme comparison unless a matched count series is available. No invented peak multiplier.",
+  "population_policy": "Municipal/LGA scope, reference date and registry/ERP method stated; metropolitan figures separate.",
+  "coverage_policy": "Metric union of footprint polygons clipped to a 600m square; denominator includes water; source epoch and semantics retained."
+}

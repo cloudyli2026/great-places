@@ -1,3 +1,5 @@
+> 历史记录：此页验证的是PR #5的旧版04阅读器。当前01／03／04统一版本的实测及审核见[新报告](../aligned-cases/README.md)。
+
 # Federation Square — 实际验证记录
 
 核查日期：2026-11-13。变更在 `research/federation-square-evidence` 分支，供PR Review；GitHub Pages生产站从main发布，不因本分支提交自动更新。

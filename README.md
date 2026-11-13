@@ -29,8 +29,12 @@ Source discovery → provenance review → spatial analysis → visual cross-che
 
 The repository starts with research infrastructure; it does **not** claim a finished survey or published site.
 
-## 04 Federation Square
+## Aligned readers: 01 / 03 / 04
 
-The bilingual case in `docs/cases/federation-square.html` now has reviewed content in `cases/federation-square/case.json`, an individual asset register, frozen official Melbourne 2020 footprints and a reproducible SVG figure-ground. See [the comparison audit](cases/federation-square/RESEARCH_AUDIT.md) and [actual browser/source test results](docs/research/federation-square/README.md). Formal Space Syntax results, independent behavioural observations and a complete calibrated orthographic elevation set remain unavailable and are explicitly identified.
+San Marco, Piazza del Campo and Federation Square share one bilingual, paginated reader, ten assessment dimensions, scoped numerical indicators and three defining qualities per case. Start at [the three-case comparison](docs/comparison.html), or [01](docs/index.html), [03](docs/cases/piazza-del-campo.html), [04](docs/cases/federation-square.html).
 
-Regenerate the page with `python scripts/build_federation_page.py`, and the figure-ground with `python scripts/update_federation_gis.py --offline`. Run `python tests/federation-gis.py`, `python tests/federation-links.py`, and the Chromium/Playwright regression in `tests/federation-browser.cjs` while serving `docs/` on port 8000.
+The current content source is `cases/reader/`, with shared CSS/JS under `docs/assets/`. Run `python scripts/build_case_readers.py`; do not hand-edit generated HTML. See [the content and evidence contract](cases/reader/README.md) for scope, reproducible build and browser/GIS/source test commands, and [actual review evidence](docs/research/aligned-cases/README.md).
+
+All three figure-grounds use 600 × 600 m metric frames, north up, and 100 m graphic bars. The native 300 mm SVG is 1:2500; responsive screen rendering uses the graphic bar. Melbourne retains official 2020 footprints; 01 and 03 use frozen Overture extracts with source/license metadata. Original data epochs differ and white space includes water.
+
+The earlier 04 source register and [first-stage audit](cases/federation-square/RESEARCH_AUDIT.md) remain available. Earlier 04-only browser screenshots refer to that previous reader, not the current three-case implementation.

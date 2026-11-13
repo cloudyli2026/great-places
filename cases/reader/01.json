@@ -1,0 +1,1671 @@
+{
+  "number": "01",
+  "name": "Piazza San Marco",
+  "location": [
+    "威尼斯，意大利",
+    "Venice, Italy"
+  ],
+  "coordinates": [
+    45.4342,
+    12.3387
+  ],
+  "assets": {
+    "hero": {
+      "url": "@/venice-urban-aerial.jpg",
+      "title": [
+        "潟湖城市中的圣马可广场",
+        "San Marco in the lagoon city"
+      ],
+      "source": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "credit": [
+        "仓库既有图像资料；部分原始出版信息待补",
+        "Existing repository image; some original publication metadata unavailable"
+      ],
+      "caption": [
+        "潟湖城市中的圣马可广场",
+        "San Marco in the lagoon city"
+      ],
+      "drawing": false
+    },
+    "plan": {
+      "url": "@/san-marco-satellite-plan.jpg",
+      "title": [
+        "Piazza、Piazzetta与潟湖的连续序列",
+        "Piazza, Piazzetta and lagoon sequence"
+      ],
+      "source": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "credit": [
+        "仓库既有图像资料；部分原始出版信息待补",
+        "Existing repository image; some original publication metadata unavailable"
+      ],
+      "caption": [
+        "Piazza、Piazzetta与潟湖的连续序列",
+        "Piazza, Piazzetta and lagoon sequence"
+      ],
+      "drawing": false
+    },
+    "section": {
+      "url": "@/basilica-section-plan.jpg",
+      "title": [
+        "圣马可大教堂历史剖面与平面",
+        "Historic section and plan of St Mark’s Basilica"
+      ],
+      "source": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "credit": [
+        "仓库既有图像资料；部分原始出版信息待补",
+        "Existing repository image; some original publication metadata unavailable"
+      ],
+      "caption": [
+        "圣马可大教堂历史剖面与平面",
+        "Historic section and plan of St Mark’s Basilica"
+      ],
+      "drawing": true
+    },
+    "edge1": {
+      "url": "@/procuratie-elevation-photo.jpg",
+      "title": [
+        "Procuratie连续柱廊立面",
+        "Continuous Procuratie arcade facade"
+      ],
+      "source": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "credit": [
+        "仓库既有图像资料；部分原始出版信息待补",
+        "Existing repository image; some original publication metadata unavailable"
+      ],
+      "caption": [
+        "Procuratie连续柱廊立面",
+        "Continuous Procuratie arcade facade"
+      ],
+      "drawing": false
+    },
+    "edge2": {
+      "url": "@/basilica-elevation-drawing.jpg",
+      "title": [
+        "大教堂主立面：广场东端的空间终点",
+        "Basilica elevation: the eastern spatial focus"
+      ],
+      "source": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "credit": [
+        "仓库既有图像资料；部分原始出版信息待补",
+        "Existing repository image; some original publication metadata unavailable"
+      ],
+      "caption": [
+        "大教堂主立面：广场东端的空间终点",
+        "Basilica elevation: the eastern spatial focus"
+      ],
+      "drawing": true
+    },
+    "detail": {
+      "url": "@/procuratie-arcade-perspective.jpg",
+      "title": [
+        "柱廊内部：覆盖边缘与步行尺度",
+        "Inside the arcade: cover and pedestrian scale"
+      ],
+      "source": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "credit": [
+        "仓库既有图像资料；部分原始出版信息待补",
+        "Existing repository image; some original publication metadata unavailable"
+      ],
+      "caption": [
+        "柱廊内部：覆盖边缘与步行尺度",
+        "Inside the arcade: cover and pedestrian scale"
+      ],
+      "drawing": false
+    },
+    "daily1": {
+      "url": "@/piazzetta-waterfront-life.jpg",
+      "title": [
+        "水岸穿行与自由停留",
+        "Waterfront walking and informal staying"
+      ],
+      "source": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "credit": [
+        "仓库既有图像资料；部分原始出版信息待补",
+        "Existing repository image; some original publication metadata unavailable"
+      ],
+      "caption": [
+        "水岸穿行与自由停留",
+        "Waterfront walking and informal staying"
+      ],
+      "drawing": false
+    },
+    "daily2": {
+      "url": "@/piazza-cafe-terrace.jpg",
+      "title": [
+        "咖啡外摆与公共通行地面",
+        "Cafe terraces and public passage"
+      ],
+      "source": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "credit": [
+        "仓库既有图像资料；部分原始出版信息待补",
+        "Existing repository image; some original publication metadata unavailable"
+      ],
+      "caption": [
+        "咖啡外摆与公共通行地面",
+        "Cafe terraces and public passage"
+      ],
+      "drawing": false
+    },
+    "event": {
+      "url": "@/piazza-pavement-aerial.jpg",
+      "title": [
+        "连续铺地：为不同使用保留的共同地面",
+        "Continuous paving: shared ground for changing uses"
+      ],
+      "source": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+      "credit": [
+        "仓库既有图像资料；部分原始出版信息待补",
+        "Existing repository image; some original publication metadata unavailable"
+      ],
+      "caption": [
+        "连续铺地：为不同使用保留的共同地面",
+        "Continuous paving: shared ground for changing uses"
+      ],
+      "drawing": false
+    },
+    "figure-ground": {
+      "url": "@/data/san-marco-figure-ground-600m.svg",
+      "title": [
+        "600 × 600米建筑图底，北向上，100米比例尺",
+        "600 × 600 m figure-ground, north up, 100 m scale bar"
+      ],
+      "source": "https://docs.overturemaps.org/attribution/#buildings",
+      "credit": [
+        "Overture Maps 2026-10-21 / TerraLab / ODbL 1.0",
+        "Overture Maps 2026-10-21 / TerraLab / ODbL 1.0"
+      ],
+      "caption": [
+        "600 × 600米建筑图底，北向上，100米比例尺",
+        "600 × 600 m figure-ground, north up, 100 m scale bar"
+      ],
+      "drawing": true,
+      "rights": [
+        "01／03数据为ODbL；04数据为CC BY 4.0。红圈仅标位置；白色包括水面和铁路，不等于可步行空间。",
+        "01/03 data: ODbL; 04: CC BY 4.0. Red circle marks location. White includes water and rail; it is not a walkability map."
+      ]
+    }
+  },
+  "facts": [
+    {
+      "label": [
+        "位置",
+        "Location"
+      ],
+      "value": [
+        "威尼斯，意大利",
+        "Venice, Italy"
+      ]
+    },
+    {
+      "label": [
+        "年代",
+        "Period"
+      ],
+      "value": [
+        "9—19世纪逐步形成",
+        "Developed between the 9th and 19th centuries"
+      ]
+    },
+    {
+      "label": [
+        "公布面积",
+        "Published area"
+      ],
+      "value": [
+        "12,600 m² · Piazza主体",
+        "12,600 m² · Piazza proper"
+      ]
+    },
+    {
+      "label": [
+        "主要用途",
+        "Primary uses"
+      ],
+      "value": [
+        "穿行、停留、文化参观、活动",
+        "Passage, staying, cultural visits, events"
+      ]
+    },
+    {
+      "label": [
+        "空间类型",
+        "Spatial type"
+      ],
+      "value": [
+        "围合广场＋开放水岸",
+        "Enclosed square + open waterfront"
+      ]
+    },
+    {
+      "label": [
+        "服务对象",
+        "Users"
+      ],
+      "value": [
+        "BOTH · 社区与游客；旅游焦点",
+        "BOTH · community and visitors; tourism focus"
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "key": "population",
+      "label": [
+        "所在城市人口",
+        "City population"
+      ],
+      "value": 251294,
+      "display": [
+        "251,294 人",
+        "251,294 residents"
+      ],
+      "scope": [
+        "2025-12-31；Comune di Venezia全市镇，含大陆地区；不是历史岛城人口。",
+        "31 Dec 2025; municipality including the mainland, not the historic islands alone."
+      ],
+      "source": "https://www.comune.venezia.it/it/content/serie-storiche",
+      "year": "2025-12-31",
+      "unit": "residents",
+      "measurement": "municipal resident population"
+    },
+    {
+      "key": "plaza_area",
+      "label": [
+        "公布广场面积",
+        "Published plaza area"
+      ],
+      "value": 12600,
+      "display": [
+        "12,600 m²",
+        "12,600 m²"
+      ],
+      "scope": [
+        "Piazza主体，不含Piazzetta；意大利语维基百科公布值，属二级来源。",
+        "Piazza proper, excluding Piazzetta; published Italian Wikipedia value, a secondary source."
+      ],
+      "source": "https://it.wikipedia.org/wiki/Piazza_San_Marco",
+      "year": null,
+      "unit": "m²",
+      "measurement": "published value; not GIS estimate"
+    },
+    {
+      "key": "event_capacity",
+      "label": [
+        "公布活动容量",
+        "Published event capacity"
+      ],
+      "value": 20000,
+      "display": [
+        "20,000 人",
+        "20,000 people"
+      ],
+      "scope": [
+        "2018年Volo dell’Angelo活动限额；不是当前全时段容量。",
+        "2018 Flight of the Angel event cap; not a current permanent capacity."
+      ],
+      "source": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni",
+      "year": "2018-02-04",
+      "unit": "people",
+      "measurement": "event- or configuration-specific; not a permanent universal maximum"
+    },
+    {
+      "key": "annual_visits",
+      "label": [
+        "广场年到访量",
+        "Annual square visitation"
+      ],
+      "value": null,
+      "display": [
+        "未确认",
+        "Not established"
+      ],
+      "scope": [
+        "未取得广场级完整年度统计；不以威尼斯全市游客量或教堂入场人数替代。",
+        "No complete square-level annual series found; city tourism and basilica admissions are excluded."
+      ],
+      "source": "https://www.comune.venezia.it/it/content/studi",
+      "year": null,
+      "unit": "reported visitors/year",
+      "measurement": "missing square-level statistic"
+    },
+    {
+      "key": "building_coverage",
+      "label": [
+        "600米图幅建筑覆盖率",
+        "Buildings in the 600 m frame"
+      ],
+      "value": 49.58,
+      "display": [
+        "49.58%",
+        "49.58%"
+      ],
+      "scope": [
+        "统一600 × 600米图幅；合并并裁切真实建筑轮廓后计算。分母含水面；不是公共开放率。",
+        "Union of source footprints clipped to the same 600 × 600 m frame. Denominator includes water; not a public-open-space ratio."
+      ],
+      "source": "@/data/comparison-figures.json",
+      "year": null,
+      "unit": "%",
+      "measurement": "computed footprint union / 360000 m²; source dates differ"
+    }
+  ],
+  "assessment": [
+    {
+      "key": "form",
+      "label": [
+        "空间形态",
+        "Spatial form"
+      ],
+      "verdict": [
+        "连续围合",
+        "Continuous enclosure"
+      ],
+      "text": [
+        "Piazza、柱廊与Piazzetta形成由围合到水岸的清晰序列。",
+        "Piazza, arcades and Piazzetta form a legible sequence from enclosure to waterfront."
+      ],
+      "source": "https://whc.unesco.org/en/list/394/"
+    },
+    {
+      "key": "transport",
+      "label": [
+        "交通可达性",
+        "Public transport"
+      ],
+      "verdict": [
+        "有公共交通",
+        "Public transport present"
+      ],
+      "text": [
+        "以水上巴士加步行为主；不是汽车直达型广场。",
+        "Waterbus plus walking is the principal approach, not direct car access."
+      ],
+      "source": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana"
+    },
+    {
+      "key": "landscape",
+      "label": [
+        "景观融入",
+        "Landscape integration"
+      ],
+      "verdict": [
+        "蓝色景观主导",
+        "Water-led setting"
+      ],
+      "text": [
+        "以潟湖水岸及硬质铺地为主，广场核心并非植被公园。",
+        "Lagoon frontage and paving dominate; the square core is not a planted park."
+      ],
+      "source": "https://whc.unesco.org/en/list/394/"
+    },
+    {
+      "key": "commercial",
+      "label": [
+        "商业界面",
+        "Commercial edges"
+      ],
+      "verdict": [
+        "商业环绕",
+        "Commercial edge present"
+      ],
+      "text": [
+        "咖啡座与商铺沿建筑边缘展开；商业座位不能等同免费公共座位。",
+        "Cafes and shops line the edges; commercial seats are not free public seating."
+      ],
+      "source": "https://www.comune.venezia.it/it/content/occupazione-suolo-plateatici"
+    },
+    {
+      "key": "climate",
+      "label": [
+        "气候适应",
+        "Climate response"
+      ],
+      "verdict": [
+        "柱廊遮蔽，潮汐敏感",
+        "Arcade cover; tide-sensitive"
+      ],
+      "text": [
+        "夏季日晒与湿热、降雨及异常高潮位影响使用；覆盖边缘和预警是主要应对。",
+        "Summer sun and humidity, rain and high tides affect use; covered edges and warnings provide responses."
+      ],
+      "source": "https://www.comune.venezia.it/it/content/la-precipitazione-venezia-a-venezia"
+    },
+    {
+      "key": "function",
+      "label": [
+        "使用功能",
+        "Use programme"
+      ],
+      "verdict": [
+        "多功能",
+        "Mixed use"
+      ],
+      "text": [
+        "穿行／停留／文化参观／公共活动四类功能并存。",
+        "Passage / staying / cultural visits / public events coexist."
+      ],
+      "source": "https://whc.unesco.org/en/list/394/"
+    },
+    {
+      "key": "calendar",
+      "label": [
+        "平日／节假日",
+        "Ordinary / holiday use"
+      ],
+      "verdict": [
+        "节庆强化管控",
+        "Event-day access control"
+      ],
+      "text": [
+        "平日以游览、步行和外摆为主；狂欢节等活动可限制入口和容量。",
+        "Ordinary days emphasise visits, walking and terraces; Carnival events can impose entry and capacity limits."
+      ],
+      "source": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni"
+    },
+    {
+      "key": "demand",
+      "label": [
+        "容量与年到访量",
+        "Capacity & annual visitation"
+      ],
+      "verdict": [
+        "容量有历史事件口径",
+        "Historic event-specific cap"
+      ],
+      "text": [
+        "2018活动上限20,000人；广场级年到访量未确认。",
+        "2018 event cap: 20,000; square-level annual visitation remains unestablished."
+      ],
+      "source": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni"
+    },
+    {
+      "key": "technology",
+      "label": [
+        "科技接入",
+        "Technology"
+      ],
+      "verdict": [
+        "管理型科技",
+        "Management technology"
+      ],
+      "text": [
+        "活动限流使用数字计数设备；潮汐监测与预警服务通行，非娱乐屏幕主导。",
+        "Digital event counting and tide warnings support management; entertainment screens are not the defining infrastructure."
+      ],
+      "source": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni"
+    },
+    {
+      "key": "audience",
+      "label": [
+        "服务对象",
+        "Community / tourism"
+      ],
+      "verdict": [
+        "BOTH · 旅游焦点",
+        "BOTH · tourism focus"
+      ],
+      "text": [
+        "服务社区仪式与公共生活，同时是全球游客目的地；不赋虚构居民／游客比例。",
+        "Serves civic rituals and public life as well as global visitors; no resident/tourist percentage is invented."
+      ],
+      "source": "https://whc.unesco.org/en/list/394/"
+    }
+  ],
+  "highlights": [
+    {
+      "title": [
+        "连续柱廊",
+        "Continuous arcades"
+      ],
+      "text": [
+        "把建筑立面转化为有遮蔽、可穿行的公共边缘。",
+        "Turns building fronts into covered, walkable public edges."
+      ]
+    },
+    {
+      "title": [
+        "广场—水岸序列",
+        "Square–waterfront sequence"
+      ],
+      "text": [
+        "从围合的Piazza经过Piazzetta到潟湖，空间有方向也有变化。",
+        "Moves from enclosed Piazza through Piazzetta to lagoon with both direction and variety."
+      ]
+    },
+    {
+      "title": [
+        "仪式与日常共用",
+        "Ritual and everyday sharing"
+      ],
+      "text": [
+        "同一公共地面容纳日常穿行、文化参观及城市仪式。",
+        "One civic ground supports daily passage, cultural visits and civic ritual."
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "intro",
+      "chapter": "intro",
+      "tab": [
+        "案例概况",
+        "Case overview"
+      ],
+      "title": [
+        "Piazza San Marco",
+        "Piazza San Marco"
+      ],
+      "lede": [
+        "以连续柱廊围合城市舞台，再通过Piazzetta把空间打开到潟湖。",
+        "A civic stage enclosed by arcades, opening through the Piazzetta to the lagoon."
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "asset": "hero"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://it.wikipedia.org/wiki/Piazza_San_Marco",
+          "label": [
+            "面积：Piazza主体12,600 m²（二级资料）",
+            "Area: Piazza proper 12,600 m² (secondary source)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "location",
+      "chapter": "intro",
+      "tab": [
+        "地图与城市",
+        "Map & city"
+      ],
+      "title": [
+        "位置：步行街巷与水上交通之间",
+        "Location: between pedestrian lanes and water transport"
+      ],
+      "lede": [
+        "市镇常住人口251,294人（2025年末）；数字包含大陆地区，广场位于历史岛城。",
+        "251,294 municipal residents at end-2025, including the mainland; the square lies in the historic island city."
+      ],
+      "blocks": [
+        {
+          "type": "map"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "公共交通",
+                "Public transport"
+              ],
+              "text": [
+                "可乘ACTV水上巴士到San Marco–Vallaresso或San Zaccaria，再步行进入广场。",
+                "ACTV waterbuses serve San Marco–Vallaresso and San Zaccaria, followed by a walk into the square."
+              ]
+            },
+            {
+              "title": [
+                "最后一段步行",
+                "The final walk"
+              ],
+              "text": [
+                "Piazza与水岸由步行地面连接；桥梁、潮位及临时通道会改变实际到达条件。",
+                "Pedestrian ground joins Piazza and waterfront; bridges, tides and temporary routes affect access."
+              ]
+            },
+            {
+              "title": [
+                "城市角色",
+                "Civic role"
+              ],
+              "text": [
+                "既是世界级旅游焦点，也承载城市仪式与公共活动；不能把全部使用都解释成游客消费。",
+                "A major tourism focus that also hosts civic rituals and public events; use is not reducible to tourist consumption."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.comune.venezia.it/it/content/serie-storiche",
+          "label": [
+            "威尼斯市政府：2025居民人口",
+            "City of Venice: 2025 residents"
+          ]
+        },
+        {
+          "url": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana",
+          "label": [
+            "威尼斯市政府：Marciana无障碍到达指引",
+            "City of Venice: Marciana access routes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "chapter": "intro",
+      "tab": [
+        "形成过程",
+        "Formation"
+      ],
+      "title": [
+        "历史：逐步封合的公共舞台",
+        "History: an incrementally enclosed civic stage"
+      ],
+      "lede": [
+        "广场的整体性来自长期累积的建筑边界，而不是一次建设完成。",
+        "Its coherence comes from successive architectural edges rather than a single construction phase."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "edge1"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "扩展",
+                "Expansion"
+              ],
+              "text": [
+                "广场在中世纪逐步扩展，形成大教堂前的主要公共地面。",
+                "Medieval expansion established the principal public ground before the basilica."
+              ]
+            },
+            {
+              "title": [
+                "围合",
+                "Enclosure"
+              ],
+              "text": [
+                "Procuratie的连续界面把多栋建筑联结成整体的城市房间。",
+                "The Procuratie’s continuous fronts unite separate buildings into a civic room."
+              ]
+            },
+            {
+              "title": [
+                "西端改造",
+                "Western transformation"
+              ],
+              "text": [
+                "19世纪初的拿破仑翼改变西端边界，使广场的空间围合更完整。",
+                "The early-19th-century Napoleonic Wing changed the western edge and completed the enclosure."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/394/",
+          "label": [
+            "UNESCO：威尼斯及其潟湖",
+            "UNESCO: Venice and its Lagoon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figure-ground",
+      "chapter": "scale",
+      "tab": [
+        "图底",
+        "Figure-ground"
+      ],
+      "title": [
+        "同一比例，看三种城市肌理",
+        "One scale, three urban fabrics"
+      ],
+      "lede": [
+        "在同一图幅中，Piazza表现为密集城市肌理里的大块开放地面，并向水岸展开。",
+        "Within the common frame, Piazza appears as a substantial opening in dense urban fabric, extending to water."
+      ],
+      "blocks": [
+        {
+          "type": "metric"
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "三案均为600 × 600米，北向上、横纵同尺度；矢量图按300毫米宽输出时为1:2500。网页缩放请读图形比例尺。",
+            "All three frames cover 600 × 600 m, north up with identical axis scale. Native SVG at 300 mm width is 1:2500; use the graphic bar on screens."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "@/data/comparison-figures.json",
+          "label": [
+            "制图参数与计算结果",
+            "Drawing parameters and computed measures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "chapter": "scale",
+      "tab": [
+        "平面",
+        "Plan"
+      ],
+      "title": [
+        "平面：空间如何组织",
+        "Plan: how the place is organised"
+      ],
+      "lede": [
+        "Piazza与Piazzetta形成不同朝向、相互连续的公共地面。",
+        "Piazza and Piazzetta form connected civic surfaces with different orientations."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "plan"
+        },
+        {
+          "type": "p",
+          "text": [
+            "Piazza的长向空间指向大教堂；Piazzetta转向水岸。连续地面把围合与开敞两种体验串成一次步行。",
+            "The Piazza leads toward the basilica, while the Piazzetta turns to the waterfront. Continuous ground links enclosure and openness in one walk."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "section",
+      "chapter": "scale",
+      "tab": [
+        "剖面",
+        "Section"
+      ],
+      "title": [
+        "剖面：地面、柱廊与地标",
+        "Section: ground, arcade and landmark"
+      ],
+      "lede": [
+        "历史建筑图帮助理解垂直边界；地面本身不以明显坡地组织方向。",
+        "Historic drawings explain vertical edges; strong ground slopes are not the organising device."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "section"
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "在这里，空间的主要变化来自建筑边界与垂直地标。历史剖面保留建筑层级；它不是整个广场的最新地形测绘。",
+            "Here, architectural edges and vertical landmarks drive the spatial change. The historic section retains building levels; it is not a current terrain survey of the whole square."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "syntax",
+      "chapter": "syntax",
+      "tab": [
+        "步行连接",
+        "Walking connections"
+      ],
+      "title": [
+        "连接：抵达、穿行与停留",
+        "Connections: arrival, passage and staying"
+      ],
+      "lede": [
+        "圣马可既是目的地，也是从城市街巷到水岸的通道。",
+        "San Marco is both destination and passage between city lanes and waterfront."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "plan"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "抵达",
+                "Arrival"
+              ],
+              "text": [
+                "水上交通把到达点放在广场边缘，再转为步行。",
+                "Water transport places arrival near the edge, followed by walking."
+              ]
+            },
+            {
+              "title": [
+                "穿行",
+                "Passage"
+              ],
+              "text": [
+                "Piazzetta把城市广场与潟湖门厅联结起来。",
+                "Piazzetta links the civic square and lagoon threshold."
+              ]
+            },
+            {
+              "title": [
+                "停留",
+                "Staying"
+              ],
+              "text": [
+                "中央与柱廊边缘提供不同的开敞和遮蔽体验。",
+                "Centre and arcade edges provide different degrees of openness and cover."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "此处是形态与路线解读，不是已计算的整合度或VGA热图。",
+            "This is a reading of form and routes, not a computed integration or VGA map."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana",
+          "label": [
+            "官方到达与无障碍路线",
+            "Official access and step-free route information"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boundary",
+      "chapter": "boundary",
+      "tab": [
+        "建筑边界",
+        "Architectural edges"
+      ],
+      "title": [
+        "边界：建筑与公共地面",
+        "Edges: buildings meet civic ground"
+      ],
+      "lede": [
+        "柱廊提供连续边缘，大教堂与钟楼提供强烈的定位参照。",
+        "Arcades provide a continuous edge; basilica and bell tower provide clear orientation."
+      ],
+      "blocks": [
+        {
+          "type": "pair",
+          "assets": [
+            "edge1",
+            "edge2"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "柱廊、首层开口和咖啡外摆共同使建筑边界成为可使用的空间；中央铺地则保留为穿行、停留与活动的共同场地。",
+            "Arcades, ground-floor openings and cafe terraces make the edge usable; the centre remains shared ground for passage, staying and events."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "detail",
+      "chapter": "boundary",
+      "tab": [
+        "景观与气候",
+        "Landscape & climate"
+      ],
+      "title": [
+        "环境：景观、气候与科技",
+        "Environment: landscape, climate and technology"
+      ],
+      "lede": [
+        "硬质地面、潟湖背景与覆盖柱廊共同塑造使用条件；天气适应的关键是遮蔽与潮位管理。",
+        "Paving, lagoon setting and covered arcades shape use; cover and tide management are the principal environmental responses."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "detail"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "景观",
+                "Landscape"
+              ],
+              "text": [
+                "潟湖是最重要的自然背景，广场内部以石材铺地为主。",
+                "The lagoon is the principal natural setting; stone paving dominates within the square."
+              ]
+            },
+            {
+              "title": [
+                "天气与气候",
+                "Weather and climate"
+              ],
+              "text": [
+                "气候偏湿润，夏季热、冬季凉；市中心2001—2020降雨研究中9月、11月较湿。柱廊提供局部遮蔽，高潮位需独立预警。",
+                "Humid conditions with warm summers and cool winters; central-city 2001–2020 records show wetter September and November. Arcades offer local cover; high tides require separate warnings."
+              ]
+            },
+            {
+              "title": [
+                "科技",
+                "Technology"
+              ],
+              "text": [
+                "潮汐预报和活动数字计数服务空间管理。",
+                "Tide forecasting and digital event counting support spatial management."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.comune.venezia.it/it/content/la-precipitazione-venezia-a-venezia",
+          "label": [
+            "威尼斯市：2001—2020市中心降雨研究",
+            "City of Venice: central-city rainfall, 2001–2020"
+          ]
+        },
+        {
+          "url": "https://www.comune.venezia.it/it/content/centro-previsioni-e-segnalazioni-maree",
+          "label": [
+            "官方潮汐监测与预警",
+            "Official tide monitoring and warnings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life",
+      "chapter": "life",
+      "tab": [
+        "平日",
+        "Ordinary days"
+      ],
+      "title": [
+        "平日：人们怎样使用这里",
+        "Ordinary days: how people use the place"
+      ],
+      "lede": [
+        "同一地面支持穿行、文化参观、自由停留和咖啡消费；免费与商业空间应分开阅读。",
+        "The same ground supports passage, cultural visits, informal stay and cafe consumption; free and commercial spaces are distinct."
+      ],
+      "blocks": [
+        {
+          "type": "pair",
+          "assets": [
+            "daily1",
+            "daily2"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "平日的公共性来自自由穿行与停留，也受到商业外摆和游览组织的影响。",
+            "Ordinary-day publicness includes free movement and staying, shaped also by terraces and visitor management."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.comune.venezia.it/it/content/occupazione-suolo-plateatici",
+          "label": [
+            "市政府：商业外摆占地管理",
+            "Municipality: outdoor terrace occupation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "chapter": "life",
+      "tab": [
+        "节假日与活动",
+        "Holidays & events"
+      ],
+      "title": [
+        "节假日与活动：地面的另一种状态",
+        "Holidays and events: the ground transforms"
+      ],
+      "lede": [
+        "活动日改变进入方式与使用密度；潮汐积水则改变可走的路线。",
+        "Events change entry arrangements and crowding; tidal flooding changes usable routes."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "event"
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              "比较项",
+              "Item"
+            ],
+            [
+              "平日",
+              "Ordinary weekday"
+            ],
+            [
+              "普通周末／节假日",
+              "Ordinary weekend / holiday"
+            ],
+            [
+              "大型活动日",
+              "Major event day"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "主要功能",
+                "Main functions"
+              ],
+              [
+                "步行、文化参观、短停与餐饮",
+                "Walking, culture, short stays and dining"
+              ],
+              [
+                "同类参观与游憩功能；不假定周末人数倍增",
+                "Similar visitor and leisure uses; no assumed weekend multiplier"
+              ],
+              [
+                "城市仪式、狂欢节与集体观看",
+                "Civic ritual, Carnival and collective viewing"
+              ]
+            ],
+            [
+              [
+                "空间布置",
+                "Spatial layout"
+              ],
+              [
+                "连续公共地面与商业外摆并存",
+                "Shared civic ground and terraces"
+              ],
+              [
+                "无活动时延续普通布置",
+                "Ordinary layout when no event is installed"
+              ],
+              [
+                "舞台、隔离带与限流按活动设置",
+                "Event-specific stage, separation and entry control"
+              ]
+            ],
+            [
+              [
+                "通行与管理",
+                "Access & management"
+              ],
+              [
+                "步行进入；高潮位可能改变路线",
+                "Walk-in access; high tides may alter routes"
+              ],
+              [
+                "随具体活动和天气调整",
+                "Depends on event and weather"
+              ],
+              [
+                "2018 Volo dell’Angelo限额20,000人",
+                "2018 Flight of the Angel cap: 20,000"
+              ]
+            ],
+            [
+              [
+                "定量记录",
+                "Quantitative record"
+              ],
+              [
+                "未有同口径日均统计",
+                "No matched daily count"
+              ],
+              [
+                "未有同口径日均统计",
+                "No matched daily count"
+              ],
+              [
+                "历史活动容量，不是全年人数",
+                "Historical event capacity, not annual visitation"
+              ]
+            ]
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni",
+          "label": [
+            "2018活动限额与数字计数安排",
+            "2018 event cap and digital counting"
+          ]
+        },
+        {
+          "url": "https://www.comune.venezia.it/it/content/valori-caratteristici-marea-venezia-il-periodo-1872-2015",
+          "label": [
+            "官方历史潮位记录",
+            "Official historical tide records"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metrics",
+      "chapter": "life",
+      "tab": [
+        "关键数字",
+        "Key numbers"
+      ],
+      "title": [
+        "数字：规模、容量与使用强度",
+        "Numbers: scale, capacity and use"
+      ],
+      "lede": [
+        "人口按市镇／LGA范围；容量是特定活动或场地布置口径；年到访量单独列出。",
+        "Population uses municipal/LGA boundaries; capacity is event- or layout-specific; annual visitation is listed separately."
+      ],
+      "blocks": [
+        {
+          "type": "metrics"
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "活动容量不是全年访客量，也不是随时允许进入的人数。三案未公开同口径的平日／节假日人流序列，因此不伪造倍数关系。",
+            "Event capacity is neither annual visitation nor a constant admission allowance. Matched ordinary-day/holiday footfall series are unavailable, so no multiplier is invented."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "assessment",
+      "chapter": "conclusion",
+      "tab": [
+        "空间与环境",
+        "Space & environment"
+      ],
+      "title": [
+        "统一评价①：空间与环境",
+        "Aligned assessment 1: space and environment"
+      ],
+      "lede": [
+        "以下五项在三个案例中采用完全相同的名称、顺序和判断口径。",
+        "The same five dimensions, in the same order and with the same interpretation, apply to all three cases."
+      ],
+      "blocks": [
+        {
+          "type": "assessment",
+          "start": 0,
+          "end": 5
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "use-assessment",
+      "chapter": "conclusion",
+      "tab": [
+        "使用与公共性",
+        "Use & publicness"
+      ],
+      "title": [
+        "统一评价②：使用与公共性",
+        "Aligned assessment 2: use and publicness"
+      ],
+      "lede": [
+        "区分功能、时段、规模、科技与服务对象；BOTH表示社区与游客均被服务，不代表两者人数相等。",
+        "Separate programme, timing, scale, technology and users. BOTH means both communities and visitors are served, not equal headcounts."
+      ],
+      "blocks": [
+        {
+          "type": "assessment",
+          "start": 5,
+          "end": 10
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "conclusion",
+      "chapter": "conclusion",
+      "tab": [
+        "三个特点",
+        "Three defining qualities"
+      ],
+      "title": [
+        "最突出的三个特点",
+        "Three defining qualities"
+      ],
+      "lede": [
+        "它最值得借鉴的是边界与空间序列，而不是孤立地复制纪念性建筑。",
+        "Its transferable strength lies in edges and spatial sequence rather than isolated monumental objects."
+      ],
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "连续柱廊",
+                "Continuous arcades"
+              ],
+              "text": [
+                "把建筑立面转化为有遮蔽、可穿行的公共边缘。",
+                "Turns building fronts into covered, walkable public edges."
+              ]
+            },
+            {
+              "title": [
+                "广场—水岸序列",
+                "Square–waterfront sequence"
+              ],
+              "text": [
+                "从围合的Piazza经过Piazzetta到潟湖，空间有方向也有变化。",
+                "Moves from enclosed Piazza through Piazzetta to lagoon with both direction and variety."
+              ]
+            },
+            {
+              "title": [
+                "仪式与日常共用",
+                "Ritual and everyday sharing"
+              ],
+              "text": [
+                "同一公共地面容纳日常穿行、文化参观及城市仪式。",
+                "One civic ground supports daily passage, cultural visits and civic ritual."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "主要限制：旅游压力、商业占地和潮汐会改变公共空间的实际可用范围。",
+            "Principal limitation: tourism pressure, commercial occupation and tides affect usable public space."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "@/comparison.html",
+              "label": [
+                "对照三个案例的完整评价矩阵",
+                "Compare the full three-case assessment matrix"
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "sources",
+      "chapter": "sources",
+      "tab": [
+        "资料附录",
+        "Source appendix"
+      ],
+      "title": [
+        "资料与证据边界",
+        "Sources and evidence limits"
+      ],
+      "lede": [
+        "正文保留空间判断；完整出处、统计口径与方法集中在这里。",
+        "The main pages focus on spatial findings; complete provenance, statistical definitions and methods are collected here."
+      ],
+      "blocks": [
+        {
+          "type": "archive",
+          "title": [
+            "人口、容量与年到访量",
+            "Population, capacity and annual visits"
+          ],
+          "blocks": [
+            {
+              "type": "p",
+              "text": [
+                "保留来源年份、统计范围与空值。01的2018活动限额、03的2026赛事站立区和04的现行场租容量不可直接理解为同一时点的全广场安全上限。",
+                "Year, boundary and missing values are retained. The 2018 event cap in 01, 2026 standing area in 03 and current venue listing in 04 are not a single-date set of universal safety limits."
+              ]
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "url": "https://www.comune.venezia.it/it/content/serie-storiche",
+                  "label": [
+                    "所在城市人口",
+                    "City population"
+                  ]
+                },
+                {
+                  "url": "https://it.wikipedia.org/wiki/Piazza_San_Marco",
+                  "label": [
+                    "公布广场面积",
+                    "Published plaza area"
+                  ]
+                },
+                {
+                  "url": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni",
+                  "label": [
+                    "公布活动容量",
+                    "Published event capacity"
+                  ]
+                },
+                {
+                  "url": "https://www.comune.venezia.it/it/content/studi",
+                  "label": [
+                    "广场年到访量",
+                    "Annual square visitation"
+                  ]
+                },
+                {
+                  "url": "@/data/comparison-figures.json",
+                  "label": [
+                    "600米图幅建筑覆盖率",
+                    "Buildings in the 600 m frame"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "archive",
+          "title": [
+            "地图、图底与数据许可",
+            "Maps, figure-ground and licences"
+          ],
+          "blocks": [
+            {
+              "type": "p",
+              "text": [
+                "Google Maps为三案统一位置地图。建筑图底统一图幅和米制投影；01／03使用Overture 2026-10-21资料，经TerraLab提取，04保留墨尔本官方2020地面层资料。年代与轮廓定义不同；计算结果用于描述形态，不作为公共空间质量排名。",
+                "Google Maps is the common location map. Figure-ground uses an identical metric frame: 01/03 use Overture 2026-10-21 through TerraLab; 04 retains official Melbourne 2020 ground/podium data. Dates and footprint definitions differ; results describe form rather than rank civic quality."
+              ]
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "url": "@/data/comparison-figures.json",
+                  "label": [
+                    "同尺度参数与覆盖率算法结果",
+                    "Common-scale parameters and coverage results"
+                  ]
+                },
+                {
+                  "url": "@/data/san-marco-comparison-buildings.geojson",
+                  "label": [
+                    "下载本案原始建筑轮廓",
+                    "Download source building footprints"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "archive",
+          "title": [
+            "图纸与图像登记",
+            "Drawings and image register"
+          ],
+          "blocks": [
+            {
+              "type": "links",
+              "items": [
+                {
+                  "url": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+                  "label": [
+                    "潟湖城市中的圣马可广场",
+                    "San Marco in the lagoon city"
+                  ]
+                },
+                {
+                  "url": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+                  "label": [
+                    "Piazza、Piazzetta与潟湖的连续序列",
+                    "Piazza, Piazzetta and lagoon sequence"
+                  ]
+                },
+                {
+                  "url": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+                  "label": [
+                    "圣马可大教堂历史剖面与平面",
+                    "Historic section and plan of St Mark’s Basilica"
+                  ]
+                },
+                {
+                  "url": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+                  "label": [
+                    "Procuratie连续柱廊立面",
+                    "Continuous Procuratie arcade facade"
+                  ]
+                },
+                {
+                  "url": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+                  "label": [
+                    "大教堂主立面：广场东端的空间终点",
+                    "Basilica elevation: the eastern spatial focus"
+                  ]
+                },
+                {
+                  "url": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+                  "label": [
+                    "柱廊内部：覆盖边缘与步行尺度",
+                    "Inside the arcade: cover and pedestrian scale"
+                  ]
+                },
+                {
+                  "url": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+                  "label": [
+                    "水岸穿行与自由停留",
+                    "Waterfront walking and informal staying"
+                  ]
+                },
+                {
+                  "url": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+                  "label": [
+                    "咖啡外摆与公共通行地面",
+                    "Cafe terraces and public passage"
+                  ]
+                },
+                {
+                  "url": "https://github.com/cloudyli2026/great-places/tree/main/docs",
+                  "label": [
+                    "连续铺地：为不同使用保留的共同地面",
+                    "Continuous paving: shared ground for changing uses"
+                  ]
+                },
+                {
+                  "url": "https://docs.overturemaps.org/attribution/#buildings",
+                  "label": [
+                    "600 × 600米建筑图底，北向上，100米比例尺",
+                    "600 × 600 m figure-ground, north up, 100 m scale bar"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "archive",
+          "title": [
+            "方法与证据边界",
+            "Methods and evidence limits"
+          ],
+          "blocks": [
+            {
+              "type": "p",
+              "text": [
+                "连接章节是基于地图、图纸与照片的形态解读，不是本站正式空间句法计算。没有用照片推算人数、建筑高度、容量或全年舒适度；没有以城市游客数或单座博物馆入场数替代广场年访客量。",
+                "Connectivity is a reading of maps, drawings and photographs, not a formal syntax computation by this site. Photos do not supply population, heights, capacity or annual comfort; city tourism and individual museum admissions do not replace square-level annual visitation."
+              ]
+            },
+            {
+              "type": "p",
+              "text": [
+                "图像保留原作者版权，逐图出处可展开查看。学术剖面作为有限图示摘录保留原始几何和比例尺，并非本站实测；图底是数据重建，非施工或测绘边界。",
+                "Creators retain image rights; per-image credits expand in place. Limited scholarly drawing excerpts retain original geometry and bars; they are not surveys by this site. GIS drawings are data reconstructions, not construction or legal survey boundaries."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "factsheet",
+      "chapter": "factsheet",
+      "tab": [
+        "一页档案",
+        "One-page factsheet"
+      ],
+      "title": [
+        "Piazza San Marco · 一页档案",
+        "Piazza San Marco · factsheet"
+      ],
+      "lede": [
+        "以连续柱廊围合城市舞台，再通过Piazzetta把空间打开到潟湖。",
+        "A civic stage enclosed by arcades, opening through the Piazzetta to the lagoon."
+      ],
+      "blocks": [
+        {
+          "type": "factsheet"
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "三个特点：连续柱廊；广场—水岸序列；仪式与日常共用。",
+            "Three qualities: Continuous arcades; Square–waterfront sequence; Ritual and everyday sharing."
+          ]
+        }
+      ],
+      "sources": []
+    }
+  ],
+  "raw_gis": "@/data/san-marco-comparison-buildings.geojson",
+  "intro_lede": [
+    "以连续柱廊围合城市舞台，再通过Piazzetta把空间打开到潟湖。",
+    "A civic stage enclosed by arcades, opening through the Piazzetta to the lagoon."
+  ],
+  "plan_text": [
+    "Piazza的长向空间指向大教堂；Piazzetta转向水岸。连续地面把围合与开敞两种体验串成一次步行。",
+    "The Piazza leads toward the basilica, while the Piazzetta turns to the waterfront. Continuous ground links enclosure and openness in one walk."
+  ],
+  "section_title": [
+    "剖面：地面、柱廊与地标",
+    "Section: ground, arcade and landmark"
+  ],
+  "section_blocks": [
+    {
+      "type": "figure",
+      "asset": "section"
+    },
+    {
+      "type": "takeaway",
+      "text": [
+        "在这里，空间的主要变化来自建筑边界与垂直地标。历史剖面保留建筑层级；它不是整个广场的最新地形测绘。",
+        "Here, architectural edges and vertical landmarks drive the spatial change. The historic section retains building levels; it is not a current terrain survey of the whole square."
+      ]
+    }
+  ],
+  "syntax_lede": [
+    "圣马可既是目的地，也是从城市街巷到水岸的通道。",
+    "San Marco is both destination and passage between city lanes and waterfront."
+  ],
+  "transport_refs": [
+    {
+      "url": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana",
+      "label": [
+        "官方到达与无障碍路线",
+        "Official access and step-free route information"
+      ]
+    }
+  ],
+  "boundary_lede": [
+    "柱廊提供连续边缘，大教堂与钟楼提供强烈的定位参照。",
+    "Arcades provide a continuous edge; basilica and bell tower provide clear orientation."
+  ],
+  "boundary_text": [
+    "柱廊、首层开口和咖啡外摆共同使建筑边界成为可使用的空间；中央铺地则保留为穿行、停留与活动的共同场地。",
+    "Arcades, ground-floor openings and cafe terraces make the edge usable; the centre remains shared ground for passage, staying and events."
+  ],
+  "environment_lede": [
+    "硬质地面、潟湖背景与覆盖柱廊共同塑造使用条件；天气适应的关键是遮蔽与潮位管理。",
+    "Paving, lagoon setting and covered arcades shape use; cover and tide management are the principal environmental responses."
+  ],
+  "environment_refs": [
+    {
+      "url": "https://www.comune.venezia.it/it/content/la-precipitazione-venezia-a-venezia",
+      "label": [
+        "威尼斯市：2001—2020市中心降雨研究",
+        "City of Venice: central-city rainfall, 2001–2020"
+      ]
+    },
+    {
+      "url": "https://www.comune.venezia.it/it/content/centro-previsioni-e-segnalazioni-maree",
+      "label": [
+        "官方潮汐监测与预警",
+        "Official tide monitoring and warnings"
+      ]
+    }
+  ],
+  "life_lede": [
+    "同一地面支持穿行、文化参观、自由停留和咖啡消费；免费与商业空间应分开阅读。",
+    "The same ground supports passage, cultural visits, informal stay and cafe consumption; free and commercial spaces are distinct."
+  ],
+  "life_refs": [
+    {
+      "url": "https://www.comune.venezia.it/it/content/occupazione-suolo-plateatici",
+      "label": [
+        "市政府：商业外摆占地管理",
+        "Municipality: outdoor terrace occupation"
+      ]
+    }
+  ],
+  "event_lede": [
+    "活动日改变进入方式与使用密度；潮汐积水则改变可走的路线。",
+    "Events change entry arrangements and crowding; tidal flooding changes usable routes."
+  ],
+  "event_refs": [
+    {
+      "url": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni",
+      "label": [
+        "2018活动限额与数字计数安排",
+        "2018 event cap and digital counting"
+      ]
+    },
+    {
+      "url": "https://www.comune.venezia.it/it/content/valori-caratteristici-marea-venezia-il-periodo-1872-2015",
+      "label": [
+        "官方历史潮位记录",
+        "Official historical tide records"
+      ]
+    }
+  ],
+  "conclusion_lede": [
+    "它最值得借鉴的是边界与空间序列，而不是孤立地复制纪念性建筑。",
+    "Its transferable strength lies in edges and spatial sequence rather than isolated monumental objects."
+  ],
+  "conclusion_limit": [
+    "主要限制：旅游压力、商业占地和潮汐会改变公共空间的实际可用范围。",
+    "Principal limitation: tourism pressure, commercial occupation and tides affect usable public space."
+  ]
+}

@@ -1,0 +1,2131 @@
+{
+  "number": "04",
+  "name": "Federation Square",
+  "location": [
+    "墨尔本，澳大利亚 · Wurundjeri Country",
+    "Melbourne, Australia · Wurundjeri Country"
+  ],
+  "coordinates": [
+    -37.8178,
+    144.969
+  ],
+  "assets": {
+    "hero": {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-02_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "title": [
+        "近垂直鸟瞰：开放地面与非正交建筑边界",
+        "Near-vertical aerial: plaza and non-orthogonal edges"
+      ],
+      "caption": [
+        "近垂直鸟瞰：开放地面与非正交建筑边界",
+        "Near-vertical aerial: plaza and non-orthogonal edges"
+      ],
+      "source": "https://www.karresenbrands.com/en/projects/federation-square",
+      "credit": [
+        "Marcel Aucar / John Gollings（项目统一署名，未逐张对应） · Karres en Brands",
+        "Marcel Aucar / John Gollings (project-level credit; individual image not specified) · Karres en Brands"
+      ],
+      "rights": [
+        "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "Copyright retained; remote original displayed, no repository copy"
+      ],
+      "drawing": false
+    },
+    "plan": {
+      "url": "https://images.architizer.com/mediadata/projects/242012/19f69e4e.jpg?width=1200&quality=80",
+      "title": [
+        "LAB原始 Level 2 Composite Plan",
+        "LAB Level 2 Composite Plan"
+      ],
+      "source": "https://architizer.com/projects/federation-square/",
+      "credit": [
+        "LAB architecture studio + Bates Smart · Architizer / LAB architecture studio",
+        "LAB architecture studio + Bates Smart · Architizer / LAB architecture studio"
+      ],
+      "caption": [
+        "LAB原始 Level 2 Composite Plan",
+        "LAB Level 2 Composite Plan"
+      ],
+      "drawing": true
+    },
+    "section": {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-16_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "title": [
+        "城市剖面及立面投影：教堂、广场、建筑与铁路",
+        "Urban section and projected elevations: cathedral, plaza, buildings and rail"
+      ],
+      "source": "https://www.karresenbrands.com/en/projects/federation-square",
+      "credit": [
+        "LAB + Bates Smart / Karres en Brands（项目档案） · Karres en Brands",
+        "LAB + Bates Smart / Karres en Brands (project archive) · Karres en Brands"
+      ],
+      "caption": [
+        "原城市剖面局部：Swanston Street低侧向东抬升；点击看完整原图。",
+        "Detail of original urban section: rise eastward from Swanston Street; click for the full original."
+      ],
+      "drawing": true,
+      "crop": [
+        0,
+        455,
+        1180,
+        210
+      ],
+      "original_size": [
+        1180,
+        720
+      ]
+    },
+    "river-section": {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-17_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "title": [
+        "建筑剖面：文化空间、平台与河岸端",
+        "Building section: cultural spaces, deck and river end"
+      ],
+      "source": "https://www.karresenbrands.com/en/projects/federation-square",
+      "credit": [
+        "LAB + Bates Smart / Karres en Brands（项目档案） · Karres en Brands",
+        "LAB + Bates Smart / Karres en Brands (project archive) · Karres en Brands"
+      ],
+      "caption": [
+        "建筑剖面：文化空间、平台与河岸端",
+        "Building section: cultural spaces, deck and river end"
+      ],
+      "drawing": true,
+      "crop": [
+        0,
+        320,
+        1180,
+        350
+      ],
+      "original_size": [
+        1180,
+        720
+      ]
+    },
+    "edge1": {
+      "url": "https://media4.architecturemedia.net/site_media/media/cache/d3/36/d336e0fa6bf5f67ccb187cc4d8000ce6.jpg",
+      "title": [
+        "北侧界面：Flinders Street立面照片",
+        "North edge: Flinders Street elevation photograph"
+      ],
+      "source": "https://architectureau.com/articles/preview/",
+      "credit": [
+        "Trevor Mein · Architecture Australia",
+        "Trevor Mein · Architecture Australia"
+      ],
+      "caption": [
+        "北侧界面：Flinders Street立面照片",
+        "North edge: Flinders Street elevation photograph"
+      ],
+      "drawing": false
+    },
+    "edge2": {
+      "url": "https://images.architizer.com/mediadata/projects/242012/a77b5ae8.jpg?width=1200&quality=80",
+      "title": [
+        "广场内侧立面：折线实体与首层边缘",
+        "Plaza-facing facade: folded mass and ground edge"
+      ],
+      "source": "https://architizer.com/projects/federation-square/",
+      "credit": [
+        "项目图集未标注摄影者 · Architizer / LAB architecture studio",
+        "Photographer not identified in project gallery · Architizer / LAB architecture studio"
+      ],
+      "caption": [
+        "广场内侧立面：折线实体与首层边缘",
+        "Plaza-facing facade: folded mass and ground edge"
+      ],
+      "drawing": false
+    },
+    "detail": {
+      "url": "https://images.architizer.com/mediadata/projects/242012/186f5d43.jpg?width=1200&quality=80",
+      "title": [
+        "Atrium：覆盖空间中的公共通行",
+        "Atrium: public passage under cover"
+      ],
+      "source": "https://architizer.com/projects/federation-square/",
+      "credit": [
+        "项目图集未标注摄影者 · Architizer / LAB architecture studio",
+        "Photographer not identified in project gallery · Architizer / LAB architecture studio"
+      ],
+      "caption": [
+        "Atrium：覆盖空间中的公共通行",
+        "Atrium: public passage under cover"
+      ],
+      "drawing": false
+    },
+    "digital": {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-23_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "title": [
+        "大屏幕与活动设施：集体观看的空间条件",
+        "Screen and event facilities: conditions for shared viewing"
+      ],
+      "source": "https://www.karresenbrands.com/en/projects/federation-square",
+      "credit": [
+        "Marcel Aucar / John Gollings（项目统一署名，未逐张对应） · Karres en Brands",
+        "Marcel Aucar / John Gollings (project-level credit; individual image not specified) · Karres en Brands"
+      ],
+      "caption": [
+        "大屏幕与活动设施：集体观看的空间条件",
+        "Screen and event facilities: conditions for shared viewing"
+      ],
+      "drawing": false
+    },
+    "daily1": {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-07_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "title": [
+        "日常停留：地面高差成为坐靠边缘",
+        "Everyday pause: changes in level provide informal seats"
+      ],
+      "source": "https://www.karresenbrands.com/en/projects/federation-square",
+      "credit": [
+        "Marcel Aucar / John Gollings（项目统一署名，未逐张对应） · Karres en Brands",
+        "Marcel Aucar / John Gollings (project-level credit; individual image not specified) · Karres en Brands"
+      ],
+      "caption": [
+        "日常停留：地面高差成为坐靠边缘",
+        "Everyday pause: changes in level provide informal seats"
+      ],
+      "drawing": false
+    },
+    "daily2": {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-10_-_39ada00_-_2e5004b807d6ce4b7ceae944ffa20a9b1d8abc06.jpg",
+      "title": [
+        "穿行与停留：玻璃边界下的不同速度",
+        "Walking and staying along a glazed edge"
+      ],
+      "source": "https://www.karresenbrands.com/en/projects/federation-square",
+      "credit": [
+        "Marcel Aucar / John Gollings（项目统一署名，未逐张对应） · Karres en Brands",
+        "Marcel Aucar / John Gollings (project-level credit; individual image not specified) · Karres en Brands"
+      ],
+      "caption": [
+        "穿行与停留：玻璃边界下的不同速度",
+        "Walking and staying along a glazed edge"
+      ],
+      "drawing": false
+    },
+    "event": {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-06_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "title": [
+        "夜间活动：同一地面的高密度使用",
+        "Night event: intensive use of the same ground"
+      ],
+      "caption": [
+        "夜间活动：同一地面的高密度使用",
+        "Night event: intensive use of the same ground"
+      ],
+      "source": "https://www.karresenbrands.com/en/projects/federation-square",
+      "credit": [
+        "Marcel Aucar / John Gollings（项目统一署名，未逐张对应） · Karres en Brands",
+        "Marcel Aucar / John Gollings (project-level credit; individual image not specified) · Karres en Brands"
+      ],
+      "rights": [
+        "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "Copyright retained; remote original displayed, no repository copy"
+      ],
+      "drawing": false
+    },
+    "festival": {
+      "url": "https://blogs.slv.vic.gov.au/wp-content/uploads/2020/10/20150101_DX_4068-master-pano-fireworks-picc-1-1024x655.jpg",
+      "title": [
+        "2015年焰火：节庆中的广场与城市",
+        "2015 fireworks: square and city in celebration"
+      ],
+      "source": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+      "credit": [
+        "Federation Square提供；摄影者未署名 · State Library Victoria",
+        "Federation Square (courtesy credit; photographer not identified) · State Library Victoria"
+      ],
+      "caption": [
+        "2015年焰火：节庆中的广场与城市",
+        "2015 fireworks: square and city in celebration"
+      ],
+      "drawing": false
+    },
+    "figure-ground": {
+      "url": "@/data/federation-figure-ground-600m.svg",
+      "title": [
+        "600 × 600米建筑图底，北向上，100米比例尺",
+        "600 × 600 m figure-ground, north up, 100 m scale bar"
+      ],
+      "source": "https://data.melbourne.vic.gov.au/explore/dataset/2020-building-footprints/",
+      "credit": [
+        "City of Melbourne 2020 / tier 1 Structure / CC BY 4.0",
+        "City of Melbourne 2020 / tier 1 Structure / CC BY 4.0"
+      ],
+      "caption": [
+        "600 × 600米建筑图底，北向上，100米比例尺",
+        "600 × 600 m figure-ground, north up, 100 m scale bar"
+      ],
+      "drawing": true,
+      "rights": [
+        "01／03数据为ODbL；04数据为CC BY 4.0。红圈仅标位置；白色包括水面和铁路，不等于可步行空间。",
+        "01/03 data: ODbL; 04: CC BY 4.0. Red circle marks location. White includes water and rail; it is not a walkability map."
+      ]
+    },
+    "location-plan": {
+      "url": "https://images.architizer.com/mediadata/projects/242012/a980c272.jpg?width=1200&quality=80",
+      "title": [
+        "设计团队发布的城市区位总图",
+        "Published urban location plan"
+      ],
+      "caption": [
+        "设计团队发布的城市区位总图",
+        "Published urban location plan"
+      ],
+      "source": "https://architizer.com/projects/federation-square/",
+      "credit": [
+        "LAB architecture studio + Bates Smart · Architizer / LAB architecture studio",
+        "LAB architecture studio + Bates Smart · Architizer / LAB architecture studio"
+      ],
+      "rights": [
+        "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "Copyright retained; remote original displayed, no repository copy"
+      ],
+      "drawing": true
+    },
+    "deck-section": {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-18_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "title": [
+        "平台下部空间与建筑剖面",
+        "Under-deck spaces and building section"
+      ],
+      "caption": [
+        "平台下部空间与建筑剖面",
+        "Under-deck spaces and building section"
+      ],
+      "source": "https://www.karresenbrands.com/en/projects/federation-square",
+      "credit": [
+        "LAB + Bates Smart / Karres en Brands（项目档案） · Karres en Brands",
+        "LAB + Bates Smart / Karres en Brands (project archive) · Karres en Brands"
+      ],
+      "rights": [
+        "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "Copyright retained; remote original displayed, no repository copy"
+      ],
+      "drawing": true
+    },
+    "south": {
+      "url": "https://media5.architecturemedia.net/site_media/media/cache/f5/c9/f5c98533c7eed6dea7182804e148cad5.jpg",
+      "title": [
+        "南侧城市界面：隔Yarra河观看",
+        "South context: view across the Yarra"
+      ],
+      "caption": [
+        "南侧城市界面：隔Yarra河观看",
+        "South context: view across the Yarra"
+      ],
+      "source": "https://architectureau.com/articles/preview/",
+      "credit": [
+        "Trevor Mein · Architecture Australia",
+        "Trevor Mein · Architecture Australia"
+      ],
+      "rights": [
+        "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "Copyright retained; remote original displayed, no repository copy"
+      ],
+      "drawing": false
+    },
+    "east": {
+      "url": "https://media3.architecturemedia.net/site_media/media/cache/7b/17/7b1769150f4208672ea1a23dc3790158.jpg",
+      "title": [
+        "铁路侧界面：跨轨道观察建筑",
+        "Rail-side edge: view across the railyards"
+      ],
+      "caption": [
+        "铁路侧界面：跨轨道观察建筑",
+        "Rail-side edge: view across the railyards"
+      ],
+      "source": "https://architectureau.com/articles/preview/",
+      "credit": [
+        "Trevor Mein · Architecture Australia",
+        "Trevor Mein · Architecture Australia"
+      ],
+      "rights": [
+        "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "Copyright retained; remote original displayed, no repository copy"
+      ],
+      "drawing": false
+    },
+    "atrium-street": {
+      "url": "https://media5.architecturemedia.net/site_media/media/cache/e7/d7/e7d7d5b03a49e33555797a719b1955ca.jpg",
+      "title": [
+        "Flinders Street上的Atrium入口视点",
+        "Atrium seen from Flinders Street"
+      ],
+      "caption": [
+        "Flinders Street上的Atrium入口视点",
+        "Atrium seen from Flinders Street"
+      ],
+      "source": "https://architectureau.com/articles/preview/",
+      "credit": [
+        "Trevor Mein · Architecture Australia",
+        "Trevor Mein · Architecture Australia"
+      ],
+      "rights": [
+        "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "Copyright retained; remote original displayed, no repository copy"
+      ],
+      "drawing": false
+    },
+    "atrium-use": {
+      "url": "https://media4.architecturemedia.net/site_media/media/cache/ca/e4/cae47232b25c4ea0bfc91b81955fdaa4.jpg",
+      "title": [
+        "NGV开幕夜的Atrium：临时聚集",
+        "Atrium on NGV opening night: temporary gathering"
+      ],
+      "caption": [
+        "NGV开幕夜的Atrium：临时聚集",
+        "Atrium on NGV opening night: temporary gathering"
+      ],
+      "source": "https://architectureau.com/articles/preview/",
+      "credit": [
+        "Trevor Mein · Architecture Australia",
+        "Trevor Mein · Architecture Australia"
+      ],
+      "rights": [
+        "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "Copyright retained; remote original displayed, no repository copy"
+      ],
+      "drawing": false
+    },
+    "peace-rally": {
+      "url": "https://blogs.slv.vic.gov.au/wp-content/uploads/2020/10/Image-9-Federation-Square-Peace-Rally-2003-The-Age-1024x682.jpg",
+      "title": [
+        "2003年和平集会：公共表达占据广场",
+        "2003 peace rally: the square as a place of public expression"
+      ],
+      "caption": [
+        "2003年和平集会：公共表达占据广场",
+        "2003 peace rally: the square as a place of public expression"
+      ],
+      "source": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+      "credit": [
+        "Federation Square提供；摄影者未署名 · State Library Victoria",
+        "Federation Square (courtesy credit; photographer not identified) · State Library Victoria"
+      ],
+      "rights": [
+        "版权归原权利人；链接显示原站图片，未复制入仓库",
+        "Copyright retained; remote original displayed, no repository copy"
+      ],
+      "drawing": false
+    },
+    "context": {
+      "url": "https://www.karresenbrands.com/images/jcogs_img/cache/federation-square-03_-_39ada00_-_a14289b5a15abccdcf9e52400943c45d76b8ee31.jpg",
+      "title": [
+        "从河流一侧的高视点看城市片区",
+        "Elevated context from the river side"
+      ],
+      "source": "https://www.karresenbrands.com/en/projects/federation-square",
+      "credit": [
+        "Marcel Aucar / John Gollings（项目统一署名，未逐张对应） · Karres en Brands",
+        "Marcel Aucar / John Gollings (project-level credit; individual image not specified) · Karres en Brands"
+      ],
+      "caption": [
+        "从河流一侧的高视点看城市片区",
+        "Elevated context from the river side"
+      ],
+      "drawing": false
+    }
+  },
+  "facts": [
+    {
+      "label": [
+        "位置",
+        "Location"
+      ],
+      "value": [
+        "墨尔本，澳大利亚",
+        "Melbourne, Australia"
+      ]
+    },
+    {
+      "label": [
+        "年代",
+        "Period"
+      ],
+      "value": [
+        "2002年建筑项目建成",
+        "Architectural project completed 2002"
+      ]
+    },
+    {
+      "label": [
+        "公布面积",
+        "Published area"
+      ],
+      "value": [
+        "7,500 m²广场；5,000 m²场租区域",
+        "7,500 m² plaza; 5,000 m² hire area"
+      ]
+    },
+    {
+      "label": [
+        "主要用途",
+        "Primary uses"
+      ],
+      "value": [
+        "穿行、停留、文化参观、活动",
+        "Passage, staying, cultural visits, events"
+      ]
+    },
+    {
+      "label": [
+        "空间类型",
+        "Spatial type"
+      ],
+      "value": [
+        "铁路上盖坡地＋覆盖公共通廊",
+        "Sloped rail deck + covered civic passage"
+      ]
+    },
+    {
+      "label": [
+        "服务对象",
+        "Users"
+      ],
+      "value": [
+        "BOTH · 城市文化与社区活动",
+        "BOTH · urban culture and community events"
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "key": "population",
+      "label": [
+        "所在城市人口",
+        "City population"
+      ],
+      "value": 194481,
+      "display": [
+        "194,481 人",
+        "194,481 residents"
+      ],
+      "scope": [
+        "2025-06-30；City of Melbourne LGA，ABS估计常住人口；大墨尔本另为5,435,590人。",
+        "30 Jun 2025; City of Melbourne LGA estimated residents (ABS); Greater Melbourne separately has 5,435,590."
+      ],
+      "source": "https://www.abs.gov.au/statistics/people/population/regional-population/2024-25",
+      "year": "2025-06-30",
+      "unit": "residents",
+      "measurement": "municipal resident population"
+    },
+    {
+      "key": "plaza_area",
+      "label": [
+        "公布广场面积",
+        "Published plaza area"
+      ],
+      "value": 7500,
+      "display": [
+        "7,500 m²",
+        "7,500 m²"
+      ],
+      "scope": [
+        "Karres en Brands设计资料中的广场面积；运营方现行Main Square场租区域另为5,000 m²。",
+        "Plaza area in the landscape designer’s account; current Main Square hire area is separately 5,000 m²."
+      ],
+      "source": "https://www.karresenbrands.com/en/projects/federation-square",
+      "year": null,
+      "unit": "m²",
+      "measurement": "published value; not GIS estimate"
+    },
+    {
+      "key": "event_capacity",
+      "label": [
+        "公布活动容量",
+        "Published event capacity"
+      ],
+      "value": 10000,
+      "display": [
+        "10,000 人",
+        "10,000 people"
+      ],
+      "scope": [
+        "现行Main Square场地页面公布容量；实际活动配置和审批可能更低。",
+        "Current Main Square venue listing; actual event layouts and approvals may be lower."
+      ],
+      "source": "https://fedsquare.com/venues/main-square",
+      "year": "checked 2026-11-13",
+      "unit": "people",
+      "measurement": "event- or configuration-specific; not a permanent universal maximum"
+    },
+    {
+      "key": "annual_visits",
+      "label": [
+        "广场年到访量",
+        "Annual square visitation"
+      ],
+      "value": 11900000,
+      "display": [
+        "1,190万以上",
+        "11.9 million+"
+      ],
+      "scope": [
+        "2025–26财年，运营方年报，printed p26；按其Visitors口径，不宣称为去重人数。",
+        "FY2025–26 operator report, printed p26; reported “Visitors”, not established as unique individuals."
+      ],
+      "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf",
+      "year": "2025–26",
+      "unit": "reported visitors/year",
+      "measurement": "operator reported visitors; uniqueness not specified"
+    },
+    {
+      "key": "events",
+      "label": [
+        "年度活动数",
+        "Annual events"
+      ],
+      "value": 389,
+      "display": [
+        "389 场",
+        "389 events"
+      ],
+      "scope": [
+        "2025–26年报列示；其中37项社区与文化活动，支持114个社区组织。",
+        "FY2025–26 report; 37 community/cultural events and 114 community organisations supported."
+      ],
+      "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf",
+      "year": "2025–26",
+      "unit": "reported events/year",
+      "measurement": "operator reported programme"
+    },
+    {
+      "key": "building_coverage",
+      "label": [
+        "600米图幅建筑覆盖率",
+        "Buildings in the 600 m frame"
+      ],
+      "value": 28.97,
+      "display": [
+        "28.97%",
+        "28.97%"
+      ],
+      "scope": [
+        "统一600 × 600米图幅；合并并裁切真实建筑轮廓后计算。分母含水面；不是公共开放率。",
+        "Union of source footprints clipped to the same 600 × 600 m frame. Denominator includes water; not a public-open-space ratio."
+      ],
+      "source": "@/data/comparison-figures.json",
+      "year": null,
+      "unit": "%",
+      "measurement": "computed footprint union / 360000 m²; source dates differ"
+    }
+  ],
+  "assessment": [
+    {
+      "key": "form",
+      "label": [
+        "空间形态",
+        "Spatial form"
+      ],
+      "verdict": [
+        "人工坡地连接",
+        "Artificial sloped connection"
+      ],
+      "text": [
+        "铁路上盖创造连续公共地面，向东整体抬升约6米。",
+        "A rail deck creates civic ground with an approximately 6 m eastward rise."
+      ],
+      "source": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf"
+    },
+    {
+      "key": "transport",
+      "label": [
+        "交通可达性",
+        "Public transport"
+      ],
+      "verdict": [
+        "有公共交通",
+        "Public transport present"
+      ],
+      "text": [
+        "火车、电车与步行连接CBD及河岸，是高可达的文化节点。",
+        "Rail, tram and walking connect CBD and river in a highly accessible cultural node."
+      ],
+      "source": "https://fedsquare.com/getting-here"
+    },
+    {
+      "key": "landscape",
+      "label": [
+        "景观融入",
+        "Landscape integration"
+      ],
+      "verdict": [
+        "河岸＋新增花园",
+        "River edge + newer garden"
+      ],
+      "text": [
+        "Yarra河形成背景；2025年车库屋顶Test Garden增加植物景观，不能当作2002原广场绿化。",
+        "Yarra provides context; the 2025 car-park-roof Test Garden adds planting and is not original 2002 plaza greenery."
+      ],
+      "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=14"
+    },
+    {
+      "key": "commercial",
+      "label": [
+        "商业界面",
+        "Commercial edges"
+      ],
+      "verdict": [
+        "商业环绕",
+        "Commercial edge present"
+      ],
+      "text": [
+        "餐饮、酒吧和文化零售沿建筑边缘分布，与免费公共活动并存。",
+        "Dining, bars and cultural retail line buildings alongside free public programming."
+      ],
+      "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=67"
+    },
+    {
+      "key": "climate",
+      "label": [
+        "气候适应",
+        "Climate response"
+      ],
+      "verdict": [
+        "室内外互补",
+        "Indoor/outdoor complement"
+      ],
+      "text": [
+        "Atrium覆盖空间和Labyrinth被动环境系统补充室外使用；不宣称露天广场全年舒适。",
+        "Atrium cover and Labyrinth passive conditioning complement outdoor use; year-round outdoor comfort is not claimed."
+      ],
+      "source": "https://fedsquare.com/sustainability"
+    },
+    {
+      "key": "function",
+      "label": [
+        "使用功能",
+        "Use programme"
+      ],
+      "verdict": [
+        "多功能",
+        "Mixed use"
+      ],
+      "text": [
+        "穿行／停留／文化参观／公共活动四类并存，兼有公共集会。",
+        "Passage / staying / cultural visits / public events coexist, including civic assemblies."
+      ],
+      "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=15"
+    },
+    {
+      "key": "calendar",
+      "label": [
+        "平日／节假日",
+        "Ordinary / holiday use"
+      ],
+      "verdict": [
+        "全年活动编排",
+        "Year-round programming"
+      ],
+      "text": [
+        "普通日自由到访与社区课程，节庆／比赛日形成舞台、屏幕和临时围合。",
+        "Ordinary visits and community classes shift to stages, screens and temporary enclosures on celebration and sport days."
+      ],
+      "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=16"
+    },
+    {
+      "key": "demand",
+      "label": [
+        "容量与年到访量",
+        "Capacity & annual visitation"
+      ],
+      "verdict": [
+        "运营数据较完整",
+        "Stronger operator reporting"
+      ],
+      "text": [
+        "Main Square公布10,000人容量；2025–26年到访1,190万以上、389场活动，口径分别保留。",
+        "Main Square lists 10,000 capacity; FY2025–26 reports 11.9m+ visitors and 389 events, with scopes kept separate."
+      ],
+      "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=15"
+    },
+    {
+      "key": "technology",
+      "label": [
+        "科技接入",
+        "Technology"
+      ],
+      "verdict": [
+        "展示＋环境科技",
+        "Display + environmental systems"
+      ],
+      "text": [
+        "场地页列65 m² Digital Façade、音响及听力辅助；另有Labyrinth与环境监测系统。",
+        "Venue lists a 65 m² Digital Façade, sound and hearing support, alongside Labyrinth and environmental monitoring."
+      ],
+      "source": "https://fedsquare.com/venues/main-square"
+    },
+    {
+      "key": "audience",
+      "label": [
+        "服务对象",
+        "Community / tourism"
+      ],
+      "verdict": [
+        "BOTH · 城市文化突出",
+        "BOTH · urban culture focus"
+      ],
+      "text": [
+        "2025–26支持114个社区组织；同时承接都市文化参观与游客，不能只写成旅游景点。",
+        "114 community organisations supported in FY2025–26, alongside cultural visitors and tourists; more than a tourism attraction."
+      ],
+      "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=16"
+    }
+  ],
+  "highlights": [
+    {
+      "title": [
+        "基础设施上的公共地面",
+        "Civic ground over infrastructure"
+      ],
+      "text": [
+        "通过铁路上盖与坡地，把原本分隔的城市关系重新连接。",
+        "Deck and slope reconnect urban relationships separated by rail."
+      ]
+    },
+    {
+      "title": [
+        "室内外互补",
+        "Indoor/outdoor complement"
+      ],
+      "text": [
+        "Atrium为露天广场补充覆盖空间与文化入口。",
+        "Atrium supplements the outdoor plaza with cover and cultural entrances."
+      ]
+    },
+    {
+      "title": [
+        "文化与数字活动平台",
+        "Cultural and digital platform"
+      ],
+      "text": [
+        "文化机构、数字屏幕与全年活动支持社区和游客共同使用。",
+        "Institutions, screen and year-round programming support both communities and visitors."
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "intro",
+      "chapter": "intro",
+      "tab": [
+        "案例概况",
+        "Case overview"
+      ],
+      "title": [
+        "Federation Square",
+        "Federation Square"
+      ],
+      "lede": [
+        "铁路上方的一片公共地面，把车站、文化机构、室内通廊与城市活动连接起来。",
+        "A civic ground over rail connects the station, cultural institutions, covered passage and city events."
+      ],
+      "blocks": [
+        {
+          "type": "hero",
+          "asset": "hero"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.karresenbrands.com/en/projects/federation-square",
+          "label": [
+            "景观设计方：7,500 m²广场",
+            "Landscape designer: 7,500 m² plaza"
+          ]
+        },
+        {
+          "url": "https://fedsquare.com/venues/main-square",
+          "label": [
+            "运营方：5,000 m²场租区域与容量",
+            "Operator: 5,000 m² hire area and capacity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "location",
+      "chapter": "intro",
+      "tab": [
+        "地图与城市",
+        "Map & city"
+      ],
+      "title": [
+        "位置：车站、CBD与河岸之间",
+        "Location: between station, CBD and river"
+      ],
+      "lede": [
+        "City of Melbourne LGA有194,481居民（2025年6月）；它服务的大墨尔本都市区为543.6万人。",
+        "City of Melbourne LGA had 194,481 residents in June 2025; the wider Greater Melbourne catchment had 5.436 million."
+      ],
+      "blocks": [
+        {
+          "type": "map"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "公共交通",
+                "Public transport"
+              ],
+              "text": [
+                "Flinders Street Station与广场隔街相望，周边电车衔接CBD；位于免费电车区。",
+                "Flinders Street Station lies across the street, with trams serving the CBD; the site is within the Free Tram Zone."
+              ]
+            },
+            {
+              "title": [
+                "最后一段步行",
+                "The final walk"
+              ],
+              "text": [
+                "通过街口、公共坡地与Atrium联系文化机构和Yarra河。",
+                "Crossings, public slope and Atrium connect cultural institutions and the Yarra."
+              ]
+            },
+            {
+              "title": [
+                "城市角色",
+                "Civic role"
+              ],
+              "text": [
+                "兼具文化目的地、社区活动场地和城市穿行节点。",
+                "Combines cultural destination, community event venue and urban passage."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.abs.gov.au/statistics/people/population/regional-population/2024-25",
+          "label": [
+            "ABS：2025市镇与都市区人口",
+            "ABS: 2025 municipal and metropolitan population"
+          ]
+        },
+        {
+          "url": "https://fedsquare.com/getting-here",
+          "label": [
+            "运营方：公共交通与到达",
+            "Operator: transit and arrival"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "chapter": "intro",
+      "tab": [
+        "形成过程",
+        "Formation"
+      ],
+      "title": [
+        "历史：把基础设施变成公共地面",
+        "History: infrastructure becomes civic ground"
+      ],
+      "lede": [
+        "它的关键创新是建造新的公共地面，再将文化建筑与室内公共空间组织在一起。",
+        "Its key move is a new civic ground, organised together with cultural buildings and covered public space."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "hero"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "1997",
+                "1997"
+              ],
+              "text": [
+                "LAB与Bates Smart赢得竞赛，Karres en Brands参与公共空间设计。",
+                "LAB and Bates Smart won the competition, with Karres en Brands on public space."
+              ]
+            },
+            {
+              "title": [
+                "2002",
+                "2002"
+              ],
+              "text": [
+                "建筑项目完成；景观设计方档案另列2004年Construction字段。",
+                "Architectural project completed; the landscape archive separately lists 2004 in its Construction field."
+              ]
+            },
+            {
+              "title": [
+                "2019以后",
+                "2019 onward"
+              ],
+              "text": [
+                "列入州遗产登记，建筑与公共空间作为整体持续运营。",
+                "State heritage listing recognises an ensemble that continues to operate as civic and cultural space."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.batessmart.com/projects/fed-square",
+          "label": [
+            "Bates Smart：建筑项目",
+            "Bates Smart: architectural project"
+          ]
+        },
+        {
+          "url": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf",
+          "label": [
+            "2019遗产决定",
+            "2019 heritage determination"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figure-ground",
+      "chapter": "scale",
+      "tab": [
+        "图底",
+        "Figure-ground"
+      ],
+      "title": [
+        "同一比例，看三种城市肌理",
+        "One scale, three urban fabrics"
+      ],
+      "lede": [
+        "相同图幅显示：这里是CBD网格、车站与河流之间的一片人工公共地面。",
+        "The common frame reveals artificial civic ground between CBD grid, station and river."
+      ],
+      "blocks": [
+        {
+          "type": "metric"
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "三案均为600 × 600米，北向上、横纵同尺度；矢量图按300毫米宽输出时为1:2500。网页缩放请读图形比例尺。",
+            "All three frames cover 600 × 600 m, north up with identical axis scale. Native SVG at 300 mm width is 1:2500; use the graphic bar on screens."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "@/data/comparison-figures.json",
+          "label": [
+            "制图参数与计算结果",
+            "Drawing parameters and computed measures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "chapter": "scale",
+      "tab": [
+        "平面",
+        "Plan"
+      ],
+      "title": [
+        "平面：空间如何组织",
+        "Plan: how the place is organised"
+      ],
+      "lede": [
+        "原始组合平面保留文化功能、公共通行与室内外层级的关系。",
+        "The original composite plan retains programme, circulation and indoor/outdoor level relationships."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "plan"
+        },
+        {
+          "type": "p",
+          "text": [
+            "组合平面将Plaza、Atrium、ACMI、NGV及公共通行组织在不同层级上。它是一组相互连接的空间，不是中央空地加外围建筑的简单拼接。",
+            "The composite plan organises Plaza, Atrium, ACMI, NGV and public circulation across levels: an interconnected ensemble rather than a vacant centre with separate objects around it."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://architizer.com/projects/federation-square/",
+          "label": [
+            "LAB项目档案：原始组合平面",
+            "LAB project archive: original composite plan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section",
+      "chapter": "scale",
+      "tab": [
+        "剖面",
+        "Section"
+      ],
+      "title": [
+        "剖面：从西向东抬升约6米",
+        "Section: an approximately 6 m eastward rise"
+      ],
+      "lede": [
+        "约6米高差有文字依据；下面直接展示能够辨认坡地和平台的原始剖面。",
+        "The approximately 6 m rise is documented; the original sections below make slope and deck legible."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "section"
+        },
+        {
+          "type": "strip",
+          "items": [
+            [
+              "西：Swanston Street低侧",
+              "West: Swanston Street, lower edge"
+            ],
+            [
+              "东：Atrium／文化机构一侧",
+              "East: Atrium / cultural institutions"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "遗产文件明确记载：广场从Swanston Street向东逐渐抬升约6米。坡面把抵达、观看与停留放在连续地面上；图中铁路位于人工平台之下。",
+            "The heritage determination records an approximately six-metre rise eastward from Swanston Street. The slope combines arrival, viewing and staying; rail lies below the artificial deck."
+          ]
+        },
+        {
+          "type": "figure",
+          "asset": "river-section"
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "向河岸的剖面显示另一组高差：文化建筑、平台与Yarra河岸的联系。两图分别阅读，不将约6米写成每条路线的坡度或无障碍保证。",
+            "The riverward section shows another level relationship between cultural buildings, deck and Yarra frontage. Read the two cuts separately; six metres is not the gradient or an accessibility guarantee of every route."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf#page=6",
+          "label": [
+            "遗产决定：Description第03段，约6米整体抬升",
+            "Heritage determination: Description paragraph 03, approximately 6 m rise"
+          ]
+        },
+        {
+          "url": "https://www.karresenbrands.com/en/projects/federation-square",
+          "label": [
+            "设计团队发布的真实剖面",
+            "Actual designer-published sections"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "syntax",
+      "chapter": "syntax",
+      "tab": [
+        "步行连接",
+        "Walking connections"
+      ],
+      "title": [
+        "连接：抵达、穿行与停留",
+        "Connections: arrival, passage and staying"
+      ],
+      "lede": [
+        "车站提供到达，文化机构提供目的，公共地面与通廊提供穿行和停留。",
+        "The station brings arrival, cultural institutions provide destinations, and public ground and passage enable movement and staying."
+      ],
+      "blocks": [
+        {
+          "type": "figure",
+          "asset": "hero"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "抵达",
+                "Arrival"
+              ],
+              "text": [
+                "车站与电车把城市使用者带到广场边缘。",
+                "Station and trams bring city users to the edge."
+              ]
+            },
+            {
+              "title": [
+                "穿行",
+                "Passage"
+              ],
+              "text": [
+                "坡地、通廊与街口把CBD和河岸串联。",
+                "Slope, passage and crossings connect CBD and river."
+              ]
+            },
+            {
+              "title": [
+                "停留",
+                "Staying"
+              ],
+              "text": [
+                "文化入口、边缘座位和活动设施提供不同停留目的。",
+                "Cultural entries, seating edges and event infrastructure create different reasons to stay."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "此处是基于真实图纸和区位的形态解读；没有把它标为空间句法计算成果。",
+            "This is a reading of actual drawings and location, not a claimed formal syntax result."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://fedsquare.com/getting-here",
+          "label": [
+            "运营方：到达与公共交通",
+            "Operator: arrival and public transport"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boundary",
+      "chapter": "boundary",
+      "tab": [
+        "建筑边界",
+        "Architectural edges"
+      ],
+      "title": [
+        "边界：建筑与公共地面",
+        "Edges: buildings meet civic ground"
+      ],
+      "lede": [
+        "多栋文化建筑形成非连续但可识别的边界，公共地面把这些界面联成整体。",
+        "Several cultural buildings form distinct edges, joined into an ensemble by civic ground."
+      ],
+      "blocks": [
+        {
+          "type": "pair",
+          "assets": [
+            "edge1",
+            "edge2"
+          ]
+        },
+        {
+          "type": "pair",
+          "assets": [
+            "south",
+            "east"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "石材、金属与玻璃形成不同透明程度；入口、外摆和覆盖通廊比表皮图案更直接影响人们如何使用建筑边缘。",
+            "Stone, metal and glass provide different transparency, while entries, terraces and covered passage shape edge use more directly than cladding patterns alone."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "detail",
+      "chapter": "boundary",
+      "tab": [
+        "景观与气候",
+        "Landscape & climate"
+      ],
+      "title": [
+        "环境：景观、气候与科技",
+        "Environment: landscape, climate and technology"
+      ],
+      "lede": [
+        "墨尔本气候多变；Atrium补充室外广场的遮蔽，数字屏幕与被动环境系统支持日常运营。",
+        "Melbourne’s variable conditions make Atrium cover valuable beside the outdoor plaza; digital screens and passive systems support its operation."
+      ],
+      "blocks": [
+        {
+          "type": "pair",
+          "assets": [
+            "detail",
+            "digital"
+          ]
+        },
+        {
+          "type": "pair",
+          "assets": [
+            "atrium-street",
+            "atrium-use"
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "景观",
+                "Landscape"
+              ],
+              "text": [
+                "河岸与较新的Test Garden补充以硬质地面为主的场地；花园于2025年开放。",
+                "River frontage and the newer Test Garden complement the paved precinct; the garden opened in 2025."
+              ]
+            },
+            {
+              "title": [
+                "天气与气候",
+                "Weather and climate"
+              ],
+              "text": [
+                "温带、天气多变。旧市中心站1月／7月平均最高气温25.9／13.5°C（1855—2014），不代表广场微气候；Atrium提供覆盖条件。",
+                "Temperate and variable. The former central station records Jan/Jul mean maxima of 25.9/13.5°C (1855–2014), not plaza microclimate; Atrium provides cover."
+              ]
+            },
+            {
+              "title": [
+                "科技",
+                "Technology"
+              ],
+              "text": [
+                "65 m² Digital Façade用于公共内容与活动，配套声学、供电与听力辅助。",
+                "A 65 m² Digital Façade supports public content and events with sound, power and hearing support."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_086071.shtml",
+          "label": [
+            "BoM：墨尔本Regional Office历史气候统计",
+            "BoM: Melbourne Regional Office historical climate statistics"
+          ]
+        },
+        {
+          "url": "https://fedsquare.com/sustainability",
+          "label": [
+            "运营方：Labyrinth与可持续系统",
+            "Operator: Labyrinth and sustainability systems"
+          ]
+        },
+        {
+          "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=14",
+          "label": [
+            "2025–26年报：Test Garden",
+            "FY2025–26 report: Test Garden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life",
+      "chapter": "life",
+      "tab": [
+        "平日",
+        "Ordinary days"
+      ],
+      "title": [
+        "平日：人们怎样使用这里",
+        "Ordinary days: how people use the place"
+      ],
+      "lede": [
+        "普通日是坐靠、过境、文化参观与餐饮并存的地面；社区活动不是只有旅游旺季才出现。",
+        "Ordinary days mix sitting, through movement, cultural visits and dining; community programming extends beyond tourism peaks."
+      ],
+      "blocks": [
+        {
+          "type": "pair",
+          "assets": [
+            "daily1",
+            "daily2"
+          ]
+        },
+        {
+          "type": "p",
+          "text": [
+            "平日使用以自主穿行、坐靠、文化参观和餐饮为主。运营报告记录了社区服务，但未公开与节假日严格同口径的日均人流，故不凭照片给出增长倍数。",
+            "Ordinary use mixes passage, sitting, culture and dining. Community provision is documented, but no matched ordinary/holiday daily-footfall series is published; images do not provide a multiplier."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf",
+          "label": [
+            "2025–26运营年报：社区与文化项目",
+            "FY2025–26 report: community and cultural programming"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "chapter": "life",
+      "tab": [
+        "节假日与活动",
+        "Holidays & events"
+      ],
+      "title": [
+        "节假日与活动：地面的另一种状态",
+        "Holidays and events: the ground transforms"
+      ],
+      "lede": [
+        "从文化表演到集体观看、节庆与公共表达，场地通过临时布置改变使用方式。",
+        "Performances, collective viewing, festivals and civic expression transform the site through temporary arrangements."
+      ],
+      "blocks": [
+        {
+          "type": "pair",
+          "assets": [
+            "event",
+            "festival"
+          ]
+        },
+        {
+          "type": "figure",
+          "asset": "peace-rally"
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              "比较项",
+              "Item"
+            ],
+            [
+              "平日",
+              "Ordinary weekday"
+            ],
+            [
+              "普通周末／节假日",
+              "Ordinary weekend / holiday"
+            ],
+            [
+              "大型活动日",
+              "Major event day"
+            ]
+          ],
+          "rows": [
+            [
+              [
+                "主要功能",
+                "Main functions"
+              ],
+              [
+                "穿行、坐靠、文化参观与餐饮",
+                "Passage, sitting, cultural visits and dining"
+              ],
+              [
+                "休闲、文化项目与家庭到访；人流增幅未量化",
+                "Leisure, culture and families; increase not quantified"
+              ],
+              [
+                "舞台表演、屏幕观看、节庆与公共集会",
+                "Performance, shared viewing, festivals and assembly"
+              ]
+            ],
+            [
+              [
+                "空间布置",
+                "Spatial layout"
+              ],
+              [
+                "开放地面与机构／商业入口并存",
+                "Open ground and institutional/commercial entries"
+              ],
+              [
+                "可有临时项目，不等同大型封闭活动",
+                "May host temporary programmes, not necessarily enclosures"
+              ],
+              [
+                "舞台、屏幕、围栏与入场动线按活动变化",
+                "Event-specific stage, screen, barriers and entries"
+              ]
+            ],
+            [
+              [
+                "通行与管理",
+                "Access & management"
+              ],
+              [
+                "公共坡地与Atrium；开放条件随运营变化",
+                "Slope and Atrium; access varies with operations"
+              ],
+              [
+                "视当日项目与开放安排而定",
+                "Depends on programmes and opening arrangements"
+              ],
+              [
+                "现行Main Square公布容量10,000人",
+                "Current Main Square listed capacity: 10,000"
+              ]
+            ],
+            [
+              [
+                "定量记录",
+                "Quantitative record"
+              ],
+              [
+                "未公开同口径平日日均人流",
+                "No matched ordinary-day daily count"
+              ],
+              [
+                "未公开同口径节假日日均人流",
+                "No matched holiday daily count"
+              ],
+              [
+                "2025–26：389场活动；不是节假日单独统计",
+                "FY2025–26: 389 events, not holiday-only counts"
+              ]
+            ]
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf",
+          "label": [
+            "2025–26：389场活动、37项社区与文化活动",
+            "FY2025–26: 389 events, 37 community/cultural events"
+          ]
+        },
+        {
+          "url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+          "label": [
+            "州图书馆：公共集会与节庆档案",
+            "State Library: assembly and celebration archive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metrics",
+      "chapter": "life",
+      "tab": [
+        "关键数字",
+        "Key numbers"
+      ],
+      "title": [
+        "数字：规模、容量与使用强度",
+        "Numbers: scale, capacity and use"
+      ],
+      "lede": [
+        "人口按市镇／LGA范围；容量是特定活动或场地布置口径；年到访量单独列出。",
+        "Population uses municipal/LGA boundaries; capacity is event- or layout-specific; annual visitation is listed separately."
+      ],
+      "blocks": [
+        {
+          "type": "metrics"
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "活动容量不是全年访客量，也不是随时允许进入的人数。三案未公开同口径的平日／节假日人流序列，因此不伪造倍数关系。",
+            "Event capacity is neither annual visitation nor a constant admission allowance. Matched ordinary-day/holiday footfall series are unavailable, so no multiplier is invented."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "assessment",
+      "chapter": "conclusion",
+      "tab": [
+        "空间与环境",
+        "Space & environment"
+      ],
+      "title": [
+        "统一评价①：空间与环境",
+        "Aligned assessment 1: space and environment"
+      ],
+      "lede": [
+        "以下五项在三个案例中采用完全相同的名称、顺序和判断口径。",
+        "The same five dimensions, in the same order and with the same interpretation, apply to all three cases."
+      ],
+      "blocks": [
+        {
+          "type": "assessment",
+          "start": 0,
+          "end": 5
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "use-assessment",
+      "chapter": "conclusion",
+      "tab": [
+        "使用与公共性",
+        "Use & publicness"
+      ],
+      "title": [
+        "统一评价②：使用与公共性",
+        "Aligned assessment 2: use and publicness"
+      ],
+      "lede": [
+        "区分功能、时段、规模、科技与服务对象；BOTH表示社区与游客均被服务，不代表两者人数相等。",
+        "Separate programme, timing, scale, technology and users. BOTH means both communities and visitors are served, not equal headcounts."
+      ],
+      "blocks": [
+        {
+          "type": "assessment",
+          "start": 5,
+          "end": 10
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "conclusion",
+      "chapter": "conclusion",
+      "tab": [
+        "三个特点",
+        "Three defining qualities"
+      ],
+      "title": [
+        "最突出的三个特点",
+        "Three defining qualities"
+      ],
+      "lede": [
+        "最突出的价值在于地面、覆盖空间与持续运营的协同，而不只是多面体立面。",
+        "Its defining strength is the collaboration of ground, covered space and sustained operations, beyond faceted facades alone."
+      ],
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": [
+                "基础设施上的公共地面",
+                "Civic ground over infrastructure"
+              ],
+              "text": [
+                "通过铁路上盖与坡地，把原本分隔的城市关系重新连接。",
+                "Deck and slope reconnect urban relationships separated by rail."
+              ]
+            },
+            {
+              "title": [
+                "室内外互补",
+                "Indoor/outdoor complement"
+              ],
+              "text": [
+                "Atrium为露天广场补充覆盖空间与文化入口。",
+                "Atrium supplements the outdoor plaza with cover and cultural entrances."
+              ]
+            },
+            {
+              "title": [
+                "文化与数字活动平台",
+                "Cultural and digital platform"
+              ],
+              "text": [
+                "文化机构、数字屏幕与全年活动支持社区和游客共同使用。",
+                "Institutions, screen and year-round programming support both communities and visitors."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "主要限制：露天舒适性仍受天气影响，活动占用会改变穿行；高到访量不能独自证明每种使用者都得到同等服务。",
+            "Principal limitations: weather affects outdoor comfort and events alter routes; high visitation alone does not establish equal service to all users."
+          ]
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "url": "@/comparison.html",
+              "label": [
+                "对照三个案例的完整评价矩阵",
+                "Compare the full three-case assessment matrix"
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "sources",
+      "chapter": "sources",
+      "tab": [
+        "资料附录",
+        "Source appendix"
+      ],
+      "title": [
+        "资料与证据边界",
+        "Sources and evidence limits"
+      ],
+      "lede": [
+        "正文保留空间判断；完整出处、统计口径与方法集中在这里。",
+        "The main pages focus on spatial findings; complete provenance, statistical definitions and methods are collected here."
+      ],
+      "blocks": [
+        {
+          "type": "archive",
+          "title": [
+            "人口、容量与年到访量",
+            "Population, capacity and annual visits"
+          ],
+          "blocks": [
+            {
+              "type": "p",
+              "text": [
+                "保留来源年份、统计范围与空值。01的2018活动限额、03的2026赛事站立区和04的现行场租容量不可直接理解为同一时点的全广场安全上限。",
+                "Year, boundary and missing values are retained. The 2018 event cap in 01, 2026 standing area in 03 and current venue listing in 04 are not a single-date set of universal safety limits."
+              ]
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "url": "https://www.abs.gov.au/statistics/people/population/regional-population/2024-25",
+                  "label": [
+                    "所在城市人口",
+                    "City population"
+                  ]
+                },
+                {
+                  "url": "https://www.karresenbrands.com/en/projects/federation-square",
+                  "label": [
+                    "公布广场面积",
+                    "Published plaza area"
+                  ]
+                },
+                {
+                  "url": "https://fedsquare.com/venues/main-square",
+                  "label": [
+                    "公布活动容量",
+                    "Published event capacity"
+                  ]
+                },
+                {
+                  "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf",
+                  "label": [
+                    "广场年到访量",
+                    "Annual square visitation"
+                  ]
+                },
+                {
+                  "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf",
+                  "label": [
+                    "年度活动数",
+                    "Annual events"
+                  ]
+                },
+                {
+                  "url": "@/data/comparison-figures.json",
+                  "label": [
+                    "600米图幅建筑覆盖率",
+                    "Buildings in the 600 m frame"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "archive",
+          "title": [
+            "地图、图底与数据许可",
+            "Maps, figure-ground and licences"
+          ],
+          "blocks": [
+            {
+              "type": "p",
+              "text": [
+                "Google Maps为三案统一位置地图。建筑图底统一图幅和米制投影；01／03使用Overture 2026-10-21资料，经TerraLab提取，04保留墨尔本官方2020地面层资料。年代与轮廓定义不同；计算结果用于描述形态，不作为公共空间质量排名。",
+                "Google Maps is the common location map. Figure-ground uses an identical metric frame: 01/03 use Overture 2026-10-21 through TerraLab; 04 retains official Melbourne 2020 ground/podium data. Dates and footprint definitions differ; results describe form rather than rank civic quality."
+              ]
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "url": "@/data/comparison-figures.json",
+                  "label": [
+                    "同尺度参数与覆盖率算法结果",
+                    "Common-scale parameters and coverage results"
+                  ]
+                },
+                {
+                  "url": "@/data/federation-buildings.json",
+                  "label": [
+                    "下载本案原始建筑轮廓",
+                    "Download source building footprints"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "archive",
+          "title": [
+            "图纸与图像登记",
+            "Drawings and image register"
+          ],
+          "blocks": [
+            {
+              "type": "links",
+              "items": [
+                {
+                  "url": "https://www.karresenbrands.com/en/projects/federation-square",
+                  "label": [
+                    "从河流一侧的高视点看城市片区",
+                    "Elevated context from the river side"
+                  ]
+                },
+                {
+                  "url": "https://architizer.com/projects/federation-square/",
+                  "label": [
+                    "LAB原始 Level 2 Composite Plan",
+                    "LAB Level 2 Composite Plan"
+                  ]
+                },
+                {
+                  "url": "https://www.karresenbrands.com/en/projects/federation-square",
+                  "label": [
+                    "城市剖面及立面投影：教堂、广场、建筑与铁路",
+                    "Urban section and projected elevations: cathedral, plaza, buildings and rail"
+                  ]
+                },
+                {
+                  "url": "https://www.karresenbrands.com/en/projects/federation-square",
+                  "label": [
+                    "建筑剖面：文化空间、平台与河岸端",
+                    "Building section: cultural spaces, deck and river end"
+                  ]
+                },
+                {
+                  "url": "https://architectureau.com/articles/preview/",
+                  "label": [
+                    "北侧界面：Flinders Street立面照片",
+                    "North edge: Flinders Street elevation photograph"
+                  ]
+                },
+                {
+                  "url": "https://architizer.com/projects/federation-square/",
+                  "label": [
+                    "广场内侧立面：折线实体与首层边缘",
+                    "Plaza-facing facade: folded mass and ground edge"
+                  ]
+                },
+                {
+                  "url": "https://architizer.com/projects/federation-square/",
+                  "label": [
+                    "Atrium：覆盖空间中的公共通行",
+                    "Atrium: public passage under cover"
+                  ]
+                },
+                {
+                  "url": "https://www.karresenbrands.com/en/projects/federation-square",
+                  "label": [
+                    "大屏幕与活动设施：集体观看的空间条件",
+                    "Screen and event facilities: conditions for shared viewing"
+                  ]
+                },
+                {
+                  "url": "https://www.karresenbrands.com/en/projects/federation-square",
+                  "label": [
+                    "日常停留：地面高差成为坐靠边缘",
+                    "Everyday pause: changes in level provide informal seats"
+                  ]
+                },
+                {
+                  "url": "https://www.karresenbrands.com/en/projects/federation-square",
+                  "label": [
+                    "穿行与停留：玻璃边界下的不同速度",
+                    "Walking and staying along a glazed edge"
+                  ]
+                },
+                {
+                  "url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+                  "label": [
+                    "2003年和平集会：公共表达占据广场",
+                    "2003 peace rally: the square as a place of public expression"
+                  ]
+                },
+                {
+                  "url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+                  "label": [
+                    "2015年焰火：节庆中的广场与城市",
+                    "2015 fireworks: square and city in celebration"
+                  ]
+                },
+                {
+                  "url": "https://data.melbourne.vic.gov.au/explore/dataset/2020-building-footprints/",
+                  "label": [
+                    "600 × 600米建筑图底，北向上，100米比例尺",
+                    "600 × 600 m figure-ground, north up, 100 m scale bar"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "archive",
+              "title": [
+                "原始总图与完整剖面",
+                "Original context plan and full sections"
+              ],
+              "blocks": [
+                {
+                  "type": "figure",
+                  "asset": "location-plan"
+                },
+                {
+                  "type": "figure",
+                  "asset": "deck-section"
+                },
+                {
+                  "type": "figure",
+                  "asset": "context"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "archive",
+          "title": [
+            "方法与证据边界",
+            "Methods and evidence limits"
+          ],
+          "blocks": [
+            {
+              "type": "p",
+              "text": [
+                "连接章节是基于地图、图纸与照片的形态解读，不是本站正式空间句法计算。没有用照片推算人数、建筑高度、容量或全年舒适度；没有以城市游客数或单座博物馆入场数替代广场年访客量。",
+                "Connectivity is a reading of maps, drawings and photographs, not a formal syntax computation by this site. Photos do not supply population, heights, capacity or annual comfort; city tourism and individual museum admissions do not replace square-level annual visitation."
+              ]
+            },
+            {
+              "type": "p",
+              "text": [
+                "图像保留原作者版权，逐图出处可展开查看。学术剖面作为有限图示摘录保留原始几何和比例尺，并非本站实测；图底是数据重建，非施工或测绘边界。",
+                "Creators retain image rights; per-image credits expand in place. Limited scholarly drawing excerpts retain original geometry and bars; they are not surveys by this site. GIS drawings are data reconstructions, not construction or legal survey boundaries."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": []
+    },
+    {
+      "id": "factsheet",
+      "chapter": "factsheet",
+      "tab": [
+        "一页档案",
+        "One-page factsheet"
+      ],
+      "title": [
+        "Federation Square · 一页档案",
+        "Federation Square · factsheet"
+      ],
+      "lede": [
+        "铁路上方的一片公共地面，把车站、文化机构、室内通廊与城市活动连接起来。",
+        "A civic ground over rail connects the station, cultural institutions, covered passage and city events."
+      ],
+      "blocks": [
+        {
+          "type": "factsheet"
+        },
+        {
+          "type": "takeaway",
+          "text": [
+            "三个特点：基础设施上的公共地面；室内外互补；文化与数字活动平台。",
+            "Three qualities: Civic ground over infrastructure; Indoor/outdoor complement; Cultural and digital platform."
+          ]
+        }
+      ],
+      "sources": []
+    }
+  ],
+  "raw_gis": "@/data/federation-buildings.json",
+  "intro_lede": [
+    "铁路上方的一片公共地面，把车站、文化机构、室内通廊与城市活动连接起来。",
+    "A civic ground over rail connects the station, cultural institutions, covered passage and city events."
+  ],
+  "plan_text": [
+    "组合平面将Plaza、Atrium、ACMI、NGV及公共通行组织在不同层级上。它是一组相互连接的空间，不是中央空地加外围建筑的简单拼接。",
+    "The composite plan organises Plaza, Atrium, ACMI, NGV and public circulation across levels: an interconnected ensemble rather than a vacant centre with separate objects around it."
+  ],
+  "plan_refs": [
+    {
+      "url": "https://architizer.com/projects/federation-square/",
+      "label": [
+        "LAB项目档案：原始组合平面",
+        "LAB project archive: original composite plan"
+      ]
+    }
+  ],
+  "section_title": [
+    "剖面：从西向东抬升约6米",
+    "Section: an approximately 6 m eastward rise"
+  ],
+  "section_blocks": [
+    {
+      "type": "figure",
+      "asset": "section"
+    },
+    {
+      "type": "strip",
+      "items": [
+        [
+          "西：Swanston Street低侧",
+          "West: Swanston Street, lower edge"
+        ],
+        [
+          "东：Atrium／文化机构一侧",
+          "East: Atrium / cultural institutions"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": [
+        "遗产文件明确记载：广场从Swanston Street向东逐渐抬升约6米。坡面把抵达、观看与停留放在连续地面上；图中铁路位于人工平台之下。",
+        "The heritage determination records an approximately six-metre rise eastward from Swanston Street. The slope combines arrival, viewing and staying; rail lies below the artificial deck."
+      ]
+    },
+    {
+      "type": "figure",
+      "asset": "river-section"
+    },
+    {
+      "type": "takeaway",
+      "text": [
+        "向河岸的剖面显示另一组高差：文化建筑、平台与Yarra河岸的联系。两图分别阅读，不将约6米写成每条路线的坡度或无障碍保证。",
+        "The riverward section shows another level relationship between cultural buildings, deck and Yarra frontage. Read the two cuts separately; six metres is not the gradient or an accessibility guarantee of every route."
+      ]
+    }
+  ],
+  "section_refs": [
+    {
+      "url": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf#page=6",
+      "label": [
+        "遗产决定：Description第03段，约6米整体抬升",
+        "Heritage determination: Description paragraph 03, approximately 6 m rise"
+      ]
+    },
+    {
+      "url": "https://www.karresenbrands.com/en/projects/federation-square",
+      "label": [
+        "设计团队发布的真实剖面",
+        "Actual designer-published sections"
+      ]
+    }
+  ],
+  "syntax_lede": [
+    "车站提供到达，文化机构提供目的，公共地面与通廊提供穿行和停留。",
+    "The station brings arrival, cultural institutions provide destinations, and public ground and passage enable movement and staying."
+  ],
+  "transport_refs": [
+    {
+      "url": "https://fedsquare.com/getting-here",
+      "label": [
+        "运营方：到达与公共交通",
+        "Operator: arrival and public transport"
+      ]
+    }
+  ],
+  "boundary_lede": [
+    "多栋文化建筑形成非连续但可识别的边界，公共地面把这些界面联成整体。",
+    "Several cultural buildings form distinct edges, joined into an ensemble by civic ground."
+  ],
+  "boundary_text": [
+    "石材、金属与玻璃形成不同透明程度；入口、外摆和覆盖通廊比表皮图案更直接影响人们如何使用建筑边缘。",
+    "Stone, metal and glass provide different transparency, while entries, terraces and covered passage shape edge use more directly than cladding patterns alone."
+  ],
+  "environment_lede": [
+    "墨尔本气候多变；Atrium补充室外广场的遮蔽，数字屏幕与被动环境系统支持日常运营。",
+    "Melbourne’s variable conditions make Atrium cover valuable beside the outdoor plaza; digital screens and passive systems support its operation."
+  ],
+  "environment_refs": [
+    {
+      "url": "https://www.bom.gov.au/climate/averages/tables/cw_086071.shtml",
+      "label": [
+        "BoM：墨尔本Regional Office历史气候统计",
+        "BoM: Melbourne Regional Office historical climate statistics"
+      ]
+    },
+    {
+      "url": "https://fedsquare.com/sustainability",
+      "label": [
+        "运营方：Labyrinth与可持续系统",
+        "Operator: Labyrinth and sustainability systems"
+      ]
+    },
+    {
+      "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=14",
+      "label": [
+        "2025–26年报：Test Garden",
+        "FY2025–26 report: Test Garden"
+      ]
+    }
+  ],
+  "life_lede": [
+    "普通日是坐靠、过境、文化参观与餐饮并存的地面；社区活动不是只有旅游旺季才出现。",
+    "Ordinary days mix sitting, through movement, cultural visits and dining; community programming extends beyond tourism peaks."
+  ],
+  "life_refs": [
+    {
+      "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf",
+      "label": [
+        "2025–26运营年报：社区与文化项目",
+        "FY2025–26 report: community and cultural programming"
+      ]
+    }
+  ],
+  "event_lede": [
+    "从文化表演到集体观看、节庆与公共表达，场地通过临时布置改变使用方式。",
+    "Performances, collective viewing, festivals and civic expression transform the site through temporary arrangements."
+  ],
+  "event_refs": [
+    {
+      "url": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf",
+      "label": [
+        "2025–26：389场活动、37项社区与文化活动",
+        "FY2025–26: 389 events, 37 community/cultural events"
+      ]
+    },
+    {
+      "url": "https://blogs.slv.vic.gov.au/our-stories/federation-square-a-brief-history/",
+      "label": [
+        "州图书馆：公共集会与节庆档案",
+        "State Library: assembly and celebration archive"
+      ]
+    }
+  ],
+  "conclusion_lede": [
+    "最突出的价值在于地面、覆盖空间与持续运营的协同，而不只是多面体立面。",
+    "Its defining strength is the collaboration of ground, covered space and sustained operations, beyond faceted facades alone."
+  ],
+  "conclusion_limit": [
+    "主要限制：露天舒适性仍受天气影响，活动占用会改变穿行；高到访量不能独自证明每种使用者都得到同等服务。",
+    "Principal limitations: weather affects outdoor comfort and events alter routes; high visitation alone does not establish equal service to all users."
+  ]
+}

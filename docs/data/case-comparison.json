@@ -1,0 +1,1047 @@
+{
+  "checked": "2026-11-13",
+  "vocabulary": {
+    "dimensions": [
+      {
+        "id": "form",
+        "label": [
+          "空间形态",
+          "Spatial form"
+        ]
+      },
+      {
+        "id": "transport",
+        "label": [
+          "交通可达性",
+          "Public transport"
+        ]
+      },
+      {
+        "id": "landscape",
+        "label": [
+          "景观融入",
+          "Landscape integration"
+        ]
+      },
+      {
+        "id": "commercial",
+        "label": [
+          "商业界面",
+          "Commercial edges"
+        ]
+      },
+      {
+        "id": "climate",
+        "label": [
+          "气候适应",
+          "Climate response"
+        ]
+      },
+      {
+        "id": "function",
+        "label": [
+          "使用功能",
+          "Use programme"
+        ]
+      },
+      {
+        "id": "calendar",
+        "label": [
+          "平日／节假日",
+          "Ordinary / holiday use"
+        ]
+      },
+      {
+        "id": "demand",
+        "label": [
+          "容量与年到访量",
+          "Capacity & annual visitation"
+        ]
+      },
+      {
+        "id": "technology",
+        "label": [
+          "科技接入",
+          "Technology"
+        ]
+      },
+      {
+        "id": "audience",
+        "label": [
+          "服务对象",
+          "Community / tourism"
+        ]
+      }
+    ],
+    "use_categories": [
+      "passage",
+      "staying",
+      "cultural_visit",
+      "public_event"
+    ],
+    "audience_categories": [
+      "COMMUNITY",
+      "TOURISM",
+      "BOTH"
+    ],
+    "capacity_policy": "A reported, event- or layout-specific number with year and spatial boundary; never inferred from area.",
+    "annual_visitation_policy": "Square-level operator counts only; distinguish visits, unique people and museum admissions. Missing is null, never zero.",
+    "weekday_holiday_policy": "Qualitative paired programme comparison unless a matched count series is available. No invented peak multiplier.",
+    "population_policy": "Municipal/LGA scope, reference date and registry/ERP method stated; metropolitan figures separate.",
+    "coverage_policy": "Metric union of footprint polygons clipped to a 600m square; denominator includes water; source epoch and semantics retained."
+  },
+  "cases": [
+    {
+      "number": "01",
+      "name": "Piazza San Marco",
+      "coordinates": [
+        45.4342,
+        12.3387
+      ],
+      "metrics": [
+        {
+          "key": "population",
+          "label": [
+            "所在城市人口",
+            "City population"
+          ],
+          "value": 251294,
+          "display": [
+            "251,294 人",
+            "251,294 residents"
+          ],
+          "scope": [
+            "2025-12-31；Comune di Venezia全市镇，含大陆地区；不是历史岛城人口。",
+            "31 Dec 2025; municipality including the mainland, not the historic islands alone."
+          ],
+          "source": "https://www.comune.venezia.it/it/content/serie-storiche",
+          "year": "2025-12-31",
+          "unit": "residents",
+          "measurement": "municipal resident population"
+        },
+        {
+          "key": "plaza_area",
+          "label": [
+            "公布广场面积",
+            "Published plaza area"
+          ],
+          "value": 12600,
+          "display": [
+            "12,600 m²",
+            "12,600 m²"
+          ],
+          "scope": [
+            "Piazza主体，不含Piazzetta；意大利语维基百科公布值，属二级来源。",
+            "Piazza proper, excluding Piazzetta; published Italian Wikipedia value, a secondary source."
+          ],
+          "source": "https://it.wikipedia.org/wiki/Piazza_San_Marco",
+          "year": null,
+          "unit": "m²",
+          "measurement": "published value; not GIS estimate"
+        },
+        {
+          "key": "event_capacity",
+          "label": [
+            "公布活动容量",
+            "Published event capacity"
+          ],
+          "value": 20000,
+          "display": [
+            "20,000 人",
+            "20,000 people"
+          ],
+          "scope": [
+            "2018年Volo dell’Angelo活动限额；不是当前全时段容量。",
+            "2018 Flight of the Angel event cap; not a current permanent capacity."
+          ],
+          "source": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni",
+          "year": "2018-02-04",
+          "unit": "people",
+          "measurement": "event- or configuration-specific; not a permanent universal maximum"
+        },
+        {
+          "key": "annual_visits",
+          "label": [
+            "广场年到访量",
+            "Annual square visitation"
+          ],
+          "value": null,
+          "display": [
+            "未确认",
+            "Not established"
+          ],
+          "scope": [
+            "未取得广场级完整年度统计；不以威尼斯全市游客量或教堂入场人数替代。",
+            "No complete square-level annual series found; city tourism and basilica admissions are excluded."
+          ],
+          "source": "https://www.comune.venezia.it/it/content/studi",
+          "year": null,
+          "unit": "reported visitors/year",
+          "measurement": "missing square-level statistic"
+        },
+        {
+          "key": "building_coverage",
+          "label": [
+            "600米图幅建筑覆盖率",
+            "Buildings in the 600 m frame"
+          ],
+          "value": 49.58,
+          "display": [
+            "49.58%",
+            "49.58%"
+          ],
+          "scope": [
+            "统一600 × 600米图幅；合并并裁切真实建筑轮廓后计算。分母含水面；不是公共开放率。",
+            "Union of source footprints clipped to the same 600 × 600 m frame. Denominator includes water; not a public-open-space ratio."
+          ],
+          "source": "@/data/comparison-figures.json",
+          "year": null,
+          "unit": "%",
+          "measurement": "computed footprint union / 360000 m²; source dates differ"
+        }
+      ],
+      "assessment": [
+        {
+          "key": "form",
+          "label": [
+            "空间形态",
+            "Spatial form"
+          ],
+          "verdict": [
+            "连续围合",
+            "Continuous enclosure"
+          ],
+          "text": [
+            "Piazza、柱廊与Piazzetta形成由围合到水岸的清晰序列。",
+            "Piazza, arcades and Piazzetta form a legible sequence from enclosure to waterfront."
+          ],
+          "source": "https://whc.unesco.org/en/list/394/"
+        },
+        {
+          "key": "transport",
+          "label": [
+            "交通可达性",
+            "Public transport"
+          ],
+          "verdict": [
+            "有公共交通",
+            "Public transport present"
+          ],
+          "text": [
+            "以水上巴士加步行为主；不是汽车直达型广场。",
+            "Waterbus plus walking is the principal approach, not direct car access."
+          ],
+          "source": "https://www.comune.venezia.it/it/content/citt-tutti-venezia-accessibile-itinerari-senza-barriere-area-marciana"
+        },
+        {
+          "key": "landscape",
+          "label": [
+            "景观融入",
+            "Landscape integration"
+          ],
+          "verdict": [
+            "蓝色景观主导",
+            "Water-led setting"
+          ],
+          "text": [
+            "以潟湖水岸及硬质铺地为主，广场核心并非植被公园。",
+            "Lagoon frontage and paving dominate; the square core is not a planted park."
+          ],
+          "source": "https://whc.unesco.org/en/list/394/"
+        },
+        {
+          "key": "commercial",
+          "label": [
+            "商业界面",
+            "Commercial edges"
+          ],
+          "verdict": [
+            "商业环绕",
+            "Commercial edge present"
+          ],
+          "text": [
+            "咖啡座与商铺沿建筑边缘展开；商业座位不能等同免费公共座位。",
+            "Cafes and shops line the edges; commercial seats are not free public seating."
+          ],
+          "source": "https://www.comune.venezia.it/it/content/occupazione-suolo-plateatici"
+        },
+        {
+          "key": "climate",
+          "label": [
+            "气候适应",
+            "Climate response"
+          ],
+          "verdict": [
+            "柱廊遮蔽，潮汐敏感",
+            "Arcade cover; tide-sensitive"
+          ],
+          "text": [
+            "夏季日晒与湿热、降雨及异常高潮位影响使用；覆盖边缘和预警是主要应对。",
+            "Summer sun and humidity, rain and high tides affect use; covered edges and warnings provide responses."
+          ],
+          "source": "https://www.comune.venezia.it/it/content/la-precipitazione-venezia-a-venezia"
+        },
+        {
+          "key": "function",
+          "label": [
+            "使用功能",
+            "Use programme"
+          ],
+          "verdict": [
+            "多功能",
+            "Mixed use"
+          ],
+          "text": [
+            "穿行／停留／文化参观／公共活动四类功能并存。",
+            "Passage / staying / cultural visits / public events coexist."
+          ],
+          "source": "https://whc.unesco.org/en/list/394/"
+        },
+        {
+          "key": "calendar",
+          "label": [
+            "平日／节假日",
+            "Ordinary / holiday use"
+          ],
+          "verdict": [
+            "节庆强化管控",
+            "Event-day access control"
+          ],
+          "text": [
+            "平日以游览、步行和外摆为主；狂欢节等活动可限制入口和容量。",
+            "Ordinary days emphasise visits, walking and terraces; Carnival events can impose entry and capacity limits."
+          ],
+          "source": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni"
+        },
+        {
+          "key": "demand",
+          "label": [
+            "容量与年到访量",
+            "Capacity & annual visitation"
+          ],
+          "verdict": [
+            "容量有历史事件口径",
+            "Historic event-specific cap"
+          ],
+          "text": [
+            "2018活动上限20,000人；广场级年到访量未确认。",
+            "2018 event cap: 20,000; square-level annual visitation remains unestablished."
+          ],
+          "source": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni"
+        },
+        {
+          "key": "technology",
+          "label": [
+            "科技接入",
+            "Technology"
+          ],
+          "verdict": [
+            "管理型科技",
+            "Management technology"
+          ],
+          "text": [
+            "活动限流使用数字计数设备；潮汐监测与预警服务通行，非娱乐屏幕主导。",
+            "Digital event counting and tide warnings support management; entertainment screens are not the defining infrastructure."
+          ],
+          "source": "https://live.comune.venezia.it/it/2025/04/carnevale-di-venezia-volo-dellangelo-domenica-4-febbraio-piazza-san-marco-le-disposizioni"
+        },
+        {
+          "key": "audience",
+          "label": [
+            "服务对象",
+            "Community / tourism"
+          ],
+          "verdict": [
+            "BOTH · 旅游焦点",
+            "BOTH · tourism focus"
+          ],
+          "text": [
+            "服务社区仪式与公共生活，同时是全球游客目的地；不赋虚构居民／游客比例。",
+            "Serves civic rituals and public life as well as global visitors; no resident/tourist percentage is invented."
+          ],
+          "source": "https://whc.unesco.org/en/list/394/"
+        }
+      ],
+      "highlights": [
+        {
+          "title": [
+            "连续柱廊",
+            "Continuous arcades"
+          ],
+          "text": [
+            "把建筑立面转化为有遮蔽、可穿行的公共边缘。",
+            "Turns building fronts into covered, walkable public edges."
+          ]
+        },
+        {
+          "title": [
+            "广场—水岸序列",
+            "Square–waterfront sequence"
+          ],
+          "text": [
+            "从围合的Piazza经过Piazzetta到潟湖，空间有方向也有变化。",
+            "Moves from enclosed Piazza through Piazzetta to lagoon with both direction and variety."
+          ]
+        },
+        {
+          "title": [
+            "仪式与日常共用",
+            "Ritual and everyday sharing"
+          ],
+          "text": [
+            "同一公共地面容纳日常穿行、文化参观及城市仪式。",
+            "One civic ground supports daily passage, cultural visits and civic ritual."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "03",
+      "name": "Piazza del Campo",
+      "coordinates": [
+        43.31865,
+        11.33165
+      ],
+      "metrics": [
+        {
+          "key": "population",
+          "label": [
+            "所在城市人口",
+            "City population"
+          ],
+          "value": 53588,
+          "display": [
+            "53,588 人",
+            "53,588 residents"
+          ],
+          "scope": [
+            "2025-12-31；Comune di Siena全市镇注册常住人口，不是省级人口。",
+            "31 Dec 2025; municipal registered residents, not the province."
+          ],
+          "source": "https://www.comune.siena.it/sites/default/files/2026-03/Popolazione%20residente%20al%2031.12.2025%20per%20et%C3%A0_0.pdf",
+          "year": "2025-12-31",
+          "unit": "residents",
+          "measurement": "municipal resident population"
+        },
+        {
+          "key": "plaza_area",
+          "label": [
+            "公布广场面积",
+            "Published plaza area"
+          ],
+          "value": 11510.38,
+          "display": [
+            "11,510 m²",
+            "11,510 m²"
+          ],
+          "scope": [
+            "Sepe等2021论文所列广场表面积；此处四舍五入显示，不由图像推算。",
+            "Square surface area listed in Sepe et al. 2021; display rounded, not measured from an image."
+          ],
+          "source": "https://iris.uniroma1.it/bitstream/11573/1658610/1/Sepe_Covid%E2%80%9119-pandemic-and-public_2021.pdf",
+          "year": null,
+          "unit": "m²",
+          "measurement": "published value; not GIS estimate"
+        },
+        {
+          "key": "event_capacity",
+          "label": [
+            "公布活动容量",
+            "Published event capacity"
+          ],
+          "value": 15000,
+          "display": [
+            "约15,000 人",
+            "Approx. 15,000 people"
+          ],
+          "scope": [
+            "2026 Palio中央站立区，赛事安保方说明；不含所有外围看台，也不是平日固定上限。",
+            "2026 Palio central standing area, per event security provider; not all grandstands or a permanent ordinary-day limit."
+          ],
+          "source": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/",
+          "year": "2026-07-03",
+          "unit": "people",
+          "measurement": "event- or configuration-specific; not a permanent universal maximum"
+        },
+        {
+          "key": "annual_visits",
+          "label": [
+            "广场年到访量",
+            "Annual square visitation"
+          ],
+          "value": null,
+          "display": [
+            "未确认",
+            "Not established"
+          ],
+          "scope": [
+            "未取得广场级完整年度统计；不使用全市住宿人次替代。",
+            "No complete square-level annual count found; city accommodation nights are excluded."
+          ],
+          "source": "https://www.visitsiena.it",
+          "year": null,
+          "unit": "reported visitors/year",
+          "measurement": "missing square-level statistic"
+        },
+        {
+          "key": "regular_palio_dates",
+          "label": [
+            "常规Palio场次",
+            "Regular Palio races"
+          ],
+          "value": 2,
+          "display": [
+            "2 场／年",
+            "2 races/year"
+          ],
+          "scope": [
+            "常规日期7月2日与8月16日，可因天气延期；不是广场全部年度活动数。",
+            "Regular dates: 2 July and 16 August; weather postponements possible. Not the total square event count."
+          ],
+          "source": "https://palio.comune.siena.it/node/75",
+          "year": null,
+          "unit": "regular races/year",
+          "measurement": "programme count"
+        },
+        {
+          "key": "building_coverage",
+          "label": [
+            "600米图幅建筑覆盖率",
+            "Buildings in the 600 m frame"
+          ],
+          "value": 54.98,
+          "display": [
+            "54.98%",
+            "54.98%"
+          ],
+          "scope": [
+            "统一600 × 600米图幅；合并并裁切真实建筑轮廓后计算。分母含水面；不是公共开放率。",
+            "Union of source footprints clipped to the same 600 × 600 m frame. Denominator includes water; not a public-open-space ratio."
+          ],
+          "source": "@/data/comparison-figures.json",
+          "year": null,
+          "unit": "%",
+          "measurement": "computed footprint union / 360000 m²; source dates differ"
+        }
+      ],
+      "assessment": [
+        {
+          "key": "form",
+          "label": [
+            "空间形态",
+            "Spatial form"
+          ],
+          "verdict": [
+            "坡地向心",
+            "Sloped inward focus"
+          ],
+          "text": [
+            "壳形坡面与低侧市政宫共同形成观看和停留方向。",
+            "Shell-shaped ground and the low-side palace establish direction for viewing and staying."
+          ],
+          "source": "https://repositum.tuwien.at/handle/20.500.12708/221531"
+        },
+        {
+          "key": "transport",
+          "label": [
+            "交通可达性",
+            "Public transport"
+          ],
+          "verdict": [
+            "有公共交通",
+            "Public transport present"
+          ],
+          "text": [
+            "火车与公交衔接历史中心，最终步行进入广场。",
+            "Rail and buses connect to the historic centre, with a final pedestrian approach."
+          ],
+          "source": "https://www.visitsiena.it/trasporti-pubblici"
+        },
+        {
+          "key": "landscape",
+          "label": [
+            "景观融入",
+            "Landscape integration"
+          ],
+          "verdict": [
+            "地形主导，植被有限",
+            "Terrain-led; limited planting"
+          ],
+          "text": [
+            "坡地与喷泉融入空间体验；核心为硬质铺装，而非连续绿地。",
+            "Slope and fountain shape experience; the core is paved rather than continuous planted land."
+          ],
+          "source": "https://www.visitsiena.it/en/piazza-del-campo/"
+        },
+        {
+          "key": "commercial",
+          "label": [
+            "商业界面",
+            "Commercial edges"
+          ],
+          "verdict": [
+            "商业环绕",
+            "Commercial edge present"
+          ],
+          "text": [
+            "餐饮与外摆沿边缘展开，中心仍承担免费停留与公共活动。",
+            "Dining and terraces occupy edges while the centre supports informal stay and civic events."
+          ],
+          "source": "https://www.visitsiena.it/en/piazza-del-campo/"
+        },
+        {
+          "key": "climate",
+          "label": [
+            "气候适应",
+            "Climate response"
+          ],
+          "verdict": [
+            "遮阴依赖建筑",
+            "Building-dependent shade"
+          ],
+          "text": [
+            "夏季需避晒，凉季有雨；原LaMMA基准年降雨785.7 mm（1961—1990），不是当前年度。",
+            "Summer sun and cool-season rain matter; LaMMA’s baseline annual rainfall is 785.7 mm (1961–1990), not a current-year total."
+          ],
+          "source": "https://www.lamma.toscana.it/node/788"
+        },
+        {
+          "key": "function",
+          "label": [
+            "使用功能",
+            "Use programme"
+          ],
+          "verdict": [
+            "多功能",
+            "Mixed use"
+          ],
+          "text": [
+            "穿行／停留／文化参观／公共活动四类并存，Palio是特定时段的转换。",
+            "Passage / staying / cultural visits / public events coexist, with Palio as a timed transformation."
+          ],
+          "source": "https://palio.comune.siena.it/node/75"
+        },
+        {
+          "key": "calendar",
+          "label": [
+            "平日／节假日",
+            "Ordinary / holiday use"
+          ],
+          "verdict": [
+            "赛事改变地面规则",
+            "Events change ground rules"
+          ],
+          "text": [
+            "平日坐卧和穿行；Palio常规每年2场，赛事时配置赛道、围栏和受控入口。",
+            "Ordinary sitting and passage change to track, barriers and controlled entries for the two regular annual Palio races."
+          ],
+          "source": "https://palio.comune.siena.it/node/75"
+        },
+        {
+          "key": "demand",
+          "label": [
+            "容量与年到访量",
+            "Capacity & annual visitation"
+          ],
+          "verdict": [
+            "容量分区，年量缺失",
+            "Zoned capacity; annual count missing"
+          ],
+          "text": [
+            "2026安保执行记录为中央区约15,000人；不是全广场人数，也没有广场年量。",
+            "2026 provider account: approximately 15,000 in the centre; not a whole-square total. Annual square count unavailable."
+          ],
+          "source": "https://nkmservice.com/sicurezza/grandi-eventi-e-concerti/gestione-flussi-e-safety-al-palio-di-siena/"
+        },
+        {
+          "key": "technology",
+          "label": [
+            "科技接入",
+            "Technology"
+          ],
+          "verdict": [
+            "管理型科技",
+            "Management technology"
+          ],
+          "text": [
+            "数字交通信息与赛事流量管理为主；未证实核心广场有常设大型数字艺术屏。",
+            "Digital transit information and event-flow management are documented; no permanent large digital-art screen in the core is established."
+          ],
+          "source": "https://www.visitsiena.it/trasporti-pubblici"
+        },
+        {
+          "key": "audience",
+          "label": [
+            "服务对象",
+            "Community / tourism"
+          ],
+          "verdict": [
+            "BOTH · 社区仪式突出",
+            "BOTH · strong community ritual"
+          ],
+          "text": [
+            "Contrade组织和Palio体现社区作用，同时是世界性游客目的地。",
+            "Contrade and Palio express community roles alongside international tourism."
+          ],
+          "source": "https://palio.comune.siena.it/node/75"
+        }
+      ],
+      "highlights": [
+        {
+          "title": [
+            "可坐卧的坡地",
+            "An inhabitable slope"
+          ],
+          "text": [
+            "地面本身就参与停留与观看，而不只是一片铺装。",
+            "Ground itself supports staying and viewing rather than acting only as paving."
+          ]
+        },
+        {
+          "title": [
+            "街巷收束与展开",
+            "Compression and release"
+          ],
+          "text": [
+            "狭窄街巷在进入广场时突然开敞，增强整体空间辨识。",
+            "Narrow lanes release into the square, strengthening its spatial identity."
+          ]
+        },
+        {
+          "title": [
+            "社区仪式的延续",
+            "Continuity of civic ritual"
+          ],
+          "text": [
+            "Palio将地方社区和公共地面持续联系起来。",
+            "Palio keeps local communities connected to civic ground."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "name": "Federation Square",
+      "coordinates": [
+        -37.8178,
+        144.969
+      ],
+      "metrics": [
+        {
+          "key": "population",
+          "label": [
+            "所在城市人口",
+            "City population"
+          ],
+          "value": 194481,
+          "display": [
+            "194,481 人",
+            "194,481 residents"
+          ],
+          "scope": [
+            "2025-06-30；City of Melbourne LGA，ABS估计常住人口；大墨尔本另为5,435,590人。",
+            "30 Jun 2025; City of Melbourne LGA estimated residents (ABS); Greater Melbourne separately has 5,435,590."
+          ],
+          "source": "https://www.abs.gov.au/statistics/people/population/regional-population/2024-25",
+          "year": "2025-06-30",
+          "unit": "residents",
+          "measurement": "municipal resident population"
+        },
+        {
+          "key": "plaza_area",
+          "label": [
+            "公布广场面积",
+            "Published plaza area"
+          ],
+          "value": 7500,
+          "display": [
+            "7,500 m²",
+            "7,500 m²"
+          ],
+          "scope": [
+            "Karres en Brands设计资料中的广场面积；运营方现行Main Square场租区域另为5,000 m²。",
+            "Plaza area in the landscape designer’s account; current Main Square hire area is separately 5,000 m²."
+          ],
+          "source": "https://www.karresenbrands.com/en/projects/federation-square",
+          "year": null,
+          "unit": "m²",
+          "measurement": "published value; not GIS estimate"
+        },
+        {
+          "key": "event_capacity",
+          "label": [
+            "公布活动容量",
+            "Published event capacity"
+          ],
+          "value": 10000,
+          "display": [
+            "10,000 人",
+            "10,000 people"
+          ],
+          "scope": [
+            "现行Main Square场地页面公布容量；实际活动配置和审批可能更低。",
+            "Current Main Square venue listing; actual event layouts and approvals may be lower."
+          ],
+          "source": "https://fedsquare.com/venues/main-square",
+          "year": "checked 2026-11-13",
+          "unit": "people",
+          "measurement": "event- or configuration-specific; not a permanent universal maximum"
+        },
+        {
+          "key": "annual_visits",
+          "label": [
+            "广场年到访量",
+            "Annual square visitation"
+          ],
+          "value": 11900000,
+          "display": [
+            "1,190万以上",
+            "11.9 million+"
+          ],
+          "scope": [
+            "2025–26财年，运营方年报，printed p26；按其Visitors口径，不宣称为去重人数。",
+            "FY2025–26 operator report, printed p26; reported “Visitors”, not established as unique individuals."
+          ],
+          "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf",
+          "year": "2025–26",
+          "unit": "reported visitors/year",
+          "measurement": "operator reported visitors; uniqueness not specified"
+        },
+        {
+          "key": "events",
+          "label": [
+            "年度活动数",
+            "Annual events"
+          ],
+          "value": 389,
+          "display": [
+            "389 场",
+            "389 events"
+          ],
+          "scope": [
+            "2025–26年报列示；其中37项社区与文化活动，支持114个社区组织。",
+            "FY2025–26 report; 37 community/cultural events and 114 community organisations supported."
+          ],
+          "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf",
+          "year": "2025–26",
+          "unit": "reported events/year",
+          "measurement": "operator reported programme"
+        },
+        {
+          "key": "building_coverage",
+          "label": [
+            "600米图幅建筑覆盖率",
+            "Buildings in the 600 m frame"
+          ],
+          "value": 28.97,
+          "display": [
+            "28.97%",
+            "28.97%"
+          ],
+          "scope": [
+            "统一600 × 600米图幅；合并并裁切真实建筑轮廓后计算。分母含水面；不是公共开放率。",
+            "Union of source footprints clipped to the same 600 × 600 m frame. Denominator includes water; not a public-open-space ratio."
+          ],
+          "source": "@/data/comparison-figures.json",
+          "year": null,
+          "unit": "%",
+          "measurement": "computed footprint union / 360000 m²; source dates differ"
+        }
+      ],
+      "assessment": [
+        {
+          "key": "form",
+          "label": [
+            "空间形态",
+            "Spatial form"
+          ],
+          "verdict": [
+            "人工坡地连接",
+            "Artificial sloped connection"
+          ],
+          "text": [
+            "铁路上盖创造连续公共地面，向东整体抬升约6米。",
+            "A rail deck creates civic ground with an approximately 6 m eastward rise."
+          ],
+          "source": "https://assets.heritagecouncil.vic.gov.au/assets/Determination-Federation-Square-FINAL.pdf"
+        },
+        {
+          "key": "transport",
+          "label": [
+            "交通可达性",
+            "Public transport"
+          ],
+          "verdict": [
+            "有公共交通",
+            "Public transport present"
+          ],
+          "text": [
+            "火车、电车与步行连接CBD及河岸，是高可达的文化节点。",
+            "Rail, tram and walking connect CBD and river in a highly accessible cultural node."
+          ],
+          "source": "https://fedsquare.com/getting-here"
+        },
+        {
+          "key": "landscape",
+          "label": [
+            "景观融入",
+            "Landscape integration"
+          ],
+          "verdict": [
+            "河岸＋新增花园",
+            "River edge + newer garden"
+          ],
+          "text": [
+            "Yarra河形成背景；2025年车库屋顶Test Garden增加植物景观，不能当作2002原广场绿化。",
+            "Yarra provides context; the 2025 car-park-roof Test Garden adds planting and is not original 2002 plaza greenery."
+          ],
+          "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=14"
+        },
+        {
+          "key": "commercial",
+          "label": [
+            "商业界面",
+            "Commercial edges"
+          ],
+          "verdict": [
+            "商业环绕",
+            "Commercial edge present"
+          ],
+          "text": [
+            "餐饮、酒吧和文化零售沿建筑边缘分布，与免费公共活动并存。",
+            "Dining, bars and cultural retail line buildings alongside free public programming."
+          ],
+          "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=67"
+        },
+        {
+          "key": "climate",
+          "label": [
+            "气候适应",
+            "Climate response"
+          ],
+          "verdict": [
+            "室内外互补",
+            "Indoor/outdoor complement"
+          ],
+          "text": [
+            "Atrium覆盖空间和Labyrinth被动环境系统补充室外使用；不宣称露天广场全年舒适。",
+            "Atrium cover and Labyrinth passive conditioning complement outdoor use; year-round outdoor comfort is not claimed."
+          ],
+          "source": "https://fedsquare.com/sustainability"
+        },
+        {
+          "key": "function",
+          "label": [
+            "使用功能",
+            "Use programme"
+          ],
+          "verdict": [
+            "多功能",
+            "Mixed use"
+          ],
+          "text": [
+            "穿行／停留／文化参观／公共活动四类并存，兼有公共集会。",
+            "Passage / staying / cultural visits / public events coexist, including civic assemblies."
+          ],
+          "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=15"
+        },
+        {
+          "key": "calendar",
+          "label": [
+            "平日／节假日",
+            "Ordinary / holiday use"
+          ],
+          "verdict": [
+            "全年活动编排",
+            "Year-round programming"
+          ],
+          "text": [
+            "普通日自由到访与社区课程，节庆／比赛日形成舞台、屏幕和临时围合。",
+            "Ordinary visits and community classes shift to stages, screens and temporary enclosures on celebration and sport days."
+          ],
+          "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=16"
+        },
+        {
+          "key": "demand",
+          "label": [
+            "容量与年到访量",
+            "Capacity & annual visitation"
+          ],
+          "verdict": [
+            "运营数据较完整",
+            "Stronger operator reporting"
+          ],
+          "text": [
+            "Main Square公布10,000人容量；2025–26年到访1,190万以上、389场活动，口径分别保留。",
+            "Main Square lists 10,000 capacity; FY2025–26 reports 11.9m+ visitors and 389 events, with scopes kept separate."
+          ],
+          "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=15"
+        },
+        {
+          "key": "technology",
+          "label": [
+            "科技接入",
+            "Technology"
+          ],
+          "verdict": [
+            "展示＋环境科技",
+            "Display + environmental systems"
+          ],
+          "text": [
+            "场地页列65 m² Digital Façade、音响及听力辅助；另有Labyrinth与环境监测系统。",
+            "Venue lists a 65 m² Digital Façade, sound and hearing support, alongside Labyrinth and environmental monitoring."
+          ],
+          "source": "https://fedsquare.com/venues/main-square"
+        },
+        {
+          "key": "audience",
+          "label": [
+            "服务对象",
+            "Community / tourism"
+          ],
+          "verdict": [
+            "BOTH · 城市文化突出",
+            "BOTH · urban culture focus"
+          ],
+          "text": [
+            "2025–26支持114个社区组织；同时承接都市文化参观与游客，不能只写成旅游景点。",
+            "114 community organisations supported in FY2025–26, alongside cultural visitors and tourists; more than a tourism attraction."
+          ],
+          "source": "https://assets.artsprecinct.melbourne/documents/Melbourne_Arts_Precinct_Corporation_Annual-Report_2025-26_sml.pdf#page=16"
+        }
+      ],
+      "highlights": [
+        {
+          "title": [
+            "基础设施上的公共地面",
+            "Civic ground over infrastructure"
+          ],
+          "text": [
+            "通过铁路上盖与坡地，把原本分隔的城市关系重新连接。",
+            "Deck and slope reconnect urban relationships separated by rail."
+          ]
+        },
+        {
+          "title": [
+            "室内外互补",
+            "Indoor/outdoor complement"
+          ],
+          "text": [
+            "Atrium为露天广场补充覆盖空间与文化入口。",
+            "Atrium supplements the outdoor plaza with cover and cultural entrances."
+          ]
+        },
+        {
+          "title": [
+            "文化与数字活动平台",
+            "Cultural and digital platform"
+          ],
+          "text": [
+            "文化机构、数字屏幕与全年活动支持社区和游客共同使用。",
+            "Institutions, screen and year-round programming support both communities and visitors."
+          ]
+        }
+      ]
+    }
+  ]
+}
