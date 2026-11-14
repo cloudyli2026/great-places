@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>San Marco · Official GIS Figure–Ground</title>
+<style>
+:root{font-family:Arial,"Noto Sans SC",sans-serif;color:#292720;background:#f4f0e7}body{margin:0}header{padding:24px max(22px,5vw);background:#f9f5ec;border-bottom:1px solid #d6c9b9}h1{font:normal 36px Georgia,serif;margin:0 0 9px}p{line-height:1.65;max-width:900px}.muted{color:#766d61}.wrap{padding:24px max(22px,5vw)}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}button{border:1px solid #b2a18c;background:white;padding:9px 15px;cursor:pointer}button.active{background:#a24e36;color:white}.map{background:#eee7d9;border:1px solid #c9b9a3;height:min(70vh,700px);min-height:420px;position:relative;overflow:hidden}svg{width:100%;height:100%;touch-action:none;cursor:grab}.note{background:#fff9ed;border-left:3px solid #aa6548;padding:12px 17px;margin-top:15px;max-width:1100px}a{color:#914b37}small{line-height:1.5}#status{font-weight:bold}.key{display:inline-block;background:#39362f;width:14px;height:14px;vertical-align:middle;margin-right:6px}
+</style></head><body>
+<header><div class="muted">THE GREAT PLACES / SAN MARCO / RESEARCH PLATE 01</div><h1>Figure–Ground · 现状建筑轮廓</h1><p>官方建筑 GIS 图层的实时读取与形态分析工作台。黑色为服务返回的建筑多边形；米制比例尺仅在图层加载成功后显示。不是经现场复核的建筑测绘图。</p></header>
+<main class="wrap"><div class="toolbar"><button id="reload">重新加载官方数据</button><button id="zoomIn">放大 +</button><button id="zoomOut">缩小 −</button><button id="reset">复位</button><button id="toggle" class="active">建筑轮廓</button></div>
+<div id="status" aria-live="polite">等待连接市政府 GIS…</div><p class="muted"><small>范围：圣马可广场及周边街区。数据源：Comune di Venezia, DBGT / Edificio (11), EPSG:4326。鼠标滚轮缩放，拖拽平移。</small></p>
+<div class="map"><svg id="map" viewBox="0 0 1000 650" role="img" aria-label="官方建筑轮廓图"><g id="viewport"><g id="buildings"></g></g><g id="scalebar"></g></svg></div>
+<div class="note"><strong>证据等级与限制</strong><p>只有当官方接口实际返回 GeoJSON 后才绘制建筑。无法连接时保持空白并显示错误，不使用人工虚构轮廓。建筑轮廓不等于柱廊边界、室外咖啡座位范围或精确建筑高度。该图层的测绘年代、精度与再利用许可尚需进一步确认。</p></div>
+<p><strong>原始数据：</strong><a href="https://arcgis.comune.venezia.it/arcgis/rest/services/dbgt_reale/itb_DBGT_reale_WGS84/MapServer/11" target="_blank" rel="noopener">市政府 Edificio (11) 图层</a> · <a href="https://www.comune.venezia.it/it/content/dati-scaricabili" target="_blank" rel="noopener">市政府下载目录</a>。图纸尺寸与剖面将独立核验，不由屏幕像素反推。</p></main>
+<script>
+const svg=document.querySelector('#map'),vp=document.querySelector('#viewport'),g=document.querySelector('#buildings'),status=document.querySelector('#status'),scale=document.querySelector('#scalebar');
+const center=[12.3372,45.4345], bounds=[12.3300,45.4307,12.3452,45.4383];let zoom=1,tx=0,ty=0,drag=null,loaded=false,visible=true;
+const metersPerLon=111320*Math.cos(center[1]*Math.PI/180),metersPerLat=111132;
+const w=(bounds[2]-bounds[0])*metersPerLon,h=(bounds[3]-bounds[1])*metersPerLat;
+const factor=Math.min(950/w,600/h),ox=(1000-w*factor)/2,oy=(650-h*factor)/2;
+function point(c){return [ox+(c[0]-bounds[0])*metersPerLon*factor,oy+(bounds[3]-c[1])*metersPerLat*factor]}
+function path(poly){return poly.map(ring=>ring.map((c,i)=>{const p=point(c);return(i?'L':'M')+p[0].toFixed(2)+' '+p[1].toFixed(2)}).join(' ')+'Z').join(' ')}
+function redraw(){vp.setAttribute('transform',`translate(${tx} ${ty}) scale(${zoom})`);g.style.display=visible?'':'none';document.querySelector('#toggle').classList.toggle('active',visible)}
+function setZoom(n){zoom=Math.max(.6,Math.min(12,n));redraw()}
+document.querySelector('#zoomIn').onclick=()=>setZoom(zoom*1.3);document.querySelector('#zoomOut').onclick=()=>setZoom(zoom/1.3);
+document.querySelector('#reset').onclick=()=>{zoom=1;tx=ty=0;redraw()};
+document.querySelector('#toggle').onclick=()=>{visible=!visible;redraw()};
+svg.addEventListener('wheel',e=>{e.preventDefault();setZoom(zoom*(e.deltaY<0?1.15:1/1.15))},{passive:false});
+svg.addEventListener('pointerdown',e=>{drag={x:e.clientX,y:e.clientY,tx,ty};svg.setPointerCapture(e.pointerId)});
+svg.addEventListener('pointermove',e=>{if(!drag)return;const r=svg.getBoundingClientRect();tx=drag.tx+(e.clientX-drag.x)*1000/r.width;ty=drag.ty+(e.clientY-drag.y)*650/r.height;redraw()});
+svg.addEventListener('pointerup',()=>drag=null);svg.addEventListener('pointercancel',()=>drag=null);
+async function load(){loaded=false;g.replaceChildren();scale.replaceChildren();status.textContent='正在查询威尼斯市政府建筑图层…';
+const url='https://arcgis.comune.venezia.it/arcgis/rest/services/dbgt_reale/itb_DBGT_reale_WGS84/MapServer/11/query';
+const p=new URLSearchParams({geometry:bounds.join(','),geometryType:'esriGeometryEnvelope',inSR:'4326',spatialRel:'esriSpatialRelIntersects',outFields:'OBJECTID',returnGeometry:'true',outSR:'4326',f:'json'});
+try{const response=await fetch(url+'?'+p.toString(),{signal:AbortSignal.timeout(18000)});if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();if(!Array.isArray(data.features))throw Error(data.error?.message||'接口未返回 ArcGIS features');
+if(data.exceededTransferLimit)throw Error('返回结果超过服务上限，必须分块请求');let count=0;const frag=document.createDocumentFragment();for(const f of data.features){const rings=f.geometry?.rings||[];const polys=rings.length?[rings]:[];for(const poly of polys){const el=document.createElementNS('http://www.w3.org/2000/svg','path');el.setAttribute('d',path(poly));el.setAttribute('fill','#38352e');el.setAttribute('fill-rule','evenodd');frag.appendChild(el);count++}}
+g.appendChild(frag);loaded=true;status.textContent='已读取 '+data.features.length+' 个官方建筑要素（'+count+' 个多边形）。';const line=document.createElementNS('http://www.w3.org/2000/svg','path');const len=100*factor;line.setAttribute('d',`M 40 610 h ${len}`);line.setAttribute('stroke','#292720');line.setAttribute('stroke-width','3');scale.appendChild(line);const label=document.createElementNS('http://www.w3.org/2000/svg','text');label.setAttribute('x','40');label.setAttribute('y','602');label.textContent='100 m (基准视图；缩放时以地图为准)';scale.appendChild(label);
+}catch(e){status.textContent='官方 GIS 数据未能加载：'+e.message+'。图面保持空白，未替换为推测轮廓。'}}
+document.querySelector('#reload').onclick=load;redraw();load();
+</script></body></html>
